@@ -12,8 +12,8 @@ export default function Logo() {
         alt="Logo"
       />
       <div className="flex flex-col leading-3">
-        <span className="font-thin text-zinc-400 mt-4">livro após</span>
-        <span className="font-black text-lg tracking-widest">LIVRO</span>
+        <span className="font-light text-lg text-zinc-400 mt-2">livro após</span>
+        <span className="font-black text-2xl tracking-widest -mt-2">LIVRO</span>
       </div>
     </Link>
   );

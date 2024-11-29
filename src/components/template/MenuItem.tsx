@@ -3,6 +3,7 @@ import Link from "next/link";
 export interface MenuItemProps {
   href: string;
   texto: string;
+  children?: React.ReactNode;
 }
 
 export default function MenuItem(props: MenuItemProps) {
@@ -14,6 +15,7 @@ export default function MenuItem(props: MenuItemProps) {
         text-zinc-300 hover:underline hover:text-white
         hover:bg-white/10"
       >
+        <span>{props.children}</span>
         <span>{props.texto}</span>
       </Link>
     </li>

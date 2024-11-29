@@ -19,3 +19,18 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.botao {
+  @apply flex justify-center items-center gap-2;
+  @apply py-1 px-8 rounded-md;
+}
+
+.botao.azul {
+  @apply bg-blue-500 text-white;
+  @apply hover:bg-blue-600;
+}
+
+.botao.vermelho {
+  @apply bg-red-500 text-white;
+  @apply hover:bg-red-600;
+}

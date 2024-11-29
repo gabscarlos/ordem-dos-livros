@@ -29,6 +29,31 @@ const nextConfig: NextConfig = {
         hostname: 'ogimg.infoglobo.com.br',
         port:''
       },
+      {
+        protocol: 'https',
+        hostname: 'ingresso-a.akamaihd.net',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'cinepop.com.br',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.odcdn.com.br',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'm.media-amazon.com',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'rocco.com.br',
+        port:''
+      },
     ]
   }
 };
