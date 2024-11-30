@@ -1,4 +1,3 @@
-import { IconBrandAmazon } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -25,7 +24,6 @@ export default function ItemLivro(props: ItemLivroProps) {
       <div className="flex-1 flex flex-col p-5 gap-2">
         <span className="flex-1 font-bold text-center text-zinc-950 dark:text-white">{props.titulo}</span>
         <button className="botao azul">
-          <IconBrandAmazon size={25} />
           <span>Comprar</span>
         </button>
       </div>

@@ -22,7 +22,7 @@ export default function Pagina(props: PaginaProps) {
           onClick={toggleDarkMode}
         >
           {darkMode ? "☀️" : "🌙"}
-        </button>
+        </button>        
         <Cabecalho />
         <div className="flex-1 flex gap-5 max-w-7xl mx-auto w-full p-5">
           <main className="flex-1">{props.children}</main>
