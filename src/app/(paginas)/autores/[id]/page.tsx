@@ -2,13 +2,13 @@ import ConteudoAutor from "@/components/autor/ConteudoAutor";
 import autores from "@/constants/autores";
 
 export interface AutorPageProps {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
 export default async function Autor({ params }: AutorPageProps) {
-  // A variável `id` é obtida de maneira assíncrona
-  const { id } = await params; // Extrai o "id" dos parâmetros
-  
+  // Aguarde o objeto params
+  const { id } = await params;
+
   // Encontra o autor com o id correspondente
   const autorEspecifico = autores.find((autor) => autor.id === id);
 
