@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import Cabecalho from "./Cabecalho";
 import AreaLateral from "./AreaLateral";
 import Rodape from "./Rodape";
-import { IconMoon, IconSun } from "@tabler/icons-react";
 
 export interface PaginaProps {
   children: React.ReactNode;
@@ -22,7 +21,7 @@ export default function Pagina(props: PaginaProps) {
           className="absolute top-0 right-0 m-4 text-zinc-800 dark:text-zinc-50"
           onClick={toggleDarkMode}
         >
-          {darkMode ? <IconSun size={30} /> : <IconMoon size={30} />}
+          {darkMode ? "☀️" : "🌙"}
         </button>
         <Cabecalho />
         <div className="flex-1 flex gap-5 max-w-7xl mx-auto w-full p-5">
