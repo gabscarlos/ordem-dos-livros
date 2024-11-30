@@ -14,7 +14,7 @@ export default function ItemSerie(props: ItemSerieProps) {
             <Image src={props.imagem} alt="Imagem da Série" width={1000} height={1000} className="h-96 object-cover" />
             <div className="flex flex-col gap-2 p-5">
                 <span className="text-2xl font-black">{props.titulo}</span>
-                <span className="text-sm text-zinc-400 text-justify">{props.descricao}</span>
+                <span className="text-sm text-zinc-900 dark:text-zinc-400 text-justify">{props.descricao}</span>
                 <button className="botao azul self-end">Leia Mais</button>
             </div>
         </Link>

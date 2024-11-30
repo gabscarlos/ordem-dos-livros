@@ -20,7 +20,7 @@ export default function ConteudoAutor(props: ConteudoAutorProps) {
         width={1000}
         height={1000}
       />
-      <article className="prose lg:prose-xl prose-invert">
+      <article className="prose lg:prose-xl dark:prose-invert">
         <div dangerouslySetInnerHTML={{ __html: biografia }} />
       </article>
     </div>

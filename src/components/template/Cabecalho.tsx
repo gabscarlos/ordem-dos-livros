@@ -1,9 +1,14 @@
 import Logo from "./Logo"
 
 export default function Cabecalho() {
+  
+
   return (
     <header className="flex justify-center items-center h-24 border-b border-zinc-800">
-        <Logo />
+        <div className="flex flex-col items-center">
+          <Logo />
+          <h1 className="text-sm text-zinc-900 dark:text-zinc-400">Lista Completa de Todas as Séries de Livros em Ordem</h1>
+        </div>        
     </header>
   )
 }

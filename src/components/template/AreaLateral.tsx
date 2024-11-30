@@ -20,24 +20,24 @@ export default function AreaLateral() {
         <MenuItem href="/" texto="Início">
           <IconHome size={20} />
         </MenuItem>
-        <MenuItem href="/" texto="Personagens">
-          <IconFriends size={20} />
+        <MenuItem href="/series" texto="Séries">
+          <IconBooks size={20} />
         </MenuItem>
         <MenuItem href="/autores" texto="Autores">
           <IconUsers size={20} />
         </MenuItem>
-        <MenuItem href="/series" texto="Séries">
-          <IconBooks size={20} />
+        <MenuItem href="/" texto="Personagens">
+          <IconFriends size={20} />
         </MenuItem>
       </Menu>
       <Menu titulo="Principais Autores">
         <MenuItem texto="J.K. Rowling" href="/autores/j-k-rowling">
           <IconSquare1 size={20} />
         </MenuItem>
-        <MenuItem texto="J.R.R. Tolkien" href="/autores/j-r-r-tolkien">
+        <MenuItem texto="R. L. Stine" href="/autores/r-l-stine">
           <IconSquare2 size={20} />
         </MenuItem>
-        <MenuItem texto="George R.R. Martin" href="/autores/george-r-r-martin">
+        <MenuItem texto="Jeff Kinney" href="/autores/jeff-kinney">
           <IconSquare3 size={20} />
         </MenuItem>
       </Menu>

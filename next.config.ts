@@ -54,6 +54,16 @@ const nextConfig: NextConfig = {
         hostname: 'rocco.com.br',
         port:''
       },
+      {
+        protocol: 'https',
+        hostname: 'p2.trrsf.com',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'i0.wp.com',
+        port:''
+      },
     ]
   }
 };

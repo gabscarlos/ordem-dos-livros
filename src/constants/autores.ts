@@ -36,7 +36,7 @@ Rowling casou-se com Neil Murray em 2001 e tem três filhos. Ela é uma filantro
 
 ---
 
-> *"As palavras são, na minha nada humilde opinião, nossa fonte mais inesgotável de magia."* - J.K. Rowling
+> As palavras são, na minha nada humilde opinião, nossa fonte mais inesgotável de magia. - J.K. Rowling
         `,
   },
   {
@@ -76,7 +76,7 @@ O impacto de J.R.R. Tolkien na literatura é imenso, e sua criação da Terra M�
 
 ---
 
-> *"Nem todos os que vagam estão perdidos."* - J.R.R. Tolkien
+> Nem todos os que vagam estão perdidos. - J.R.R. Tolkien
         `,
   },
   {
@@ -116,43 +116,9 @@ George R.R. Martin é amplamente reconhecido como um dos mais influentes autores
 
 ---
 
-> *"Um leitor vive mil vidas antes de morrer. O homem que nunca lê vive apenas uma."* - George R.R. Martin
+> Um leitor vive mil vidas antes de morrer. O homem que nunca lê vive apenas uma. - George R.R. Martin
         `,
   },
-  {
-    id: "antoine-de-saint-exupery",
-    nome: "Antoine de Saint-Exupéry",
-    imagem: "https://images.edrawmind.com/article/antoine-de-saint/antoine-de-saint-800-450.jpg",
-    biografia: `
-# Antoine de Saint-Exupéry
-
-Antoine Marie Jean-Baptiste Roger de Saint-Exupéry, mais conhecido como **Antoine de Saint-Exupéry**, foi um escritor, poeta e aviador francês, nascido em 29 de junho de 1900, em Lyon, França. Ele é amplamente lembrado por seu livro **"O Pequeno Príncipe"** (*Le Petit Prince*), uma obra-prima da literatura mundial.
-
-## Primeiros Anos e Carreira na Aviação
-Saint-Exupéry ingressou na aviação no final da década de 1920, após abandonar os estudos de arquitetura. Ele trabalhou como piloto comercial, transportando correio aéreo para a África e América do Sul. Sua experiência como aviador influenciou profundamente sua escrita, que muitas vezes explorava temas de humanidade, amizade e o sentido da vida.
-
-## Obras Literárias
-Além de *O Pequeno Príncipe*, Saint-Exupéry escreveu várias obras inspiradas em sua vida como aviador, entre elas:
-
-1. **Correio do Sul** (*Courrier Sud*, 1929)
-2. **Voo Noturno** (*Vol de Nuit*, 1931)
-3. **Terra dos Homens** (*Terre des Hommes*, 1939)
-4. **Piloto de Guerra** (*Pilote de Guerre*, 1942)
-5. **Carta a um Refém** (*Lettre à un Otage*, 1943)
-
-*O Pequeno Príncipe*, publicado em 1943, é sua obra mais famosa e foi traduzido para mais de 300 idiomas. Com ilustrações feitas pelo próprio autor, o livro é uma fábula poética que encanta leitores de todas as idades.
-
-## Serviço Militar e Desaparecimento
-Durante a Segunda Guerra Mundial, Saint-Exupéry serviu como piloto de reconhecimento para as Forças Livres da França. Em 31 de julho de 1944, ele desapareceu durante uma missão de voo sobre o Mar Mediterrâneo, próximo à costa da Córsega. Seu avião foi encontrado décadas depois, mas as circunstâncias de sua morte permanecem um mistério.
-
-## Legado
-Saint-Exupéry é reconhecido como um dos maiores escritores franceses do século XX. Seu trabalho continua a tocar gerações de leitores, transmitindo mensagens atemporais de amor, amizade e humanidade.
-
----
-
-> *"Tu te tornas eternamente responsável por aquilo que cativas."* - Antoine de Saint-Exupéry
-    `,
-},
 {
   id: "jeff-kinney",
   nome: "Jeff Kinney",
@@ -187,7 +153,47 @@ Kinney vive em Massachusetts com sua esposa, Julie, e seus dois filhos. Ele cont
 
 ---
 
-> *"Se você quiser escrever um livro, precisa começar. É simples assim."* - Jeff Kinney
+> Se você quiser escrever um livro, precisa começar. É simples assim. - Jeff Kinney
+  `,
+},
+{
+  id: "james-dashner",
+  nome: "James Dashner",
+  imagem: "https://ogimg.infoglobo.com.br/in/12468663-e24-cc4/FT1086A/unnamed.jpg",
+  biografia: `
+# James Dashner
+
+James Smith Dashner, mais conhecido como **James Dashner**, é um autor norte-americano de ficção científica e fantasia, famoso por sua série de livros **"Maze Runner"** (*Correr ou Morrer*). Nascido em 26 de novembro de 1972, em Austell, Geórgia, EUA, Dashner tornou-se uma figura de destaque na literatura jovem-adulta contemporânea.
+
+## Primeiros Anos e Carreira
+Dashner cresceu em uma família grande e sempre foi apaixonado por livros, especialmente histórias de aventura e fantasia. Ele se formou em finanças na **Brigham Young University**, mas decidiu seguir a carreira de escritor. Antes de alcançar sucesso, trabalhou em várias profissões, o que influenciou sua visão de mundo e estilo de escrita.
+
+## Maze Runner
+Em 2009, Dashner lançou *The Maze Runner*, o primeiro livro de uma série que mistura mistério, ficção científica e aventura em um mundo distópico. A série rapidamente conquistou leitores pelo mundo. Os títulos incluem:
+
+1. **The Maze Runner** (2009) - *Correr ou Morrer*
+2. **The Scorch Trials** (2010) - *Prova de Fogo*
+3. **The Death Cure** (2011) - *A Cura Mortal*
+4. **The Kill Order** (2012) - *Ordem de Extermínio* (prequela)
+5. **The Fever Code** (2016) - *O Código da Febre* (prequela)
+
+A série foi adaptada para o cinema, com três filmes lançados entre 2014 e 2018, estrelando Dylan O’Brien como Thomas, o protagonista.
+
+## Outras Obras
+Além de *Maze Runner*, Dashner escreveu outras séries e livros de destaque, incluindo:
+
+- **The Mortality Doctrine**: Uma trilogia de ficção científica sobre realidade virtual.
+- **The 13th Reality**: Uma série infantojuvenil envolvendo universos paralelos.
+
+## Controvérsias
+Em 2018, Dashner foi alvo de acusações de má conduta pessoal, o que levou a uma ruptura com sua editora e gerou impacto em sua carreira. Apesar disso, ele continua escrevendo e publicando independentemente.
+
+## Vida Pessoal e Legado
+James Dashner vive em Utah com sua esposa, Lynette, e seus quatro filhos. Suas histórias, marcadas por reviravoltas intensas e tramas envolventes, permanecem populares entre jovens leitores ao redor do mundo.
+
+---
+
+> *"Escrever é um privilégio, e eu sou grato por cada leitor que me dá uma chance."* - James Dashner
   `,
 },
 
