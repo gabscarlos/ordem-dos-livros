@@ -2,7 +2,7 @@ import ConteudoSerie from "@/components/serie/ConteudoSerie";
 import series from "@/constants/series";
 
 export interface SeriePageProps {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
 export default async function Serie({ params }: SeriePageProps) {
