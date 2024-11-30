@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Inter } from 'next/font/google';
+import { Inter } from "next/font/google";
 
-const fonte = Inter({ subsets: ['latin'] })
+const fonte = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Livro Após Livro",
@@ -16,11 +16,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body
-        className={fonte.className}
-      >
-        {children}
-      </body>
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8791475834761530"
+          crossOrigin="anonymous"
+        ></script>
+      </head>
+      <body className={fonte.className}>{children}</body>
     </html>
   );
 }

@@ -13,7 +13,7 @@ export default function AreaLateral() {
       </Menu>
       <Menu titulo="Principais Autores">
         <MenuItem texto="J.K. Rowling" href="/autores/j-k-rowling"/>
-        <MenuItem texto="R. L. Stine" href="/autores/r-l-stine"/>
+        <MenuItem texto="James Dashner" href="/autores/james-dashner"/>
         <MenuItem texto="Jeff Kinney" href="/autores/jeff-kinney"/>
       </Menu>
       <Menu titulo="Outras Categorias">
