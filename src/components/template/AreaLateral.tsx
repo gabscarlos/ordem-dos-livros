@@ -22,8 +22,8 @@ export default function AreaLateral(props: AreaLateralProps) {
       <Menu titulo="Outras Categorias">
         <MenuItem texto="Últimas Notícias" href="/"/>
         <MenuItem texto="Séries Populares" href="/"/>
-        <MenuItem texto="Facebook" href="/"/>
-        <MenuItem texto="Instagram" href="/"/>
+        <MenuItem texto="Facebook" href="https://www.facebook.com/profile.php?id=61569512772060"/>
+        <MenuItem texto="Instagram" href="https://www.instagram.com/ordemdoslivros/" />
     </Menu>
     </aside>
   );
