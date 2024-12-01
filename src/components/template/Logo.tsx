@@ -13,7 +13,7 @@ export default function Logo() {
       />
       <div className="flex flex-col leading-3">
         <span className="font-light text-lg text-zinc-900 dark:text-zinc-400 mt-2">ordem dos</span>
-        <span className="font-black text-2xl tracking-widest -mt-2">LIVRO</span>
+        <span className="font-black text-2xl tracking-widest -mt-2">LIVROS</span>
       </div>
     </Link>
   );
