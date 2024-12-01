@@ -22,7 +22,7 @@ export default function Home() {
           property="og:description" 
           content="Explore uma coleção incrível de séries de livros, com autores renomados e histórias fascinantes. Descubra seu próximo livro favorito!" 
         />
-        <meta property="og:image" content="/path-to-default-image.jpg" />
+        <meta property="og:image" content="/logo.png" />
         <meta property="og:url" content="https://aordemdoslivros.vercel.app/" />
         <meta property="og:type" content="website" />
 
@@ -33,7 +33,7 @@ export default function Home() {
           name="twitter:description" 
           content="Explore uma coleção incrível de séries de livros, com autores renomados e histórias fascinantes. Descubra seu próximo livro favorito!" 
         />
-        <meta name="twitter:image" content="/path-to-default-image.jpg" />
+        <meta name="twitter:image" content="/logo.png" />
 
         {/* Link Canonical */}
         <link rel="canonical" href="https://aordemdoslivros.vercel.app/" />
