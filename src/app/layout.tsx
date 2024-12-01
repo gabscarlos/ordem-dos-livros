@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 const fonte = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Livro Após Livro",
+  title: "Ordem dos Livros",
   description: "Lista Completa de Todas as Séries de Livros em Ordem",
 };
 
