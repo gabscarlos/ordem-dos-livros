@@ -22,7 +22,7 @@ export default function ItemAutor(props: Autor) {
           className="h-96 object-cover"
         />
         <div className="absolute bottom-0 w-full flex justify-end px-6 py-4 bg-black/50">
-          <span className="text-2xl font-black">{props.nome}</span>
+          <span className="text-2xl font-black text-zinc-50">{props.nome}</span>
         </div>
       </Link>
     </div>

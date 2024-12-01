@@ -17,7 +17,7 @@ export default function Pagina(props: PaginaProps) {
   };
   return (
     <div className={`${darkMode && "dark"}`}>
-      <div className="flex flex-col min-h-screen bg-slate-50 text-zinc-950 dark:bg-zinc-900 dark:text-zinc-50">
+      <div className="flex flex-col min-h-screen bg-slate-100 text-zinc-950 dark:bg-zinc-900 dark:text-zinc-50">
         <button
           className="absolute top-0 right-0 m-4 text-zinc-800 dark:text-zinc-50"
           onClick={toggleDarkMode}
