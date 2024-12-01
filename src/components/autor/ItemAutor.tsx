@@ -17,8 +17,8 @@ export default function ItemAutor(props: Autor) {
         <Image
           src={props.imagem}
           alt="Foto do Autor"
-          width={500}
-          height={500}
+          width={1000}
+          height={1000}
           className="h-96 object-cover"
         />
         <div className="absolute bottom-0 w-full flex justify-end px-6 py-4 bg-black/50">

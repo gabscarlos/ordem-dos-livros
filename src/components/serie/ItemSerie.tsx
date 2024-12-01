@@ -15,7 +15,7 @@ export default function ItemSerie(props: ItemSerieProps) {
             <div className="flex flex-col gap-2 p-5">
                 <span className="text-2xl font-black">{props.titulo}</span>
                 <span className="text-sm text-zinc-900 dark:text-zinc-400 text-justify">{props.descricao}</span>
-                <button className="botao azul self-end">Leia Mais</button>
+                <button className="botao roxo self-end">Leia Mais</button>
             </div>
         </Link>
     )

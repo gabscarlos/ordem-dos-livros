@@ -30,9 +30,9 @@ body {
   @apply hover:bg-blue-600;
 }
 
-.botao.vermelho {
-  @apply bg-red-500 text-white;
-  @apply hover:bg-red-600;
+.botao.roxo {
+  @apply bg-purple-500 text-white;
+  @apply hover:bg-purple-600;
 }
 
 * {

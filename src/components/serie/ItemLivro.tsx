@@ -23,7 +23,7 @@ export default function ItemLivro(props: ItemLivroProps) {
       />
       <div className="flex-1 flex flex-col p-5 gap-2">
         <span className="flex-1 font-bold text-center text-zinc-950 dark:text-white">{props.titulo}</span>
-        <button className="botao azul">
+        <button className="botao roxo">
           <span>Comprar</span>
         </button>
       </div>

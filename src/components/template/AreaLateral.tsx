@@ -1,10 +1,13 @@
-
 import Menu from "./Menu";
 import MenuItem from "./MenuItem";
 
-export default function AreaLateral() {
+export interface AreaLateralProps {
+  className?: string;
+}
+
+export default function AreaLateral(props: AreaLateralProps) {
   return (
-    <aside className="flex flex-col self-start border border-zinc-800 p-5 rounded-md gap-10 w-72">
+    <aside className={`flex flex-col self-start border border-zinc-800 p-5 rounded-md gap-10 w-64 ${props.className}`}>
       <Menu titulo="Navegação">
         <MenuItem href="/" texto="Início"/>
         <MenuItem href="/series" texto="Séries"/>
