@@ -18,7 +18,7 @@ const series = [
         ano: 1997,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/81pB+joKL4L._SL1500_.jpg",
-        link: "https://www.amazon.com.br/gp/product/B01LQM96G4?ref_=dbs_p_pwh_rwt_anx_cl_0&storeType=ebooks",
+        link: "https://amzn.to/49heZ0X",
       },
       {
         id: "harry-potter-e-a-camara-secreta",
@@ -27,7 +27,7 @@ const series = [
         ano: 1998,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/81D+5aMHzFL._SL1500_.jpg",
-        link: "https://www.amazon.com.br/gp/product/B01LQM96K0?ref_=dbs_p_pwh_rwt_anx_cl_1&storeType=ebooks",
+        link: "https://amzn.to/3B702Sg",
       },
       {
         id: "harry-potter-e-o-prisioneiro-de-azkaban",
@@ -36,7 +36,7 @@ const series = [
         ano: 1999,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/81Q+2zleuwL._SL1500_.jpg",
-        link: "https://www.amazon.com.br/gp/product/B01LQM96HI?ref_=dbs_p_pwh_rwt_anx_cl_2&storeType=ebooks",
+        link: "https://amzn.to/3B46wS0",
       },
       {
         id: "harry-potter-e-o-calice-de-fogo",
@@ -45,7 +45,7 @@ const series = [
         ano: 2000,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/81IsnaNraBL._SL1500_.jpg",
-        link: "https://www.amazon.com.br/gp/product/B01LQM96FA?ref_=dbs_p_pwh_rwt_anx_cl_3&storeType=ebooks",
+        link: "https://amzn.to/41d45ay",
       },
       {
         id: "harry-potter-e-a-ordem-da-fenix",
@@ -54,7 +54,7 @@ const series = [
         ano: 2003,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/81ZQUV67MGL._SL1500_.jpg",
-        link: "https://www.amazon.com.br/gp/product/B01LQM96IC?ref_=dbs_p_pwh_rwt_anx_cl_4&storeType=ebooks",
+        link: "https://amzn.to/3Zw4ZgU",
       },
       {
         id: "harry-potter-e-o-enigma-do-principe",
@@ -63,7 +63,7 @@ const series = [
         ano: 2005,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/81SZC96OGOL._SL1500_.jpg",
-        link: "https://www.amazon.com.br/gp/product/B01LQM96LY?notRedirectToSDP=1&ref_=dbs_mng_calw_5&storeType=ebooks",
+        link: "https://amzn.to/4ibXDXg",
       },
       {
         id: "Harry Potter e as Reliquias da Morte",
@@ -72,7 +72,7 @@ const series = [
         ano: 2007,
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/81PbdwXqKkL._SL1500_.jpg",
-        link: "https://www.amazon.com.br/gp/product/B01LQM96GE?notRedirectToSDP=1&ref_=dbs_mng_calw_6&storeType=ebooks",
+        link: "https://amzn.to/3CUdBFl",
       },
       {
         id: "harry-potter-e-a-crianca-amaldicoada",
@@ -81,7 +81,7 @@ const series = [
         ano: 2016,
         ordem: 8,
         imagem: "https://rocco.com.br/app/uploads/2024/04/9786555322682.jpg",
-        link: "https://www.amazon.com.br/Harry-Potter-Crian%C3%A7a-Amaldi%C3%A7oada-Parte/dp/8532530435",
+        link: "https://amzn.to/3ZevtlR",
       },
     ],
   },
@@ -102,7 +102,7 @@ const series = [
         ano: 1954,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/81SM0D5+DwL._SL1500_.jpg",
-        link: "https://www.amazon.com.br/gp/product/B0B3C98K98?ref_=dbs_p_pwh_rwt_cpsb_cl_0&storeType=ebooks",
+        link: "https://amzn.to/49htqlr",
       },
       {
         id: "as-duas-torres",
@@ -111,7 +111,7 @@ const series = [
         ano: 1954,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/81N9hxO6XdL._SL1500_.jpg",
-        link: "https://www.amazon.com.br/gp/product/B0B3CCH4XF?ref_=dbs_p_pwh_rwt_cpsb_cl_1&storeType=ebooks",
+        link: "https://amzn.to/3CMSgxm",
       },
       {
         id: "o-retorno-do-rei",
@@ -120,7 +120,7 @@ const series = [
         ano: 1955,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/81LUEEYfQNL._SL1500_.jpg",
-        link: "https://www.amazon.com.br/gp/product/B0B3D2GFXN?ref_=dbs_p_pwh_rwt_cpsb_cl_2&storeType=ebooks",
+        link: "https://amzn.to/3D1Tmp0",
       },
     ],
   },
@@ -141,7 +141,7 @@ const series = [
         ano: 1996,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/91eHityofNL._SL1500_.jpg",
-        link: "https://www.amazon.com.br/gp/product/B07PPB9QW1?ref_=dbs_p_pwh_rwt_anx_cl_0&storeType=ebooks",
+        link: "https://amzn.to/3CWfCAY",
       },
       {
         id: "a-furia-dos-reis",
@@ -150,7 +150,7 @@ const series = [
         ano: 1998,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/91N6C0jwzuL._SL1500_.jpg",
-        link: "https://www.amazon.com.br/gp/product/B07QYPLKV1?ref_=dbs_p_pwh_rwt_anx_cl_1&storeType=ebooks",
+        link: "https://amzn.to/3ZckitU",
       },
       {
         id: "a-tormenta-de-espadas",
@@ -159,7 +159,7 @@ const series = [
         ano: 2000,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/91VVZ-v5GYL._SL1500_.jpg",
-        link: "https://www.amazon.com.br/gp/product/B07QXSYDSB?ref_=dbs_p_pwh_rwt_anx_cl_2&storeType=ebooks",
+        link: "https://amzn.to/3CSvhBc",
       },
       {
         id: "o-festim-dos-corvos",
@@ -168,7 +168,7 @@ const series = [
         ano: 2019,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/814UZhEYFfL._SL1500_.jpg",
-        link: "https://www.amazon.com.br/gp/product/B081284MLJ?notRedirectToSDP=1&ref_=dbs_mng_calw_3&storeType=ebooks",
+        link: "https://amzn.to/3ZtIRUu",
       },
       {
         id: "a-danca-dos-dragoes",
@@ -177,7 +177,7 @@ const series = [
         ano: 2020,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/91DisjRjFxL._SL1500_.jpg",
-        link: "https://www.amazon.com.br/gp/product/B084SS25D3?notRedirectToSDP=1&ref_=dbs_mng_calw_4&storeType=ebooks",
+        link: "https://amzn.to/3Ozr8os",
       },
     ],
   },
@@ -198,7 +198,7 @@ const series = [
         ano: 2008,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/71fWaI5myqL._SY385_.jpg",
-        link: "https://a.co/d/3ZM8W8A",
+        link: "https://amzn.to/4f0OOwy",
       },
       {
         id: "diario-de-um-banana-2",
@@ -207,7 +207,7 @@ const series = [
         ano: 2009,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/71+fh2vstSL._SY385_.jpg",
-        link: "https://a.co/d/7rbG4qo",
+        link: "https://amzn.to/4197nv9",
       },
       {
         id: "diario-de-um-banana-3",
@@ -216,7 +216,7 @@ const series = [
         ano: 2010,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/81T9BY8yEnL._SY385_.jpg",
-        link: "https://a.co/d/7pbDVSx",
+        link: "https://amzn.to/41aONCS",
       },
       {
         id: "diario-de-um-banana-4",
@@ -225,7 +225,7 @@ const series = [
         ano: 2011,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/71MuD6Hn8OL._SY385_.jpg",
-        link: "https://a.co/d/76uxOrE",
+        link: "https://amzn.to/4g8O1us",
       },
       {
         id: "diario-de-um-banana-5",
@@ -234,7 +234,7 @@ const series = [
         ano: 2011,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/711dw9VO+jL._SY385_.jpg",
-        link: "https://a.co/d/1VqdSSj",
+        link: "https://amzn.to/4g8zcYT",
       },
       {
         id: "diario-de-um-banana-6",
@@ -243,7 +243,7 @@ const series = [
         ano: 2012,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/71beaUwsF0L._SY385_.jpg",
-        link: "https://a.co/d/iMEsic0",
+        link: "https://amzn.to/4g9VrO8",
       },
       {
         id: "diario-de-um-banana-7",
@@ -252,7 +252,7 @@ const series = [
         ano: 2013,
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/71gWCy-KesL._SY385_.jpg",
-        link: "https://a.co/d/7LxDqGL",
+        link: "https://amzn.to/3VhvmEC",
       },
       {
         id: "diario-de-um-banana-8",
@@ -261,7 +261,7 @@ const series = [
         ano: 2014,
         ordem: 8,
         imagem: "https://m.media-amazon.com/images/I/716yGyLTIxL._SY385_.jpg",
-        link: "https://a.co/d/iIE9vgu",
+        link: "https://amzn.to/3VhvpQO",
       },
       {
         id: "diario-de-um-banana-9",
@@ -270,7 +270,7 @@ const series = [
         ano: 2015,
         ordem: 9,
         imagem: "https://m.media-amazon.com/images/I/71D7-E0gtIL._SY385_.jpg",
-        link: "https://a.co/d/4rjo2HQ",
+        link: "https://amzn.to/4f3qOJq",
       },
       {
         id: "diario-de-um-banana-10",
@@ -279,7 +279,7 @@ const series = [
         ano: 2015,
         ordem: 10,
         imagem: "https://m.media-amazon.com/images/I/71ci78zaT-L._SY385_.jpg",
-        link: "https://a.co/d/3GdEjmf",
+        link: "https://amzn.to/4fRin4O",
       },
       {
         id: "diario-de-um-banana-11",
@@ -288,7 +288,7 @@ const series = [
         ano: 2016,
         ordem: 11,
         imagem: "https://m.media-amazon.com/images/I/718cIIlLIwL._SY385_.jpg",
-        link: "https://a.co/d/i2p2t2f",
+        link: "https://amzn.to/3B8g12E",
       },
       {
         id: "diario-de-um-banana-12",
@@ -297,7 +297,7 @@ const series = [
         ano: 2017,
         ordem: 12,
         imagem: "https://m.media-amazon.com/images/I/71vHGC4hRmL._SY385_.jpg",
-        link: "https://a.co/d/gLaRULA",
+        link: "https://amzn.to/3B2fwXP",
       },
       {
         id: "diario-de-um-banana-13",
@@ -306,7 +306,7 @@ const series = [
         ano: 2018,
         ordem: 13,
         imagem: "https://m.media-amazon.com/images/I/71AII-WDnXL._SY385_.jpg",
-        link: "https://a.co/d/75OhSw4",
+        link: "https://amzn.to/4idwbIA",
       },
       {
         id: "diario-de-um-banana-14",
@@ -315,7 +315,7 @@ const series = [
         ano: 2019,
         ordem: 14,
         imagem: "https://m.media-amazon.com/images/I/71RqnIKaA9L._SY385_.jpg",
-        link: "https://a.co/d/e7afVr6",
+        link: "https://amzn.to/3CTuOi3",
       },
       {
         id: "diario-de-um-banana-15",
@@ -324,7 +324,7 @@ const series = [
         ano: 2020,
         ordem: 15,
         imagem: "https://m.media-amazon.com/images/I/71qp05Xbw9L._SY385_.jpg",
-        link: "https://a.co/d/6bFJROK",
+        link: "https://amzn.to/4fSEYy1",
       },
       {
         id: "diario-de-um-banana-16",
@@ -333,7 +333,7 @@ const series = [
         ano: 2021,
         ordem: 16,
         imagem: "https://m.media-amazon.com/images/I/91Bd39WTNuL._SY385_.jpg",
-        link: "https://a.co/d/7Ag1o9j",
+        link: "https://amzn.to/3VfwIQm",
       },
       {
         id: "diario-de-um-banana-17",
@@ -342,7 +342,7 @@ const series = [
         ano: 2022,
         ordem: 17,
         imagem: "https://m.media-amazon.com/images/I/916K1XCNRBL._UF894,1000_QL80_.jpg",
-        link: "https://a.co/d/jlpXsnH",
+        link: "https://amzn.to/3VkQdqL",
       },
       {
         id: "diario-de-um-banana-18",
@@ -351,7 +351,7 @@ const series = [
         ano: 2023,
         ordem: 18,
         imagem: "https://m.media-amazon.com/images/I/71HODD5GbdL._AC_UF1000,1000_QL80_.jpg",
-        link: "https://a.co/d/bIl92Ig",
+        link: "https://amzn.to/4eVdIOd",
       },
       {
         id: "diario-de-um-banana-19",
@@ -360,7 +360,7 @@ const series = [
         ano: 2024,
         ordem: 19,
         imagem: "https://m.media-amazon.com/images/I/71GJo0STB8L._SY385_.jpg",
-        link: "https://a.co/d/d38sYB3",
+        link: "https://amzn.to/3D2gC6h",
       },
     ],
   },
@@ -381,7 +381,7 @@ const series = [
         ano: 2013,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/61ILpNSiAuL._SY385_.jpg",
-        link: "https://a.co/d/6alK3HE",
+        link: "https://amzn.to/49huiqd",
       },
       {
         id: "maze-runner-2",
@@ -390,7 +390,7 @@ const series = [
         ano: 2014,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/51MTj2LpsQL._SY385_.jpg",
-        link: "https://a.co/d/f8mwzA0",
+        link: "https://amzn.to/4eTDylE",
       },
       {
         id: "maze-runner-3",
@@ -399,7 +399,7 @@ const series = [
         ano: 2010,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/51UqHWh58-L._SY445_SX342_.jpg",
-        link: "https://a.co/d/cjg5Igc",
+        link: "https://amzn.to/49dil4M",
       },
       {
         id: "maze-runner-4",
@@ -408,7 +408,7 @@ const series = [
         ano: 2011,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/61pGP-2ZaCL._SY385_.jpg",
-        link: "https://a.co/d/3Ac9YS1",
+        link: "https://amzn.to/3COnapk",
       },
       {
         id: "maze-runner-5",
@@ -417,7 +417,7 @@ const series = [
         ano: 2012,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/61pR3wqzNgL._SY385_.jpg",
-        link: "https://a.co/d/dnd2UFI",
+        link: "https://amzn.to/49fq822",
       },
       {
         id: "maze-runner-6",
@@ -426,7 +426,7 @@ const series = [
         ano: 2012,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/81AtmD2CM2L._SY385_.jpg",
-        link: "https://a.co/d/gg0nXlz",
+        link: "https://amzn.to/4g9QBAq",
       },
       {
         id: "maze-runner-7",
@@ -435,7 +435,7 @@ const series = [
         ano: 2018,
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/81UckzVmQPL._SY385_.jpg",
-        link: "https://a.co/d/hI3JVEY",
+        link: "https://amzn.to/3B80pMm",
       },
       
     ],
