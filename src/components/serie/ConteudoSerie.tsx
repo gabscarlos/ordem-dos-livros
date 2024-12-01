@@ -25,7 +25,7 @@ export default function ConteudoSerie(props: ConteudoSerieProps) {
       <Image src={props.imagem} alt="Imagem da Série" width={1000} height={1000} className="h-96 object-cover" />
       <p className="text-lg text-zinc-900 dark:text-zinc-400 text-justify">{props.descricao}</p>
       <h2>Lista de Livros</h2>
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid sm: grid-cols-1 lg:grid-cols-3 gap-5">
         {props.livros.map((livro) => (
           <ItemLivro key={livro.id} link={livro.link} titulo={livro.titulo} imagem={livro.imagem} />
         ))}

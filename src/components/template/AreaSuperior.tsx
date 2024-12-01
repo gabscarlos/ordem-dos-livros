@@ -6,7 +6,7 @@ export interface AreaSuperiorProps {
 
 export default function AreaSuperior(props: AreaSuperiorProps) {
   return (
-    <div className={`flex justify-around items-center border list-none border-zinc-800 p-2 rounded-md h-20 ${props.className}`}>      
+    <div className={`flex justify-around items-center border list-none border-zinc-800 p-2 rounded-md h-16 ${props.className}`}>      
         <MenuItem href="/" texto="Início"/>
         <MenuItem href="/series" texto="Séries"/>
         <MenuItem href="/autores" texto="Autores"/>
