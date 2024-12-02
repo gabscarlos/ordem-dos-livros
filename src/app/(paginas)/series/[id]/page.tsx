@@ -7,48 +7,43 @@ export interface SeriePageProps {
 }
 
 export default async function Serie({ params }: SeriePageProps) {
-  // Obtém o ID de forma assíncrona
   const { id } = await params;
 
-  // Localiza a série específica pelo ID
   const serieEspecifica = series.find((serie) => serie.id === id);
 
   if (!serieEspecifica) {
     return <div>Série não encontrada</div>;
   }
 
+  const titulo = serieEspecifica.titulo || "Série Desconhecida";
+  const descricao =
+    serieEspecifica.descricao ||
+    "Explore os detalhes de uma série incrível de livros.";
+  const autorNome = serieEspecifica.autor?.nome || "Autor Desconhecido";
+
   return (
     <div>
       <Head>
         {/* Meta Tags para SEO */}
-        <title>{serieEspecifica.titulo} - Série de Livros</title>
-        <meta 
-          name="description" 
-          content={`Explore a série "${serieEspecifica.titulo}" escrita por ${serieEspecifica.autor.nome}. ${serieEspecifica.descricao}`} 
-        />
-        <meta name="keywords" content={`${serieEspecifica.titulo}, livros, série de livros, ${serieEspecifica.autor.nome}, literatura`} />
+        <title>{titulo} - Série de Livros</title>
+        <meta name="description" content={`Explore a série "${titulo}" escrita por ${autorNome}. ${descricao}`} />
+        <meta name="keywords" content={`${titulo}, livros, série de livros, ${autorNome}, literatura`} />
         <meta name="robots" content="index, follow" />
 
-        {/* Open Graph para Redes Sociais */}
-        <meta property="og:title" content={`${serieEspecifica.titulo} - Série de Livros`} />
-        <meta 
-          property="og:description" 
-          content={`Explore a série "${serieEspecifica.titulo}" escrita por ${serieEspecifica.autor.nome}. ${serieEspecifica.descricao}`} 
-        />
+        {/* Open Graph */}
+        <meta property="og:title" content={`${titulo} - Série de Livros`} />
+        <meta property="og:description" content={`Explore a série "${titulo}" escrita por ${autorNome}. ${descricao}`} />
         <meta property="og:image" content={serieEspecifica.imagem} />
         <meta property="og:url" content={`https://aordemdoslivros.vercel.app/series/${serieEspecifica.id}`} />
         <meta property="og:type" content="book" />
 
-        {/* Twitter Cards */}
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${serieEspecifica.titulo} - Série de Livros`} />
-        <meta 
-          name="twitter:description" 
-          content={`Explore a série "${serieEspecifica.titulo}" escrita por ${serieEspecifica.autor.nome}. ${serieEspecifica.descricao}`} 
-        />
+        <meta name="twitter:title" content={`${titulo} - Série de Livros`} />
+        <meta name="twitter:description" content={`Explore a série "${titulo}" escrita por ${autorNome}. ${descricao}`} />
         <meta name="twitter:image" content={serieEspecifica.imagem} />
 
-        {/* Link Canonical */}
+        {/* Canonical */}
         <link rel="canonical" href={`https://aordemdoslivros.vercel.app/series/${serieEspecifica.id}`} />
 
         {/* Dados Estruturados JSON-LD */}
@@ -58,26 +53,26 @@ export default async function Serie({ params }: SeriePageProps) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "BookSeries",
-              "name": serieEspecifica.titulo,
-              "description": serieEspecifica.descricao,
+              "name": titulo,
+              "description": descricao,
               "author": {
                 "@type": "Person",
-                "name": serieEspecifica.autor.nome,
+                "name": autorNome,
               },
               "numberOfBooks": serieEspecifica.livros.length,
               "image": serieEspecifica.imagem,
+              "url": `https://aordemdoslivros.vercel.app/series/${serieEspecifica.id}`,
             }),
           }}
         />
       </Head>
 
-      {/* Conteúdo da Série */}
       <ConteudoSerie
         id={serieEspecifica.id}
-        titulo={serieEspecifica.titulo}
+        titulo={titulo}
         imagem={serieEspecifica.imagem}
-        nome={serieEspecifica.autor.nome}
-        descricao={serieEspecifica.descricao}
+        nome={autorNome}
+        descricao={descricao}
         autor={serieEspecifica.autor}
         livros={serieEspecifica.livros}
       />
