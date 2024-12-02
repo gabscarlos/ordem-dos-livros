@@ -64,6 +64,26 @@ const nextConfig: NextConfig = {
         hostname: 'i0.wp.com',
         port:''
       },
+      {
+        protocol: 'https',
+        hostname: 'www.historylink.org',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'sm.ign.com',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'upload.wikimedia.org',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'blogger.googleusercontent.com',
+        port:''
+      },
     ]
   }
 };

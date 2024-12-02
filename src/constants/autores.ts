@@ -36,7 +36,7 @@ Rowling casou-se com Neil Murray em 2001 e tem três filhos. Ela é uma filantro
 
 ---
 
-> As palavras são, na minha nada humilde opinião, nossa fonte mais inesgotável de magia. - J.K. Rowling
+> *"As palavras são, na minha nada humilde opinião, nossa fonte mais inesgotável de magia.""* - J.K. Rowling
         `,
   },
   {
@@ -76,7 +76,7 @@ O impacto de J.R.R. Tolkien na literatura é imenso, e sua criação da Terra M�
 
 ---
 
-> Nem todos os que vagam estão perdidos. - J.R.R. Tolkien
+> "*Nem todos os que vagam estão perdidos.""* - J.R.R. Tolkien
         `,
   },
   {
@@ -116,7 +116,7 @@ George R.R. Martin é amplamente reconhecido como um dos mais influentes autores
 
 ---
 
-> Um leitor vive mil vidas antes de morrer. O homem que nunca lê vive apenas uma. - George R.R. Martin
+> *"Um leitor vive mil vidas antes de morrer. O homem que nunca lê vive apenas uma.""* - George R.R. Martin
         `,
   },
 {
@@ -153,7 +153,7 @@ Kinney vive em Massachusetts com sua esposa, Julie, e seus dois filhos. Ele cont
 
 ---
 
-> Se você quiser escrever um livro, precisa começar. É simples assim. - Jeff Kinney
+> *"Se você quiser escrever um livro, precisa começar. É simples assim.""* - Jeff Kinney
   `,
 },
 {
@@ -193,9 +193,97 @@ James Dashner vive em Utah com sua esposa, Lynette, e seus quatro filhos. Suas h
 
 ---
 
-> *"Escrever é um privilégio, e eu sou grato por cada leitor que me dá uma chance."* - James Dashner
+> *"Escrever é um privilégio, e eu sou grato por cada leitor que me dá uma chance.""* - James Dashner
   `,
 },
+{
+  id: "frank-herbert",
+  nome: "Frank Herbert",
+  imagem: "https://www.historylink.org/Content/Media/Photos/Large/Frank-Herbert-working-in-his-home-office-Port-Townsend-September-11-1979.jpg",
+  biografia: `
+# Frank Herbert
+
+Franklin Patrick Herbert Jr., mais conhecido como **Frank Herbert**, foi um autor norte-americano de ficção científica, nascido em 8 de outubro de 1920, em Tacoma, Washington, EUA. Ele é amplamente reconhecido por seu romance épico **"Duna"** (*Dune*), considerado uma das maiores obras da ficção científica de todos os tempos.
+
+## Primeiros Anos e Carreira
+Herbert demonstrou interesse pela escrita desde cedo e trabalhou como jornalista, fotógrafo e editor antes de ingressar na literatura. Ele se formou na **University of Washington**, mas nunca completou um curso formal de graduação. Durante os anos 1950 e 1960, Herbert escreveu contos e romances para revistas de ficção científica.
+
+## Duna
+Em 1965, Herbert publicou *Dune*, um romance ambientado em um futuro distante, em que dinastias feudais competem pelo controle do desértico planeta Arrakis, fonte de uma substância vital conhecida como "melange" ou "a especiaria". O livro explora temas complexos como ecologia, política, religião e poder.
+
+A série *Duna* inclui:
+
+1. **Dune** (1965) - *Duna*
+2. **Dune Messiah** (1969) - *O Messias de Duna*
+3. **Children of Dune** (1976) - *Os Filhos de Duna*
+4. **God Emperor of Dune** (1981) - *O Imperador-Deus de Duna*
+5. **Heretics of Dune** (1984) - *Hereges de Duna*
+6. **Chapterhouse: Dune** (1985) - *As Herdeiras de Duna*
+
+A série ganhou adaptações cinematográficas e televisivas, incluindo os filmes dirigidos por David Lynch (1984) e Denis Villeneuve (2021 e 2024), além de minisséries aclamadas.
+
+## Outras Obras
+Embora *Duna* seja sua obra-prima, Herbert escreveu diversos outros romances, incluindo:
+
+- **The Dosadi Experiment** (1977)
+- **The Green Brain** (1966)
+- **Destination: Void** (1966)
+
+Seus trabalhos frequentemente abordam questões filosóficas, sociais e ecológicas.
+
+## Legado e Morte
+Frank Herbert faleceu em 11 de fevereiro de 1986, em Madison, Wisconsin, EUA. Após sua morte, seu filho Brian Herbert, em parceria com Kevin J. Anderson, continuou o universo de *Duna*, escrevendo prelúdios e sequências baseados nas notas deixadas por Herbert.
+
+O impacto de Herbert na ficção científica é imensurável. *Duna* continua a inspirar escritores, cineastas e fãs em todo o mundo, sendo considerado um marco literário no gênero.
+
+---
+
+> *"Sem mudança, algo adormece dentro de nós e raramente desperta.""* - Frank Herbert
+  `,
+},
+{
+  id: "diana-gabaldon",
+  nome: "Diana Gabaldon",
+  imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Diana_Gabaldon_%282010%29.jpg/1024px-Diana_Gabaldon_%282010%29.jpg",
+  biografia: `
+# Diana Gabaldon
+
+**Diana Gabaldon** é uma escritora norte-americana conhecida por sua aclamada série de romances históricos e de ficção científica **"Outlander"**. Nascida em 11 de janeiro de 1952, em Flagstaff, Arizona, EUA, Gabaldon conquistou uma legião de fãs ao redor do mundo com sua narrativa envolvente, que mistura romance, aventura e viagens no tempo.
+
+## Primeiros Anos e Formação
+Gabaldon cresceu com um forte interesse por ciência e literatura. Ela obteve um bacharelado em zoologia na **Northern Arizona University**, um mestrado em biologia marinha na **University of California, San Diego**, e um doutorado em ecologia comportamental. Antes de se dedicar à escrita, trabalhou como professora universitária e escreveu artigos acadêmicos.
+
+## A Série Outlander
+Em 1991, Gabaldon publicou *Outlander* (*A Viajante do Tempo*), o primeiro livro de uma série que mistura história, ficção científica e romance. A história segue Claire Randall, uma enfermeira do século XX que é misteriosamente transportada ao século XVIII, onde encontra o carismático guerreiro escocês Jamie Fraser.
+
+Os livros principais da série incluem:
+
+1. **Outlander** (1991) - *A Viajante do Tempo*
+2. **Dragonfly in Amber** (1992) - *A Libélula no Âmbar*
+3. **Voyager** (1993) - *O Resgate no Mar*
+4. **Drums of Autumn** (1996) - *Os Tambores do Outono*
+5. **The Fiery Cross** (2001) - *A Cruz de Fogo*
+6. **A Breath of Snow and Ashes** (2005) - *Um Sopro de Neve e Cinzas*
+7. **An Echo in the Bone** (2009) - *Ecos do Futuro*
+8. **Written in My Own Heart's Blood** (2014) - *Escrito com o Sangue do Meu Coração*
+
+A série se expandiu para incluir novelas e livros complementares que exploram personagens secundários e histórias paralelas.
+
+## Adaptação Televisiva
+Em 2014, *Outlander* foi adaptada para uma série de televisão pelo canal Starz, com Caitríona Balfe e Sam Heughan nos papéis principais. A adaptação recebeu aclamação da crítica e trouxe ainda mais visibilidade à obra de Gabaldon.
+
+## Outras Obras
+Além de *Outlander*, Gabaldon escreveu a série *Lord John*, focada em um dos personagens secundários de *Outlander*, Lord John Grey. Esses livros exploram mistérios históricos e aspectos do mundo de *Outlander*.
+
+## Vida Pessoal e Legado
+Diana Gabaldon vive no Arizona com sua família. Seu trabalho é elogiado por sua pesquisa histórica detalhada, personagens memoráveis e narrativas cativantes. Ela é considerada uma das escritoras mais influentes do gênero de romance histórico moderno.
+
+---
+
+> *"Eu não escolhi escrever romances históricos. A história escolheu por mim.""* - Diana Gabaldon
+  `,
+}
+
 
 
 ];
