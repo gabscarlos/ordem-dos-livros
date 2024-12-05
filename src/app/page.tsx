@@ -94,7 +94,7 @@ export default function Home() {
       </Head>
 
       <Pagina>
-        <div className="flex flex-row justify-evenly mb-14">
+        <div className="flex flex-wrap justify-center md:justify-between gap-4 mb-14">
           <LivroDestaque
             link="/series/harry-potter"
             imagem="https://m.media-amazon.com/images/I/81pB+joKL4L._SL1500_.jpg"
@@ -117,7 +117,7 @@ export default function Home() {
           />
         </div>
         <h1 className="text-3xl font-bold">Encontre Mais Categorias</h1>
-        <div className="flex justify-evenly gap-5 py-8 mb-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-8 mb-5">
           <Categoria
             src="/books.png"
             alt="Imagem de Livros"
@@ -147,72 +147,77 @@ export default function Home() {
             className="bg-gradient-to-r from-green-200 to-blue-500"
           />
         </div>
-        <div className="grid grid-cols-2 gap-5 mb-16">
-          <div className="flex flex-col gap-2">
-            <span className="text-3xl font-bold">Audio Books</span>
-            <iframe
-              className="rounded-md"
-              src="https://open.spotify.com/embed/track/4tYOEhXfa3AvD6omJlZmSJ?utm_source=generator"
-              width="90%"
-              height="80"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-            ></iframe>
-            <iframe
-              className="rounded-md"
-              src="https://open.spotify.com/embed/track/4ucsFgz6gRWmkZwXCCzcos?utm_source=generator"
-              width="90%"
-              height="80"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-            ></iframe>
-            <iframe
-              className="rounded-md"
-              src="https://open.spotify.com/embed/track/38Sy3MN5A9fgwkdiq4oAN5?utm_source=generator"
-              width="90%"
-              height="80"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-            ></iframe>
-            <iframe
-              className="rounded-md"
-              src="https://open.spotify.com/embed/track/6NXmgfecGwUzJexoQwen8f?utm_source=generator"
-              width="90%"
-              height="80"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-            ></iframe>
-          </div>
-          <div className="flex flex-col gap-6">
-            <span className="text-3xl font-bold">Séries Populares</span>
-            <div className="flex gap-2">
-              <SerieDestaque
-                link="/series/o-senhor-dos-aneis"
-                imagem="https://m.media-amazon.com/images/I/81SM0D5+DwL._SL1500_.jpg"
-              />
-              <SerieDestaque
-                link="/series/maze-runner"
-                imagem="https://m.media-amazon.com/images/I/61ILpNSiAuL._SY385_.jpg"
-              />
-              <SerieDestaque
-                link="/series/as-cronicas-de-gelo-e-fogo"
-                imagem="https://m.media-amazon.com/images/I/91eHityofNL._SL1500_.jpg"
-              />
-            </div>
-          </div>
-        </div>
-        
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-16">
+  <div className="flex flex-col gap-2">
+    <span className="text-3xl font-bold">Audio Books</span>
+    <iframe
+      className="rounded-md w-full max-w-sm mx-auto"
+      src="https://open.spotify.com/embed/track/4tYOEhXfa3AvD6omJlZmSJ?utm_source=generator"
+      width="90%"
+      height="80"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+    ></iframe>
+    <iframe
+      className="rounded-md w-full max-w-sm mx-auto"
+      src="https://open.spotify.com/embed/track/4ucsFgz6gRWmkZwXCCzcos?utm_source=generator"
+      width="90%"
+      height="80"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+    ></iframe>
+    <iframe
+      className="rounded-md w-full max-w-sm mx-auto"
+      src="https://open.spotify.com/embed/track/38Sy3MN5A9fgwkdiq4oAN5?utm_source=generator"
+      width="90%"
+      height="80"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+    ></iframe>
+    <iframe
+      className="rounded-md w-full max-w-sm mx-auto"
+      src="https://open.spotify.com/embed/track/6NXmgfecGwUzJexoQwen8f?utm_source=generator"
+      width="90%"
+      height="80"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+    ></iframe>
+  </div>
+  <div className="flex flex-col gap-6">
+    <span className="text-3xl font-bold">Séries Populares</span>
+    <div className="flex flex-wrap gap-1 justify-center">
+      <SerieDestaque
+        link="/series/o-senhor-dos-aneis"
+        imagem="https://m.media-amazon.com/images/I/81SM0D5+DwL._SL1500_.jpg"
+      />
+      <SerieDestaque
+        link="/series/maze-runner"
+        imagem="https://m.media-amazon.com/images/I/61ILpNSiAuL._SY385_.jpg"
+      />
+      <SerieDestaque
+        link="/series/as-cronicas-de-gelo-e-fogo"
+        imagem="https://m.media-amazon.com/images/I/91eHityofNL._SL1500_.jpg"
+      />
+    </div>
+  </div>
+</div>
+
+
         <span className="text-3xl font-bold">Séries Infanto-juvenis</span>
-        <div className="grid grid-rows-2 grid-flow-col">
-          <div className="row-span-3 col-span-5 flex flex-1 items-center justify-center">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          {/* Livro Destaque Principal */}
+          <div className="flex flex-1 sm:items-start sm:justify-start md:items-center md:justify-center lg:items-center lg:justify-center col-span-1 lg:col-span-1 mb-4 lg:mb-0">
             <LivroDestaque
               link="/series/diario-de-um-banana"
               imagem="https://m.media-amazon.com/images/I/71fWaI5myqL._SY385_.jpg"
               titulo="Diário de um Banana"
-              className="scale-[1.5] transform"
+              className="transform sm:scale-100 lg:scale-[1.5]"
             />
           </div>
-          <div className="col-span-2 flex justify-between gap-4 scale-[0.9] transform">
+
+          {/* Livros adicionais */}
+          <div className="col-span-1 lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <LivroDestaque
               link="/series/diario-de-pilar"
               imagem="https://m.media-amazon.com/images/I/91K6PTWRdLL._SY385_.jpg"
@@ -228,10 +233,8 @@ export default function Home() {
               imagem="https://m.media-amazon.com/images/I/813qC-wJ-VL._SY385_.jpg"
               titulo="Socorro, caí dentro do videogame"
             />
-          </div>
-          <div className="col-span-2 flex justify-between gap-4 scale-[0.9] transform">
             <LivroDestaque
-              link="/series/as-aventuras-do-capitao-cueca "
+              link="/series/as-aventuras-do-capitao-cueca"
               imagem="https://m.media-amazon.com/images/I/81efZ9kHKGL._SY385_.jpg"
               titulo="Série As Aventuras do Capitão Cueca"
             />
@@ -248,81 +251,47 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-6 mt-10">
-          <span className="text-3xl font-bold uppercase">Top 6 Livros</span>
-          <span className="text-3xl font-bold uppercase">Top 3 Autores</span>
-        </div>
-        <div className="grid grid-cols-2 gap-6 mt-10">
-          <div className="flex flex-col gap-4">
-            <div className="flex justify-start gap-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div>
+            <span className="text-3xl font-bold uppercase">Top 6 Livros</span>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
               {series
                 .flatMap((serie) => serie.livros) // Extrai todos os livros
                 .sort(() => Math.random() - 0.5) // Embaralha os livros
-                .slice(0, 2) // Opcional: limita o número de livros exibidos (exemplo: 6)
+                .slice(0, 6) // Exibe os primeiros 6 livros
                 .map((livro) => (
-                  <LivroTop
-                    key={livro.id} // Cada livro deve ter uma `key` única
-                    imagem={livro.imagem}
-                    titulo={livro.titulo}
-                    autor={livro.autor.nome}
-                    linkAutor={`/autores/${livro.autor.id}`} // Link dinâmico do autor
-                    linkAmazon={livro.link} // Link dinâmico do Amazon
-                  />
-                ))}
-            </div>
-
-            <div className="flex justify-start gap-2">
-              {series
-                .flatMap((serie) => serie.livros) // Extrai todos os livros
-                .sort(() => Math.random() - 0.7) // Embaralha os livros
-                .slice(0, 2) // Opcional: limita o número de livros exibidos (exemplo: 6)
-                .map((livro) => (
-                  <LivroTop
-                    key={livro.id} // Cada livro deve ter uma `key` única
-                    imagem={livro.imagem}
-                    titulo={livro.titulo}
-                    autor={livro.autor.nome}
-                    linkAutor={`/autores/${livro.autor.id}`} // Link dinâmico do autor
-                    linkAmazon={livro.link} // Link dinâmico do Amazon
-                  />
-                ))}
-            </div>
-
-            <div className="flex justify-start gap-2">
-              {series
-                .flatMap((serie) => serie.livros) // Extrai todos os livros
-                .sort(() => Math.random() - 0.6) // Embaralha os livros
-                .slice(0, 2) // Opcional: limita o número de livros exibidos (exemplo: 6)
-                .map((livro) => (
-                  <LivroTop
-                    key={livro.id} // Cada livro deve ter uma `key` única
-                    imagem={livro.imagem}
-                    titulo={livro.titulo}
-                    autor={livro.autor.nome}
-                    linkAutor={`/autores/${livro.autor.id}`} // Link dinâmico do autor
-                    linkAmazon={livro.link} // Link dinâmico do Amazon
-                  />
+                  <div key={livro.id} className="flex justify-start gap-2">
+                    <LivroTop
+                      imagem={livro.imagem}
+                      titulo={livro.titulo}
+                      autor={livro.autor.nome}
+                      linkAutor={`/autores/${livro.autor.id}`} // Link dinâmico do autor
+                      linkAmazon={livro.link} // Link dinâmico do Amazon
+                    />
+                  </div>
                 ))}
             </div>
           </div>
-          <div className="flex flex-col items-start justify-center bg-pink-50 rounded-l-xl p-2 gap-2">
+
+          <div className="flex flex-col items-start bg-pink-50 rounded-l-xl p-4 gap-4">
+            <span className="text-3xl font-bold uppercase">Top 3 Autores</span>
             <div className="flex flex-col gap-8 mx-4">
               {autores
                 .sort(() => Math.random() - 0.5) // Embaralha o array
                 .slice(0, 3) // Pega os primeiros 3 itens
-                .map((autores) => (
+                .map((autor) => (
                   <AutorTop
-                    key={autores.id}
-                    {...autores}
-                    imagem={autores.imagem}
-                    titulo={autores.nome}
-                    descricao={autores.descricao}
-                    linkAutor={`autores/${autores.id}`}
+                    key={autor.id}
+                    {...autor}
+                    imagem={autor.imagem}
+                    titulo={autor.nome}
+                    descricao={autor.descricao}
+                    linkAutor={`/autores/${autor.id}`}
                   />
                 ))}
             </div>
           </div>
-        </div>        
+        </div>
       </Pagina>
     </>
   );

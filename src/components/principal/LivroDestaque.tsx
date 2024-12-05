@@ -13,7 +13,7 @@ export default function DestaqueLivro(props: DestaqueLivroProps) {
   return (
     <Link
       href={props.link}
-      className={`rounded-md overflow-hidden ${props.className} w-56`}
+      className={`rounded-md overflow-hidden ${props.className} flex flex-col justify-between w-56`}
     >
       <Image
         src={props.imagem}
@@ -22,7 +22,7 @@ export default function DestaqueLivro(props: DestaqueLivroProps) {
         height={200}
         className="h-72 drop-shadow-xl rounded-lg"
       />
-      <span className="text-sm uppercase">{props.titulo}</span>
+      <span className="flex text-sm uppercase">{props.titulo}</span>
       <div className="flex gap-1">
         <StarIcon className="h-4 w-4" />
         <StarIcon className="h-4 w-4" />

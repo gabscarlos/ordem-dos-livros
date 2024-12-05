@@ -2,22 +2,22 @@ import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 
 export default function Busca() {
   return (
-    <div className="
-      flex items-center w-1/2 rounded-md bg-white pl-3 outline outline-1
-      -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline 
-      has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 
-      has-[input:focus-within]:outline-zinc-400"
-    >
+    <div className="flex items-center w-full max-w-lg mx-auto bg-white rounded-md border border-gray-300">
+      {/* Campo de entrada */}
       <input
-        id="price"
-        name="price"
+        id="search"
+        name="search"
         type="text"
         placeholder="Busque Séries"
-        className="block min-w-0 grow py-1.5 pl-1 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"
+        className="flex-grow py-2 px-4 text-gray-900 placeholder-gray-400 text-sm focus:outline-none"
       />
-      <div className="botao roxo w-20">
-        <MagnifyingGlassIcon className="size-10" />
-      </div>
+      {/* Botão */}
+      <button
+        className="flex items-center justify-center bg-blue-500 text-white w-12 h-12 rounded-r-md hover:bg-blue-600 transition-all"
+        aria-label="Buscar"
+      >
+        <MagnifyingGlassIcon className="h-5 w-5" />
+      </button>
     </div>
   );
 }
