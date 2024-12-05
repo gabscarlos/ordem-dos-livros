@@ -6,7 +6,7 @@ export interface ConteudoAutorProps {
   id: string;  
   biografia: string;
   imagem: string;
-  nome: string;  
+  nome: string;
 }
 
 export default function ConteudoAutor(props: ConteudoAutorProps) {

@@ -4,6 +4,7 @@ const autores = [
     nome: "J.K. Rowling",
     imagem:
       "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/04/GettyImages-950041970-e1712065084538.jpg",
+    descricao: "Escritora britânica, literatura juvenil, fantasia, filóloga.",
     biografia: `
 # J.K. Rowling
 
@@ -44,6 +45,7 @@ Rowling casou-se com Neil Murray em 2001 e tem três filhos. Ela é uma filantro
     nome: "J.R.R. Tolkien",
     imagem:
       "https://static.wixstatic.com/media/064821_b9fda45205e4495cac3a0d35ba514e86~mv2.jpeg/v1/fill/w_568,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/064821_b9fda45205e4495cac3a0d35ba514e86~mv2.jpeg",
+    descricao: "Escritor britânico, fantasia épica, professor e filólogo.",
     biografia: `
 # J.R.R. Tolkien
 
@@ -84,6 +86,7 @@ O impacto de J.R.R. Tolkien na literatura é imenso, e sua criação da Terra M�
     nome: "George R.R. Martin",
     imagem:
       "https://musicaecinema.com/wp-content/uploads/2024/11/george-rr-martin-spin-off-arya-stark-1024x576.webp",
+    descricao: "Escritor norte-americano, fantasia épica, roteirista e produtor.",
     biografia: `
 # George R.R. Martin
 
@@ -123,6 +126,7 @@ George R.R. Martin é amplamente reconhecido como um dos mais influentes autores
   id: "jeff-kinney",
   nome: "Jeff Kinney",
   imagem: "https://ogimg.infoglobo.com.br/in/8493155-cca-752/FT1086A/jeff_kinney_abrams020912.jpg",
+  descricao: "Escritor americano, literatura juvenil, humor, cartunista.",
   biografia: `
 # Jeff Kinney
 
@@ -160,6 +164,7 @@ Kinney vive em Massachusetts com sua esposa, Julie, e seus dois filhos. Ele cont
   id: "james-dashner",
   nome: "James Dashner",
   imagem: "https://ogimg.infoglobo.com.br/in/12468663-e24-cc4/FT1086A/unnamed.jpg",
+  descricao: "Escritor americano, ficção científica, distopia, autor de Maze Runner.",
   biografia: `
 # James Dashner
 
@@ -200,6 +205,7 @@ James Dashner vive em Utah com sua esposa, Lynette, e seus quatro filhos. Suas h
   id: "frank-herbert",
   nome: "Frank Herbert",
   imagem: "https://www.historylink.org/Content/Media/Photos/Large/Frank-Herbert-working-in-his-home-office-Port-Townsend-September-11-1979.jpg",
+  descricao:"Escritor americano, ficção científica, Duna, filósofo.",
   biografia: `
 # Frank Herbert
 
@@ -245,6 +251,7 @@ O impacto de Herbert na ficção científica é imensurável. *Duna* continua a 
   id: "diana-gabaldon",
   nome: "Diana Gabaldon",
   imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Diana_Gabaldon_%282010%29.jpg/1024px-Diana_Gabaldon_%282010%29.jpg",
+  descricao: "Escritora americana, ficção histórica, romance, autora de Outlander.",
   biografia: `
 # Diana Gabaldon
 
@@ -282,7 +289,154 @@ Diana Gabaldon vive no Arizona com sua família. Seu trabalho é elogiado por su
 
 > *"Eu não escolhi escrever romances históricos. A história escolheu por mim.""* - Diana Gabaldon
   `,
-}
+},
+{
+  id: "flavia-lins-e-silva",
+  nome: "Flávia Lins e Silva",
+  imagem: "https://ogimg.infoglobo.com.br/in/23132188-3ee-25b/FT1086A/Flavia-Lins-e-Silva-hoje-morando-em-Portugal-autora-ja-escreveu-15-livros.jpg",
+  descricao: "Escritora brasileira, literatura infantojuvenil, fantasia, roteirista.",
+  biografia: `
+# Flávia Lins e Silva
+
+**Flávia Lins e Silva** é uma escritora, roteirista e jornalista brasileira, nascida em 1971, no Rio de Janeiro. Ela é conhecida por sua contribuição à literatura infantojuvenil e por criar a popular série **"Diário de Pilar"**, que encanta leitores com suas aventuras culturais e históricas.
+
+## Primeiros Anos e Carreira
+Flávia formou-se em jornalismo e trabalhou em grandes veículos de imprensa antes de dedicar-se à literatura e à roteirização. Seu interesse por diferentes culturas a levou a viver em países como França, Índia e Portugal, experiências que inspiraram muito de seu trabalho literário.
+
+## Diário de Pilar
+A série *Diário de Pilar* é uma das obras mais conhecidas de Flávia. Ela segue as aventuras de Pilar, uma garota curiosa que viaja para diferentes partes do mundo e épocas históricas em uma rede mágica, explorando culturas, mitologias e tradições. Os livros da série incluem:
+
+1. **Diário de Pilar na Grécia** (2010)
+2. **Diário de Pilar na Amazônia** (2011)
+3. **Diário de Pilar no Egito** (2012)
+4. **Diário de Pilar em Machu Picchu** (2014)
+5. **Diário de Pilar na África** (2016)
+
+A série foi adaptada para animação, estreando em 2020 no canal Nat Geo Kids, ampliando seu alcance para um público internacional.
+
+## Outras Obras
+Além de *Diário de Pilar*, Flávia escreveu outros livros voltados para o público infantojuvenil, como:
+
+- **Hoje é dia de festa** (2007)
+- **Mariana** (2009)
+- **Pequenas grandes coisas** (2013)
+
+Como roteirista, contribuiu para programas e séries de televisão, incluindo o sucesso infantil *Detetives do Prédio Azul* (D.P.A.).
+
+## Vida Pessoal e Legado
+Flávia Lins e Silva vive no Rio de Janeiro e continua a escrever e criar histórias que estimulam a imaginação e o aprendizado cultural. Seu trabalho é celebrado por promover a diversidade cultural e despertar o interesse das crianças por história e mitologia.
+
+---
+
+> *"A literatura infantil tem o poder de plantar sementes que nos acompanham por toda a vida."* - Flávia Lins e Silva
+  `,
+},
+{
+  id: "dustin-brady",
+  nome: "Dustin Brady",
+  imagem: "https://npr.brightspotcdn.com/legacy/uploads/2022/4/25/dustin%20brady%20thumbnail.jpg",
+  descricao: "Autor americano, literatura infantojuvenil, aventura, humor.",
+  biografia: `
+# Dustin Brady
+
+**Dustin Brady** é um autor norte-americano conhecido por suas séries de livros voltadas para o público infantojuvenil, especialmente aqueles que gostam de histórias emocionantes, cheias de ação e humor. Ele é autor da popular série **"Escape from a Video Game"**, que mistura aventura e narrativa interativa.
+
+## Primeiros Anos e Carreira
+Dustin cresceu em uma família apaixonada por leitura e escrita, o que despertou seu interesse por contar histórias desde cedo. Antes de se tornar autor, trabalhou como professor e jornalista, experiências que o ajudaram a criar personagens cativantes e histórias envolventes.
+
+## Escape from a Video Game
+A série *Escape from a Video Game* é uma de suas obras mais conhecidas. Com uma abordagem inovadora, os livros permitem que os leitores se sintam como jogadores presos dentro de um videogame, enfrentando desafios e resolvendo mistérios para escapar. Alguns títulos da série incluem:
+
+1. **Escape from a Video Game: The Secret of Phantom Island** (2020)
+2. **Escape from a Video Game: The Endgame** (2020)
+3. **Escape from a Video Game: The Ultimate Quest** (2021)
+
+Os livros são projetados para atrair leitores que adoram videogames, combinando texto acessível com temas de resolução de problemas e trabalho em equipe.
+
+## Outras Obras
+Além de *Escape from a Video Game*, Dustin também escreveu a série *Trapped in a Video Game*, que explora uma premissa semelhante, com um enredo focado em amizade e superação de obstáculos dentro de mundos virtuais.
+
+## Vida Pessoal e Legado
+Dustin Brady vive em Cleveland, Ohio, com sua esposa e filhos. Ele é conhecido por escrever livros que incentivam a leitura entre jovens que não costumam gostar de livros tradicionais, tornando a experiência divertida e envolvente. Sua obra continua a inspirar leitores a encontrar a magia nas histórias e a explorar sua criatividade.
+
+---
+
+> *"Eu escrevo para crianças que dizem que não gostam de ler, porque essas são as histórias que eu adorava quando era jovem."* - Dustin Brady
+  `,
+},
+{
+  id: "dav-pilkey",
+  nome: "Dav Pilkey",
+  imagem: "https://adhduk.co.uk/wp-content/uploads/2022/08/dav-pilkey-copy-1080x675.jpg",
+  descricao: "Escritor americano, literatura infantojuvenil, aventura, humor.",
+  biografia: `
+# Dav Pilkey
+
+**Dav Pilkey** é um autor e ilustrador norte-americano de livros infantis, famoso por criar a série de sucesso **"Capitão Cueca"** (*Captain Underpants*). Nascido em 4 de março de 1966, em Cleveland, Ohio, EUA, Pilkey é conhecido por seu humor irreverente, criatividade e sua capacidade de atrair jovens leitores com histórias divertidas e envolventes.
+
+## Primeiros Anos e Inspiração
+Na escola, Dav foi diagnosticado com dislexia e Transtorno de Déficit de Atenção e Hiperatividade (TDAH). Ele frequentemente enfrentava dificuldades na sala de aula, mas encontrou na arte e na escrita uma forma de se expressar. Foi durante esse período que ele criou os personagens George e Harold, os protagonistas da série *Capitão Cueca*.
+
+## Capitão Cueca
+A série *Capitão Cueca* começou em 1997 com o livro *The Adventures of Captain Underpants*. A história segue dois meninos travessos, George e Harold, que hipnotizam seu diretor da escola, transformando-o no herói hilário Capitão Cueca. A série rapidamente ganhou popularidade por seu estilo de quadrinhos e humor anárquico.
+
+Alguns títulos da série incluem:
+
+1. **The Adventures of Captain Underpants** (1997) - *As Aventuras do Capitão Cueca*
+2. **Captain Underpants and the Attack of the Talking Toilets** (1999) - *O Capitão Cueca e o Ataque das Privadas Falantes*
+3. **Captain Underpants and the Perilous Plot of Professor Poopypants** (2000) - *O Capitão Cueca e o Plano Diabólico do Professor Fraldinha Suja*
+
+A série foi adaptada para um filme de animação da DreamWorks em 2017, além de uma série animada na Netflix.
+
+## Outras Obras
+Além de *Capitão Cueca*, Pilkey é autor de outras séries de sucesso, incluindo:
+
+- **Dog Man**: Uma série sobre um policial metade humano, metade cachorro.
+- **Cat Kid Comic Club**: Um spin-off de *Dog Man* que incentiva jovens leitores a criar suas próprias histórias em quadrinhos.
+
+## Vida Pessoal e Legado
+Dav Pilkey vive com sua esposa em Washington e continua a escrever e ilustrar livros. Ele é apaixonado por inspirar crianças, especialmente aquelas com dificuldades de aprendizado, a abraçar a leitura e a criatividade. Seu trabalho é amplamente elogiado por seu impacto positivo na alfabetização infantil.
+
+---
+
+> *"Às vezes, os desafios que enfrentamos podem nos tornar mais criativos e resilientes."* - Dav Pilkey
+  `,
+},
+{
+  id: "barbara-cantini",
+  nome: "Barbara Cantini",
+  imagem: "https://cultura.ilfilo.net/wp-content/uploads/2022/10/Barbara-cantini-mortina-1.jpeg",
+  descricao: "Escritora e ilustradora italiana, literatura infantil, humor, gótico.",
+  biografia: `
+# Barbara Cantini
+
+**Barbara Cantini** é uma autora e ilustradora italiana conhecida por sua popular série infantil **"Mortina"**, que mistura humor e temas góticos em histórias encantadoras para jovens leitores. Nascida em Florença, Itália, Cantini conquistou fãs ao redor do mundo com seu estilo artístico único e narrativas criativas.
+
+## Carreira e Inspiração
+Barbara formou-se em animação e trabalhou como animadora para séries de TV antes de se dedicar à ilustração e à escrita de livros infantis. Seu amor por histórias com elementos macabros, mas acessíveis às crianças, tornou-se sua marca registrada.
+
+## Mortina
+A série *Mortina* acompanha as aventuras de uma menina zumbi que vive em uma mansão com sua tia e seus amigos peculiares. As histórias exploram temas de amizade, aceitação e diversão em cenários cheios de mistério.
+
+Alguns títulos da série incluem:
+
+1. **Mortina: Una storia che ti farà morire dal ridere** (*Mortina: Uma história de morrer de rir*) - 2017
+2. **Mortina e l’odioso cugino** (*Mortina e o primo detestável*) - 2018
+3. **Mortina e l’amico fantasma** (*Mortina e o amigo fantasma*) - 2019
+
+Os livros são elogiados por suas ilustrações detalhadas e enredos cativantes, que combinam elementos assustadores e adoráveis.
+
+## Outras Obras
+Além de *Mortina*, Barbara Cantini trabalhou em vários projetos de ilustração, colaborando com editoras internacionais. Suas ilustrações são facilmente reconhecíveis por seus tons sombrios e detalhes encantadores.
+
+## Vida Pessoal e Legado
+Barbara Cantini vive com sua família na Toscana, Itália, e continua a criar histórias que encantam crianças e adultos. Seu trabalho é valorizado por apresentar temas complexos de forma lúdica, incentivando a imaginação e a empatia nos leitores jovens.
+
+---
+
+> *"Criar mundos imaginários é a melhor maneira de explorar a magia do cotidiano."* - Barbara Cantini
+  `,
+},
 
 
 

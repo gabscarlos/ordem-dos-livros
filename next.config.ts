@@ -84,6 +84,46 @@ const nextConfig: NextConfig = {
         hostname: 'blogger.googleusercontent.com',
         port:''
       },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'muralzinhodeideias.com.br',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.monoanimation.com.br',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'npr.brightspotcdn.com',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'adhduk.co.uk',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'poltronanerd.com.br',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'cultura.ilfilo.net',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'deliriumnerd.com',
+        port:''
+      },
     ]
   }
 };

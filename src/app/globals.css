@@ -35,6 +35,7 @@ body {
   @apply hover:bg-purple-600;
 }
 
-* {
-  @apply transition-colors duration-100
+.botao.transparente {
+  @apply bg-transparent border border-gray-600;
+  @apply hover:bg-zinc-50;
 }

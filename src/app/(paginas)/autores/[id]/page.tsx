@@ -1,6 +1,8 @@
 import ConteudoAutor from "@/components/autor/ConteudoAutor";
 import autores from "@/constants/autores";
 import Head from "next/head";
+import Link from "next/link";
+import series from "@/constants/series";
 
 export interface AutorPageProps {
   params: Promise<{ id: string }>;
@@ -32,7 +34,7 @@ export default async function Autor({ params }: AutorPageProps) {
         <meta
           property="og:title"
           content={`${autorEspecifico.nome} - Biografia e Obras`}
-        />        
+        />
         <meta property="og:image" content={autorEspecifico.imagem} />
         <meta
           property="og:url"
@@ -72,7 +74,7 @@ export default async function Autor({ params }: AutorPageProps) {
               worksFor: {
                 "@type": "Organization",
                 name: "Ordem dos Livros",
-              },              
+              },
             }),
           }}
         />
@@ -80,6 +82,12 @@ export default async function Autor({ params }: AutorPageProps) {
 
       {/* Conteúdo do Autor */}
       <ConteudoAutor {...autorEspecifico} />
+      <Link
+        href={`/series/${series.find((serie) => serie.autor.id === autorEspecifico.id)?.id}`}
+        className="flex mt-10"
+      >
+        <button className="botao roxo">Série de Livros do Autor</button>
+      </Link>
     </div>
   );
 }

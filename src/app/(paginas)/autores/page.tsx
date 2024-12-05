@@ -68,10 +68,10 @@ export default function Autores() {
         secundario="Conheça os autores que escrevem as histórias que você ama!"
       />
       <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-5">
-        {autores.map((autor) => (
+        {autores.sort((a, b) => a.nome.localeCompare(b.nome)).map((autor) => (
           <ItemAutor key={autor.id} {...autor} />
         ))}
-      </div>
+      </div>      
     </div>
   );
 }

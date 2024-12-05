@@ -30,7 +30,7 @@ export default function ItemSerie(props: ItemSerieProps) {
       <Image
         src={props.imagem}
         alt="Imagem da Série"
-        width={1000}
+        width={1300}
         height={1000}
         className="h-96 object-cover"
       />
