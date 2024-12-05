@@ -1,11 +1,10 @@
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
-import { PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { EnvelopeIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import {
-  ArrowPathIcon,
   Bars4Icon,
   BookOpenIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
+  ChatBubbleBottomCenterTextIcon,
+  SpeakerWaveIcon,
   UsersIcon,
 } from '@heroicons/react/24/outline'
 
@@ -16,13 +15,12 @@ export interface FlyoutMenuProps {
 const solutions = [
   { name: 'Séries', description: 'Conheça as séries das histórias que você ama!', href: '/series', icon: BookOpenIcon },
   { name: 'Autores', description: 'Descubra mais sobre escritores famosos, suas obras e trajetórias.', href: '/autores', icon: UsersIcon },
-  { name: 'Security', description: "Your customers' data will be safe and secure", href: '#', icon: FingerPrintIcon },
-  { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
-  { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
+  { name: 'Audio Books', description: "Ouça suas histórias preferidas", href: '#', icon: SpeakerWaveIcon },
+  { name: 'Quadrinhos', description: 'Conheça as novas séries de história em quadrinhos', href: '#', icon: ChatBubbleBottomCenterTextIcon },
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-  { name: 'Contact sales', href: '#', icon: PhoneIcon },
+  { name: 'Contato', href: '#', icon: EnvelopeIcon },
 ]
 
 export default function FlyoutMenu(props: FlyoutMenuProps) {
