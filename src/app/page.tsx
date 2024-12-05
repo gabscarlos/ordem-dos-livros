@@ -149,63 +149,62 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-16">
-  <div className="flex flex-col gap-2">
-    <span className="text-3xl font-bold">Audio Books</span>
-    <iframe
-      className="rounded-md w-full max-w-sm mx-auto"
-      src="https://open.spotify.com/embed/track/4tYOEhXfa3AvD6omJlZmSJ?utm_source=generator"
-      width="90%"
-      height="80"
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"
-    ></iframe>
-    <iframe
-      className="rounded-md w-full max-w-sm mx-auto"
-      src="https://open.spotify.com/embed/track/4ucsFgz6gRWmkZwXCCzcos?utm_source=generator"
-      width="90%"
-      height="80"
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"
-    ></iframe>
-    <iframe
-      className="rounded-md w-full max-w-sm mx-auto"
-      src="https://open.spotify.com/embed/track/38Sy3MN5A9fgwkdiq4oAN5?utm_source=generator"
-      width="90%"
-      height="80"
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"
-    ></iframe>
-    <iframe
-      className="rounded-md w-full max-w-sm mx-auto"
-      src="https://open.spotify.com/embed/track/6NXmgfecGwUzJexoQwen8f?utm_source=generator"
-      width="90%"
-      height="80"
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"
-    ></iframe>
-  </div>
-  <div className="flex flex-col gap-6">
-    <span className="text-3xl font-bold">Séries Populares</span>
-    <div className="flex flex-wrap gap-1 justify-center">
-      <SerieDestaque
-        link="/series/o-senhor-dos-aneis"
-        imagem="https://m.media-amazon.com/images/I/81SM0D5+DwL._SL1500_.jpg"
-      />
-      <SerieDestaque
-        link="/series/maze-runner"
-        imagem="https://m.media-amazon.com/images/I/61ILpNSiAuL._SY385_.jpg"
-      />
-      <SerieDestaque
-        link="/series/as-cronicas-de-gelo-e-fogo"
-        imagem="https://m.media-amazon.com/images/I/91eHityofNL._SL1500_.jpg"
-      />
-    </div>
-  </div>
-</div>
-
+          <div className="flex flex-col gap-2">
+            <span className="text-3xl font-bold">Audio Books</span>
+            <iframe
+              className="rounded-md w-full max-w-sm mx-auto"
+              src="https://open.spotify.com/embed/track/4tYOEhXfa3AvD6omJlZmSJ?utm_source=generator"
+              width="90%"
+              height="80"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+            <iframe
+              className="rounded-md w-full max-w-sm mx-auto"
+              src="https://open.spotify.com/embed/track/4ucsFgz6gRWmkZwXCCzcos?utm_source=generator"
+              width="90%"
+              height="80"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+            <iframe
+              className="rounded-md w-full max-w-sm mx-auto"
+              src="https://open.spotify.com/embed/track/38Sy3MN5A9fgwkdiq4oAN5?utm_source=generator"
+              width="90%"
+              height="80"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+            <iframe
+              className="rounded-md w-full max-w-sm mx-auto"
+              src="https://open.spotify.com/embed/track/6NXmgfecGwUzJexoQwen8f?utm_source=generator"
+              width="90%"
+              height="80"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div className="flex flex-col gap-6 mt-10">
+            <span className="text-3xl font-bold">Séries Populares</span>
+            <div className="flex flex-wrap gap-1 justify-center">
+              <SerieDestaque
+                link="/series/o-senhor-dos-aneis"
+                imagem="https://m.media-amazon.com/images/I/81SM0D5+DwL._SL1500_.jpg"
+              />
+              <SerieDestaque
+                link="/series/maze-runner"
+                imagem="https://m.media-amazon.com/images/I/61ILpNSiAuL._SY385_.jpg"
+              />
+              <SerieDestaque
+                link="/series/as-cronicas-de-gelo-e-fogo"
+                imagem="https://m.media-amazon.com/images/I/91eHityofNL._SL1500_.jpg"
+              />
+            </div>
+          </div>
+        </div>
 
         <span className="text-3xl font-bold">Séries Infanto-juvenis</span>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6">
           {/* Livro Destaque Principal */}
           <div className="flex flex-1 sm:items-start sm:justify-start md:items-center md:justify-center lg:items-center lg:justify-center col-span-1 lg:col-span-1 mb-4 lg:mb-0">
             <LivroDestaque
@@ -251,7 +250,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-10">
           <div>
             <span className="text-3xl font-bold uppercase">Top 6 Livros</span>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
