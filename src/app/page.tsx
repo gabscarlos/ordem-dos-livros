@@ -117,7 +117,7 @@ export default function Home() {
           />
         </div>
         <h1 className="text-3xl font-bold">Encontre Mais Categorias</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-8 mb-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-8 mb-5 mx-auto max-w-screen-xl justify-items-center">
           <Categoria
             src="/books.png"
             alt="Imagem de Livros"
@@ -148,7 +148,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
           <div className="flex flex-col gap-2">
             <span className="text-3xl font-bold">Audio Books</span>
             <iframe
@@ -184,7 +184,7 @@ export default function Home() {
               loading="lazy"
             ></iframe>
           </div>
-          <div className="flex flex-col gap-6 mt-10">
+          <div className="flex flex-col gap-6">
             <span className="text-3xl font-bold">Séries Populares</span>
             <div className="flex flex-wrap gap-1 justify-center">
               <SerieDestaque
@@ -204,7 +204,7 @@ export default function Home() {
         </div>
 
         <span className="text-3xl font-bold">Séries Infanto-juvenis</span>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6  mx-auto max-w-screen-xl justify-items-center">
           {/* Livro Destaque Principal */}
           <div className="flex flex-1 sm:items-start sm:justify-start md:items-center md:justify-center lg:items-center lg:justify-center col-span-1 lg:col-span-1 mb-4 lg:mb-0">
             <LivroDestaque
