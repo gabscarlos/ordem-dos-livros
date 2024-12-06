@@ -1092,6 +1092,56 @@ const series = [
       
     ],
   },
+  {
+    id: "crepusculo",
+    titulo: "Crepúsculo",
+    descricao:
+      "Crepúsculo, de Stephenie Meyer, é uma série de romances de fantasia que combina romance, mistério e sobrenatural. A história acompanha Bella Swan, uma adolescente que se muda para a pequena cidade de Forks e se apaixona por Edward Cullen, um misterioso vampiro. Enquanto seu relacionamento com Edward se aprofunda, Bella se vê envolvida em um mundo perigoso, repleto de vampiros, lobisomens e escolhas difíceis. Com uma narrativa envolvente, Crepúsculo explora temas como amor, sacrifício e identidade, conquistando milhões de fãs ao redor do mundo e se tornando um marco na literatura jovem-adulta.",
+    autor: autores[11],
+    ano: 2008,
+    imagem:
+      "https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2022/11/Cena-do-filme-Crepusculo-1200x675-1.webp",
+    livros: [
+      {
+        id: "crepusculo-1",
+        titulo: "Crepúsculo",
+        autor: autores[11],
+        ano: 2005,
+        ordem: 1,
+        imagem: "https://m.media-amazon.com/images/I/618fXbK+OkL._SY385_.jpg",
+        link: "https://amzn.to/3BhstNo",
+      },
+      {
+        id: "crepusculo-2",
+        titulo: "Lua Nova",
+        autor: autores[11],
+        ano: 2006,
+        ordem: 2,
+        imagem: "https://m.media-amazon.com/images/I/7153D5oFumL._SY385_.jpg",
+        link: "https://amzn.to/49qNdPF",
+      },
+      {
+        id: "crepusculo-3",
+        titulo: "Eclipse",
+        autor: autores[11],
+        ano: 2007,
+        ordem: 3,
+        imagem: "https://m.media-amazon.com/images/I/41pa-jBfOkL._SY445_SX342_.jpg",
+        link: "https://amzn.to/41jSw16",
+      },
+      {
+        id: "crepusculo-4",
+        titulo: "Amanhecer",
+        autor: autores[11],
+        ano: 2008,
+        ordem: 4,
+        imagem: "https://m.media-amazon.com/images/I/71DW9z3UXkL._SY385_.jpg",
+        link: "https://amzn.to/4g0XKDB",
+      },
+         
+      
+    ],
+  },
 ];
 
 export default series;

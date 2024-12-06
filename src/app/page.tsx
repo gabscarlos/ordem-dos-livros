@@ -101,9 +101,9 @@ export default function Home() {
             titulo="Série Harry Potter"
           />
           <LivroDestaque
-            link="/series/diario-de-um-banana"
-            imagem="https://m.media-amazon.com/images/I/71fWaI5myqL._SY385_.jpg"
-            titulo="Série Diário de um Banana"
+            link="/series/crepusculo"
+            imagem="https://m.media-amazon.com/images/I/618fXbK+OkL._SY385_.jpg"
+            titulo="Crepúsculo"
           />
           <LivroDestaque
             link="/series/duna"
@@ -252,8 +252,8 @@ export default function Home() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-10">
           <div>
-            <span className="text-3xl font-bold uppercase">Top 6 Livros</span>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
+            <span className="text-3xl font-bold uppercase mt-6">Top 6 Livros</span>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 mt-6">
               {series
                 .flatMap((serie) => serie.livros) // Extrai todos os livros
                 .sort(() => Math.random() - 0.5) // Embaralha os livros

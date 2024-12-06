@@ -124,6 +124,16 @@ const nextConfig: NextConfig = {
         hostname: 'deliriumnerd.com',
         port:''
       },
+      {
+        protocol: 'https',
+        hostname: 'www.intrinseca.com.br',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'gizmodo.uol.com.br',
+        port:''
+      },
     ]
   }
 };

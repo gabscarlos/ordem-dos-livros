@@ -437,6 +437,44 @@ Barbara Cantini vive com sua família na Toscana, Itália, e continua a criar hi
 > *"Criar mundos imaginários é a melhor maneira de explorar a magia do cotidiano."* - Barbara Cantini
   `,
 },
+{
+  id: "stephenie-meyer",
+  nome: "Stephenie Meyer",
+  imagem: "https://www.intrinseca.com.br/blog/wp-content/uploads/2016/11/meyer-stephenie.jpg",
+  biografia: `
+# Stephenie Meyer
+
+**Stephenie Meyer** é uma escritora norte-americana conhecida mundialmente por criar a série **"Crepúsculo"** (*Twilight*), uma saga de romance sobrenatural que se tornou um fenômeno cultural e comercial. Nascida em 24 de dezembro de 1973, em Hartford, Connecticut, EUA, ela é uma das autoras mais vendidas do século XXI.
+
+## Primeiros Anos e Inspiração
+Meyer cresceu em Phoenix, Arizona, e formou-se em literatura inglesa pela **Brigham Young University**. A ideia para *Crepúsculo* surgiu em um sonho, no qual uma garota humana se apaixonava por um vampiro, e ele lutava contra seu desejo de beber seu sangue. Essa ideia se transformou no primeiro livro da série.
+
+## A Saga Crepúsculo
+A série *Crepúsculo* começou com o livro homônimo publicado em 2005. A história de amor entre Bella Swan, uma adolescente, e Edward Cullen, um vampiro, conquistou leitores de todas as idades. A série inclui:
+
+1. **Twilight** (2005) - *Crepúsculo*
+2. **New Moon** (2006) - *Lua Nova*
+3. **Eclipse** (2007) - *Eclipse*
+4. **Breaking Dawn** (2008) - *Amanhecer*
+
+A saga foi adaptada para uma série de filmes de sucesso estrelados por Kristen Stewart e Robert Pattinson, lançados entre 2008 e 2012.
+
+Em 2020, Meyer lançou *Midnight Sun* (*Sol da Meia-Noite*), uma reinterpretação do primeiro livro sob a perspectiva de Edward Cullen.
+
+## Outras Obras
+Além da saga *Crepúsculo*, Meyer escreveu:
+
+- **The Host** (2008) - *A Hospedeira*: Uma história de ficção científica sobre uma invasão alienígena e o poder do amor humano.
+- **The Chemist** (2016) - *A Química*: Um thriller sobre uma ex-agente do governo em fuga.
+
+## Vida Pessoal e Legado
+Stephenie Meyer vive no Arizona com sua família. Ela é frequentemente creditada por popularizar o romance sobrenatural para jovens adultos, inspirando uma nova geração de escritores e leitores. Apesar de críticas mistas à sua escrita, Meyer continua sendo uma figura central na literatura contemporânea, com uma base de fãs leais.
+
+---
+
+> *"Quando você pode viver para sempre, pelo que você viveria?"* - Stephenie Meyer (*Twilight*)
+  `,
+}
 
 
 
