@@ -20,7 +20,7 @@ const solutions = [
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-  { name: 'Contato', href: '#', icon: EnvelopeIcon },
+  { name: 'Contato', href: '/contato', icon: EnvelopeIcon },
 ]
 
 export default function FlyoutMenu(props: FlyoutMenuProps) {

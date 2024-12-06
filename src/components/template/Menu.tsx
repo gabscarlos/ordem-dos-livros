@@ -6,9 +6,9 @@ export interface MenuProps {
 
 export default function Menu(props: MenuProps) {
   return (
-    <div className={`flex flex-col gap-3 ${props.className}`}>
+    <div className={`flex flex-col gap-2 ${props.className}`}>
       <span className="text-sm font-bold text-zinc-950">{props.titulo}</span>
-      <ul className="flex flex-col gap-2 sm:gap-4">
+      <ul className="flex flex-col gap-2 sm:gap-2">
         {props.children}
       </ul>
     </div>

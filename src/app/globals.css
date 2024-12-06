@@ -39,3 +39,8 @@ body {
   @apply bg-transparent border border-gray-600;
   @apply hover:bg-zinc-50;
 }
+
+.caixa-input {
+  @apply w-full h-12 bg-transparent border border-zinc-200 outline-none rounded-md;
+  @apply px-4 text-lg text-zinc-800 mt-2;
+}

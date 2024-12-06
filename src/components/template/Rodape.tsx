@@ -26,14 +26,16 @@ export default function Rodape() {
 
         {/* Coluna para Menu Social */}
         <Menu titulo="Social" className="flex flex-col items-start">
-          <MenuItem texto="Contato" href="/" />
+          <MenuItem texto="Contato" href="/contato" />
           <MenuItem
             texto="Facebook"
             href="https://www.facebook.com/profile.php?id=61569512772060"
+            alvo="_blank"
           />
           <MenuItem
             texto="Instagram"
             href="https://www.instagram.com/ordemdoslivros/"
+            alvo="_blank"
           />
         </Menu>
 
