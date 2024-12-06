@@ -441,6 +441,7 @@ Barbara Cantini vive com sua família na Toscana, Itália, e continua a criar hi
   id: "stephenie-meyer",
   nome: "Stephenie Meyer",
   imagem: "https://www.intrinseca.com.br/blog/wp-content/uploads/2016/11/meyer-stephenie.jpg",
+  descricao: "Escritora norte-americana, romance sobrenatural, vampiros.",
   biografia: `
 # Stephenie Meyer
 
