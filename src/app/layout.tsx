@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
 
 const fonte = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,10 @@ export default function RootLayout({
           crossOrigin="anonymous"
         ></script>
       </head>
-      <body className={fonte.className}>{children}</body>
+      <body className={fonte.className}>
+        {children}
+        <Analytics/>
+      </body>
     </html>
   );
 }
