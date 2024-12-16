@@ -1,4 +1,5 @@
 "use client";
+
 import { useSearchParams } from "next/navigation";
 import series from "@/constants/series";
 import Link from "next/link";
@@ -40,9 +41,7 @@ export default function Resultados() {
                     alt={serie.titulo}
                     width={500}
                     height={300}
-                    className="w-full h-auto rounded-md"
-                    placeholder="blur"
-                    blurDataURL="/placeholder.svg"
+                    className="w-full h-36 rounded-md object-cover"
                   />
                   <h2 className="text-lg font-semibold mt-2">{serie.titulo}</h2>
                   <p className="text-sm text-gray-600">{serie.autor.nome}</p>
