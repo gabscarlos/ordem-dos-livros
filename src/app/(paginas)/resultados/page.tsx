@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import series from "@/constants/series";
 import Link from "next/link";
@@ -10,7 +11,7 @@ const normalizeText = (text: string) => {
   return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 };
 
-export default function Resultados() {
+const ResultadosContent = () => {
   const searchParams = useSearchParams();
   const searchQuery = searchParams.get("search") || "";
 
@@ -56,5 +57,13 @@ export default function Resultados() {
         <p className="text-gray-500">Insira um termo de busca para começar.</p>
       )}
     </div>
+  );
+};
+
+export default function Resultados() {
+  return (
+    <Suspense fallback={<p>Carregando...</p>}>
+      <ResultadosContent />
+    </Suspense>
   );
 }
