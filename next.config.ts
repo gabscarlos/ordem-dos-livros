@@ -134,6 +134,11 @@ const nextConfig: NextConfig = {
         hostname: 'gizmodo.uol.com.br',
         port:''
       },
+      {
+        protocol: 'https',
+        hostname: 'www.planocritico.com',
+        port:''
+      },
     ]
   }
 };

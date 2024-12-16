@@ -475,6 +475,44 @@ Stephenie Meyer vive no Arizona com sua família. Ela é frequentemente creditad
 
 > *"Quando você pode viver para sempre, pelo que você viveria?"* - Stephenie Meyer (*Twilight*)
   `,
+},
+{
+  id: "isaac-asimov",
+  nome: "Isaac Asimov",
+  imagem: "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2019/01/04/105030981mediaitem105030980.jpg",
+  descricao: "Escritor e bioquímico norte-americano, ficção científica.",
+  biografia: `
+# Isaac Asimov
+
+**Isaac Asimov** foi um escritor e bioquímico norte-americano, amplamente reconhecido como um dos maiores autores de ficção científica de todos os tempos. Nascido em 2 de janeiro de 1920, em Petrovichi, Rússia (então parte da União Soviética), e criado nos Estados Unidos, Asimov escreveu centenas de livros que abrangem ficção científica, história e ciência popular.
+
+## Primeiros Anos e Educação
+Asimov imigrou com sua família para os Estados Unidos quando tinha apenas três anos. Ele cresceu no Brooklyn, em Nova York, onde desenvolveu um fascínio por livros e ciência. Formou-se em bioquímica pela **Columbia University** e lecionou na **Boston University School of Medicine**, mas sua paixão principal era a escrita.
+
+## Fundação e Outras Obras
+Asimov é conhecido principalmente por suas duas séries épicas:
+
+1. **Fundação** (*Foundation*): Uma saga sobre a queda e ascensão de um império galáctico, com base na aplicação de psicohistória – uma ciência fictícia que prevê o futuro de grandes populações. Os principais livros incluem:
+ - *Foundation* (1951) - *Fundação*
+ - *Foundation and Empire* (1952) - *Fundação e Império*
+ - *Second Foundation* (1953) - *Segunda Fundação*
+
+2. **Robôs** (*Robots*): Uma série que explora a interação entre humanos e robôs em uma sociedade futurista. Ele introduziu as icônicas Três Leis da Robótica, que se tornaram um marco da ficção científica.
+
+Outras obras notáveis incluem:
+- **Eu, Robô** (*I, Robot*, 1950): Uma coletânea de contos sobre robôs e inteligência artificial.
+- **The Gods Themselves** (*Os Próprios Deuses*, 1972): Ganhador do Prêmio Hugo e do Prêmio Nebula.
+
+## Contribuições para a Ciência Popular
+Além da ficção, Asimov escreveu mais de 100 livros de divulgação científica, explicando conceitos complexos de forma acessível. Seus trabalhos abrangem desde a física e biologia até a história e literatura, consolidando sua reputação como um educador prolífico.
+
+## Vida Pessoal e Legado
+Asimov faleceu em 6 de abril de 1992, em Nova York. Seu legado perdura como um dos escritores mais influentes do século XX, inspirando cientistas, engenheiros e leitores a explorar as fronteiras do conhecimento. Suas histórias continuam a moldar a forma como pensamos sobre tecnologia, ética e o futuro da humanidade.
+
+---
+
+> *"A violência é o último refúgio do incompetente."* - Isaac Asimov (*Foundation*)
+  `,
 }
 
 

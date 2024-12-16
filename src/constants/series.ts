@@ -1142,6 +1142,92 @@ const series = [
       
     ],
   },
+  {
+    id: "fundacao",
+    titulo: "Fundação",
+    descricao:
+      "Fundação, de Isaac Asimov, é uma série clássica de ficção científica que explora o destino de uma civilização galáctica em declínio. A história gira em torno de Hari Seldon, um matemático que desenvolve a psico-história, uma ciência capaz de prever o futuro em larga escala. Com suas previsões, ele estabelece a Fundação, uma instituição destinada a preservar o conhecimento humano e reduzir o período de caos que se seguirá ao colapso do Império Galáctico. Repleta de intrigas políticas, avanços científicos e questionamentos filosóficos, Fundação é uma obra-prima que influenciou profundamente o gênero de ficção científica.",
+    autor: autores[12],
+    ano: 1951,
+    imagem:
+      "https://www.planocritico.com/wp-content/uploads/2016/12/isaac-asimov-fundacao-e-imperio.jpg",
+    livros: [
+      {
+        id: "fundacao-1",
+        titulo: "Prelúdio à Fundação",
+        autor: autores[12],
+        ano: 2021,
+        ordem: 1,
+        imagem: "https://m.media-amazon.com/images/I/61pAHgiGIDL._SY385_.jpg",
+        link: "https://amzn.to/3VGKGuM",
+      },
+      {
+        id: "fundacao-2",
+        titulo: "Origens da Fundação",
+        autor: autores[12],
+        ano: 2021,
+        ordem: 2,
+        imagem: "https://m.media-amazon.com/images/I/617+DmuBikL._SY385_.jpg",
+        link: "https://amzn.to/4gCUU7t",
+      },
+      {
+        id: "fundacao-3",
+        titulo: "Fundação",
+        autor: autores[12],
+        ano: 2020,
+        ordem: 3,
+        imagem: "https://m.media-amazon.com/images/I/712vJIziMgL._SY385_.jpg",
+        link: "https://amzn.to/49GPCpm",
+      },
+      {
+        id: "fundacao-4",
+        titulo: "Fundação e Império",
+        autor: autores[12],
+        ano: 2020,
+        ordem: 4,
+        imagem: "https://m.media-amazon.com/images/I/710RQOEZkpL._SY385_.jpg",
+        link: "https://amzn.to/3VHjw7a",
+      },
+      {
+        id: "fundacao-5",
+        titulo: "Segunda Fundação",
+        autor: autores[12],
+        ano: 2020,
+        ordem: 5,
+        imagem: "https://m.media-amazon.com/images/I/61pFzGMR+AL._SY385_.jpg",
+        link: "https://amzn.to/4gGFjnH",
+      },
+      {
+        id: "fundacao-6",
+        titulo: "Limites da Fundação",
+        autor: autores[12],
+        ano: 2021,
+        ordem: 6,
+        imagem: "https://m.media-amazon.com/images/I/71KLAgswS+L._SY385_.jpg",
+        link: "https://amzn.to/3W5yMuX",
+      },
+      {
+        id: "fundacao-7",
+        titulo: "Fundação e Terra",
+        autor: autores[12],
+        ano: 2021,
+        ordem: 7,
+        imagem: "https://m.media-amazon.com/images/I/71i3rIMdtpL._SY385_.jpg",
+        link: "https://amzn.to/3DfkpgK",
+      },
+      {
+        id: "fundacao-8",
+        titulo: "Box Fundação: Saga Completa",
+        autor: autores[12],
+        ano: 2021,
+        ordem: 8,
+        imagem: "https://m.media-amazon.com/images/I/91yXw2O0j6L._SY342_.jpg",
+        link: "https://amzn.to/4iCNymo",
+      },
+         
+      
+    ],
+  },
 ];
 
 export default series;
