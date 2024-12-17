@@ -1228,6 +1228,92 @@ const series = [
       
     ],
   },
+  {
+    id: "as-cronicas-de-narnia",
+    titulo: "As Crônicas de Nárnia",
+    descricao:
+      "As Crônicas de Nárnia, de C.S. Lewis, é uma série de fantasia que transporta leitores para o mágico mundo de Nárnia, onde animais falam, a magia é real e o bem luta contra o mal. Ao longo de sete livros, acompanhamos crianças de nosso mundo que, ao atravessarem portais inesperados, se tornam heróis em aventuras épicas ao lado de Aslam, o poderoso leão que guia Nárnia. Com narrativas ricas em imaginação e simbolismo, a série explora temas como coragem, amizade, sacrifício e a eterna luta pela justiça, conquistando gerações de leitores em todo o mundo.",
+    autor: autores[13],
+    ano: 1950,
+    imagem:
+      "https://tm.ibxk.com.br/2023/01/16/16115614643126.jpg",
+    livros: [
+      {
+        id: "as-cronicas-de-narnia-1",
+        titulo: "O Sobrinho do Mago",
+        autor: autores[13],
+        ano: 1955,
+        ordem: 1,
+        imagem: "https://m.media-amazon.com/images/I/81NkAyQ62LL._SY342_.jpg",
+        link: "https://amzn.to/49Elk6w",
+      },
+      {
+        id: "as-cronicas-de-narnia-2",
+        titulo: "O Leão, a Feiticeira e o Guarda-roupa",
+        autor: autores[13],
+        ano: 1950,
+        ordem: 2,
+        imagem: "https://m.media-amazon.com/images/I/71aJZfkkKaL._SY342_.jpg",
+        link: "https://amzn.to/4fpcqv9",
+      },
+      {
+        id: "as-cronicas-de-narnia-3",
+        titulo: "Príncipe Caspian",
+        autor: autores[13],
+        ano: 1951,
+        ordem: 3,
+        imagem: "https://m.media-amazon.com/images/I/51-HaHI4BJL._SX342_SY445_.jpg",
+        link: "https://amzn.to/4ghu6tS",
+      },
+      {
+        id: "as-cronicas-de-narnia-4",
+        titulo: "A Viagem do Peregrino da Alvorada",
+        autor: autores[13],
+        ano: 1952,
+        ordem: 4,
+        imagem: "https://m.media-amazon.com/images/I/81cnx9o5LoL._SL1500_.jpg",
+        link: "https://amzn.to/49F6NHY",
+      },
+      {
+        id: "as-cronicas-de-narnia-5",
+        titulo: "A Cadeira de Prata",
+        autor: autores[13],
+        ano: 1953,
+        ordem: 5,
+        imagem: "https://m.media-amazon.com/images/I/81EeHaBVYJL._SY342_.jpg",
+        link: "https://amzn.to/41CiQnq",
+      },
+      {
+        id: "as-cronicas-de-narnia-6",
+        titulo: "O Cavalo e seu Menino",
+        autor: autores[13],
+        ano: 1954,
+        ordem: 6,
+        imagem: "https://m.media-amazon.com/images/I/91a2bC55YxL._SY342_.jpg",
+        link: "https://amzn.to/4flTc9x",
+      },
+      {
+        id: "as-cronicas-de-narnia-7",
+        titulo: "A Última Batalha",
+        autor: autores[13],
+        ano: 1956,
+        ordem: 7,
+        imagem: "https://m.media-amazon.com/images/I/81IS5uk-PkL._SY342_.jpg",
+        link: "https://amzn.to/41BzD9Y",
+      },
+      {
+        id: "fundacao-8",
+        titulo: "Box As Crônicas de Nárnia",
+        autor: autores[13],
+        ano: 2024,
+        ordem: 8,
+        imagem: "https://m.media-amazon.com/images/I/81erRs9DQDL._SY342_.jpg",
+        link: "https://amzn.to/3DkjN9T",
+      },
+         
+      
+    ],
+  },
 ];
 
 export default series;

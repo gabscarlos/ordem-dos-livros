@@ -76,7 +76,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'upload.wikimedia.org',
+        hostname: 'blogger.googleusercontent.com',
         port:''
       },
       {
@@ -106,7 +106,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'adhduk.co.uk',
+        hostname: 'i.cbc.ca',
         port:''
       },
       {
@@ -137,6 +137,16 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'www.planocritico.com',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.britannica.com',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'tm.ibxk.com.br',
         port:''
       },
     ]

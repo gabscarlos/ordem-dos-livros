@@ -84,7 +84,7 @@ export default async function Autor({ params }: AutorPageProps) {
       <ConteudoAutor {...autorEspecifico} />
       <Link
         href={`/series/${series.find((serie) => serie.autor.id === autorEspecifico.id)?.id}`}
-        className="flex mt-10"
+        className="flex justify-end mt-10"
       >
         <button className="botao roxo">Série de Livros do Autor</button>
       </Link>

@@ -250,7 +250,7 @@ O impacto de Herbert na ficção científica é imensurável. *Duna* continua a 
 {
   id: "diana-gabaldon",
   nome: "Diana Gabaldon",
-  imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Diana_Gabaldon_%282010%29.jpg/1024px-Diana_Gabaldon_%282010%29.jpg",
+  imagem: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiouyUdmvadMa5VHggQcKeOGkAHXU7JNaubTYypIwXdXSf8H9lfxM_S8wDVnMcdwCP_FiMLTPDlQ1HsokGS3wxDvEIjaTzTJZVTXYn_tVvEeUtjHiQH5WA-V9va5HIovp9c8ON_Qpbk3k/s1600/Diana_Gabaldon_2010-press-photo.png",
   descricao: "Escritora americana, ficção histórica, romance, autora de Outlander.",
   biografia: `
 # Diana Gabaldon
@@ -367,7 +367,7 @@ Dustin Brady vive em Cleveland, Ohio, com sua esposa e filhos. Ele é conhecido 
 {
   id: "dav-pilkey",
   nome: "Dav Pilkey",
-  imagem: "https://adhduk.co.uk/wp-content/uploads/2022/08/dav-pilkey-copy-1080x675.jpg",
+  imagem: "https://i.cbc.ca/1.3834699.1478202079!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_940/dav-pilkey.jpg",
   descricao: "Escritor americano, literatura infantojuvenil, aventura, humor.",
   biografia: `
 # Dav Pilkey
@@ -513,8 +513,48 @@ Asimov faleceu em 6 de abril de 1992, em Nova York. Seu legado perdura como um d
 
 > *"A violência é o último refúgio do incompetente."* - Isaac Asimov (*Foundation*)
   `,
-}
+},
 
+{
+  id: "cs-lewis",
+  nome: "C.S. Lewis",
+  imagem: "https://cdn.britannica.com/24/82724-050-A1F9D0B9/CS-Lewis.jpg",
+  descricao: "Escritor britânico, fantasia épica, teólogo, autor de As Crônicas de Nárnia.",
+  biografia: `
+# C.S. Lewis
+
+**C.S. Lewis** (Clive Staples Lewis) foi um escritor, teólogo e professor britânico, amplamente conhecido por suas obras de fantasia e seus escritos cristãos. Nascido em 29 de novembro de 1898, em Belfast, Irlanda do Norte, ele é particularmente famoso por suas séries **"As Crônicas de Nárnia"** e por suas contribuições à apologética cristã.
+
+## Primeiros Anos e Educação
+Lewis perdeu sua mãe ainda criança e foi educado por tutores particulares e em escolas públicas. Ele se formou em inglês no **Magdalen College**, da **Universidade de Oxford**, e posteriormente se tornou professor de literatura medieval e renascentista em Oxford e Cambridge.
+
+## As Crônicas de Nárnia
+A série *As Crônicas de Nárnia* é sua obra mais conhecida, composta por sete livros que misturam fantasia, aventura e alegorias cristãs. A série, que cativou gerações de leitores, segue as aventuras de crianças que descobrem o mundo mágico de Nárnia, governado por Aslan, o leão, um símbolo de bem e justiça.
+
+Os livros da série são:
+
+1. **O Leão, a Feiticeira e o Guarda-Roupa** (1950) - *The Lion, the Witch and the Wardrobe*
+2. **Príncipe Caspian** (1951) - *Prince Caspian*
+3. **A Viagem do Peregrino da Alvorada** (1952) - *The Voyage of the Dawn Treader*
+4. **A Cadeira de Prata** (1953) - *The Silver Chair*
+5. **O Cavalo e Seu Menino** (1954) - *The Horse and His Boy*
+6. **A Última Batalha** (1956) - *The Last Battle*
+
+Além de *As Crônicas de Nárnia*, C.S. Lewis escreveu outros livros de ficção e ensaios, como a famosa série **"Espaço Trilogia"** (*Space Trilogy*), que inclui *Out of the Silent Planet* (1938), *Perelandra* (1943) e *That Hideous Strength* (1945), explorando temas de moralidade, espiritualidade e a natureza do mal.
+
+## Apologética Cristã
+Lewis também é renomado por seus escritos cristãos, incluindo *Mere Christianity* (*Cristianismo Puro e Simples*), um livro que apresenta uma defesa lógica e acessível do cristianismo. Ele escreveu extensivamente sobre fé, razão, e a experiência humana em relação a Deus, tornando-se uma figura influente no campo da apologética cristã.
+
+## Vida Pessoal e Legado
+Lewis foi um amigo íntimo de J.R.R. Tolkien, o autor de *O Senhor dos Anéis*, e ambos foram membros do grupo literário *Inklings*, que discutia literatura e filosofia. Em 1956, casou-se com Joy Davidman, uma escritora americana, em um casamento que marcou um importante ponto em sua vida pessoal e religiosa.
+
+C.S. Lewis faleceu em 22 de novembro de 1963, no mesmo dia da morte de John F. Kennedy. Seu legado como escritor e pensador continua a impactar a literatura e o pensamento cristão até hoje.
+
+---
+
+> *"Não há nada mais em comum entre a pessoa que diz que acredita em um Deus que não faz milagres e a pessoa que diz que acredita em um Deus que não age."* - C.S. Lewis
+  `,
+}
 
 
 ];

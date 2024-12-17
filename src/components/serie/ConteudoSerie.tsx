@@ -17,17 +17,33 @@ export interface ConteudoSerieProps {
 
 export default function ConteudoSerie(props: ConteudoSerieProps) {
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col justify-center items-center gap-5">
       <h1 className="text-3xl font-black">{props.titulo}</h1>
-      <a href={`/autores/${props.autor.id}`} className="text-sm text-zinc-900 dark:text-zinc-400 -mt-4">
+      <a
+        href={`/autores/${props.autor.id}`}
+        className="text-sm text-zinc-900 -mt-4"
+      >
         {props.autor.nome}
       </a>
-      <Image src={props.imagem} alt="Imagem da Série" width={1000} height={1000} className="h-96 object-cover" />
-      <p className="text-lg text-zinc-900 dark:text-zinc-400 text-justify">{props.descricao}</p>
+      <Image
+        src={props.imagem}
+        alt="Imagem da Série"
+        width={1000}
+        height={1000}
+        className="w-5/6 h-96 rounded-md object-cover object-top"
+      />
+      <p className="text-lg text-zinc-900 text-justify">
+        {props.descricao}
+      </p>
       <h2 className="text-2xl font-bold">Lista de Livros</h2>
       <div className="grid sm: grid-cols-1 lg:grid-cols-3 gap-5">
         {props.livros.map((livro) => (
-          <ItemLivro key={livro.id} link={livro.link} titulo={livro.titulo} imagem={livro.imagem} />
+          <ItemLivro
+            key={livro.id}
+            link={livro.link}
+            titulo={livro.titulo}
+            imagem={livro.imagem}
+          />
         ))}
       </div>
     </div>
