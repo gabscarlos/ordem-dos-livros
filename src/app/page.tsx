@@ -4,9 +4,9 @@ import series from "@/constants/series";
 import Head from "next/head";
 import Categoria from "@/components/principal/Categoria";
 import SerieDestaque from "@/components/principal/SerieDestaque";
-import LivroTop from "@/components/principal/LivroTop";
-import AutorTop from "@/components/principal/AutorTop";
 import autores from "@/constants/autores";
+import TopAutores from "@/components/principal/TopAutores";
+import TopLivros from "@/components/principal/TopLivros";
 
 export default function Home() {
   return (
@@ -251,45 +251,8 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-10">
-          <div>
-            <span className="text-3xl font-bold uppercase mt-6">Top 6 Livros</span>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 mt-6">
-              {series
-                .flatMap((serie) => serie.livros) // Extrai todos os livros
-                .sort(() => Math.random() - 0.5) // Embaralha os livros
-                .slice(0, 6) // Exibe os primeiros 6 livros
-                .map((livro) => (
-                  <div key={livro.id} className="flex justify-start gap-2">
-                    <LivroTop
-                      imagem={livro.imagem}
-                      titulo={livro.titulo}
-                      autor={livro.autor.nome}
-                      linkAutor={`/autores/${livro.autor.id}`} // Link dinâmico do autor
-                      linkAmazon={livro.link} // Link dinâmico do Amazon
-                    />
-                  </div>
-                ))}
-            </div>
-          </div>
-
-          <div className="flex flex-col items-start bg-pink-50 rounded-l-xl p-4 gap-4">
-            <span className="text-3xl font-bold uppercase">Top 3 Autores</span>
-            <div className="flex flex-col gap-8 mx-4">
-              {autores
-                .sort(() => Math.random() - 0.5) // Embaralha o array
-                .slice(0, 3) // Pega os primeiros 3 itens
-                .map((autor) => (
-                  <AutorTop
-                    key={autor.id}
-                    {...autor}
-                    imagem={autor.imagem}
-                    titulo={autor.nome}
-                    descricao={autor.descricao}
-                    linkAutor={`/autores/${autor.id}`}
-                  />
-                ))}
-            </div>
-          </div>
+          <TopLivros series={series} />
+          <TopAutores autores={autores} />
         </div>
       </Pagina>
     </>

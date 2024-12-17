@@ -19,7 +19,7 @@ export default function AutorTop(props: AutorTopProps) {
         alt="Imagem do Autor Destaque"
         width={200}
         height={200}
-        className="drop-shadow-xl rounded-lg"
+        className="drop-shadow-xl rounded-lg object-cover"
       />
       <div className="flex flex-col gap-2">
         <span className="text-md font-black">{props.titulo}</span>

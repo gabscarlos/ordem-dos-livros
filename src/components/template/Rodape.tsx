@@ -49,7 +49,7 @@ export default function Rodape() {
       {/* Copyright */}
       <div className=" flex items-center justify-center w-full bg-slate-400 py-2">
         <span className="text-sm text-center text-white">
-          Todos os direitos reservados &copy; {new Date().getFullYear()} -{" "}
+          Todos os direitos reservados &copy; 2024 -{" "}
           <Link href="https://github.com/gabscarlos" className="hover:text-black">
             gabscarlos.dev
           </Link>
