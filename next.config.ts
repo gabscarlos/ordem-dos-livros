@@ -149,6 +149,16 @@ const nextConfig: NextConfig = {
         hostname: 'tm.ibxk.com.br',
         port:''
       },
+      {
+        protocol: 'https',
+        hostname: 'disneyplusbrasil.com.br',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 't.ctcdn.com.br',
+        port:''
+      },
     ]
   }
 };

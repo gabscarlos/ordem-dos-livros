@@ -1314,6 +1314,73 @@ const series = [
       
     ],
   },
+  {
+    id: "percy-jackson-e-os-olimpianos",
+    titulo: "Percy Jackson e os Olimpianos",
+    descricao:
+      "Percy Jackson e os Olimpianos, de Rick Riordan, é uma série de fantasia que mistura mitologia grega e aventuras modernas. A história acompanha Percy Jackson, um adolescente que descobre ser um semideus, filho de Poseidon, e embarca em missões para salvar o mundo dos deuses e monstros da mitologia. Junto com seus amigos Annabeth Chase e Grover Underwood, Percy enfrenta desafios épicos, desvenda profecias e aprende sobre coragem, amizade e identidade. Com humor, ação e uma narrativa cativante, a série tornou-se um sucesso mundial, encantando leitores de todas as idades.",
+    autor: autores[14],
+    ano: 2005,
+    imagem:
+      "https://t.ctcdn.com.br/QtLGd1k3yy2kdAyVXSDoauYnc0Q=/1200x675/smart/i832531.jpeg",
+    livros: [
+      {
+        id: "percy-jackson-e-os-olimpianos-1",
+        titulo: "O Ladrão de Raios",
+        autor: autores[14],
+        ano: 2005,
+        ordem: 1,
+        imagem: "https://m.media-amazon.com/images/I/81t6a6Cje2L._UF894,1000_QL80_.jpg",
+        link: "https://amzn.to/49LvMtc",
+      },
+      {
+        id: "percy-jackson-e-os-olimpianos-2",
+        titulo: "O Mar de Monstros",
+        autor: autores[14],
+        ano: 2006,
+        ordem: 2,
+        imagem: "https://m.media-amazon.com/images/I/51JfKjFdLIL._SY445_SX342_.jpg",
+        link: "https://amzn.to/4fscOc8",
+      },
+      {
+        id: "percy-jackson-e-os-olimpianos-3",
+        titulo: "A Maldição do Titã",
+        autor: autores[14],
+        ano: 2007,
+        ordem: 3,
+        imagem: "https://m.media-amazon.com/images/I/61s1FVTeVpL._SY385_.jpg",
+        link: "https://amzn.to/3VNvtYU",
+      },
+      {
+        id: "percy-jackson-e-os-olimpianos-4",
+        titulo: "A Batalha do Labirinto",
+        autor: autores[14],
+        ano: 2008,
+        ordem: 4,
+        imagem: "https://m.media-amazon.com/images/I/718W1i4RGyL._SY385_.jpg",
+        link: "https://amzn.to/3Pco2GV",
+      },
+      {
+        id: "percy-jackson-e-os-olimpianos-5",
+        titulo: "O Último Olimpiano",
+        autor: autores[14],
+        ano: 2009,
+        ordem: 5,
+        imagem: "https://m.media-amazon.com/images/I/61zKLgJx0IL._SY385_.jpg",
+        link: "https://amzn.to/4fsYW1r",
+      },
+      {
+        id: "percy-jackson-e-os-olimpianos-6",
+        titulo: "Box Percy Jackson e Os Olimpianos",
+        autor: autores[14],
+        ano: 2024,
+        ordem: 6,
+        imagem: "https://m.media-amazon.com/images/I/61NTMkF4d+L._SY425_.jpg",
+        link: "https://amzn.to/3VKrOv5",
+      },         
+      
+    ],
+  },
 ];
 
 export default series;

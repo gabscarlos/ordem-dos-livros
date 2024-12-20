@@ -554,6 +554,51 @@ C.S. Lewis faleceu em 22 de novembro de 1963, no mesmo dia da morte de John F. K
 
 > *"Não há nada mais em comum entre a pessoa que diz que acredita em um Deus que não faz milagres e a pessoa que diz que acredita em um Deus que não age."* - C.S. Lewis
   `,
+},
+{
+  id: "rick-riordan",
+  nome: "Rick Riordan",
+  imagem: "https://disneyplusbrasil.com.br/wp-content/uploads/2023/12/Rick-Riordan-Percy-Jackson.jpg",
+  descricao: "Escritor americano, fantasia, mitologia.",
+  biografia: `
+# Rick Riordan
+
+**Rick Riordan** é um escritor norte-americano, conhecido como o "tio Rick" por seus fãs, e famoso por suas séries de fantasia baseadas em mitologias antigas, como *Percy Jackson e os Olimpianos*. Nascido em 5 de junho de 1964, em San Antonio, Texas, EUA, Riordan transformou sua paixão por mitologia e histórias em obras que conquistaram milhões de jovens leitores em todo o mundo.
+
+## Primeiros Anos e Carreira
+Riordan formou-se em inglês e história pela **Universidade do Texas em Austin** e lecionou por muitos anos antes de se dedicar à escrita em tempo integral. Ele começou escrevendo mistérios para adultos, mas foi ao criar histórias para seus filhos que encontrou sua verdadeira vocação.
+
+## Percy Jackson e os Olimpianos
+A série *Percy Jackson e os Olimpianos* é sua obra mais famosa, composta por cinco livros que misturam mitologia grega e aventuras modernas. A história segue Percy Jackson, um semideus, em sua jornada para salvar o mundo e encontrar seu lugar entre os deuses e heróis.
+
+Os livros da série incluem:
+
+1. **O Ladrão de Raios** (*The Lightning Thief*, 2005)
+2. **O Mar de Monstros** (*The Sea of Monsters*, 2006)
+3. **A Maldição do Titã** (*The Titan's Curse*, 2007)
+4. **A Batalha do Labirinto** (*The Battle of the Labyrinth*, 2008)
+5. **O Último Olimpiano** (*The Last Olympian*, 2009)
+
+A série foi adaptada para dois filmes e agora está sendo transformada em uma série pelo Disney+.
+
+## Outras Séries de Mitologia
+Além de *Percy Jackson*, Riordan criou outras séries baseadas em diferentes mitologias:
+
+- **Os Heróis do Olimpo** (*Heroes of Olympus*): Continuação de *Percy Jackson*.
+- **As Crônicas dos Kane** (*The Kane Chronicles*): Baseada na mitologia egípcia.
+- **Magnus Chase e os Deuses de Asgard** (*Magnus Chase and the Gods of Asgard*): Inspirada na mitologia nórdica.
+- **As Provações de Apolo** (*The Trials of Apollo*): Foca no deus Apolo em forma humana.
+
+## Rick Riordan Presents
+Em 2018, Riordan lançou o selo **Rick Riordan Presents**, uma iniciativa para publicar livros de fantasia escritos por autores diversos, com base em mitologias e culturas globais.
+
+## Vida Pessoal e Legado
+Rick Riordan vive em Boston, Massachusetts, com sua família. Ele é conhecido por seu humor, por sua abordagem inclusiva em seus livros e por inspirar uma nova geração de leitores a explorar o mundo da literatura e da mitologia.
+
+---
+
+> *"Se minha vida é uma loucura, é uma loucura divina."* - Rick Riordan (*O Ladrão de Raios*)
+  `,
 }
 
 
