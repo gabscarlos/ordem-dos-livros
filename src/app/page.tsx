@@ -95,9 +95,8 @@ export default function Home() {
       </Head>
 
       <Pagina>
-        
-          <LivrosDestaque series={series} />
-        
+        <LivrosDestaque series={series} />
+
         <h1 className="text-3xl font-bold">Encontre Mais Categorias</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-8 mb-5 mx-auto max-w-screen-xl justify-items-center">
           <Categoria
@@ -184,21 +183,16 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        <span className="text-3xl font-bold">Séries Infanto-juvenis</span>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6  mx-auto max-w-screen-xl justify-items-center">
-          {/* Livro Destaque Principal */}
-          <div className="flex flex-1 sm:items-start sm:justify-start md:items-center md:justify-center lg:items-center lg:justify-center col-span-1 lg:col-span-1 mb-4 lg:mb-0">
+        <div className="flex flex-col gap-2">
+          <span className="text-3xl font-bold mb-10">
+            Séries Infanto-juvenis
+          </span>
+          <div className="col-span-1 lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
             <LivroDestaque
               link="/series/diario-de-um-banana"
               imagem="https://m.media-amazon.com/images/I/71fWaI5myqL._SY385_.jpg"
               titulo="Diário de um Banana"
-              className="transform sm:scale-100 lg:scale-[1.5]"
             />
-          </div>
-
-          {/* Livros adicionais */}
-          <div className="col-span-1 lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <LivroDestaque
               link="/series/diario-de-pilar"
               imagem="https://m.media-amazon.com/images/I/91K6PTWRdLL._SY385_.jpg"
@@ -229,10 +223,24 @@ export default function Home() {
               imagem="https://m.media-amazon.com/images/I/A1hFhgISH9L._SY425_.jpg"
               titulo="Série Mortina"
             />
+            <LivroDestaque
+              link="/series/desventuras-em-serie"
+              imagem="https://m.media-amazon.com/images/I/91Q5llF8hoL._SY385_.jpg"
+              titulo="Desventuras em Série"
+            />
+            <LivroDestaque
+              link="/series/percy-jackson-e-os-olimpianos"
+              imagem="https://m.media-amazon.com/images/I/81t6a6Cje2L._UF894,1000_QL80_.jpg"
+              titulo="Série Percy Jackson e os Olimpianos"
+            />
+            <LivroDestaque
+              link="/series/harry-potter"
+              imagem="https://m.media-amazon.com/images/I/81pB+joKL4L._SL1500_.jpg"
+              titulo="Harry Potter"
+            />
           </div>
         </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-20">
           <TopLivros series={series} />
           <TopAutores autores={autores} />
         </div>
