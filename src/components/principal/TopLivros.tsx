@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import LivroTop from "./LivroTop"; // Ajuste o caminho conforme necessário
+import LivroTop from "./LivroTop"; 
 
 interface Autor {
   id: string;

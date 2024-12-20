@@ -7,6 +7,7 @@ import SerieDestaque from "@/components/principal/SerieDestaque";
 import autores from "@/constants/autores";
 import TopAutores from "@/components/principal/TopAutores";
 import TopLivros from "@/components/principal/TopLivros";
+import LivrosDestaque from "@/components/principal/LivrosDestaque";
 
 export default function Home() {
   return (
@@ -94,28 +95,9 @@ export default function Home() {
       </Head>
 
       <Pagina>
-        <div className="flex flex-wrap justify-center md:justify-between gap-4 mb-14">
-          <LivroDestaque
-            link="/series/harry-potter"
-            imagem="https://m.media-amazon.com/images/I/81pB+joKL4L._SL1500_.jpg"
-            titulo="Série Harry Potter"
-          />
-          <LivroDestaque
-            link="/series/crepusculo"
-            imagem="https://m.media-amazon.com/images/I/618fXbK+OkL._SY385_.jpg"
-            titulo="Crepúsculo"
-          />
-          <LivroDestaque
-            link="/series/duna"
-            imagem="https://m.media-amazon.com/images/I/81zN7udGRUL._SY385_.jpg"
-            titulo="Série Duna"
-          />
-          <LivroDestaque
-            link="/series/outlander"
-            imagem="https://m.media-amazon.com/images/I/61C4rFG-oYL._SY385_.jpg"
-            titulo="Série Outlander"
-          />
-        </div>
+        
+          <LivrosDestaque series={series} />
+        
         <h1 className="text-3xl font-bold">Encontre Mais Categorias</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-8 mb-5 mx-auto max-w-screen-xl justify-items-center">
           <Categoria
