@@ -159,6 +159,11 @@ const nextConfig: NextConfig = {
         hostname: 't.ctcdn.com.br',
         port:''
       },
+      {
+        protocol: 'https',
+        hostname: 'ovicio.com.br',
+        port:''
+      },
     ]
   }
 };

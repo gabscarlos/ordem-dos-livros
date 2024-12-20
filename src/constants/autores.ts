@@ -599,6 +599,53 @@ Rick Riordan vive em Boston, Massachusetts, com sua família. Ele é conhecido p
 
 > *"Se minha vida é uma loucura, é uma loucura divina."* - Rick Riordan (*O Ladrão de Raios*)
   `,
+},
+{
+  id: "lemony-snicket",
+  nome: "Lemony Snicket",
+  imagem: "https://ovicio.com.br/wp-content/uploads/Lemon-Snicket-Path-Netflix-Featurette-1024x681.jpg",
+  descricao: "Escritor americano, literatura infantojuvenil, mistério.",
+  biografia: `
+# Lemony Snicket
+
+**Lemony Snicket** é o pseudônimo literário de **Daniel Handler**, escritor norte-americano conhecido por sua série infantojuvenil **"Desventuras em Série"** (*A Series of Unfortunate Events*). Nascido em 28 de fevereiro de 1970, em São Francisco, Califórnia, Handler usa o alter ego de Snicket para narrar histórias sombrias e irônicas que cativaram milhões de leitores.
+
+## Desventuras em Série
+A série *Desventuras em Série* é composta por 13 livros que narram os infortúnios dos órfãos Baudelaire — Violet, Klaus e Sunny — enquanto tentam escapar das artimanhas do vilão Conde Olaf, que busca roubar sua herança. As histórias são conhecidas pelo humor negro, tons melancólicos e reviravoltas inesperadas.
+
+Os títulos da série incluem:
+
+1. **Mau Começo** (*The Bad Beginning*, 1999)
+2. **A Sala dos Répteis** (*The Reptile Room*, 1999)
+3. **O Lago das Sanguessugas** (*The Wide Window*, 2000)
+4. **Serraria Baixo-Astral** (*The Miserable Mill*, 2000)
+5. **Inferno no Colégio Interno** (*The Austere Academy*, 2000)
+6. **O Elevador Ersatz** (*The Ersatz Elevator*, 2001)
+7. **A Cidade Sinistra dos Corvos** (*The Vile Village*, 2001)
+8. **O Hospital Hostil** (*The Hostile Hospital*, 2001)
+9. **O Espetáculo Carnívoro** (*The Carnivorous Carnival*, 2002)
+10. **O Escorregador de Gelo** (*The Slippery Slope*, 2003)
+11. **A Gruta Gorgônea** (*The Grim Grotto*, 2004)
+12. **O Penúltimo Perigo** (*The Penultimate Peril*, 2005)
+13. **O Fim** (*The End*, 2006)
+
+A série foi adaptada para o cinema em 2004 e posteriormente para uma série de televisão na Netflix entre 2017 e 2019, estrelada por Neil Patrick Harris como Conde Olaf.
+
+## Outras Obras
+Lemony Snicket também é autor de:
+
+- **Quem Poderia Ser a uma Hora Dessas?** (*Who Could That Be at This Hour?*, 2012): Parte da série *Só Perguntas Erradas* (*All the Wrong Questions*), que narra os eventos que antecedem *Desventuras em Série*.
+- Diversos livros ilustrados e contos que mantêm o estilo excêntrico e melancólico.
+
+## Vida Pessoal e Estilo Literário
+Enquanto Daniel Handler, o homem por trás de Snicket, é um escritor e músico, o personagem de Lemony Snicket é construído como um narrador peculiar, profundamente envolvido nos mistérios que cerca os Baudelaire. Snicket apresenta seus livros como advertências ao leitor sobre histórias tristes e desfechos infelizes.
+
+Handler vive em São Francisco com sua esposa e filho. Seu estilo literário, marcado por trocadilhos, intertextualidade e humor seco, garantiu a ele um lugar especial na literatura infantojuvenil contemporânea.
+
+---
+
+> *"Se você está interessado em histórias com finais felizes, seria melhor ler algum outro livro."* - Lemony Snicket (*Mau Começo*)
+  `,
 }
 
 
