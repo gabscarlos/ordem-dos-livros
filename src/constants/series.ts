@@ -341,7 +341,8 @@ const series = [
         autor: autores[3],
         ano: 2022,
         ordem: 17,
-        imagem: "https://m.media-amazon.com/images/I/916K1XCNRBL._UF894,1000_QL80_.jpg",
+        imagem:
+          "https://m.media-amazon.com/images/I/916K1XCNRBL._UF894,1000_QL80_.jpg",
         link: "https://amzn.to/3VkQdqL",
       },
       {
@@ -350,7 +351,8 @@ const series = [
         autor: autores[3],
         ano: 2023,
         ordem: 18,
-        imagem: "https://m.media-amazon.com/images/I/71HODD5GbdL._AC_UF1000,1000_QL80_.jpg",
+        imagem:
+          "https://m.media-amazon.com/images/I/71HODD5GbdL._AC_UF1000,1000_QL80_.jpg",
         link: "https://amzn.to/4eVdIOd",
       },
       {
@@ -398,7 +400,8 @@ const series = [
         autor: autores[4],
         ano: 2010,
         ordem: 3,
-        imagem: "https://m.media-amazon.com/images/I/51UqHWh58-L._SY445_SX342_.jpg",
+        imagem:
+          "https://m.media-amazon.com/images/I/51UqHWh58-L._SY445_SX342_.jpg",
         link: "https://amzn.to/49dil4M",
       },
       {
@@ -437,7 +440,6 @@ const series = [
         imagem: "https://m.media-amazon.com/images/I/81UckzVmQPL._SY385_.jpg",
         link: "https://amzn.to/3B80pMm",
       },
-      
     ],
   },
   {
@@ -447,8 +449,7 @@ const series = [
       "Duna, de Frank Herbert, é uma saga épica de ficção científica que se passa em um futuro distante, em um universo dominado por intrigas políticas, conflitos religiosos e disputas por poder. A história central segue Paul Atreides, herdeiro de uma nobre casa, enquanto ele enfrenta desafios em Arrakis, um planeta desértico vital para o império por ser a única fonte da especiaria melange, a substância mais valiosa do universo. Repleto de personagens complexos e temas profundos como ecologia, messianismo e o impacto do poder, Duna é considerado um marco da literatura, inspirando gerações de leitores e cineastas.",
     autor: autores[4],
     ano: 1965,
-    imagem:
-      "https://sm.ign.com/ign_br/movie/d/dune/dune_1947.jpg",
+    imagem: "https://sm.ign.com/ign_br/movie/d/dune/dune_1947.jpg",
     livros: [
       {
         id: "duna-1",
@@ -503,7 +504,7 @@ const series = [
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/61zKJw+JQRL._SY385_.jpg",
         link: "https://amzn.to/49gQHnv",
-      },      
+      },
     ],
   },
   {
@@ -569,7 +570,7 @@ const series = [
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/91m536AwQwL._SY385_.jpg",
         link: "https://amzn.to/4eYVc7J",
-      },      
+      },
       {
         id: "outlander-7",
         titulo: "Ecos do Futuro",
@@ -578,7 +579,7 @@ const series = [
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/81Y4YAmBR4L._SY385_.jpg",
         link: "https://amzn.to/4fKnmV3",
-      },      
+      },
       {
         id: "outlander-8",
         titulo: "Escrito com o Sangue do Meu Coração",
@@ -587,7 +588,7 @@ const series = [
         ordem: 8,
         imagem: "https://m.media-amazon.com/images/I/919S+MeMzkL._SY385_.jpg",
         link: "https://amzn.to/4i8iSJo",
-      },      
+      },
       {
         id: "outlander-9",
         titulo: "Diga às Abelhas que não Estou mais Aqui",
@@ -596,7 +597,7 @@ const series = [
         ordem: 9,
         imagem: "https://m.media-amazon.com/images/I/81yPcolgsuL._SY385_.jpg",
         link: "https://amzn.to/3BcAYJF",
-      },      
+      },
     ],
   },
   {
@@ -645,7 +646,6 @@ const series = [
         imagem: "https://m.media-amazon.com/images/I/81z1InV7onL._SY385_.jpg",
         link: "https://amzn.to/4f6YyoV",
       },
-      
     ],
   },
   {
@@ -709,7 +709,8 @@ const series = [
         autor: autores[7],
         ano: 2020,
         ordem: 6,
-        imagem: "https://m.media-amazon.com/images/I/51s3CdCanML._SY445_SX342_.jpg",
+        imagem:
+          "https://m.media-amazon.com/images/I/51s3CdCanML._SY445_SX342_.jpg",
         link: "https://amzn.to/4eWE8iA",
       },
       {
@@ -730,7 +731,6 @@ const series = [
         imagem: "https://m.media-amazon.com/images/I/91gvg5ZsstL._SY385_.jpg",
         link: "https://amzn.to/41hIBJy",
       },
-      
     ],
   },
   {
@@ -796,8 +796,7 @@ const series = [
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/71ieul6Qy3L._SX606_.jpg",
         link: "https://amzn.to/3Ziyp0Q",
-      },     
-      
+      },
     ],
   },
   {
@@ -830,7 +829,8 @@ const series = [
       },
       {
         id: "as-aventuras-do-capitao-cueca-3",
-        titulo: "Capitão Cueca e a invasão das incrivelmente malvadas tias da cantina de outro planeta e o ataque subsequente dos igualmente perversos zumbis nerds",
+        titulo:
+          "Capitão Cueca e a invasão das incrivelmente malvadas tias da cantina de outro planeta e o ataque subsequente dos igualmente perversos zumbis nerds",
         autor: autores[9],
         ano: 2017,
         ordem: 3,
@@ -839,7 +839,8 @@ const series = [
       },
       {
         id: "as-aventuras-do-capitao-cueca-4",
-        titulo: "Capitão Cueca e o perigoso plano secreto do professor Fraldinha Suja",
+        titulo:
+          "Capitão Cueca e o perigoso plano secreto do professor Fraldinha Suja",
         autor: autores[9],
         ano: 2018,
         ordem: 4,
@@ -857,22 +858,24 @@ const series = [
       },
       {
         id: "as-aventuras-do-capitao-cueca-6",
-        titulo: "Capitão Cueca e a grande e desagradável batalha do menino biônico Meleca Seca: Parte 1: A noite das repugnantes Melecas de nariz",
+        titulo:
+          "Capitão Cueca e a grande e desagradável batalha do menino biônico Meleca Seca: Parte 1: A noite das repugnantes Melecas de nariz",
         autor: autores[9],
         ano: 2019,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/71A-eI5HvIL._SY385_.jpg",
         link: "https://amzn.to/4fZaMRN",
-      },     
+      },
       {
         id: "as-aventuras-do-capitao-cueca-7",
-        titulo: "Capitão Cueca e a grande e desagradável batalha do menino biônico Meleca Seca: Parte 2: A revanche dos robôs melequentos ridículos",
+        titulo:
+          "Capitão Cueca e a grande e desagradável batalha do menino biônico Meleca Seca: Parte 2: A revanche dos robôs melequentos ridículos",
         autor: autores[9],
         ano: 2019,
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/91eQHQt-z5L._SY385_.jpg",
         link: "https://amzn.to/3ZClSXa",
-      },     
+      },
       {
         id: "as-aventuras-do-capitao-cueca-8",
         titulo: "Capitão Cueca e a sina ridícula do povo do Penico Roxo",
@@ -881,16 +884,17 @@ const series = [
         ordem: 8,
         imagem: "https://m.media-amazon.com/images/I/91EHqALW2eL._SY385_.jpg",
         link: "https://amzn.to/49jRfJx",
-      },     
+      },
       {
         id: "as-aventuras-do-capitao-cueca-9",
-        titulo: "Capitão Cueca e o aterrorizante retorno do Caído Tilintar das Calças",
+        titulo:
+          "Capitão Cueca e o aterrorizante retorno do Caído Tilintar das Calças",
         autor: autores[9],
         ano: 2020,
         ordem: 9,
         imagem: "https://m.media-amazon.com/images/I/91jfcR-T7EL._SY385_.jpg",
         link: "https://amzn.to/3ZDeFWW",
-      },     
+      },
       {
         id: "as-aventuras-do-capitao-cueca-10",
         titulo: "Capitão Cueca e a revoltante revanche da Robocueca Radioativa",
@@ -899,7 +903,7 @@ const series = [
         ordem: 10,
         imagem: "https://m.media-amazon.com/images/I/9136Pc1nZ6L._SY385_.jpg",
         link: "https://amzn.to/4g0SiR2",
-      },     
+      },
       {
         id: "as-aventuras-do-capitao-cueca-11",
         titulo: "Capitão Cueca e a tirânica retaliação da Privada Turbo 2000",
@@ -908,7 +912,7 @@ const series = [
         ordem: 11,
         imagem: "https://m.media-amazon.com/images/I/81TpFUTUlNS._SY385_.jpg",
         link: "https://amzn.to/3Zottaw",
-      },     
+      },
       {
         id: "as-aventuras-do-capitao-cueca-12",
         titulo: "Capitão Cueca e a saga sensacional de Fedor, O Grande",
@@ -917,8 +921,7 @@ const series = [
         ordem: 12,
         imagem: "https://m.media-amazon.com/images/I/91-E46av99L._SY385_.jpg",
         link: "https://amzn.to/41hZi7s",
-      },     
-      
+      },
     ],
   },
   {
@@ -984,7 +987,7 @@ const series = [
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/91NZGONlD9L._SY425_.jpg",
         link: "https://amzn.to/3VqloAZ",
-      },     
+      },
       {
         id: "o-homem-cao-7",
         titulo: "O Homem-Cão: Por quem as bolas rolam",
@@ -993,7 +996,7 @@ const series = [
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/91VWvX7blSL._SY425_.jpg",
         link: "https://amzn.to/4fVjxN1",
-      },     
+      },
       {
         id: "o-homem-cao-8",
         titulo: "O Homem-Cão: Latiu-22",
@@ -1002,7 +1005,7 @@ const series = [
         ordem: 8,
         imagem: "https://m.media-amazon.com/images/I/91Fmp+GBpxS._SY425_.jpg",
         link: "https://amzn.to/3BaadFR",
-      },     
+      },
       {
         id: "o-homem-cao-9",
         titulo: "O Homem-Cão: Imundície e castigo",
@@ -1011,7 +1014,7 @@ const series = [
         ordem: 9,
         imagem: "https://m.media-amazon.com/images/I/81LS61OUGuL._SY425_.jpg",
         link: "https://amzn.to/3VmMOaW",
-      },     
+      },
       {
         id: "o-homem-cao-10",
         titulo: "O Homem-Cão: Mamãe dos ventos uivantes",
@@ -1020,7 +1023,7 @@ const series = [
         ordem: 10,
         imagem: "https://m.media-amazon.com/images/I/71lE3-fKVaL._SY425_.jpg",
         link: "https://amzn.to/49lHI4w",
-      },     
+      },
       {
         id: "o-homem-cao-11",
         titulo: "O Homem-Cão: Vinte mil pulgas submarinas",
@@ -1029,8 +1032,7 @@ const series = [
         ordem: 11,
         imagem: "https://m.media-amazon.com/images/I/81He-gi3X0L._SY425_.jpg",
         link: "https://amzn.to/4eWCEEY",
-      },     
-      
+      },
     ],
   },
   {
@@ -1088,8 +1090,6 @@ const series = [
         imagem: "https://m.media-amazon.com/images/I/A122svPcsXL._SY425_.jpg",
         link: "https://amzn.to/4eZSPRT",
       },
-           
-      
     ],
   },
   {
@@ -1126,7 +1126,8 @@ const series = [
         autor: autores[11],
         ano: 2007,
         ordem: 3,
-        imagem: "https://m.media-amazon.com/images/I/41pa-jBfOkL._SY445_SX342_.jpg",
+        imagem:
+          "https://m.media-amazon.com/images/I/41pa-jBfOkL._SY445_SX342_.jpg",
         link: "https://amzn.to/41jSw16",
       },
       {
@@ -1138,8 +1139,6 @@ const series = [
         imagem: "https://m.media-amazon.com/images/I/71DW9z3UXkL._SY385_.jpg",
         link: "https://amzn.to/4g0XKDB",
       },
-         
-      
     ],
   },
   {
@@ -1224,8 +1223,6 @@ const series = [
         imagem: "https://m.media-amazon.com/images/I/91yXw2O0j6L._SY342_.jpg",
         link: "https://amzn.to/4iCNymo",
       },
-         
-      
     ],
   },
   {
@@ -1235,8 +1232,7 @@ const series = [
       "As Crônicas de Nárnia, de C.S. Lewis, é uma série de fantasia que transporta leitores para o mágico mundo de Nárnia, onde animais falam, a magia é real e o bem luta contra o mal. Ao longo de sete livros, acompanhamos crianças de nosso mundo que, ao atravessarem portais inesperados, se tornam heróis em aventuras épicas ao lado de Aslam, o poderoso leão que guia Nárnia. Com narrativas ricas em imaginação e simbolismo, a série explora temas como coragem, amizade, sacrifício e a eterna luta pela justiça, conquistando gerações de leitores em todo o mundo.",
     autor: autores[13],
     ano: 1950,
-    imagem:
-      "https://tm.ibxk.com.br/2023/01/16/16115614643126.jpg",
+    imagem: "https://tm.ibxk.com.br/2023/01/16/16115614643126.jpg",
     livros: [
       {
         id: "as-cronicas-de-narnia-1",
@@ -1262,7 +1258,8 @@ const series = [
         autor: autores[13],
         ano: 1951,
         ordem: 3,
-        imagem: "https://m.media-amazon.com/images/I/51-HaHI4BJL._SX342_SY445_.jpg",
+        imagem:
+          "https://m.media-amazon.com/images/I/51-HaHI4BJL._SX342_SY445_.jpg",
         link: "https://amzn.to/4ghu6tS",
       },
       {
@@ -1310,8 +1307,6 @@ const series = [
         imagem: "https://m.media-amazon.com/images/I/81erRs9DQDL._SY342_.jpg",
         link: "https://amzn.to/3DkjN9T",
       },
-         
-      
     ],
   },
   {
@@ -1330,7 +1325,8 @@ const series = [
         autor: autores[14],
         ano: 2005,
         ordem: 1,
-        imagem: "https://m.media-amazon.com/images/I/81t6a6Cje2L._UF894,1000_QL80_.jpg",
+        imagem:
+          "https://m.media-amazon.com/images/I/81t6a6Cje2L._UF894,1000_QL80_.jpg",
         link: "https://amzn.to/49LvMtc",
       },
       {
@@ -1339,7 +1335,8 @@ const series = [
         autor: autores[14],
         ano: 2006,
         ordem: 2,
-        imagem: "https://m.media-amazon.com/images/I/51JfKjFdLIL._SY445_SX342_.jpg",
+        imagem:
+          "https://m.media-amazon.com/images/I/51JfKjFdLIL._SY445_SX342_.jpg",
         link: "https://amzn.to/4fscOc8",
       },
       {
@@ -1377,8 +1374,7 @@ const series = [
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/61NTMkF4d+L._SY425_.jpg",
         link: "https://amzn.to/3VKrOv5",
-      },         
-      
+      },
     ],
   },
   {
@@ -1507,10 +1503,73 @@ const series = [
         ordem: 13,
         imagem: "https://m.media-amazon.com/images/I/91Ql21YfUlL._SY425_.jpg",
         link: "https://amzn.to/3ZKqyJu",
-      },      
-      
+      },
     ],
   },
+  {
+    id: "jogos-vorazes",
+    titulo: "Jogos Vorazes",
+    descricao:
+      "Jogos Vorazes, de Suzanne Collins, é uma série de distopia e aventura que se passa em Panem, uma nação controlada pelo autoritário Capitólio. A história acompanha Katniss Everdeen, uma jovem que se voluntaria para participar dos Jogos Vorazes, uma competição mortal televisionada em que adolescentes devem lutar até que reste apenas um vencedor. Enquanto luta por sua sobrevivência, Katniss se torna símbolo de resistência contra a opressão, desencadeando uma revolução. Com uma narrativa intensa e reflexiva, a série aborda temas como sacrifício, poder, desigualdade e a força da esperança, conquistando leitores em todo o mundo.",
+    autor: autores[16],
+    ano: 2012,
+    imagem:
+      "https://img.odcdn.com.br/cdn-cgi/image/width=1280,height=720,fit=cover/wp-content/uploads/2023/09/Jogos-Vorazes.jpeg",
+    livros: [
+      {
+        id: "jogos-vorazes-1",
+        titulo: "Jogos Vorazes",
+        autor: autores[16],
+        ano: 2012,
+        ordem: 1,
+        imagem:
+          "https://m.media-amazon.com/images/I/61rzXkz4qAL._SY342_.jpg",
+        link: "https://amzn.to/4gN9gm0",
+      },
+      {
+        id: "jogos-vorazes-2",
+        titulo: "Em chamas",
+        autor: autores[16],
+        ano: 2013,
+        ordem: 2,
+        imagem:
+          "https://m.media-amazon.com/images/I/71YVc7R8ajL._SY425_.jpg",
+        link: "https://amzn.to/3P9BjQA",
+      },
+      {
+        id: "jogos-vorazes-3",
+        titulo: "A Esperança",
+        autor: autores[16],
+        ano: 2014,
+        ordem: 3,
+        imagem:
+          "https://m.media-amazon.com/images/I/718In-jI-AL._SY425_.jpg",
+        link: "https://amzn.to/4fxjK7M",
+      },
+      {
+        id: "jogos-vorazes-4",
+        titulo: "A cantiga dos Pássaros e das Serpentes",
+        autor: autores[16],
+        ano: 2015,
+        ordem: 4,
+        imagem:
+          "https://m.media-amazon.com/images/I/61MCf2k-MgS._SY342_.jpg",
+        link: "https://amzn.to/3DEiJ0o",
+      },
+      {
+        id: "jogos-vorazes-5",
+        titulo: "Saga Jogos Vorazes: Coleção com quatro livros (com marcadores)",
+        autor: autores[16],
+        ano: 2023,
+        ordem: 5,
+        imagem:
+          "https://m.media-amazon.com/images/I/61KaNOjhi2L._SY342_.jpg",
+        link: "https://amzn.to/4gpV3M0",
+      },
+    ],
+  },
+
+
 ];
 
 export default series;

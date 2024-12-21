@@ -646,7 +646,50 @@ Handler vive em São Francisco com sua esposa e filho. Seu estilo literário, ma
 
 > *"Se você está interessado em histórias com finais felizes, seria melhor ler algum outro livro."* - Lemony Snicket (*Mau Começo*)
   `,
-}
+},
+{
+  id: "suzanne-collins",
+  nome: "Suzanne Collins",
+  imagem: "https://rollingstone.com.br/media/uploads/2024/06/jogos-vorazes-ganhara-novo-livro-em-2025-anuncia-suzanne-collins-foto-jon-kopaloffgetty-images-for-lionsgate.jpg",
+  descricao: "Escritora americana, distopia, fantasia.",
+  biografia: `
+# Suzanne Collins
+
+**Suzanne Collins** é uma escritora e roteirista norte-americana, conhecida mundialmente como a autora da série de livros *Jogos Vorazes* (*The Hunger Games*). Nascida em 10 de agosto de 1962, em Hartford, Connecticut, Collins conquistou fama por suas histórias distópicas e emocionantes que misturam ação, política e drama humano.
+
+## Primeiros Anos e Carreira
+Suzanne cresceu em uma família militar, uma experiência que influenciou profundamente suas obras, especialmente na exploração de temas como guerra e sacrifício. Ela estudou artes teatrais e escrita criativa na **Indiana University** e posteriormente trabalhou como roteirista para programas infantis, incluindo *Clarissa Explains It All* e *Os Backyardigans*.
+
+## Jogos Vorazes
+A trilogia *Jogos Vorazes* foi lançada entre 2008 e 2010 e se tornou um fenômeno global, sendo adaptada para uma bem-sucedida franquia de filmes. A história é ambientada em uma sociedade distópica chamada Panem, onde jovens são forçados a competir em uma arena mortal transmitida como entretenimento. A protagonista, Katniss Everdeen, luta contra o sistema opressor e se torna o símbolo de uma revolução.
+
+Os livros da série incluem:
+
+1. **Jogos Vorazes** (*The Hunger Games*, 2008)
+2. **Em Chamas** (*Catching Fire*, 2009)
+3. **A Esperança** (*Mockingjay*, 2010)
+
+Em 2020, Collins lançou um prequel intitulado *A Cantiga dos Pássaros e das Serpentes* (*The Ballad of Songbirds and Snakes*), que explora a juventude do vilão Presidente Snow.
+
+## Outras Obras
+Antes de *Jogos Vorazes*, Collins escreveu a série infantojuvenil *As Crônicas do Subterrâneo* (*The Underland Chronicles*), que narra as aventuras de um menino chamado Gregor em um mundo subterrâneo.
+
+Os títulos dessa série incluem:
+
+1. *Gregor the Overlander* (2003)
+2. *Gregor and the Prophecy of Bane* (2004)
+3. *Gregor and the Curse of the Warmbloods* (2005)
+4. *Gregor and the Marks of Secret* (2006)
+5. *Gregor and the Code of Claw* (2007)
+
+## Vida Pessoal e Legado
+Suzanne Collins é conhecida por seu estilo envolvente e por abordar temas complexos, como desigualdade social, manipulação da mídia e os horrores da guerra, de forma acessível para leitores jovens. Ela vive com sua família em Connecticut e continua sendo uma voz importante na literatura contemporânea.
+
+---
+
+> *"Você não esquece o rosto da pessoa que foi sua última esperança."* - Suzanne Collins (*Jogos Vorazes*)
+  `,
+},
 
 
 ];

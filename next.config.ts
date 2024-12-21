@@ -164,6 +164,11 @@ const nextConfig: NextConfig = {
         hostname: 'ovicio.com.br',
         port:''
       },
+      {
+        protocol: 'https',
+        hostname: 'rollingstone.com.br',
+        port:''
+      },
     ]
   }
 };
