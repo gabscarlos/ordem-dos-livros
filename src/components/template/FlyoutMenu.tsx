@@ -1,5 +1,5 @@
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
-import { EnvelopeIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { EnvelopeIcon, HomeIcon } from '@heroicons/react/20/solid'
 import {
   Bars4Icon,
   BookOpenIcon,
@@ -19,7 +19,7 @@ const solutions = [
   { name: 'Mais Vendidos', description: 'Explore os livros mais vendidos do mercado', href: '/mais-vendidos', icon: CurrencyDollarIcon },
 ]
 const callsToAction = [
-  { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
+  { name: 'Pagina Inicial', href: '/', icon: HomeIcon },
   { name: 'Contato', href: '/contato', icon: EnvelopeIcon },
 ]
 
