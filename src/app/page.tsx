@@ -121,15 +121,15 @@ export default function Home() {
             className="bg-gradient-to-r from-cyan-500 to-teal-500"
           />
           <Categoria
-            src="/comic-book.png"
+            src="/book.png"
             alt="Imagem de Livros"
-            link="/"
-            titulo="Quadrinhos"
+            link="/mais-vendidos"
+            titulo="Mais Vendidos"
             className="bg-gradient-to-r from-green-200 to-blue-500"
           />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-20">
           <div className="flex flex-col gap-2">
             <span className="text-3xl font-bold">Audio Books</span>
             <iframe
@@ -183,60 +183,68 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-2">
-          <span className="text-3xl font-bold mb-10">
-            Séries Infanto-juvenis
-          </span>
-          <div className="col-span-1 lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
+        <span className="text-3xl font-bold m-2">Séries Infanto-juvenis</span>
+        <div className="flex flex-col gap-2 items-center">
+          <div className="col-span-1 lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 mt-10">
             <LivroDestaque
               link="/series/diario-de-um-banana"
               imagem="https://m.media-amazon.com/images/I/71fWaI5myqL._SY385_.jpg"
               titulo="Diário de um Banana"
+              autor="Jeff Kinney"
             />
             <LivroDestaque
               link="/series/diario-de-pilar"
               imagem="https://m.media-amazon.com/images/I/91K6PTWRdLL._SY385_.jpg"
               titulo="Série Diário de Pilar"
+              autor="Flávia Lins e Silva"
             />
             <LivroDestaque
               link="/series/os-detetives-do-predio-azul"
               imagem="https://m.media-amazon.com/images/I/91AkpDJouPL._SY385_.jpg"
               titulo="Série d.p.a."
+              autor="Flávia Lins e Silva"
             />
             <LivroDestaque
               link="/series/socorro-cai-dentro-do-videogame"
               imagem="https://m.media-amazon.com/images/I/813qC-wJ-VL._SY385_.jpg"
               titulo="Socorro, caí dentro do videogame"
+              autor="Dustin Brady"
             />
             <LivroDestaque
               link="/series/as-aventuras-do-capitao-cueca"
               imagem="https://m.media-amazon.com/images/I/81efZ9kHKGL._SY385_.jpg"
               titulo="Série As Aventuras do Capitão Cueca"
+              autor="Dav Pilkey"
             />
             <LivroDestaque
               link="/series/o-homem-cao"
               imagem="https://m.media-amazon.com/images/I/81DW1gZuEfL._SY425_.jpg"
               titulo="Série O Homem-Cão"
+              autor="Dav Pilkey"
             />
             <LivroDestaque
               link="/series/mortina"
               imagem="https://m.media-amazon.com/images/I/A1hFhgISH9L._SY425_.jpg"
               titulo="Série Mortina"
+              autor="Barbara Cantini"
             />
             <LivroDestaque
               link="/series/desventuras-em-serie"
               imagem="https://m.media-amazon.com/images/I/91Q5llF8hoL._SY385_.jpg"
               titulo="Desventuras em Série"
+              autor="Lemony Snicket"
             />
             <LivroDestaque
               link="/series/percy-jackson-e-os-olimpianos"
               imagem="https://m.media-amazon.com/images/I/81t6a6Cje2L._UF894,1000_QL80_.jpg"
               titulo="Série Percy Jackson e os Olimpianos"
+              autor="Rick Riordan"
             />
             <LivroDestaque
               link="/series/harry-potter"
               imagem="https://m.media-amazon.com/images/I/81pB+joKL4L._SL1500_.jpg"
               titulo="Harry Potter"
+              autor="J.K. Rowling"
             />
           </div>
         </div>

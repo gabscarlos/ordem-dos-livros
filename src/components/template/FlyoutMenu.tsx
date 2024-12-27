@@ -3,7 +3,7 @@ import { EnvelopeIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import {
   Bars4Icon,
   BookOpenIcon,
-  ChatBubbleBottomCenterTextIcon,
+  CurrencyDollarIcon,
   SpeakerWaveIcon,
   UsersIcon,
 } from '@heroicons/react/24/outline'
@@ -16,7 +16,7 @@ const solutions = [
   { name: 'Séries', description: 'Conheça as séries das histórias que você ama!', href: '/series', icon: BookOpenIcon },
   { name: 'Autores', description: 'Descubra mais sobre escritores famosos, suas obras e trajetórias.', href: '/autores', icon: UsersIcon },
   { name: 'Audio Books', description: "Ouça suas histórias preferidas", href: '#', icon: SpeakerWaveIcon },
-  { name: 'Quadrinhos', description: 'Conheça as novas séries de história em quadrinhos', href: '#', icon: ChatBubbleBottomCenterTextIcon },
+  { name: 'Mais Vendidos', description: 'Explore os livros mais vendidos do mercado', href: '#', icon: CurrencyDollarIcon },
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },

@@ -24,7 +24,7 @@ export default function LivroTop(props: LivroTopProps) {
           alt="Imagem do Livro Destaque"
           width={200}
           height={200}
-          className="object-cover rounded-lg drop-shadow-xl"
+          className="object-cover rounded-lg drop-shadow-xl h-40"
         />
       </Link>
       <div className="flex flex-col gap-2">

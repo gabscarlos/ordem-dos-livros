@@ -12,7 +12,7 @@ export default function ItemLivro(props: ItemLivroProps) {
     <Link
       href={props.link}
       target="_blank"
-      className="flex flex-col w-72 rounded-md overflow-hidden bg-slate-300 dark:bg-zinc-800"
+      className="flex flex-col w-72 rounded-md overflow-hidden bg-slate-300"
     >
       <Image
         src={props.imagem}
@@ -25,7 +25,7 @@ export default function ItemLivro(props: ItemLivroProps) {
         <span className="flex-1 font-bold text-center text-zinc-950 dark:text-white">{props.titulo}</span>
         <button className="botao azul">
           <Image src="/amazon.png" alt="Amazon" width={30} height={30} />
-          <span>Comprar</span>
+          <span>Saiba Mais</span>
         </button>
       </div>
     </Link>

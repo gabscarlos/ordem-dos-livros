@@ -50,6 +50,7 @@ export default function TopLivros({ series = seriesData }: TopLivrosProps) {
             <LivroDestaque
               imagem={livro.imagem}
               titulo={livro.titulo}
+              autor={livro.autor.nome}
               link={`series/${serieId}`}
             />
           </div>

@@ -13,7 +13,7 @@ export default function Categoria(props:Categoria){
     return(
         <Link href={props.link}>
             <div className={`
-                flex justify-center items-center w-56 h-24
+                flex justify-center items-center w-64 h-24
                 rounded-lg p-1 gap-2 ${props.className}`}>
               <Image
                 src={props.src}
