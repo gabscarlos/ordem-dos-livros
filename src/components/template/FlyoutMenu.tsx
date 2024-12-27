@@ -16,7 +16,7 @@ const solutions = [
   { name: 'Séries', description: 'Conheça as séries das histórias que você ama!', href: '/series', icon: BookOpenIcon },
   { name: 'Autores', description: 'Descubra mais sobre escritores famosos, suas obras e trajetórias.', href: '/autores', icon: UsersIcon },
   { name: 'Audio Books', description: "Ouça suas histórias preferidas", href: '#', icon: SpeakerWaveIcon },
-  { name: 'Mais Vendidos', description: 'Explore os livros mais vendidos do mercado', href: '#', icon: CurrencyDollarIcon },
+  { name: 'Mais Vendidos', description: 'Explore os livros mais vendidos do mercado', href: '/mais-vendidos', icon: CurrencyDollarIcon },
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
