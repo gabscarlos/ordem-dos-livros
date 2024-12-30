@@ -171,14 +171,17 @@ export default function Home() {
               <SerieDestaque
                 link="/series/o-senhor-dos-aneis"
                 imagem="https://m.media-amazon.com/images/I/81SM0D5+DwL._SL1500_.jpg"
+                className="hover:scale-105 transition-all duration-300 ease-in-out"
               />
               <SerieDestaque
                 link="/series/maze-runner"
                 imagem="https://m.media-amazon.com/images/I/61ILpNSiAuL._SY385_.jpg"
+                className="hover:scale-105 transition-all duration-300 ease-in-out"
               />
               <SerieDestaque
                 link="/series/as-cronicas-de-gelo-e-fogo"
                 imagem="https://m.media-amazon.com/images/I/91eHityofNL._SL1500_.jpg"
+                className="hover:scale-105 transition-all duration-300 ease-in-out"
               />
             </div>
           </div>
