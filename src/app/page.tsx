@@ -114,10 +114,10 @@ export default function Home() {
             className="bg-gradient-to-r from-green-200 to-blue-500"
           />
           <Categoria
-            src="/audio-book.png"
+            src="/blogging.png"
             alt="Imagem de Livros"
-            link="/"
-            titulo="Audio Books"
+            link="/blog"
+            titulo="Blog"
             className="bg-gradient-to-r from-cyan-500 to-teal-500"
           />
           <Categoria

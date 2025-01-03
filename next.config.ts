@@ -169,6 +169,11 @@ const nextConfig: NextConfig = {
         hostname: 'rollingstone.com.br',
         port:''
       },
+      {
+        protocol: 'https',
+        hostname: 'img.freepik.com',
+        port:''
+      },
     ]
   }
 };
