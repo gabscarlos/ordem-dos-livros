@@ -22,7 +22,7 @@ export default function ItemLivro(props: ItemLivroProps) {
         className="h-full w-full object-cover"
       />
       <div className="flex-1 flex flex-col p-5 gap-2">
-        <span className="flex-1 font-bold text-center text-zinc-950 dark:text-white">{props.titulo}</span>
+        <span className="flex-1 font-bold text-center text-zinc-950">{props.titulo}</span>
         <button className="botao azul">
           <Image src="/amazon.png" alt="Amazon" width={30} height={30} />
           <span>Saiba Mais</span>

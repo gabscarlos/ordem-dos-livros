@@ -76,7 +76,7 @@ export default function Series() {
 
       <div className="flex flex-col gap-5">
         <Titulo
-          principal="Mais Vendidos"
+          principal="Mais Vendidos Amazon"
           secundario="Explore os livros mais vendidos do mercado"
         />
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-content-center gap-6">

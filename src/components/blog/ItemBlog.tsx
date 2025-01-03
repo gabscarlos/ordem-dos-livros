@@ -10,9 +10,9 @@ export interface ItemBlogProps {
 export default function ItemBlog(props: ItemBlogProps) {
     return (
         
-            <div  className="border p-4 rounded-md shadow-md">
+            <div  className="flex flex-col min-h-full p-4 rounded-md shadow-md">
               <Link href={`/blog/${props.id}`} aria-label={`Ver detalhes de ${props.titulo}`}>
-                <div className="block">
+                <div className="flex flex-col gap-1">
                   <Image
                     src={props.imagem}
                     alt={props.titulo}
