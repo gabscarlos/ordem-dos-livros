@@ -34,6 +34,43 @@ Em 2014, *Outlander* foi adaptado para a televisão em uma série de grande suce
 > *"Pela minha mão ou pela tua, Sassenach, não importa. Desde que estejamos juntos."* - Jamie Fraser, *Outlander*
 `,
     },
+
+    {
+        id: "harry-potter",
+        data: "03-01-2025",
+        titulo: "Harry Potter: A Magia do Mundo Bruxo",
+        imagem: "https://ingresso-a.akamaihd.net/b2b/production/uploads/article/image/2549/7ababc2015043445b750ebc853a5f706.jpg",
+        descricao: "Fantasia, aventura, amizade.",
+        conteudo: `
+# Harry Potter e a Pedra Filosofal
+          
+**Harry Potter e a Pedra Filosofal**, escrito por **J.K. Rowling**, é o primeiro volume da mundialmente famosa série de livros que transporta os leitores para o mágico mundo de Hogwarts. Publicado originalmente em 1997, o livro combina fantasia, aventura e lições de amizade, tornando-se um marco na literatura infantojuvenil.
+          
+## Sinopse
+Harry Potter é um garoto órfão que vive com os desagradáveis tios Dursley e seu primo Dudley. Em seu aniversário de 11 anos, ele descobre que é um bruxo e recebe uma carta de admissão para a Escola de Magia e Bruxaria de Hogwarts. Lá, Harry faz amigos como Hermione Granger e Ron Weasley, e enfrenta desafios ao descobrir que é famoso por sobreviver a um ataque mortal do bruxo das trevas Lord Voldemort quando era bebê.
+          
+Durante seu primeiro ano em Hogwarts, Harry desvenda mistérios relacionados à Pedra Filosofal, um objeto mágico capaz de conceder imortalidade. Ele e seus amigos enfrentam perigos e aprendem lições importantes sobre coragem, lealdade e o poder da amizade.
+          
+## Temas Principais
+- **Amizade e Coragem:** A relação entre Harry, Ron e Hermione mostra a importância de enfrentar desafios com apoio mútuo.
+- **Descoberta de Si Mesmo:** Harry aprende sobre sua herança mágica e seu papel no mundo bruxo.
+- **Bem contra o Mal:** A luta contra Voldemort e seus seguidores estabelece um dos temas centrais da série.
+          
+## Destaques
+J.K. Rowling cria um universo rico e detalhado, repleto de criaturas mágicas, feitiços e locais encantadores. O castelo de Hogwarts e seus segredos são fascinantes, e os personagens são cativantes, com personalidades marcantes e histórias emocionantes.
+          
+## Adaptação
+Em 2001, o livro foi adaptado para o cinema com grande sucesso, dirigido por Chris Columbus. O filme deu vida ao mundo mágico de Rowling, com Daniel Radcliffe no papel de Harry Potter e performances memoráveis de Rupert Grint (Ron) e Emma Watson (Hermione).
+          
+## Conclusão
+*Harry Potter e a Pedra Filosofal* é uma obra essencial para quem ama histórias mágicas e emocionantes. A jornada de Harry encanta leitores de todas as idades, estabelecendo as bases para uma saga épica que conquistou o coração de milhões.
+          
+---
+          
+> *"É preciso muita audácia para enfrentarmos nossos inimigos, mas igual audácia para defendermos nossos amigos."* - Alvo Dumbledore, *Harry Potter e a Pedra Filosofal*
+    `,
+    }
+    
       
 ]
 

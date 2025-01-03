@@ -20,8 +20,8 @@ export default function Rodape() {
         <Menu titulo="Descubra" className="flex flex-col items-start">
           <MenuItem href="/series" texto="Séries" />
           <MenuItem href="/autores" texto="Autores" />
-          <MenuItem href="/" texto="Audio Books" />
-          <MenuItem href="/" texto="Quadrinhos" />
+          <MenuItem href="/blog" texto="Blog" />
+          <MenuItem href="/mais-vendidos" texto="Mais Vendidos" />
         </Menu>
 
         {/* Coluna para Menu Social */}
@@ -41,7 +41,7 @@ export default function Rodape() {
 
         {/* Coluna para Outras Categorias */}
         <Menu titulo="Outras Categorias" className="flex flex-col items-start">
-          <MenuItem texto="Últimas Notícias" href="/" />
+          <MenuItem texto="Últimas Notícias" href="/blog" />
           <MenuItem texto="Séries Populares" href="/series" />
         </Menu>
       </footer>
