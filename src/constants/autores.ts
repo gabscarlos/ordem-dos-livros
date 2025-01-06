@@ -690,6 +690,49 @@ Suzanne Collins é conhecida por seu estilo envolvente e por abordar temas compl
 > *"Você não esquece o rosto da pessoa que foi sua última esperança."* - Suzanne Collins (*Jogos Vorazes*)
   `,
 },
+{
+  id: "douglas-adams",
+  nome: "Douglas Adams",
+  imagem: "https://nerdizmo.ig.com.br/wp-content/uploads/2021/03/douglas-adams-capa.jpg",
+  descricao: "Escritor britânico, ficção científica, humor.",
+  biografia: `
+# Douglas Adams
+
+**Douglas Noel Adams** foi um escritor, roteirista e humorista britânico, amplamente reconhecido por sua icônica obra de ficção científica e humor, **"O Guia do Mochileiro das Galáxias"** (*The Hitchhiker's Guide to the Galaxy*). Nascido em 11 de março de 1952, em Cambridge, Inglaterra, Adams conquistou fãs ao redor do mundo com sua mistura única de comédia absurda e reflexões filosóficas.
+
+## Primeiros Anos e Carreira
+Adams estudou literatura inglesa no **St John's College**, em Cambridge, onde participou do grupo de comédia Footlights, conhecido por revelar grandes talentos. Antes do sucesso com *O Guia do Mochileiro das Galáxias*, ele trabalhou como roteirista para séries como *Monty Python's Flying Circus* e *Doctor Who*.
+
+## O Guia do Mochileiro das Galáxias
+O *Guia do Mochileiro das Galáxias* começou como uma série de rádio na BBC em 1978, antes de ser transformado em livros, séries de TV e um filme. A história segue as aventuras de Arthur Dent, um humano que sobrevive à destruição da Terra ao ser resgatado por um alienígena chamado Ford Prefect. Juntos, eles exploram o universo com a ajuda de um guia intergaláctico peculiar e descobrem que a resposta para a Vida, o Universo e Tudo Mais é... **42**.
+
+A série de livros inclui:
+
+1. **O Guia do Mochileiro das Galáxias** (*The Hitchhiker's Guide to the Galaxy*, 1979)
+2. **O Restaurante no Fim do Universo** (*The Restaurant at the End of the Universe*, 1980)
+3. **A Vida, o Universo e Tudo Mais** (*Life, the Universe and Everything*, 1982)
+4. **Até Mais, e Obrigado pelos Peixes** (*So Long, and Thanks for All the Fish*, 1984)
+5. **Praticamente Inofensiva** (*Mostly Harmless*, 1992)
+
+A série é um marco da ficção científica, conhecida por seu humor inteligente, personagens excêntricos e insights satíricos sobre a condição humana.
+
+## Outros Trabalhos
+Além do *Guia*, Adams escreveu:
+
+- **Dirk Gently's Holistic Detective Agency** (1987): Uma série de mistério e comédia envolvendo um detetive excêntrico.
+- **The Long Dark Tea-Time of the Soul** (1988): Continuação das aventuras de Dirk Gently.
+- Ele também colaborou no desenvolvimento de jogos e projetos relacionados à ficção científica e tecnologia.
+
+## Vida Pessoal e Legado
+Douglas Adams era um ambientalista e defensor da vida selvagem, causas que ele apoiou ativamente. Ele faleceu precocemente em 11 de maio de 2001, aos 49 anos, deixando um legado imenso na literatura e na cultura popular.
+
+Sua obra continua a inspirar leitores, escritores e fãs da ficção científica e do humor absurdo. O dia 25 de maio, conhecido como o **Dia da Toalha**, é celebrado em homenagem a Adams e sua importância cultural.
+
+---
+
+> *"Não entre em pânico."* - Douglas Adams (*O Guia do Mochileiro das Galáxias*)
+  `,
+}
 
 
 ];

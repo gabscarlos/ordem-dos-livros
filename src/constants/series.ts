@@ -1562,9 +1562,69 @@ const series = [
         autor: autores[16],
         ano: 2023,
         ordem: 5,
-        imagem:
-          "https://m.media-amazon.com/images/I/61KaNOjhi2L._SY342_.jpg",
+        imagem:"https://m.media-amazon.com/images/I/61KaNOjhi2L._SY342_.jpg",
         link: "https://amzn.to/4gpV3M0",
+      },
+    ],
+  },
+  {
+    id: "o-mochileiro-das-galaxias",
+    titulo: "O Mochileiro das Galáxias",
+    descricao:
+      "O Mochileiro das Galáxias, de Douglas Adams, é uma série de ficção científica e humor que acompanha as aventuras absurdas de Arthur Dent, um terráqueo que escapa da destruição da Terra graças ao seu amigo alienígena Ford Prefect. Munido de uma toalha e do icônico Guia do Mochileiro das Galáxias, Arthur explora o cosmos ao lado de personagens excêntricos, como Zaphod Beeblebrox, Trillian e Marvin, o robô paranoide. Com sua mistura única de comédia, sátira e reflexões filosóficas, a série cativa leitores ao questionar a lógica do universo e celebrar o absurdo da existência.",
+    autor: autores[17],
+    ano: 1979,
+    imagem:
+      "https://voicers.com.br/wp-content/uploads/2018/05/O-Guia-do-Mochileiro-das-Gal%C3%A1xias-1.jpg",
+    livros: [
+      {
+        id: "o-mochileiro-das-galaxias-1",
+        titulo: "O guia do mochileiro das galáxias",
+        autor: autores[17],
+        ano: 1979,
+        ordem: 1,
+        imagem:
+          "https://m.media-amazon.com/images/I/91NAJgaUlKL._SY466_.jpg",
+        link: "https://amzn.to/3DFf0Qy",
+      },
+      {
+        id: "o-mochileiro-das-galaxias-2",
+        titulo: "O restaurante no fim do universo",
+        autor: autores[17],
+        ano: 1980,
+        ordem: 2,
+        imagem:"https://m.media-amazon.com/images/I/81ti1b7Z+wL._SY466_.jpg",
+        link: "https://amzn.to/4jjix7x",
+      },
+      {
+        id: "o-mochileiro-das-galaxias-3",
+        titulo: "A vida, o universo e tudo mais",
+        autor: autores[17],
+        ano: 1982,
+        ordem: 3,
+        imagem:
+          "https://m.media-amazon.com/images/I/81FQ4EtK+WL._SY466_.jpg",
+        link: "https://amzn.to/3PpdyUQ",
+      },
+      {
+        id: "o-mochileiro-das-galaxias-4",
+        titulo: "Até mais, e obrigado pelos peixes!",
+        autor: autores[17],
+        ano: 1984,
+        ordem: 4,
+        imagem:
+          "https://m.media-amazon.com/images/I/814pZZRRmCL._SY466_.jpg",
+        link: "https://amzn.to/3W9bowi",
+      },
+      {
+        id: "o-mochileiro-das-galaxias-5",
+        titulo: "Praticamente inofensiva",
+        autor: autores[17],
+        ano: 1992,
+        ordem: 5,
+        imagem:
+          "https://m.media-amazon.com/images/I/819LkYfDZeL._SY466_.jpg",
+        link: "https://amzn.to/3W7Xz14",
       },
     ],
   },

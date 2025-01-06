@@ -16,9 +16,9 @@ export default function ConteudoAutor(props: ConteudoAutorProps) {
       <Image
         src={props.imagem}
         alt={`Foto de ${props.nome}`}  
-        className="h-96 w-5/6 object-cover object-top rounded-md"
-        width={1000}
-        height={1000}        
+        className="h-96 sm:w-5/6 lg:w-3/5 object-cover rounded-md"
+        width={500}
+        height={500}        
       />
       <article className="prose lg:prose-xl text-justify">
         <div dangerouslySetInnerHTML={{ __html: biografia }} />

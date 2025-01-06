@@ -174,6 +174,16 @@ const nextConfig: NextConfig = {
         hostname: 'img.freepik.com',
         port:''
       },
+      {
+        protocol: 'https',
+        hostname: 'nerdizmo.ig.com.br',
+        port:''
+      },
+      {
+        protocol: 'https',
+        hostname: 'voicers.com.br',
+        port:''
+      },
     ]
   }
 };
