@@ -1628,6 +1628,67 @@ const series = [
       },
     ],
   },
+  {
+    id: "robos",
+    titulo: "Robôs",
+    descricao:
+      "Robôs, de Isaac Asimov, é uma série de histórias e romances de ficção científica que explora a relação entre humanos e robôs em um futuro onde a inteligência artificial desempenha um papel central. Com base nas icônicas Três Leis da Robótica, criadas por Asimov, as histórias abordam dilemas éticos, sociais e tecnológicos, enquanto investigam o impacto dos robôs na humanidade. A série combina mistério e ciência, especialmente nos romances que seguem o detetive Elijah Baley e seu parceiro robô R. Daneel Olivaw, criando narrativas profundas e instigantes que moldaram a ficção científica moderna.",
+    autor: autores[12],
+    ano: 1950,
+    imagem:
+      "https://miro.medium.com/v2/resize:fit:1200/1*ynxCgSa2MP8y5p2R3DNr6Q.png",
+    livros: [
+      {
+        id: "robos-1",
+        titulo: "Eu, Robô",
+        autor: autores[12],
+        ano: 1950,
+        ordem: 1,
+        imagem:
+          "https://m.media-amazon.com/images/I/61ooZHl+CTL._SY466_.jpg",
+        link: "https://amzn.to/3BXH15a",
+      },
+      {
+        id: "robos-2",
+        titulo: "As Cavernas de Aço",
+        autor: autores[12],
+        ano: 1954,
+        ordem: 2,
+        imagem:"https://m.media-amazon.com/images/I/714RAVDEBmL._SY466_.jpg",
+        link: "https://amzn.to/4a52kP0",
+      },
+      {
+        id: "robos-3",
+        titulo: "O Sol Desvelado",
+        autor: autores[12],
+        ano: 1957,
+        ordem: 3,
+        imagem:
+          "https://m.media-amazon.com/images/I/71BBv4oeCGL._SY466_.jpg",
+        link: "https://amzn.to/3WamNMn",
+      },
+      {
+        id: "robos-4",
+        titulo: "Os Robôs da Alvorada",
+        autor: autores[12],
+        ano: 1983,
+        ordem: 4,
+        imagem:
+          "https://m.media-amazon.com/images/I/91SSMthACEL._SY466_.jpg",
+        link: "https://amzn.to/3BMgqbr",
+      },
+      {
+        id: "robos-5",
+        titulo: "Robôs e Império",
+        autor: autores[12],
+        ano: 1985,
+        ordem: 5,
+        imagem:
+          "https://m.media-amazon.com/images/I/511YB3QKAEL._SX342_SY445_DpWeblab_.jpg",
+        link: "https://amzn.to/3BVkiXA",
+      },
+    ],
+  },
 
 
 ];

@@ -184,6 +184,11 @@ const nextConfig: NextConfig = {
         hostname: 'voicers.com.br',
         port:''
       },
+      {
+        protocol: 'https',
+        hostname: 'miro.medium.com',
+        port:''
+      },
     ]
   }
 };
