@@ -255,6 +255,14 @@ export default function Home() {
           <TopLivros series={series} />
           <TopAutores autores={autores} />
         </div>
+        <div
+          className="
+            relative flex flex-col justify-center items-center 
+            h-96 sm:h-64 md:h-72 mx-auto w-full
+            bg-[url('https://images.pexels.com/photos/5604947/pexels-photo-5604947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]
+            bg-no-repeat bg-cover overflow-hidden bg-center rounded-lg mt-20
+      "
+        ></div>
       </Pagina>
     </>
   );

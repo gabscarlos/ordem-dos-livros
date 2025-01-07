@@ -6,16 +6,16 @@ import MenuItem from "./MenuItem";
 export default function Rodape() {
   return (
     <div>
-      <footer className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 px-4 sm:px-10 md:px-20 py-10 border-t-2 border-zinc-200 mt-28 gap-10">
+      <footer className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 px-2 sm:px-7 md:px-10 py-10 border-t-2 border-zinc-200 mt-2 gap-10">
         {/* Coluna para Logo e Frase */}
-        <div className="flex flex-col items-center gap-4 sm:items-start">
+        <div className="flex flex-col items-center gap-2 mr-12">
           <Logo />
           <p className="text-sm text-zinc-950 text-center sm:text-left">
             O guia perfeito para organizar suas leituras, com a ordem ideal de
             séries, trilogias e mais.
           </p>
         </div>
-
+        
         {/* Coluna para Menu Descubra */}
         <Menu titulo="Descubra" className="flex flex-col items-start">
           <MenuItem href="/series" texto="Séries" />
@@ -46,6 +46,7 @@ export default function Rodape() {
         </Menu>
       </footer>
 
+      <p className="text-xs text-center">Ordem dos Livros é um participante do Programa de Associados da Amazon Services LLC, um programa de publicidade afiliado desenvolvido para fornecer um meio para os sites ganharem taxas de publicidade por meio de publicidade e links para a Amazon.com e Amazon.com.br</p>
       {/* Copyright */}
       <div className=" flex items-center justify-center w-full bg-slate-400 py-2">
         <span className="text-sm text-center text-white">
