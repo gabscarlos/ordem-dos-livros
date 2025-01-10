@@ -29,7 +29,10 @@ export default function Series() {
           content="Explore uma lista das melhores séries de livros, conheça autores incríveis e descubra histórias fascinantes para sua próxima leitura."
         />
         <meta property="og:image" content="/logo.png" />
-        <meta property="og:url" content="https://aordemdoslivros.vercel.app/series" />
+        <meta
+          property="og:url"
+          content="https://aordemdoslivros.vercel.app/series"
+        />
         <meta property="og:type" content="website" />
 
         {/* Twitter Cards */}
@@ -45,7 +48,10 @@ export default function Series() {
         <meta name="twitter:image" content="/logo.png" />
 
         {/* Link Canonical */}
-        <link rel="canonical" href="https://aordemdoslivros.vercel.app/series" />
+        <link
+          rel="canonical"
+          href="https://aordemdoslivros.vercel.app/series"
+        />
 
         {/* Dados Estruturados JSON-LD */}
         <script
@@ -72,6 +78,11 @@ export default function Series() {
             }),
           }}
         />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8791475834761530"
+          crossOrigin="anonymous"
+        ></script>
       </Head>
 
       <div className="flex flex-col gap-5">

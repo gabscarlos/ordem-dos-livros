@@ -29,7 +29,10 @@ export default function Series() {
           content="Explore uma lista com os livros mais vendidos do mercado"
         />
         <meta property="og:image" content="/logo.png" />
-        <meta property="og:url" content="https://aordemdoslivros.vercel.app/mais-vendidos" />
+        <meta
+          property="og:url"
+          content="https://aordemdoslivros.vercel.app/mais-vendidos"
+        />
         <meta property="og:type" content="website" />
 
         {/* Twitter Cards */}
@@ -45,7 +48,10 @@ export default function Series() {
         <meta name="twitter:image" content="/logo.png" />
 
         {/* Link Canonical */}
-        <link rel="canonical" href="https://aordemdoslivros.vercel.app/mais-vendidos" />
+        <link
+          rel="canonical"
+          href="https://aordemdoslivros.vercel.app/mais-vendidos"
+        />
 
         {/* Dados Estruturados JSON-LD */}
         <script
@@ -72,6 +78,11 @@ export default function Series() {
             }),
           }}
         />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8791475834761530"
+          crossOrigin="anonymous"
+        ></script>
       </Head>
 
       <div className="flex flex-col gap-5">
@@ -80,8 +91,12 @@ export default function Series() {
           secundario="Explore os livros mais vendidos do mercado"
         />
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-content-center gap-6">
-          {[...maisVendidos]  
-            .sort((a, b) => parseInt(a.posicao.replace("#", "")) - parseInt(b.posicao.replace("#", "")))         
+          {[...maisVendidos]
+            .sort(
+              (a, b) =>
+                parseInt(a.posicao.replace("#", "")) -
+                parseInt(b.posicao.replace("#", ""))
+            )
             .map((serie) => (
               <LivroMaisVendido key={serie.id} {...serie} />
             ))}

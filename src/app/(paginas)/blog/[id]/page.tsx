@@ -31,15 +31,35 @@ export default async function Conteudo({ params }: ConteudoPageProps) {
       <Head>
         <title>{conteudoEspecifico.titulo} | Ordem dos Livros</title>
         <meta name="description" content={conteudoEspecifico.descricao} />
-        <meta property="og:title" content={`${conteudoEspecifico.titulo} | Ordem dos Livros`} />
-        <meta property="og:description" content={conteudoEspecifico.descricao} />
+        <meta
+          property="og:title"
+          content={`${conteudoEspecifico.titulo} | Ordem dos Livros`}
+        />
+        <meta
+          property="og:description"
+          content={conteudoEspecifico.descricao}
+        />
         <meta property="og:image" content={conteudoEspecifico.imagem} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`https://aordemdoslivros.vercel.app/blog/${id}`} />
+        <meta
+          property="og:url"
+          content={`https://aordemdoslivros.vercel.app/blog/${id}`}
+        />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${conteudoEspecifico.titulo} | Ordem dos Livros`} />
-        <meta name="twitter:description" content={conteudoEspecifico.descricao} />
+        <meta
+          name="twitter:title"
+          content={`${conteudoEspecifico.titulo} | Ordem dos Livros`}
+        />
+        <meta
+          name="twitter:description"
+          content={conteudoEspecifico.descricao}
+        />
         <meta name="twitter:image" content={conteudoEspecifico.imagem} />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8791475834761530"
+          crossOrigin="anonymous"
+        ></script>
       </Head>
 
       {/* Conteúdo */}

@@ -78,12 +78,19 @@ export default async function Autor({ params }: AutorPageProps) {
             }),
           }}
         />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8791475834761530"
+          crossOrigin="anonymous"
+        ></script>
       </Head>
 
       {/* Conteúdo do Autor */}
       <ConteudoAutor {...autorEspecifico} />
       <Link
-        href={`/series/${series.find((serie) => serie.autor.id === autorEspecifico.id)?.id}`}
+        href={`/series/${
+          series.find((serie) => serie.autor.id === autorEspecifico.id)?.id
+        }`}
         className="flex justify-end mt-10"
       >
         <button className="botao roxo">Série de Livros do Autor</button>

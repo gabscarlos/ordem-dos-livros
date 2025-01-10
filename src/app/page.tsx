@@ -92,6 +92,8 @@ export default function Home() {
             }),
           }}
         />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8791475834761530"
+     crossOrigin="anonymous"></script>
       </Head>
 
       <Pagina>

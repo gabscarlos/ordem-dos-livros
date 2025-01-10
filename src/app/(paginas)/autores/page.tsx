@@ -8,34 +8,48 @@ export default function Autores() {
     <div className="flex flex-col gap-10">
       <Head>
         {/* Meta Tags para SEO */}
-        <title>Autores - Conheça os Escritores das Histórias que Você Ama</title>
-        <meta 
-          name="description" 
-          content="Conheça os autores das histórias que você ama! Descubra mais sobre escritores famosos, suas obras e trajetórias." 
+        <title>
+          Autores - Conheça os Escritores das Histórias que Você Ama
+        </title>
+        <meta
+          name="description"
+          content="Conheça os autores das histórias que você ama! Descubra mais sobre escritores famosos, suas obras e trajetórias."
         />
-        <meta 
-          name="keywords" 
-          content="autores, escritores, livros, literatura, biografias, histórias, obras literárias" 
+        <meta
+          name="keywords"
+          content="autores, escritores, livros, literatura, biografias, histórias, obras literárias"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://aordemdoslivros.vercel.app/autores" />
+        <link
+          rel="canonical"
+          href="https://aordemdoslivros.vercel.app/autores"
+        />
 
         {/* Open Graph para Redes Sociais */}
-        <meta property="og:title" content="Autores - Conheça os Escritores das Histórias que Você Ama" />
-        <meta 
-          property="og:description" 
-          content="Explore detalhes sobre escritores famosos, suas obras e contribuições para a literatura mundial." 
+        <meta
+          property="og:title"
+          content="Autores - Conheça os Escritores das Histórias que Você Ama"
+        />
+        <meta
+          property="og:description"
+          content="Explore detalhes sobre escritores famosos, suas obras e contribuições para a literatura mundial."
         />
         <meta property="og:image" content="/logo.png" />
-        <meta property="og:url" content="https://aordemdoslivros.vercel.app/autores" />
+        <meta
+          property="og:url"
+          content="https://aordemdoslivros.vercel.app/autores"
+        />
         <meta property="og:type" content="website" />
 
         {/* Twitter Cards */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Autores - Conheça os Escritores das Histórias que Você Ama" />
-        <meta 
-          name="twitter:description" 
-          content="Descubra mais sobre os autores que criaram suas histórias favoritas e veja suas principais obras." 
+        <meta
+          name="twitter:title"
+          content="Autores - Conheça os Escritores das Histórias que Você Ama"
+        />
+        <meta
+          name="twitter:description"
+          content="Descubra mais sobre os autores que criaram suas histórias favoritas e veja suas principais obras."
         />
         <meta name="twitter:image" content="/logo.png" />
 
@@ -60,6 +74,11 @@ export default function Autores() {
             }),
           }}
         />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8791475834761530"
+          crossOrigin="anonymous"
+        ></script>
       </Head>
 
       {/* Conteúdo da Página */}
@@ -68,10 +87,12 @@ export default function Autores() {
         secundario="Conheça os autores que escrevem as histórias que você ama!"
       />
       <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-5">
-        {autores.sort((a, b) => a.nome.localeCompare(b.nome)).map((autor) => (
-          <ItemAutor key={autor.id} {...autor} />
-        ))}
-      </div>      
+        {autores
+          .sort((a, b) => a.nome.localeCompare(b.nome))
+          .map((autor) => (
+            <ItemAutor key={autor.id} {...autor} />
+          ))}
+      </div>
     </div>
   );
 }
