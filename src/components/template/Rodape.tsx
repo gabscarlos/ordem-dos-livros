@@ -46,15 +46,15 @@ export default function Rodape() {
         </Menu>
       </footer>
 
-      <p className="text-xs text-center">Ordem dos Livros é um participante do Programa de Associados da Amazon Services LLC, um programa de publicidade afiliado desenvolvido para fornecer um meio para os sites ganharem taxas de publicidade por meio de publicidade e links para a Amazon.com e Amazon.com.br</p>
       {/* Copyright */}
-      <div className=" flex items-center justify-center w-full bg-slate-400 py-2">
+      <div className="flex flex-col items-center justify-center w-full bg-slate-400 py-2">
         <span className="text-sm text-center text-white">
-          Todos os direitos reservados &copy; 2024 -{" "}
+          Todos os direitos reservados &copy; 2025 -{" "}
           <Link href="https://github.com/gabscarlos" className="hover:text-black">
             gabscarlos.dev
           </Link>
         </span>
+      <p className="text-white text-xs text-center">Ordem dos Livros é um participante do Programa de Associados da Amazon Services LLC. Ao comprar pelos nossos links, ganhamos uma comissão, mas você não paga nada a mais por isso.</p>
       </div>
     </div>
   );
