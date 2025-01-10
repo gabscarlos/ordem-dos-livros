@@ -111,6 +111,64 @@ Em seguida, vem o best-seller do autor britânico Matt Haig, **“A biblioteca d
 
         `,
       },
+
+      {
+         id: "indicacao-livros-classicos",
+         data: "06-01-2025",
+         titulo: "Profissionais da Educação Indicam 10 Livros Clássicos para Conhecer",
+         imagem: "https://img.freepik.com/free-photo/smiling-showing-thumbs-up-young-female-teacher-holding-book-sitting-desk-with-school-tools-classroom_141793-137459.jpg?semt=ais_hybrid",
+         descricao: "Uma seleção de obras essenciais para enriquecer sua leitura e ampliar horizontes.",
+         conteudo: `
+# Profissionais da Educação Indicam 10 Livros Clássicos para Conhecer
+       
+Que tal pegar um livro na estante? A leitura é uma atividade essencial para o desenvolvimento pessoal, mas, nos últimos anos, vem apresentando uma queda significativa. Entre 2015 e 2024, o Brasil registrou uma redução de **11,3 milhões de leitores**, segundo a 6ª edição da *Pesquisa de Retratos da Leitura no Brasil* (Instituto Pró-Livro, Itaú Cultural e Ipec).
+       
+Para ajudar a reverter esse cenário, especialistas em educação reuniram uma lista com **10 livros clássicos** que todo leitor deve conhecer. Confira:
+       
+### 1. A Revolta de Atlas (1957) - Ayn Rand
+[![“A Revolta de Atlas” • Divulgação](https://m.media-amazon.com/images/I/61R8bWX3YDL._SY385_.jpg)](https://amzn.to/3DOws57)
+Uma distopia sobre um mundo onde o governo sufoca a liberdade e a inovação. Dagny Taggart luta para salvar sua ferrovia em meio ao colapso econômico, enquanto os maiores gênios desaparecem misteriosamente. Um retrato dos conflitos entre individualismo e coletivismo.
+       
+### 2. O Alienista (1882) - Machado de Assis
+[![“O Alienista” • Divulgação](https://m.media-amazon.com/images/I/71wXRDnVH9L._SY385_.jpg)](https://amzn.to/40t56KP)
+A história de Simão Bacamarte, médico que funda a Casa Verde para tratar os supostos loucos de Itaguaí. Seus critérios de insanidade se tornam cada vez mais amplos, levantando questões sobre os limites da razão e os excessos da ciência.
+       
+### 3. O Primo Basílio (1878) - Eça de Queiroz
+[![“O Primo Basílio” • Divulgação](https://m.media-amazon.com/images/I/61-eRZxJ6gL._SY385_.jpg)](https://amzn.to/42ameWK)
+Luísa, casada com Jorge, envolve-se em um caso com seu primo Basílio. A paixão proibida leva a chantagens e tragédias, explorando as consequências de um amor adúltero e as ilusões da sociedade burguesa.
+       
+### 4. Amar, Verbo Intransitivo (1927) - Mário de Andrade
+[![“Amar, Verbo Intransitivo” • Divulgação](https://m.media-amazon.com/images/I/61Eo2cmLhIL._SY385_.jpg)](https://amzn.to/4adAkZF)
+A história de Fräulein, governanta contratada para educar e iniciar o jovem Carlos em questões amorosas. O romance critica os valores da elite paulistana e retrata o amor como uma força universal e incontrolável.
+       
+### 5. 1984 (1949) - George Orwell
+[![“1984” • Divulgação](https://m.media-amazon.com/images/I/51feD87yuEL._SY445_SX342_DpWeblab_.jpg)](https://amzn.to/4gIh2hg)
+Winston Smith vive em uma sociedade autoritária onde cada ação é monitorada pelo Partido. O livro é uma crítica ao autoritarismo e à perda da autonomia individual, destacando o preço da resistência.
+       
+### 6. O Pequeno Príncipe (1943) - Antoine de Saint-Exupéry
+[![“O Pequeno Príncipe” • Divulgação](https://m.media-amazon.com/images/I/71IiouhdpAL._SY342_.jpg)](https://amzn.to/4j8IRRy)
+Um príncipe viaja por planetas e compartilha lições sobre amizade, amor e simplicidade com um aviador perdido no deserto. A obra celebra a visão infantil do mundo e o essencial que é invisível aos olhos.
+       
+### 7. O Velho e o Mar (1952) - Ernest Hemingway
+[![“O Velho e o Mar” • Divulgação](https://m.media-amazon.com/images/I/71wo6d7Ex3L._SY385_.jpg)](https://amzn.to/4gRbjWG)
+A luta de Santiago, um velho pescador, contra um marlim gigante e os tubarões no caminho de volta. Uma reflexão sobre perseverança, solidão e a conexão entre homem e natureza.
+       
+### 8. Alice no País das Maravilhas (1865) - Lewis Carroll
+[![“Alice no País das Maravilhas” • Divulgação](https://m.media-amazon.com/images/I/71graaecr-L._SY385_.jpg)](https://amzn.to/4gRbn8S)
+A jornada de Alice em um mundo surreal e cheio de personagens excêntricos. A obra explora temas de identidade, curiosidade e os limites entre realidade e fantasia.
+       
+### 9. O Apanhador no Campo de Centeio (1951) - J.D. Salinger
+[![“O Apanhador no Campo de Centeio” • Divulgação](https://m.media-amazon.com/images/I/71b3GDZMzSL._SY385_.jpg)](https://amzn.to/3PvXpxa)
+A história de Holden Caulfield, um adolescente que reflete sobre a perda da inocência e a transição para a maturidade enquanto enfrenta a alienação e a solidão.
+       
+### 10. Emma (1815) - Jane Austen
+[![“Emma” • Divulgação](https://m.media-amazon.com/images/I/71bLpWzzrtL._SY385_.jpg)](https://amzn.to/3PsikBd)
+Emma Woodhouse é uma jovem casamenteira que enfrenta mal-entendidos enquanto descobre o amor verdadeiro. A obra aborda temas de autoconhecimento e as complexidades dos relacionamentos.
+       
+Estes clássicos são mais do que histórias: são reflexões profundas sobre a vida, a sociedade e o ser humano. Que tal começar hoje mesmo sua jornada por esses livros indispensáveis?
+         `,
+       },
+       
 ]  
 
 export default noticias
