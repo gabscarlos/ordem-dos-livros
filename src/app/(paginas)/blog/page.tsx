@@ -36,7 +36,7 @@ export default function Blog() {
       {/* Notícias */}
       <section className="mt-4">
         <h1 className="text-2xl font-bold text-zinc-700">Notícias</h1>
-        <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-5">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5">
           {noticias
             .sort((a, b) => a.titulo.localeCompare(b.titulo))
             .map((noticia) => (

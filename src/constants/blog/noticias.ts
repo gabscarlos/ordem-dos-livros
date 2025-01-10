@@ -168,6 +168,53 @@ Emma Woodhouse é uma jovem casamenteira que enfrenta mal-entendidos enquanto de
 Estes clássicos são mais do que histórias: são reflexões profundas sobre a vida, a sociedade e o ser humano. Que tal começar hoje mesmo sua jornada por esses livros indispensáveis?
          `,
        },
+
+       {
+         id: "usp-livros-gratuitos",
+         data: "06-01-2025",
+         titulo: "USP Disponibiliza Mais de 1.100 Livros de Graça! Veja Como Baixar",
+         imagem: "https://img.freepik.com/fotos-gratis/e-book-online-learning-education-knowledge-graphic_53876-120401.jpg",
+         descricao: "Descubra como acessar mais de mil obras gratuitas no Portal de Livros Abertos da USP.",
+         conteudo: `
+# USP Disponibiliza Mais de 1.100 Livros de Graça! Veja Como Baixar
+       
+O acesso a livros acadêmicos de qualidade é um desafio para muitos estudantes, mas a **Universidade de São Paulo (USP)** oferece uma solução incrível: o **Portal de Livros Abertos da USP**. Com mais de **1.100 obras gratuitas**, a iniciativa democratiza o conhecimento e beneficia estudantes e profissionais de diversas áreas.
+       
+### O Que o Portal Oferece?
+       
+O acervo do portal inclui livros e revistas científicas produzidos pelos institutos da USP, abrangendo uma ampla variedade de áreas do conhecimento. Por exemplo:
+       
+- **Ciência da Computação**: Obras sobre inteligência artificial.
+- **Direito**: Livros sobre sociologia do direito digital e questões relacionadas à infância e adolescência.
+       
+Essa diversidade faz do portal uma ferramenta indispensável para estudantes e profissionais.
+       
+### Como Acessar os Livros?
+       
+Navegar pelo **Portal de Livros Abertos** é simples e acessível a todos. Não é necessário cadastro! Siga os passos abaixo:
+       
+1. Acesse o site do portal.
+2. Escolha um título no catálogo.
+3. Faça o download do arquivo gratuitamente.
+       
+A plataforma é projetada para facilitar a busca por temas específicos, permitindo que o leitor encontre rapidamente o material desejado.
+       
+### Impacto da Iniciativa
+       
+Além de ampliar o acesso ao conhecimento, o portal preserva e divulga a memória científica da USP. Ao oferecer materiais gratuitos, a universidade democratiza a educação e incentiva a formação acadêmica e cultural de um público mais amplo.
+       
+### Dicas para Ler Mais em 2025
+       
+Se você quer ler mais em 2025, o **Portal de Livros Abertos da USP** pode ser um ótimo ponto de partida. Algumas dicas para transformar a leitura em hábito:
+       
+- Estabeleça metas diárias, como ler por 10 minutos.
+- Escolha temas que despertem sua curiosidade.
+- Aproveite a flexibilidade da leitura digital para acessar obras em qualquer lugar.
+       
+Aproveitar recursos como o portal da USP é o primeiro passo para um ano mais produtivo e enriquecedor. Seja para estudos ou lazer, incluir a leitura na rotina contribui para o aprendizado e amplia horizontes.
+         `,
+       }
+       
        
 ]  
 
