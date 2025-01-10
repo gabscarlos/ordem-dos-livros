@@ -191,9 +191,9 @@ Essa diversidade faz do portal uma ferramenta indispensável para estudantes e p
        
 ### Como Acessar os Livros?
        
-Navegar pelo **Portal de Livros Abertos** é simples e acessível a todos. Não é necessário cadastro! Siga os passos abaixo:
+Navegar pelo [**Portal de Livros Abertos**](https://www.livrosabertos.abcd.usp.br/portaldelivrosUSP) é simples e acessível a todos. Não é necessário cadastro! Siga os passos abaixo:
        
-1. Acesse o site do portal.
+1. [Acesse o site do portal.](https://www.livrosabertos.abcd.usp.br/portaldelivrosUSP)
 2. Escolha um título no catálogo.
 3. Faça o download do arquivo gratuitamente.
        
