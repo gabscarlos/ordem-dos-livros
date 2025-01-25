@@ -1,11 +1,13 @@
 const noticias = [
-    {
-        id: "ficcao-10-livros-mais-vendidos",
-        data: "03-01-2025",
-        titulo: "10 Livros de ficção mais vendidos no Brasil em 2024",
-        imagem: "https://img.freepik.com/free-photo/fairytale-scene-coming-out-book_23-2151778499.jpg?semt=ais_hybrid",
-        descricao: "Veja quais foram os livros de ficção mais vendidos no Brasil em 2024.",
-        conteudo: `
+  {
+    id: "ficcao-10-livros-mais-vendidos",
+    data: "03-01-2025",
+    titulo: "10 Livros de ficção mais vendidos no Brasil em 2024",
+    imagem:
+      "https://img.freepik.com/free-photo/fairytale-scene-coming-out-book_23-2151778499.jpg?semt=ais_hybrid",
+    descricao:
+      "Veja quais foram os livros de ficção mais vendidos no Brasil em 2024.",
+    conteudo: `
 # Veja quais foram os livros de ficção mais vendidos no Brasil em 2024
 
 Obras da escritora Colleen Hoover, que ganhou uma adaptação para os cinemas neste ano, lideram a lista.
@@ -110,15 +112,18 @@ Em seguida, vem o best-seller do autor britânico Matt Haig, **“A biblioteca d
 
 
         `,
-      },
+  },
 
-      {
-         id: "indicacao-livros-classicos",
-         data: "06-01-2025",
-         titulo: "Profissionais da Educação Indicam 10 Livros Clássicos para Conhecer",
-         imagem: "https://img.freepik.com/free-photo/smiling-showing-thumbs-up-young-female-teacher-holding-book-sitting-desk-with-school-tools-classroom_141793-137459.jpg?semt=ais_hybrid",
-         descricao: "Uma seleção de obras essenciais para enriquecer sua leitura e ampliar horizontes.",
-         conteudo: `
+  {
+    id: "indicacao-livros-classicos",
+    data: "06-01-2025",
+    titulo:
+      "Profissionais da Educação Indicam 10 Livros Clássicos para Conhecer",
+    imagem:
+      "https://img.freepik.com/free-photo/smiling-showing-thumbs-up-young-female-teacher-holding-book-sitting-desk-with-school-tools-classroom_141793-137459.jpg?semt=ais_hybrid",
+    descricao:
+      "Uma seleção de obras essenciais para enriquecer sua leitura e ampliar horizontes.",
+    conteudo: `
 # Profissionais da Educação Indicam 10 Livros Clássicos para Conhecer
        
 Que tal pegar um livro na estante? A leitura é uma atividade essencial para o desenvolvimento pessoal, mas, nos últimos anos, vem apresentando uma queda significativa. Entre 2015 e 2024, o Brasil registrou uma redução de **11,3 milhões de leitores**, segundo a 6ª edição da *Pesquisa de Retratos da Leitura no Brasil* (Instituto Pró-Livro, Itaú Cultural e Ipec).
@@ -167,15 +172,17 @@ Emma Woodhouse é uma jovem casamenteira que enfrenta mal-entendidos enquanto de
        
 Estes clássicos são mais do que histórias: são reflexões profundas sobre a vida, a sociedade e o ser humano. Que tal começar hoje mesmo sua jornada por esses livros indispensáveis?
          `,
-       },
+  },
 
-       {
-         id: "usp-livros-gratuitos",
-         data: "06-01-2025",
-         titulo: "USP Disponibiliza Mais de 1.100 Livros de Graça! Veja Como Baixar",
-         imagem: "https://img.freepik.com/fotos-gratis/e-book-online-learning-education-knowledge-graphic_53876-120401.jpg",
-         descricao: "Descubra como acessar mais de mil obras gratuitas no Portal de Livros Abertos da USP.",
-         conteudo: `
+  {
+    id: "usp-livros-gratuitos",
+    data: "06-01-2025",
+    titulo: "USP Disponibiliza Mais de 1.100 Livros de Graça! Veja Como Baixar",
+    imagem:
+      "https://img.freepik.com/fotos-gratis/e-book-online-learning-education-knowledge-graphic_53876-120401.jpg",
+    descricao:
+      "Descubra como acessar mais de mil obras gratuitas no Portal de Livros Abertos da USP.",
+    conteudo: `
 # USP Disponibiliza Mais de 1.100 Livros de Graça! Veja Como Baixar
        
 O acesso a livros acadêmicos de qualidade é um desafio para muitos estudantes, mas a **Universidade de São Paulo (USP)** oferece uma solução incrível: o **Portal de Livros Abertos da USP**. Com mais de **1.100 obras gratuitas**, a iniciativa democratiza o conhecimento e beneficia estudantes e profissionais de diversas áreas.
@@ -213,9 +220,84 @@ Se você quer ler mais em 2025, o **Portal de Livros Abertos da USP** pode ser u
        
 Aproveitar recursos como o portal da USP é o primeiro passo para um ano mais produtivo e enriquecedor. Seja para estudos ou lazer, incluir a leitura na rotina contribui para o aprendizado e amplia horizontes.
          `,
-       }
-       
-       
-]  
+  },
 
-export default noticias
+  {
+    id: "livros-curtos-fim-semana",
+    data: "02-01-2025",
+    titulo: "10 Livros Curtos para Ler no Fim de Semana",
+    imagem:
+      "https://img.freepik.com/free-photo/top-view-bookmark-tea-cup-arrangement_23-2149894373.jpg",
+    descricao:
+      "Uma seleção de livros curtos e envolventes para aproveitar o fim de semana.",
+    conteudo: `
+# 10 Livros Curtos para Ler no Fim de Semana
+       
+Nem sempre é preciso um livro extenso para mergulhar em uma história cativante. Aqui estão 10 obras curtas que podem ser lidas em um único fim de semana, mas que deixarão uma impressão duradoura:
+       
+### 1. *O Pequeno Príncipe* - Antoine de Saint-Exupéry
+<a href="https://amzn.to/4julFgC" target="_blank">
+<img src="https://m.media-amazon.com/images/I/51nNwwVSclL._SY385_.jpg" alt="O Pequeno Príncipe • Divulgação">
+</a>
+Uma fábula encantadora sobre amizade, amor e os mistérios da vida, narrada por um pequeno príncipe que viaja por planetas e descobre lições profundas.
+       
+### 2. *A Metamorfose* - Franz Kafka
+<a href="https://amzn.to/40O8NL2" target="_blank">
+<img src="https://m.media-amazon.com/images/I/715JOcuqSSL._SY385_.jpg" alt="A Metamorfose • Divulgação">
+</a>
+Gregor Samsa acorda transformado em um inseto gigantesco. Este clássico aborda temas de alienação, família e identidade em uma narrativa tão curta quanto poderosa.
+       
+### 3. *O Velho e o Mar* - Ernest Hemingway
+<a href="https://amzn.to/4huWbhg" target="_blank">
+<img src="https://m.media-amazon.com/images/I/71wo6d7Ex3L._SY385_.jpg" alt="O Velho e o Mar • Divulgação">
+</a>
+A história de um velho pescador que trava uma batalha épica contra um enorme peixe-marlin. Um conto sobre resiliência e a relação do homem com a natureza.
+       
+### 4. *O Alienista* - Machado de Assis
+<a href="https://amzn.to/4awdQTC" target="_blank">
+<img src="https://m.media-amazon.com/images/I/71wXRDnVH9L._SY385_.jpg" alt="O Alienista • Divulgação">
+</a>
+Simão Bacamarte, um médico obcecado por estudar a mente humana, abre um hospício e define quem é considerado louco, em uma narrativa crítica e bem-humorada.
+       
+### 5. *Coração das Trevas* - Joseph Conrad
+<a href="https://amzn.to/4huwdKT" target="_blank">
+<img src="https://m.media-amazon.com/images/I/81bzBMqAjcL._SY385_.jpg" alt="Coração das Trevas • Divulgação">
+</a>
+Marlow narra sua jornada pelo rio Congo em busca do enigmático Kurtz, em um mergulho sombrio nos limites da civilização e da moralidade humana.
+       
+### 6. *Noites Brancas* - Fiódor Dostoiévski
+<a href="https://amzn.to/4aC6duT" target="_blank">
+<img src="https://m.media-amazon.com/images/I/71F-Uf20+UL._SY385_.jpg" alt="Noites Brancas • Divulgação">
+</a>
+Um conto romântico e melancólico sobre um jovem sonhador que vive uma breve e intensa conexão com uma mulher durante quatro noites em São Petersburgo.
+       
+### 7. *O Apanhador no Campo de Centeio* - J.D. Salinger
+<a href="https://amzn.to/3WBlzu2" target="_blank">
+<img src="https://m.media-amazon.com/images/I/71b3GDZMzSL._SY385_.jpg" alt="O Apanhador no Campo de Centeio • Divulgação">
+</a>
+A história de Holden Caulfield, um adolescente que enfrenta a alienação e a solidão enquanto busca a verdade sobre a morte de seu pai.
+       
+### 8. *Eu, Robô* - Isaac Asimov
+<a href="https://amzn.to/3BXH15a" target="_blank">
+<img src="https://m.media-amazon.com/images/I/61ooZHl+CTL._SY466_.jpg" alt="Eu, Robô • Divulgação">
+</a>
+Uma coleção de contos que explora a relação entre humanos e robôs, apresentando as famosas Três Leis da Robótica de Asimov.
+       
+### 9. *A Parte que Falta* - Shel Silverstein
+<a href="https://amzn.to/40OKRqM" target="_blank">
+<img src="https://m.media-amazon.com/images/I/71wXLjDyH8L._SY342_.jpg" alt="A Parte que Falta • Divulgação">
+</a>
+Uma fábula ilustrada sobre autodescoberta e completude, com um tom leve e reflexivo que cativa leitores de todas as idades.
+       
+### 10. *O Morro dos Ventos Uivantes* (versão condensada) - Emily Brontë
+<a href="https://amzn.to/3CnFCVM" target="_blank">
+<img src="https://m.media-amazon.com/images/I/81u+t+bRSoL._SY385_.jpg" alt="O Morro dos Ventos Uivantes • Divulgação">
+</a>
+A história apaixonada e trágica de Catherine e Heathcliff em uma versão condensada que mantém a intensidade da narrativa original.
+       
+Qual desses será sua próxima leitura no fim de semana?
+       `,
+  },
+];
+
+export default noticias;
