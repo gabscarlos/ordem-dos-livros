@@ -43,6 +43,7 @@ export default function Rodape() {
         <Menu titulo="Outras Categorias" className="flex flex-col items-start">
           <MenuItem texto="Últimas Notícias" href="/blog" />
           <MenuItem texto="Séries Populares" href="/series" />
+          <MenuItem texto="Política de Privacidade" href="/politica-privacidade" />
         </Menu>
       </footer>
 
