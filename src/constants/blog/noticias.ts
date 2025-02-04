@@ -177,127 +177,129 @@ Estes clássicos são mais do que histórias: são reflexões profundas sobre a 
   {
     id: "usp-livros-gratuitos",
     data: "06-01-2025",
-    titulo: "USP Disponibiliza Mais de 1.100 Livros de Graça! Veja Como Baixar",
+    titulo: "USP Libera Mais de 1.100 Livros Grátis! Saiba Como Baixar",
     imagem:
       "https://img.freepik.com/fotos-gratis/e-book-online-learning-education-knowledge-graphic_53876-120401.jpg",
     descricao:
-      "Descubra como acessar mais de mil obras gratuitas no Portal de Livros Abertos da USP.",
+      "Saiba como acessar gratuitamente mais de mil obras acadêmicas no Portal de Livros Abertos da USP.",
     conteudo: `
-# USP Disponibiliza Mais de 1.100 Livros de Graça! Veja Como Baixar
-       
-O acesso a livros acadêmicos de qualidade é um desafio para muitos estudantes, mas a **Universidade de São Paulo (USP)** oferece uma solução incrível: o **Portal de Livros Abertos da USP**. Com mais de **1.100 obras gratuitas**, a iniciativa democratiza o conhecimento e beneficia estudantes e profissionais de diversas áreas.
-       
-### O Que o Portal Oferece?
-       
-O acervo do portal inclui livros e revistas científicas produzidos pelos institutos da USP, abrangendo uma ampla variedade de áreas do conhecimento. Por exemplo:
-       
-- **Ciência da Computação**: Obras sobre inteligência artificial.
-- **Direito**: Livros sobre sociologia do direito digital e questões relacionadas à infância e adolescência.
-       
-Essa diversidade faz do portal uma ferramenta indispensável para estudantes e profissionais.
-       
-### Como Acessar os Livros?
-       
-Navegar pelo [**Portal de Livros Abertos**](https://www.livrosabertos.abcd.usp.br/portaldelivrosUSP) é simples e acessível a todos. Não é necessário cadastro! Siga os passos abaixo:
-       
-1. [Acesse o site do portal.](https://www.livrosabertos.abcd.usp.br/portaldelivrosUSP)
-2. Escolha um título no catálogo.
-3. Faça o download do arquivo gratuitamente.
-       
-A plataforma é projetada para facilitar a busca por temas específicos, permitindo que o leitor encontre rapidamente o material desejado.
-       
-### Impacto da Iniciativa
-       
-Além de ampliar o acesso ao conhecimento, o portal preserva e divulga a memória científica da USP. Ao oferecer materiais gratuitos, a universidade democratiza a educação e incentiva a formação acadêmica e cultural de um público mais amplo.
-       
-### Dicas para Ler Mais em 2025
-       
-Se você quer ler mais em 2025, o **Portal de Livros Abertos da USP** pode ser um ótimo ponto de partida. Algumas dicas para transformar a leitura em hábito:
-       
-- Estabeleça metas diárias, como ler por 10 minutos.
-- Escolha temas que despertem sua curiosidade.
-- Aproveite a flexibilidade da leitura digital para acessar obras em qualquer lugar.
-       
-Aproveitar recursos como o portal da USP é o primeiro passo para um ano mais produtivo e enriquecedor. Seja para estudos ou lazer, incluir a leitura na rotina contribui para o aprendizado e amplia horizontes.
-         `,
-  },
+# USP Libera Mais de 1.100 Livros Grátis! Saiba Como Baixar
 
-  {
-    id: "livros-curtos-fim-semana",
-    data: "02-01-2025",
-    titulo: "10 Livros Curtos para Ler no Fim de Semana",
-    imagem:
-      "https://img.freepik.com/free-photo/top-view-bookmark-tea-cup-arrangement_23-2149894373.jpg",
-    descricao:
-      "Uma seleção de livros curtos e envolventes para aproveitar o fim de semana.",
-    conteudo: `
-# 10 Livros Curtos para Ler no Fim de Semana
-       
-Nem sempre é preciso um livro extenso para mergulhar em uma história cativante. Aqui estão 10 obras curtas que podem ser lidas em um único fim de semana, mas que deixarão uma impressão duradoura:
-       
-### 1. *O Pequeno Príncipe* - Antoine de Saint-Exupéry
+Ter acesso a livros acadêmicos de qualidade pode ser um desafio, mas a **Universidade de São Paulo (USP)** facilita esse processo com o **Portal de Livros Abertos da USP**. A iniciativa disponibiliza mais de **1.100 obras gratuitas**, promovendo o conhecimento para estudantes e profissionais de diversas áreas.
+
+### O Que Você Encontra no Portal?
+
+O acervo do portal reúne livros e revistas científicas publicados pelos institutos da USP, cobrindo uma ampla gama de disciplinas. Entre os destaques:
+
+- **Tecnologia e Computação**: Materiais sobre inteligência artificial e inovação.
+- **Direito**: Conteúdos sobre sociologia jurídica e temas voltados à infância e juventude.
+
+Com essa diversidade, o portal se torna um recurso essencial para aprendizado e pesquisa.
+
+### Como Baixar os Livros?
+
+A navegação no [**Portal de Livros Abertos**](https://www.livrosabertos.abcd.usp.br/portaldelivrosUSP) é prática e aberta a todos, sem necessidade de cadastro. Veja como acessar:
+
+1. [Visite o site do portal.](https://www.livrosabertos.abcd.usp.br/portaldelivrosUSP)
+2. Escolha um livro no catálogo.
+3. Baixe o arquivo gratuitamente.
+
+A interface do portal permite localizar rapidamente títulos por categoria, facilitando a busca por temas específicos.
+
+### A Importância do Acesso Livre ao Conhecimento
+
+Além de oferecer materiais de alta qualidade, o portal contribui para a preservação e divulgação do conhecimento científico produzido na USP. A gratuidade do serviço democratiza a educação e possibilita que um público mais amplo amplie seu repertório acadêmico e cultural.
+
+### Como Criar o Hábito da Leitura em 2025?
+
+Se deseja ler mais em 2025, o **Portal de Livros Abertos da USP** pode ser um excelente ponto de partida. Algumas dicas para transformar a leitura em um hábito:
+
+- Defina metas diárias, começando com 10 minutos por dia.
+- Escolha assuntos que despertem seu interesse.
+- Aproveite a leitura digital para acessar conteúdos onde quiser.
+
+Explorar esse portal é um ótimo caminho para um ano mais produtivo e enriquecedor. Seja para estudos ou lazer, a leitura é uma ferramenta poderosa para o desenvolvimento pessoal e profissional.
+    `,
+},
+
+
+{
+  id: "livros-curtos-fim-semana",
+  data: "02-01-2025",
+  titulo: "10 Livros Curtos para Devorar no Fim de Semana",
+  imagem:
+    "https://img.freepik.com/free-photo/top-view-bookmark-tea-cup-arrangement_23-2149894373.jpg",
+  descricao:
+    "Uma seleção de leituras rápidas e envolventes para um fim de semana proveitoso.",
+  conteudo: `
+# 10 Livros Curtos para Devorar no Fim de Semana
+
+Nem sempre é necessário um livro longo para se envolver em uma grande história. Se você quer aproveitar o fim de semana com leituras rápidas e marcantes, confira esta seleção de 10 livros curtos que podem ser lidos em poucos dias, mas que ficarão com você por muito tempo.
+
+### 1. *O Pequeno Príncipe* – Antoine de Saint-Exupéry
 <a href="https://amzn.to/4julFgC" target="_blank">
 <img src="https://m.media-amazon.com/images/I/51nNwwVSclL._SY385_.jpg" alt="O Pequeno Príncipe • Divulgação">
 </a>
-Uma fábula encantadora sobre amizade, amor e os mistérios da vida, narrada por um pequeno príncipe que viaja por planetas e descobre lições profundas.
-       
-### 2. *A Metamorfose* - Franz Kafka
+Uma jornada poética sobre amizade, amor e autoconhecimento, narrada por um pequeno príncipe que viaja por diferentes planetas e aprende valiosas lições sobre a vida.
+
+### 2. *A Metamorfose* – Franz Kafka
 <a href="https://amzn.to/40O8NL2" target="_blank">
 <img src="https://m.media-amazon.com/images/I/715JOcuqSSL._SY385_.jpg" alt="A Metamorfose • Divulgação">
 </a>
-Gregor Samsa acorda transformado em um inseto gigantesco. Este clássico aborda temas de alienação, família e identidade em uma narrativa tão curta quanto poderosa.
-       
-### 3. *O Velho e o Mar* - Ernest Hemingway
+Gregor Samsa desperta certa manhã transformado em um inseto gigantesco. Uma narrativa poderosa que reflete sobre alienação, identidade e relações familiares.
+
+### 3. *O Velho e o Mar* – Ernest Hemingway
 <a href="https://amzn.to/4huWbhg" target="_blank">
 <img src="https://m.media-amazon.com/images/I/71wo6d7Ex3L._SY385_.jpg" alt="O Velho e o Mar • Divulgação">
 </a>
-A história de um velho pescador que trava uma batalha épica contra um enorme peixe-marlin. Um conto sobre resiliência e a relação do homem com a natureza.
-       
-### 4. *O Alienista* - Machado de Assis
+A emocionante luta de um pescador contra um enorme peixe-marlin no alto-mar, em uma história de coragem e resiliência.
+
+### 4. *O Alienista* – Machado de Assis
 <a href="https://amzn.to/4awdQTC" target="_blank">
 <img src="https://m.media-amazon.com/images/I/71wXRDnVH9L._SY385_.jpg" alt="O Alienista • Divulgação">
 </a>
-Simão Bacamarte, um médico obcecado por estudar a mente humana, abre um hospício e define quem é considerado louco, em uma narrativa crítica e bem-humorada.
-       
-### 5. *Coração das Trevas* - Joseph Conrad
+Uma sátira genial sobre a linha tênue entre sanidade e loucura, acompanhando as decisões controversas do médico Simão Bacamarte.
+
+### 5. *Coração das Trevas* – Joseph Conrad
 <a href="https://amzn.to/4huwdKT" target="_blank">
 <img src="https://m.media-amazon.com/images/I/81bzBMqAjcL._SY385_.jpg" alt="Coração das Trevas • Divulgação">
 </a>
-Marlow narra sua jornada pelo rio Congo em busca do enigmático Kurtz, em um mergulho sombrio nos limites da civilização e da moralidade humana.
-       
-### 6. *Noites Brancas* - Fiódor Dostoiévski
+Marlow narra sua inquietante viagem pelo rio Congo à procura do enigmático Kurtz, em uma reflexão profunda sobre civilização e selvageria.
+
+### 6. *Noites Brancas* – Fiódor Dostoiévski
 <a href="https://amzn.to/4aC6duT" target="_blank">
 <img src="https://m.media-amazon.com/images/I/71F-Uf20+UL._SY385_.jpg" alt="Noites Brancas • Divulgação">
 </a>
-Um conto romântico e melancólico sobre um jovem sonhador que vive uma breve e intensa conexão com uma mulher durante quatro noites em São Petersburgo.
-       
-### 7. *O Apanhador no Campo de Centeio* - J.D. Salinger
+Um conto romântico e melancólico sobre um jovem sonhador que, durante quatro noites, se apaixona por uma mulher misteriosa em São Petersburgo.
+
+### 7. *O Apanhador no Campo de Centeio* – J.D. Salinger
 <a href="https://amzn.to/3WBlzu2" target="_blank">
 <img src="https://m.media-amazon.com/images/I/71b3GDZMzSL._SY385_.jpg" alt="O Apanhador no Campo de Centeio • Divulgação">
 </a>
-A história de Holden Caulfield, um adolescente que enfrenta a alienação e a solidão enquanto busca a verdade sobre a morte de seu pai.
-       
-### 8. *Eu, Robô* - Isaac Asimov
+A trajetória de Holden Caulfield, um adolescente desajustado que busca sentido em meio à solidão e ao desencanto com o mundo adulto.
+
+### 8. *Eu, Robô* – Isaac Asimov
 <a href="https://amzn.to/3BXH15a" target="_blank">
 <img src="https://m.media-amazon.com/images/I/61ooZHl+CTL._SY466_.jpg" alt="Eu, Robô • Divulgação">
 </a>
-Uma coleção de contos que explora a relação entre humanos e robôs, apresentando as famosas Três Leis da Robótica de Asimov.
-       
-### 9. *A Parte que Falta* - Shel Silverstein
+Uma coletânea de contos sobre a interação entre humanos e robôs, onde Asimov introduz suas famosas Três Leis da Robótica.
+
+### 9. *A Parte que Falta* – Shel Silverstein
 <a href="https://amzn.to/40OKRqM" target="_blank">
 <img src="https://m.media-amazon.com/images/I/71wXLjDyH8L._SY342_.jpg" alt="A Parte que Falta • Divulgação">
 </a>
-Uma fábula ilustrada sobre autodescoberta e completude, com um tom leve e reflexivo que cativa leitores de todas as idades.
-       
-### 10. *O Morro dos Ventos Uivantes* (versão condensada) - Emily Brontë
+Uma encantadora fábula ilustrada sobre autodescoberta e a busca por completude, com um tom reflexivo e atemporal.
+
+### 10. *O Morro dos Ventos Uivantes* (versão condensada) – Emily Brontë
 <a href="https://amzn.to/3CnFCVM" target="_blank">
 <img src="https://m.media-amazon.com/images/I/81u+t+bRSoL._SY385_.jpg" alt="O Morro dos Ventos Uivantes • Divulgação">
 </a>
-A história apaixonada e trágica de Catherine e Heathcliff em uma versão condensada que mantém a intensidade da narrativa original.
-       
-Qual desses será sua próxima leitura no fim de semana?
-       `,
-  },
+A paixão intensa e trágica entre Catherine e Heathcliff, condensada em uma versão que mantém a essência da obra original.
+
+Agora é só escolher seu favorito e aproveitar a leitura! Qual será o primeiro da sua lista?
+  `,
+},
+
 ];
 
 export default noticias;
