@@ -1,7 +1,7 @@
-# 🎬 Kino
+# 📖 Ordem dos Livros
 
 <div align="center">
-<img src="https://github.com/portfolio-projetos-dev/kino/raw/main/.gitassets/capa.png" width="350" />
+<img src="https://github.com/portfolio-projetos-dev/ordem-livros/raw/main/.gitassets/capa.png" width="350" />
 
 <div data-badges>
   <img src="https://img.shields.io/github/stars/portfolio-projetos-dev/kino?style=for-the-badge" alt="GitHub stars" />
