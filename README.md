@@ -63,12 +63,6 @@ O projeto permite que os usuários naveguem por listas organizadas de livros, ac
 - Interface responsiva
 - Navegação interativa e dinâmica
 
-![](https://github.com/portfolio-projetos-dev/kino/raw/main/.gitassets/2.jpg)
-
-![](https://github.com/portfolio-projetos-dev/kino/raw/main/.gitassets/3.jpg)
-
-![](https://github.com/portfolio-projetos-dev/kino/raw/main/.gitassets/4.jpg)
-
 ## 💎 Links úteis 💎
 
 - [Next.js](https://nextjs.org/docs)
