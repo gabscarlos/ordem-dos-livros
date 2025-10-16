@@ -32,8 +32,12 @@ Além de ser um guia literário, o projeto também valoriza a **experiência de 
 
 ---
 
-<div align="center">
-  <img src="https://github.com/portfolio-projetos-dev/ordem-livros/raw/main/.gitassets/2.jpg" width="80%" />
+<div align="center">  
+  <img src="https://github.com/gabscarlos/ordem-dos-livros/raw/main/.gitassets/4.png" width="80%" />
+  <br><br>
+  <img src="https://github.com/gabscarlos/ordem-dos-livros/raw/main/.gitassets/2.png" width="80%" />
+  <br><br>
+  <img src="https://github.com/gabscarlos/ordem-dos-livros/raw/main/.gitassets/3.png" width="80%" />
 </div>
 
 ---
