@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📖 Ordem dos Livros
 
-## Getting Started
+<div align="center">
+  <img src="https://github.com/portfolio-projetos-dev/ordem-livros/raw/main/.gitassets/capa.png" width="350" />
+</div>
 
-First, run the development server:
+<div align="center">
+  <img src="https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+  <img src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white" />
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📚 Sobre o projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O **Ordem dos Livros** é uma aplicação moderna e interativa desenvolvida para **amantes da literatura**.  
+A plataforma organiza e apresenta informações detalhadas sobre **autores, livros e séries literárias**, permitindo explorar suas **ordens de leitura** — seja cronológica, de publicação ou recomendada.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Além de ser um guia literário, o projeto também valoriza a **experiência de leitura digital**, com biografias, resenhas e dados completos que facilitam a descoberta de novas obras e escritores.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Destaques
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 📖 Exibição organizada de livros e séries literárias  
+- 👩‍💼 Perfis detalhados de autores com biografias e obras  
+- 🔎 Busca rápida e precisa por títulos ou escritores  
+- 💬 Resenhas e descrições completas de cada livro  
+- 📱 Interface moderna, responsiva e intuitiva  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+<div align="center">
+  <img src="https://github.com/portfolio-projetos-dev/ordem-livros/raw/main/.gitassets/2.jpg" width="80%" />
+</div>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Acesse agora
+
+👉 **[Visitar Ordem dos Livros](https://ordemdoslivros.vercel.app)**  
+
+---
+
+## 🧠 Tecnologias utilizadas
+
+- Next.js  
+- TypeScript  
+- React  
+- Node.js  
+- CSS3 / HTML5  
+
+---
+
+<div align="center">
+  <sub>Projeto desenvolvido por <strong>Gabriel Carlos</strong> — veja mais em <a href="https://gabscarlos.vercel.app/" target="_blank">meu portfólio</a> 🎨</sub>
+</div>
