@@ -1,4 +1,4 @@
 module.exports = {
-    siteUrl: 'https://aordemdoslivros.vercel.app/',
-    generateRobotsTxt: true,
-  };
+  siteUrl: 'https://ordemlivro.vercel.app/',
+  generateRobotsTxt: true,
+};

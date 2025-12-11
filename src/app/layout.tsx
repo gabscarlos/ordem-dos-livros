@@ -1,12 +1,21 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Inter, Merriweather } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 
-const fonte = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
+const merriweather = Merriweather({
+  weight: ["300", "400", "700", "900"],
+  subsets: ["latin"],
+  variable: "--font-merriweather",
+});
 
 export const metadata: Metadata = {
-  title: "Ordem dos Livros",
+  title: "Ordem Livro",
   description: "Lista Completa de Todas as Séries de Livros em Ordem",
 };
 
@@ -30,7 +39,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         ></script>
       </head>
-      <body className={fonte.className}>
+      <body className={`${inter.variable} ${merriweather.variable} font-sans`}>
         {children}
         <Analytics />
       </body>

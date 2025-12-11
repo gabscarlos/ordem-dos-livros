@@ -13,7 +13,7 @@ export default function MenuItem(props: MenuItemProps) {
       <Link
         href={props.href}
         target={props.alvo}
-        className="flex gap-2 items-center cursor-pointer p-2 text-zinc-800 hover:underline text-sm"
+        className="flex gap-2 items-center cursor-pointer py-2 text-zinc-600 hover:text-indigo-600 transition-colors text-sm font-medium"
       >
         <span>{props.children}</span>
         <span>{props.texto}</span>

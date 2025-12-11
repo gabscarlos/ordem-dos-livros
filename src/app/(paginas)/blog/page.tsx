@@ -6,21 +6,22 @@ import listasTematicas from "@/constants/blog/listas-tematicas";
 import curiosidadesLiterarias from "@/constants/blog/curiosidades-literarias";
 
 export const metadata = {
-  title: "Blog | Ordem dos Livros",
-  description: "Explore resenhas de livros, listas temáticas, curiosidades literárias e notícias sobre o universo literário. Tudo em um só lugar!",
+  title: "Blog | Ordem Livro",
+  description:
+    "Explore resenhas de livros, listas temáticas, curiosidades literárias e notícias sobre o universo literário. Tudo em um só lugar!",
   openGraph: {
-    title: "Blog | Ordem dos Livros",
+    title: "Blog | Ordem Livro",
     description:
-      "Descubra resenhas de livros, listas temáticas, curiosidades literárias e muito mais. Mergulhe no mundo da literatura com a Ordem dos Livros.",
-    url: "https://aordemdoslivros.vercel.app/blog",
+      "Descubra resenhas de livros, listas temáticas, curiosidades literárias e muito mais. Mergulhe no mundo da literatura com a Ordem Livro.",
+    url: "https://ordemlivro.vercel.app/blog",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blog | Ordem dos Livros",
+    title: "Blog | Ordem Livro",
     description:
       "Resenhas de livros, listas temáticas e curiosidades literárias. O blog ideal para apaixonados por leitura.",
-    site: "@ordemdoslivros",
+    site: "@ordemlivro",
   },
 };
 
@@ -34,9 +35,14 @@ export default function Blog() {
       />
 
       {/* Notícias */}
-      <section className="mt-4">
-        <h1 className="text-2xl font-bold text-zinc-700">Notícias</h1>
-        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5">
+      <section className="mt-8">
+        <div className="flex items-center gap-4 mb-6">
+          <h1 className="text-2xl font-serif font-bold text-zinc-900">
+            Notícias
+          </h1>
+          <div className="h-px flex-1 bg-zinc-200" />
+        </div>
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8">
           {noticias
             .sort((a, b) => a.titulo.localeCompare(b.titulo))
             .map((noticia) => (
@@ -48,9 +54,14 @@ export default function Blog() {
       </section>
 
       {/* Resenhas */}
-      <section className="mt-4">
-        <h1 className="text-2xl font-bold text-zinc-700">Resenhas de Livros</h1>
-        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5">
+      <section className="mt-12">
+        <div className="flex items-center gap-4 mb-6">
+          <h1 className="text-2xl font-serif font-bold text-zinc-900">
+            Resenhas de Livros
+          </h1>
+          <div className="h-px flex-1 bg-zinc-200" />
+        </div>
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8">
           {resenhas
             .sort((a, b) => a.titulo.localeCompare(b.titulo))
             .map((resenha) => (
@@ -62,9 +73,14 @@ export default function Blog() {
       </section>
 
       {/* Curiosidades Literárias */}
-      <section className="mt-4">
-        <h1 className="text-2xl font-bold text-zinc-700">Curiosidades Literárias</h1>
-        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5">
+      <section className="mt-12">
+        <div className="flex items-center gap-4 mb-6">
+          <h1 className="text-2xl font-serif font-bold text-zinc-900">
+            Curiosidades Literárias
+          </h1>
+          <div className="h-px flex-1 bg-zinc-200" />
+        </div>
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8">
           {curiosidadesLiterarias
             .sort((a, b) => a.titulo.localeCompare(b.titulo))
             .map((curiosidade) => (
@@ -76,9 +92,14 @@ export default function Blog() {
       </section>
 
       {/* Listas Temáticas */}
-      <section className="mt-4">
-        <h1 className="text-2xl font-bold text-zinc-700">Listas Temáticas</h1>
-        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5">
+      <section className="mt-12">
+        <div className="flex items-center gap-4 mb-6">
+          <h1 className="text-2xl font-serif font-bold text-zinc-900">
+            Listas Temáticas
+          </h1>
+          <div className="h-px flex-1 bg-zinc-200" />
+        </div>
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8">
           {listasTematicas
             .sort((a, b) => a.titulo.localeCompare(b.titulo))
             .map((lista) => (

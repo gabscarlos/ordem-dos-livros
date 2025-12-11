@@ -5,7 +5,7 @@ import Head from "next/head";
 
 export default function Autores() {
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-8">
       <Head>
         {/* Meta Tags para SEO */}
         <title>
@@ -20,10 +20,7 @@ export default function Autores() {
           content="autores, escritores, livros, literatura, biografias, histórias, obras literárias"
         />
         <meta name="robots" content="index, follow" />
-        <link
-          rel="canonical"
-          href="https://aordemdoslivros.vercel.app/autores"
-        />
+        <link rel="canonical" href="https://ordemlivro.vercel.app/autores" />
 
         {/* Open Graph para Redes Sociais */}
         <meta
@@ -37,7 +34,7 @@ export default function Autores() {
         <meta property="og:image" content="/logo.png" />
         <meta
           property="og:url"
-          content="https://aordemdoslivros.vercel.app/autores"
+          content="https://ordemlivro.vercel.app/autores"
         />
         <meta property="og:type" content="website" />
 
@@ -62,11 +59,11 @@ export default function Autores() {
               "@type": "ItemList",
               name: "Autores",
               description: "Lista de autores famosos e suas obras.",
-              url: "https://aordemdoslivros.vercel.app/autores",
+              url: "https://ordemlivro.vercel.app/autores",
               itemListElement: autores.map((autor, index) => ({
                 "@type": "ListItem",
                 position: index + 1,
-                url: `https://aordemdoslivros.vercel.app/autores/${autor.id}`,
+                url: `https://ordemlivro.vercel.app/autores/${autor.id}`,
                 name: autor.nome,
                 image: autor.imagem,
                 description: autor.biografia,
@@ -86,7 +83,7 @@ export default function Autores() {
         principal="Autores"
         secundario="Conheça os autores que escrevem as histórias que você ama!"
       />
-      <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-5">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-8">
         {autores
           .sort((a, b) => a.nome.localeCompare(b.nome))
           .map((autor) => (

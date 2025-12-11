@@ -15,7 +15,7 @@ export default function Rodape() {
             séries, trilogias e mais.
           </p>
         </div>
-        
+
         {/* Coluna para Menu Descubra */}
         <Menu titulo="Descubra" className="flex flex-col items-start">
           <MenuItem href="/series" texto="Séries" />
@@ -34,7 +34,7 @@ export default function Rodape() {
           />
           <MenuItem
             texto="Instagram"
-            href="https://www.instagram.com/ordemdoslivros/"
+            href="https://www.instagram.com/ordemlivro/"
             alvo="_blank"
           />
         </Menu>
@@ -43,19 +43,29 @@ export default function Rodape() {
         <Menu titulo="Outras Categorias" className="flex flex-col items-start">
           <MenuItem texto="Últimas Notícias" href="/blog" />
           <MenuItem texto="Séries Populares" href="/series" />
-          <MenuItem texto="Política de Privacidade" href="/politica-privacidade" />
+          <MenuItem
+            texto="Política de Privacidade"
+            href="/politica-privacidade"
+          />
         </Menu>
       </footer>
 
       {/* Copyright */}
-      <div className="flex flex-col items-center justify-center w-full bg-slate-400 py-2">
-        <span className="text-sm text-center text-white">
+      <div className="flex flex-col items-center justify-center w-full bg-zinc-900 py-4 px-4 gap-2">
+        <span className="text-sm text-center text-zinc-400">
           Todos os direitos reservados &copy; 2025 -{" "}
-          <Link href="https://github.com/gabscarlos" className="hover:text-black">
+          <Link
+            href="https://github.com/gabscarlos"
+            className="hover:text-white transition-colors"
+          >
             gabscarlos.dev
           </Link>
         </span>
-      <p className="text-white text-xs text-center">Ordem dos Livros é um participante do Programa de Associados da Amazon Services LLC. Ao comprar pelos nossos links, ganhamos uma comissão, mas você não paga nada a mais por isso.</p>
+        <p className="text-zinc-500 text-xs text-center max-w-4xl">
+          Ordem Livro é um participante do Programa de Associados da Amazon
+          Services LLC. Ao comprar pelos nossos links, ganhamos uma comissão,
+          mas você não paga nada a mais por isso.
+        </p>
       </div>
     </div>
   );

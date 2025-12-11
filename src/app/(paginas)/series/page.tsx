@@ -31,7 +31,7 @@ export default function Series() {
         <meta property="og:image" content="/logo.png" />
         <meta
           property="og:url"
-          content="https://aordemdoslivros.vercel.app/series"
+          content="https://ordemlivro.vercel.app/series"
         />
         <meta property="og:type" content="website" />
 
@@ -48,10 +48,7 @@ export default function Series() {
         <meta name="twitter:image" content="/logo.png" />
 
         {/* Link Canonical */}
-        <link
-          rel="canonical"
-          href="https://aordemdoslivros.vercel.app/series"
-        />
+        <link rel="canonical" href="https://ordemlivro.vercel.app/series" />
 
         {/* Dados Estruturados JSON-LD */}
         <script
@@ -63,11 +60,11 @@ export default function Series() {
               name: "Séries de Livros",
               description:
                 "Explore uma lista das melhores séries de livros, conheça autores incríveis e descubra histórias fascinantes para sua próxima leitura.",
-              url: "https://aordemdoslivros.vercel.app/series",
+              url: "https://ordemlivro.vercel.app/series",
               itemListElement: series.map((serie, index) => ({
                 "@type": "ListItem",
                 position: index + 1,
-                url: `https://aordemdoslivros.vercel.app/series/${serie.id}`,
+                url: `https://ordemlivro.vercel.app/series/${serie.id}`,
                 name: serie.titulo,
                 image: serie.imagem,
                 author: {
@@ -85,12 +82,12 @@ export default function Series() {
         ></script>
       </Head>
 
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-8">
         <Titulo
           principal="Séries"
           secundario="Conheça as séries das histórias que você ama!"
         />
-        <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5">
+        <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8">
           {[...series]
             .sort((a, b) => a.titulo.localeCompare(b.titulo))
             .map((serie) => (

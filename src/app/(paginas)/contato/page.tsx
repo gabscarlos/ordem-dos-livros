@@ -31,16 +31,17 @@ export default function Contato() {
   };
 
   return (
-    <section className="flex justify-center items-center min-h-full bg-purple-700">
+    <section className="flex justify-center items-center min-h-full bg-gradient-to-br from-indigo-600 to-purple-700 py-10 rounded-xl">
       <form
         onSubmit={onSubmit}
-        className="max-w-2xl w-full bg-slate-50 p-8 rounded-lg text-zinc-900 m-6 shadow-lg"
+        className="max-w-2xl w-full bg-white p-8 sm:p-12 rounded-2xl text-zinc-900 mx-4 shadow-2xl"
       >
-        <h2 className="text-2xl text-center">Me Envie uma Menssagem</h2>
+        <h2 className="text-3xl font-serif font-bold text-center mb-8 text-zinc-800">Me Envie uma Mensagem</h2>
         <div className="mt-5">
-          <label htmlFor="">Nome</label>
+          <label htmlFor="name" className="block text-sm font-medium text-zinc-700 mb-1">Nome</label>
           <input
-            className="caixa-input"
+            id="name"
+            className="w-full bg-zinc-50 border border-zinc-200 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
             type="text"
             name="name"
             placeholder="Digite seu nome"
@@ -48,32 +49,34 @@ export default function Contato() {
           />
         </div>
         <div className="mt-5">
-          <label htmlFor="">Email</label>
+          <label htmlFor="email" className="block text-sm font-medium text-zinc-700 mb-1">Email</label>
           <input
-            className="caixa-input"
+            id="email"
+            className="w-full bg-zinc-50 border border-zinc-200 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
             type="email"
             name="email"
             placeholder="Digite seu email"
             required
           />
         </div>
-        <div className="flex flex-col mt-5">
-          <label htmlFor="">Sua Mensagem</label>
+        <div className="mt-5">
+          <label htmlFor="message" className="block text-sm font-medium text-zinc-700 mb-1">Sua Mensagem</label>
           <textarea
-            className="h-52 resize-none outline-none p-4 mt-5"
+            id="message"
+            className="w-full h-40 bg-zinc-50 border border-zinc-200 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent resize-none transition-all"
             name="message"
             placeholder="Digite sua mensagem"
             required
           ></textarea>
         </div>
         <button
-          className="botao roxo w-full drop-shadow-md cursor-pointer text-lg mt-6"
+          className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 mt-8 transform hover:-translate-y-0.5"
           type="submit"
         >
-          Enviar
+          Enviar Mensagem
         </button>
         {mensagemEnviada && (
-          <div className="mt-4 text-center text-green-600 font-semibold">
+          <div className="mt-6 p-4 bg-green-50 border border-green-100 rounded-lg text-center text-green-700 font-medium animate-pulse">
             Sua mensagem foi enviada com sucesso!
           </div>
         )}

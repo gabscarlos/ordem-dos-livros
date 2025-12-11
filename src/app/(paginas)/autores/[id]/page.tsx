@@ -38,7 +38,7 @@ export default async function Autor({ params }: AutorPageProps) {
         <meta property="og:image" content={autorEspecifico.imagem} />
         <meta
           property="og:url"
-          content={`https://aordemdoslivros.vercel.app/autores/${autorEspecifico.id}`}
+          content={`https://ordemlivro.vercel.app/autores/${autorEspecifico.id}`}
         />
         <meta property="og:type" content="profile" />
 
@@ -57,7 +57,7 @@ export default async function Autor({ params }: AutorPageProps) {
         {/* Link Canonical */}
         <link
           rel="canonical"
-          href={`https://aordemdoslivros.vercel.app/autores/${autorEspecifico.id}`}
+          href={`https://ordemlivro.vercel.app/autores/${autorEspecifico.id}`}
         />
 
         {/* Dados Estruturados JSON-LD */}
@@ -70,10 +70,10 @@ export default async function Autor({ params }: AutorPageProps) {
               name: autorEspecifico.nome,
               description: autorEspecifico.biografia,
               image: autorEspecifico.imagem,
-              mainEntityOfPage: `https://aordemdoslivros.vercel.app/autores/${autorEspecifico.id}`,
+              mainEntityOfPage: `https://ordemlivro.vercel.app/autores/${autorEspecifico.id}`,
               worksFor: {
                 "@type": "Organization",
-                name: "Ordem dos Livros",
+                name: "Ordem Livro",
               },
             }),
           }}
@@ -87,14 +87,30 @@ export default async function Autor({ params }: AutorPageProps) {
 
       {/* Conteúdo do Autor */}
       <ConteudoAutor {...autorEspecifico} />
-      <Link
-        href={`/series/${
-          series.find((serie) => serie.autor.id === autorEspecifico.id)?.id
-        }`}
-        className="flex justify-end mt-10"
-      >
-        <button className="botao roxo">Série de Livros do Autor</button>
-      </Link>
+      <div className="flex justify-end mt-10">
+        <Link
+          href={`/series/${
+            series.find((serie) => serie.autor.id === autorEspecifico.id)?.id ||
+            ""
+          }`}
+          className="inline-flex items-center gap-2 bg-indigo-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-indigo-700 transition-colors shadow-md hover:shadow-lg"
+        >
+          <span>Ver Séries do Autor</span>
+          <svg
+            className="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M17 8l4 4m0 0l-4 4m4-4H3"
+            />
+          </svg>
+        </Link>
+      </div>
     </div>
   );
 }

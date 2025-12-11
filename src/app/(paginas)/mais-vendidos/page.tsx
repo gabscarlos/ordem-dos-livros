@@ -3,7 +3,7 @@ import LivroMaisVendido from "@/components/principal/LivroMaisVendido";
 import maisVendidos from "@/constants/mais-vendidos";
 import Head from "next/head";
 
-export default function Series() {
+export default function MaisVendidos() {
   return (
     <>
       <Head>
@@ -15,7 +15,7 @@ export default function Series() {
         />
         <meta
           name="keywords"
-          content="séries de livros, livros populares, histórias incríveis, autores renomados, literatura, leitura"
+          content="livros mais vendidos, best sellers, literatura, leitura, livros populares"
         />
         <meta name="robots" content="index, follow" />
 
@@ -31,7 +31,7 @@ export default function Series() {
         <meta property="og:image" content="/logo.png" />
         <meta
           property="og:url"
-          content="https://aordemdoslivros.vercel.app/mais-vendidos"
+          content="https://ordemlivro.vercel.app/mais-vendidos"
         />
         <meta property="og:type" content="website" />
 
@@ -50,7 +50,7 @@ export default function Series() {
         {/* Link Canonical */}
         <link
           rel="canonical"
-          href="https://aordemdoslivros.vercel.app/mais-vendidos"
+          href="https://ordemlivro.vercel.app/mais-vendidos"
         />
 
         {/* Dados Estruturados JSON-LD */}
@@ -60,19 +60,19 @@ export default function Series() {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "ItemList",
-              name: "Séries de Livros",
+              name: "Livros Mais Vendidos",
               description:
-                "Explore uma lista das melhores séries de livros, conheça autores incríveis e descubra histórias fascinantes para sua próxima leitura.",
-              url: "https://aordemdoslivros.vercel.app/series",
-              itemListElement: maisVendidos.map((maisVendidos, index) => ({
+                "Explore uma lista dos livros mais vendidos do mercado.",
+              url: "https://ordemlivro.vercel.app/mais-vendidos",
+              itemListElement: maisVendidos.map((livro, index) => ({
                 "@type": "ListItem",
                 position: index + 1,
-                url: `https://aordemdoslivros.vercel.app/mais-vendidos`,
-                name: maisVendidos.titulo,
-                image: maisVendidos.imagem,
+                url: `https://ordemlivro.vercel.app/mais-vendidos`, // Ideally this would link to a detail page if it existed
+                name: livro.titulo,
+                image: livro.imagem,
                 author: {
                   "@type": "Person",
-                  name: maisVendidos.autor,
+                  name: livro.autor,
                 },
               })),
             }),
@@ -85,20 +85,20 @@ export default function Series() {
         ></script>
       </Head>
 
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-8">
         <Titulo
           principal="Mais Vendidos Amazon"
           secundario="Explore os livros mais vendidos do mercado"
         />
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-content-center gap-6">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-content-center gap-8">
           {[...maisVendidos]
             .sort(
               (a, b) =>
                 parseInt(a.posicao.replace("#", "")) -
                 parseInt(b.posicao.replace("#", ""))
             )
-            .map((serie) => (
-              <LivroMaisVendido key={serie.id} {...serie} />
+            .map((livro) => (
+              <LivroMaisVendido key={livro.id} {...livro} />
             ))}
         </div>
       </div>

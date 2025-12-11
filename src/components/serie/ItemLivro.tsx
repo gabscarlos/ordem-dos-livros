@@ -12,20 +12,21 @@ export default function ItemLivro(props: ItemLivroProps) {
     <Link
       href={props.link}
       target="_blank"
-      className="flex flex-col w-72 rounded-md overflow-hidden bg-slate-300"
+      className="group flex flex-col w-72 rounded-xl overflow-hidden bg-white shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-zinc-100"
     >
-      <Image
-        src={props.imagem}
-        alt="Imagem do Livro"
-        width={300}
-        height={400}
-        className="h-full w-full object-cover"
-      />
-      <div className="flex-1 flex flex-col p-5 gap-2">
-        <span className="flex-1 font-bold text-center text-zinc-950">{props.titulo}</span>
-        <button className="botao azul">
-          <Image src="/amazon.png" alt="Amazon" width={30} height={30} />
-          <span>Saiba Mais</span>
+      <div className="relative h-96 w-full overflow-hidden">
+        <Image
+          src={props.imagem}
+          alt={`Capa do livro ${props.titulo}`}
+          fill
+          className="object-cover group-hover:scale-105 transition-transform duration-500"
+        />
+      </div>
+      <div className="flex-1 flex flex-col p-5 gap-4">
+        <span className="flex-1 font-serif font-bold text-center text-lg text-zinc-900 leading-tight">{props.titulo}</span>
+        <button className="flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-500 text-zinc-900 font-bold py-2 px-4 rounded-lg transition-colors shadow-sm">
+          <Image src="/amazon.png" alt="Amazon" width={24} height={24} />
+          <span>Ver na Amazon</span>
         </button>
       </div>
     </Link>

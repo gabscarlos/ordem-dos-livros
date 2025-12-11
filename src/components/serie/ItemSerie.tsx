@@ -13,33 +13,24 @@ export default function ItemSerie(props: ItemSerieProps) {
   return (
     <Link
       href={`/series/${props.id}`}
-      className="flex flex-col rounded-md overflow-hidden border border-zinc-800"
+      className="group flex flex-col rounded-xl overflow-hidden bg-white shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-zinc-100"
     >
-      <Head>
-        <title>Lista Completa de Todas as Séries de Livros em Ordem</title>
-        <meta
-          name="description"
-          content="Descubra séries incríveis e mergulhe em histórias fascinantes. Explore nossa coleção de séries para todos os gostos!"
+      <div className="relative h-64 sm:h-80 w-full overflow-hidden">
+        <Image
+          src={props.imagem}
+          alt={`Capa da série ${props.titulo}`}
+          fill
+          className="object-cover group-hover:scale-105 transition-transform duration-500"
         />
-        <meta
-          name="keywords"
-          content="séries, histórias, livros, autores, fantasia, ficção, drama"
-        />
-        <meta name="robots" content="index, follow" />
-      </Head>
-      <Image
-        src={props.imagem}
-        alt="Imagem da Série"
-        width={1300}
-        height={1000}
-        className="h-96 object-cover"
-      />
-      <div className="flex flex-col gap-2 p-5">
-        <span className="text-2xl font-black">{props.titulo}</span>
-        <span className="text-sm text-zinc-900 dark:text-zinc-400 text-justify">
+      </div>
+      <div className="flex flex-col gap-3 p-5 flex-1">
+        <span className="text-2xl font-serif font-bold text-zinc-900">{props.titulo}</span>
+        <p className="text-sm text-zinc-600 leading-relaxed line-clamp-3 flex-1">
           {props.descricao}
-        </span>
-        <button className="botao roxo self-end">Leia Mais</button>
+        </p>
+        <button className="self-start px-6 py-2 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-colors">
+            Leia Mais
+        </button>
       </div>
     </Link>
   );

@@ -14,24 +14,28 @@ export default function LivroDestaque(props: LivroDestaqueProps) {
   return (
     <Link
       href={props.link}
-      className={`rounded-md overflow-hidden ${props.className} flex flex-col justify-between w-56 gap-1`}
+      className={`group rounded-md overflow-hidden ${props.className} flex flex-col w-56 gap-2 hover:opacity-90 transition-opacity`}
     >
-      <Image
-        src={props.imagem}
-        alt="Imagem do Livro Destaque"
-        width={200}
-        height={200}
-        className="h-72 drop-shadow-xl rounded-lg object-cover"
-      />
-      <span className="flex text-sm uppercase mt-2">{props.titulo}</span>
-      <span className="flex text-xs uppercase text-zinc-600">{props.autor}</span>
-      <div className="flex gap-1">
-        <StarIcon className="h-4 w-4" />
-        <StarIcon className="h-4 w-4" />
-        <StarIcon className="h-4 w-4" />
-        <StarIcon className="h-4 w-4" />
-        <StarIcon className="h-4 w-4" />
-      </div>      
+      <div className="overflow-hidden rounded-lg drop-shadow-xl">
+        <Image
+          src={props.imagem}
+          alt={`Capa do livro ${props.titulo}`}
+          width={224}
+          height={320}
+          className="h-80 w-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+      <div className="flex flex-col gap-1 mt-1">
+        <span className="text-base font-serif font-bold text-zinc-900 leading-tight line-clamp-2">{props.titulo}</span>
+        <span className="text-sm text-zinc-600 font-medium">{props.autor}</span>
+        <div className="flex gap-0.5 text-amber-400">
+          <StarIcon className="h-4 w-4" />
+          <StarIcon className="h-4 w-4" />
+          <StarIcon className="h-4 w-4" />
+          <StarIcon className="h-4 w-4" />
+          <StarIcon className="h-4 w-4" />
+        </div>      
+      </div>
     </Link>
   );
 }

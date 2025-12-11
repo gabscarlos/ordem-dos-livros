@@ -11,17 +11,21 @@ export interface Categoria{
 
 export default function Categoria(props:Categoria){
     return(
-        <Link href={props.link}>
+        <Link href={props.link} className="block group">
             <div className={`
-                flex justify-center items-center w-64 h-24
-                rounded-lg p-1 gap-2 ${props.className}`}>
-              <Image
-                src={props.src}
-                alt={props.alt}
-                width={60}
-                height={100}
-              />
-              <h1 className="text-xl font-bold text-white uppercase">{props.titulo}</h1>
+                flex items-center w-full sm:w-64 h-24
+                rounded-xl p-4 gap-4 shadow-md transition-all duration-300
+                hover:shadow-lg hover:-translate-y-1 ${props.className}
+            `}>
+              <div className="relative w-12 h-12 flex-shrink-0">
+                  <Image
+                    src={props.src}
+                    alt={props.alt}
+                    fill
+                    className="object-contain drop-shadow-md"
+                  />
+              </div>
+              <span className="text-lg font-bold text-white tracking-wide">{props.titulo}</span>
             </div>
           </Link>
     )

@@ -1310,7 +1310,7 @@ const series = [
     ],
   },
   {
-    id: "percy-jackson-e-os-olimpianos",
+    id: "percy-jackson",
     titulo: "Percy Jackson e os Olimpianos",
     descricao:
       "Percy Jackson e os Olimpianos, de Rick Riordan, é uma série de fantasia que mistura mitologia grega e aventuras modernas. A história acompanha Percy Jackson, um adolescente que descobre ser um semideus, filho de Poseidon, e embarca em missões para salvar o mundo dos deuses e monstros da mitologia. Junto com seus amigos Annabeth Chase e Grover Underwood, Percy enfrenta desafios épicos, desvenda profecias e aprende sobre coragem, amizade e identidade. Com humor, ação e uma narrativa cativante, a série tornou-se um sucesso mundial, encantando leitores de todas as idades.",
@@ -1320,7 +1320,7 @@ const series = [
       "https://t.ctcdn.com.br/QtLGd1k3yy2kdAyVXSDoauYnc0Q=/1200x675/smart/i832531.jpeg",
     livros: [
       {
-        id: "percy-jackson-e-os-olimpianos-1",
+        id: "percy-jackson-1",
         titulo: "O Ladrão de Raios",
         autor: autores[14],
         ano: 2005,
@@ -1330,7 +1330,7 @@ const series = [
         link: "https://amzn.to/49LvMtc",
       },
       {
-        id: "percy-jackson-e-os-olimpianos-2",
+        id: "percy-jackson-2",
         titulo: "O Mar de Monstros",
         autor: autores[14],
         ano: 2006,
@@ -1340,7 +1340,7 @@ const series = [
         link: "https://amzn.to/4fscOc8",
       },
       {
-        id: "percy-jackson-e-os-olimpianos-3",
+        id: "percy-jackson-3",
         titulo: "A Maldição do Titã",
         autor: autores[14],
         ano: 2007,
@@ -1349,7 +1349,7 @@ const series = [
         link: "https://amzn.to/3VNvtYU",
       },
       {
-        id: "percy-jackson-e-os-olimpianos-4",
+        id: "percy-jackson-4",
         titulo: "A Batalha do Labirinto",
         autor: autores[14],
         ano: 2008,
@@ -1358,7 +1358,7 @@ const series = [
         link: "https://amzn.to/3Pco2GV",
       },
       {
-        id: "percy-jackson-e-os-olimpianos-5",
+        id: "percy-jackson-5",
         titulo: "O Último Olimpiano",
         autor: autores[14],
         ano: 2009,
@@ -1367,7 +1367,7 @@ const series = [
         link: "https://amzn.to/4fsYW1r",
       },
       {
-        id: "percy-jackson-e-os-olimpianos-6",
+        id: "percy-jackson-6",
         titulo: "Box Percy Jackson e Os Olimpianos",
         autor: autores[14],
         ano: 2024,
@@ -1522,8 +1522,7 @@ const series = [
         autor: autores[16],
         ano: 2012,
         ordem: 1,
-        imagem:
-          "https://m.media-amazon.com/images/I/61rzXkz4qAL._SY342_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/61rzXkz4qAL._SY342_.jpg",
         link: "https://amzn.to/4gN9gm0",
       },
       {
@@ -1532,8 +1531,7 @@ const series = [
         autor: autores[16],
         ano: 2013,
         ordem: 2,
-        imagem:
-          "https://m.media-amazon.com/images/I/71YVc7R8ajL._SY425_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/71YVc7R8ajL._SY425_.jpg",
         link: "https://amzn.to/3P9BjQA",
       },
       {
@@ -1542,8 +1540,7 @@ const series = [
         autor: autores[16],
         ano: 2014,
         ordem: 3,
-        imagem:
-          "https://m.media-amazon.com/images/I/718In-jI-AL._SY425_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/718In-jI-AL._SY425_.jpg",
         link: "https://amzn.to/4fxjK7M",
       },
       {
@@ -1552,17 +1549,17 @@ const series = [
         autor: autores[16],
         ano: 2015,
         ordem: 4,
-        imagem:
-          "https://m.media-amazon.com/images/I/61MCf2k-MgS._SY342_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/61MCf2k-MgS._SY342_.jpg",
         link: "https://amzn.to/3DEiJ0o",
       },
       {
         id: "jogos-vorazes-5",
-        titulo: "Saga Jogos Vorazes: Coleção com quatro livros (com marcadores)",
+        titulo:
+          "Saga Jogos Vorazes: Coleção com quatro livros (com marcadores)",
         autor: autores[16],
         ano: 2023,
         ordem: 5,
-        imagem:"https://m.media-amazon.com/images/I/61KaNOjhi2L._SY342_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/61KaNOjhi2L._SY342_.jpg",
         link: "https://amzn.to/4gpV3M0",
       },
     ],
@@ -1583,8 +1580,7 @@ const series = [
         autor: autores[17],
         ano: 1979,
         ordem: 1,
-        imagem:
-          "https://m.media-amazon.com/images/I/91NAJgaUlKL._SY466_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/91NAJgaUlKL._SY466_.jpg",
         link: "https://amzn.to/3DFf0Qy",
       },
       {
@@ -1593,7 +1589,7 @@ const series = [
         autor: autores[17],
         ano: 1980,
         ordem: 2,
-        imagem:"https://m.media-amazon.com/images/I/81ti1b7Z+wL._SY466_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/81ti1b7Z+wL._SY466_.jpg",
         link: "https://amzn.to/4jjix7x",
       },
       {
@@ -1602,8 +1598,7 @@ const series = [
         autor: autores[17],
         ano: 1982,
         ordem: 3,
-        imagem:
-          "https://m.media-amazon.com/images/I/81FQ4EtK+WL._SY466_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/81FQ4EtK+WL._SY466_.jpg",
         link: "https://amzn.to/3PpdyUQ",
       },
       {
@@ -1612,8 +1607,7 @@ const series = [
         autor: autores[17],
         ano: 1984,
         ordem: 4,
-        imagem:
-          "https://m.media-amazon.com/images/I/814pZZRRmCL._SY466_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/814pZZRRmCL._SY466_.jpg",
         link: "https://amzn.to/3W9bowi",
       },
       {
@@ -1622,8 +1616,7 @@ const series = [
         autor: autores[17],
         ano: 1992,
         ordem: 5,
-        imagem:
-          "https://m.media-amazon.com/images/I/819LkYfDZeL._SY466_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/819LkYfDZeL._SY466_.jpg",
         link: "https://amzn.to/3W7Xz14",
       },
     ],
@@ -1644,8 +1637,7 @@ const series = [
         autor: autores[12],
         ano: 1950,
         ordem: 1,
-        imagem:
-          "https://m.media-amazon.com/images/I/61ooZHl+CTL._SY466_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/61ooZHl+CTL._SY466_.jpg",
         link: "https://amzn.to/3BXH15a",
       },
       {
@@ -1654,7 +1646,7 @@ const series = [
         autor: autores[12],
         ano: 1954,
         ordem: 2,
-        imagem:"https://m.media-amazon.com/images/I/714RAVDEBmL._SY466_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/714RAVDEBmL._SY466_.jpg",
         link: "https://amzn.to/4a52kP0",
       },
       {
@@ -1663,8 +1655,7 @@ const series = [
         autor: autores[12],
         ano: 1957,
         ordem: 3,
-        imagem:
-          "https://m.media-amazon.com/images/I/71BBv4oeCGL._SY466_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/71BBv4oeCGL._SY466_.jpg",
         link: "https://amzn.to/3WamNMn",
       },
       {
@@ -1673,8 +1664,7 @@ const series = [
         autor: autores[12],
         ano: 1983,
         ordem: 4,
-        imagem:
-          "https://m.media-amazon.com/images/I/91SSMthACEL._SY466_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/91SSMthACEL._SY466_.jpg",
         link: "https://amzn.to/3BMgqbr",
       },
       {
@@ -1689,8 +1679,6 @@ const series = [
       },
     ],
   },
-
-
 ];
 
 export default series;

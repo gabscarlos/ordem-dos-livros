@@ -47,7 +47,7 @@ export default function PoliticaDePrivacidade() {
 
         <h2 className="text-2xl font-semibold mt-6 mb-2">7. Contato</h2>
         <p className="text-gray-700 mb-4">
-        Dúvidas? Entre em contato pelo e-mail: <a href="mailto:ordemdoslivros@gmail.com">ordemdoslivros@gmail.com</a>.
+        Dúvidas? Entre em contato pelo e-mail: <a href="mailto:ordemlivro@gmail.com">ordemlivro@gmail.com</a>.
         </p>
       </div>
     );

@@ -1,4 +1,4 @@
-# 📖 Ordem dos Livros
+# 📖 Ordem Livro
 
 <div align="center">
   <img src="https://github.com/portfolio-projetos-dev/ordem-livros/raw/main/.gitassets/capa.png" width="350" />
@@ -15,7 +15,7 @@
 
 ## 📚 Sobre o projeto
 
-O **Ordem dos Livros** é uma aplicação moderna e interativa desenvolvida para **amantes da literatura**.  
+O **Ordem Livro** é uma aplicação moderna e interativa desenvolvida para **amantes da literatura**.  
 A plataforma organiza e apresenta informações detalhadas sobre **autores, livros e séries literárias**, permitindo explorar suas **ordens de leitura** — seja cronológica, de publicação ou recomendada.  
 
 Além de ser um guia literário, o projeto também valoriza a **experiência de leitura digital**, com biografias, resenhas e dados completos que facilitam a descoberta de novas obras e escritores.
@@ -44,7 +44,7 @@ Além de ser um guia literário, o projeto também valoriza a **experiência de 
 
 ## 🚀 Acesse agora
 
-👉 **[Visitar Ordem dos Livros](https://ordemdoslivros.vercel.app)**  
+👉 **[Visitar Ordem Livro](https://ordemdoslivros.vercel.app)**  
 
 ---
 

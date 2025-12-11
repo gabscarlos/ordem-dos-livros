@@ -11,23 +11,26 @@ export interface AutorTopProps {
 
 export default function AutorTop(props: AutorTopProps) {
   return (
-    <div
-      className={`rounded-md overflow-hidden ${props.className} flex flex-col sm:flex-row gap-5 p-2`} // Alterado para flex-col em telas pequenas e flex-row em telas maiores
+    <Link
+      href={props.linkAutor}
+      className={`group rounded-xl overflow-hidden ${props.className} 
+        flex flex-col items-center sm:items-start p-4 bg-white shadow-sm hover:shadow-lg transition-all duration-300 border border-zinc-100`}
     >
-      <Image
-        src={props.imagem}
-        alt="Imagem do Autor Destaque"
-        width={200}
-        height={200}
-        className="drop-shadow-xl rounded-lg object-cover"
-      />
-      <div className="flex flex-col gap-2">
-        <span className="text-md font-black">{props.titulo}</span>
-        <span className="text-sm text-gray-600 w-48">{props.descricao}</span>
-        <Link href={props.linkAutor} className="items-start">
-          <button className="botao transparente">Leia Mais</button>
-        </Link>
+      <div className="flex flex-col sm:flex-row items-center gap-5 w-full">
+        <div className="relative w-32 h-32 flex-shrink-0">
+          <Image
+            src={props.imagem}
+            alt={`Foto de ${props.titulo}`}
+            fill
+            className="drop-shadow-md rounded-full object-cover border-2 border-white ring-2 ring-indigo-50 group-hover:ring-indigo-200 transition-all"
+          />
+        </div>
+        <div className="flex flex-col gap-2 items-center sm:items-start text-center sm:text-left flex-1">
+          <span className="text-lg font-serif font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors">{props.titulo}</span>
+          <p className="text-sm text-zinc-500 leading-relaxed line-clamp-3">{props.descricao}</p>
+          <span className="text-xs font-semibold text-indigo-600 mt-2 group-hover:underline">Ver perfil do autor &rarr;</span>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }

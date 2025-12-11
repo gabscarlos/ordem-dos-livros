@@ -45,7 +45,7 @@ export default async function Serie({ params }: SeriePageProps) {
         <meta property="og:image" content={serieEspecifica.imagem} />
         <meta
           property="og:url"
-          content={`https://aordemdoslivros.vercel.app/series/${serieEspecifica.id}`}
+          content={`https://ordemlivro.vercel.app/series/${serieEspecifica.id}`}
         />
         <meta property="og:type" content="book" />
 
@@ -61,7 +61,7 @@ export default async function Serie({ params }: SeriePageProps) {
         {/* Canonical */}
         <link
           rel="canonical"
-          href={`https://aordemdoslivros.vercel.app/series/${serieEspecifica.id}`}
+          href={`https://ordemlivro.vercel.app/series/${serieEspecifica.id}`}
         />
 
         {/* Dados Estruturados JSON-LD */}
@@ -79,7 +79,7 @@ export default async function Serie({ params }: SeriePageProps) {
               },
               numberOfBooks: serieEspecifica.livros.length,
               image: serieEspecifica.imagem,
-              url: `https://aordemdoslivros.vercel.app/series/${serieEspecifica.id}`,
+              url: `https://ordemlivro.vercel.app/series/${serieEspecifica.id}`,
             }),
           }}
         />

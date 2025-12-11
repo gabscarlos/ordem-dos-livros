@@ -29,11 +29,11 @@ export default async function Conteudo({ params }: ConteudoPageProps) {
     <div>
       {/* SEO Dinâmico */}
       <Head>
-        <title>{conteudoEspecifico.titulo} | Ordem dos Livros</title>
+        <title>{conteudoEspecifico.titulo} | Ordem Livro</title>
         <meta name="description" content={conteudoEspecifico.descricao} />
         <meta
           property="og:title"
-          content={`${conteudoEspecifico.titulo} | Ordem dos Livros`}
+          content={`${conteudoEspecifico.titulo} | Ordem Livro`}
         />
         <meta
           property="og:description"
@@ -43,12 +43,12 @@ export default async function Conteudo({ params }: ConteudoPageProps) {
         <meta property="og:type" content="article" />
         <meta
           property="og:url"
-          content={`https://aordemdoslivros.vercel.app/blog/${id}`}
+          content={`https://ordemlivro.vercel.app/blog/${id}`}
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content={`${conteudoEspecifico.titulo} | Ordem dos Livros`}
+          content={`${conteudoEspecifico.titulo} | Ordem Livro`}
         />
         <meta
           name="twitter:description"
@@ -64,9 +64,27 @@ export default async function Conteudo({ params }: ConteudoPageProps) {
 
       {/* Conteúdo */}
       <ConteudoBlog {...conteudoEspecifico} />
-      <Link href={`/blog`} className="flex justify-end mt-10">
-        <button className="botao roxo">Voltar ao Blog</button>
-      </Link>
+      <div className="flex justify-end mt-12 pb-8">
+        <Link
+          href={`/blog`}
+          className="inline-flex items-center gap-2 bg-indigo-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-indigo-700 transition-colors shadow-md hover:shadow-lg"
+        >
+          <svg
+            className="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M10 19l-7-7m0 0l7-7m-7 7h18"
+            />
+          </svg>
+          <span>Voltar ao Blog</span>
+        </Link>
+      </div>
     </div>
   );
 }
