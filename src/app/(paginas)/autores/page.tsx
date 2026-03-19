@@ -1,94 +1,70 @@
+import { Metadata } from "next";
 import ItemAutor from "@/components/autor/ItemAutor";
 import Titulo from "@/components/shared/Titulo";
 import autores from "@/constants/autores";
-import Head from "next/head";
+import Breadcrumb from "@/components/shared/Breadcrumb";
+
+export const metadata: Metadata = {
+  title: "Autores - Conheça os Escritores das Histórias que Você Ama | Ordem dos Livros",
+  description: "Conheça os autores das histórias que você ama! Descubra mais sobre escritores famosos, suas obras e trajetórias.",
+  keywords: ["autores", "escritores", "livros", "literatura", "biografias", "obras literárias"],
+  openGraph: {
+    title: "Autores - Conheça os Escritores das Histórias que Você Ama",
+    description: "Explore detalhes sobre escritores famosos, suas obras e contribuições para a literatura.",
+    images: ["/logo.png"],
+    url: "https://ordemlivro.vercel.app/autores",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Autores - Conheça os Escritores das Histórias que Você Ama",
+    description: "Descubra mais sobre os autores que criaram suas histórias favoritas e veja suas principais obras.",
+    images: ["/logo.png"],
+  },
+  alternates: {
+    canonical: "https://ordemlivro.vercel.app/autores",
+  },
+};
 
 export default function Autores() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Autores",
+    description: "Lista de autores famosos e suas obras.",
+    url: "https://ordemlivro.vercel.app/autores",
+    itemListElement: autores.map((autor, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `https://ordemlivro.vercel.app/autores/${autor.id}`,
+      name: autor.nome,
+      image: autor.imagem,
+      description: autor.biografia,
+    })),
+  };
+
   return (
-    <div className="flex flex-col gap-8">
-      <Head>
-        {/* Meta Tags para SEO */}
-        <title>
-          Autores - Conheça os Escritores das Histórias que Você Ama
-        </title>
-        <meta
-          name="description"
-          content="Conheça os autores das histórias que você ama! Descubra mais sobre escritores famosos, suas obras e trajetórias."
-        />
-        <meta
-          name="keywords"
-          content="autores, escritores, livros, literatura, biografias, histórias, obras literárias"
-        />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ordemlivro.vercel.app/autores" />
-
-        {/* Open Graph para Redes Sociais */}
-        <meta
-          property="og:title"
-          content="Autores - Conheça os Escritores das Histórias que Você Ama"
-        />
-        <meta
-          property="og:description"
-          content="Explore detalhes sobre escritores famosos, suas obras e contribuições para a literatura mundial."
-        />
-        <meta property="og:image" content="/logo.png" />
-        <meta
-          property="og:url"
-          content="https://ordemlivro.vercel.app/autores"
-        />
-        <meta property="og:type" content="website" />
-
-        {/* Twitter Cards */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Autores - Conheça os Escritores das Histórias que Você Ama"
-        />
-        <meta
-          name="twitter:description"
-          content="Descubra mais sobre os autores que criaram suas histórias favoritas e veja suas principais obras."
-        />
-        <meta name="twitter:image" content="/logo.png" />
-
-        {/* Dados Estruturados JSON-LD */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "ItemList",
-              name: "Autores",
-              description: "Lista de autores famosos e suas obras.",
-              url: "https://ordemlivro.vercel.app/autores",
-              itemListElement: autores.map((autor, index) => ({
-                "@type": "ListItem",
-                position: index + 1,
-                url: `https://ordemlivro.vercel.app/autores/${autor.id}`,
-                name: autor.nome,
-                image: autor.imagem,
-                description: autor.biografia,
-              })),
-            }),
-          }}
-        />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8791475834761530"
-          crossOrigin="anonymous"
-        ></script>
-      </Head>
-
-      {/* Conteúdo da Página */}
-      <Titulo
-        principal="Autores"
-        secundario="Conheça os autores que escrevem as histórias que você ama!"
+    <div className="flex flex-col gap-6 pb-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-8">
-        {autores
-          .sort((a, b) => a.nome.localeCompare(b.nome))
-          .map((autor) => (
-            <ItemAutor key={autor.id} {...autor} />
-          ))}
+      
+      <Breadcrumb items={[{ label: "Autores" }]} />
+
+      <div className="flex flex-col gap-10">
+        <Titulo
+          principal="Autores Consagrados"
+          secundario="Explore os perfis dos grandes nomes da literatura mundial"
+        />
+        
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 justify-items-center">
+          {autores
+            .sort((a, b) => a.nome.localeCompare(b.nome))
+            .map((autor) => (
+              <ItemAutor key={autor.id} {...autor} />
+            ))}
+        </div>
       </div>
     </div>
   );

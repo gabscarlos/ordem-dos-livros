@@ -1,5 +1,5 @@
+import { Metadata } from "next";
 import Link from "next/link";
-import Head from "next/head";
 import ConteudoBlog from "@/components/blog/ConteudoBlog";
 import noticias from "@/constants/blog/noticias";
 import resenhas from "@/constants/blog/resenhas";
@@ -8,6 +8,37 @@ import curiosidadesLiterarias from "@/constants/blog/curiosidades-literarias";
 
 export interface ConteudoPageProps {
   params: Promise<{ id: string }>;
+}
+
+export async function generateMetadata({
+  params,
+}: ConteudoPageProps): Promise<Metadata> {
+  const { id } = await params;
+  const conteudo =
+    resenhas.find((r) => r.id === id) ||
+    listasTematicas.find((l) => l.id === id) ||
+    curiosidadesLiterarias.find((c) => c.id === id) ||
+    noticias.find((n) => n.id === id);
+
+  if (!conteudo) return { title: "Conteúdo não encontrado" };
+
+  return {
+    title: `${conteudo.titulo} | Ordem Livro`,
+    description: conteudo.descricao,
+    openGraph: {
+      title: `${conteudo.titulo} | Ordem Livro`,
+      description: conteudo.descricao,
+      images: [conteudo.imagem],
+      url: `https://ordemlivro.vercel.app/blog/${id}`,
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${conteudo.titulo} | Ordem Livro`,
+      description: conteudo.descricao,
+      images: [conteudo.imagem],
+    },
+  };
 }
 
 export default async function Conteudo({ params }: ConteudoPageProps) {
@@ -27,40 +58,6 @@ export default async function Conteudo({ params }: ConteudoPageProps) {
 
   return (
     <div>
-      {/* SEO Dinâmico */}
-      <Head>
-        <title>{conteudoEspecifico.titulo} | Ordem Livro</title>
-        <meta name="description" content={conteudoEspecifico.descricao} />
-        <meta
-          property="og:title"
-          content={`${conteudoEspecifico.titulo} | Ordem Livro`}
-        />
-        <meta
-          property="og:description"
-          content={conteudoEspecifico.descricao}
-        />
-        <meta property="og:image" content={conteudoEspecifico.imagem} />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:url"
-          content={`https://ordemlivro.vercel.app/blog/${id}`}
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content={`${conteudoEspecifico.titulo} | Ordem Livro`}
-        />
-        <meta
-          name="twitter:description"
-          content={conteudoEspecifico.descricao}
-        />
-        <meta name="twitter:image" content={conteudoEspecifico.imagem} />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8791475834761530"
-          crossOrigin="anonymous"
-        ></script>
-      </Head>
 
       {/* Conteúdo */}
       <ConteudoBlog {...conteudoEspecifico} />

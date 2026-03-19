@@ -1,102 +1,60 @@
+import { Metadata } from "next";
 import LivroDestaque from "@/components/principal/LivroDestaque";
 import Pagina from "@/components/template/Pagina";
 import series from "@/constants/series";
-import Head from "next/head";
 import Categoria from "@/components/principal/Categoria";
 import SerieDestaque from "@/components/principal/SerieDestaque";
 import LivrosDestaque from "@/components/principal/LivrosDestaque";
 import Titulo from "@/components/shared/Titulo";
 
+export const metadata: Metadata = {
+  title: "Início - Descubra Séries de Livros Incríveis | Ordem dos Livros",
+  description: "Explore uma coleção incrível de séries de livros em ordem cronológica e de leitura. Encontre seu próximo livro favorito com autores renomados.",
+  keywords: ["séries de livros", "autores", "literatura", "livros populares", "histórias épicas", "ordem de leitura"],
+  openGraph: {
+    title: "Início - Descubra Séries de Livros Incríveis",
+    description: "Explore uma coleção incrível de séries de livros em ordem cronológica e de leitura.",
+    images: ["/logo.png"],
+    url: "https://ordemlivro.vercel.app/",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Início - Descubra Séries de Livros Incríveis",
+    description: "Explore uma coleção incrível de séries de livros em ordem cronológica e de leitura.",
+    images: ["/logo.png"],
+  },
+  alternates: {
+    canonical: "https://ordemlivro.vercel.app/",
+  },
+};
+
 export default function Home() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Ordem Livro",
+    description: "Explore uma coleção incrível de séries de livros, com autores renomados e histórias fascinantes.",
+    url: "https://ordemlivro.vercel.app/",
+    itemListElement: series.map((serie, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `https://ordemlivro.vercel.app/series/${serie.id}`,
+      name: serie.titulo,
+      image: serie.imagem,
+      author: {
+        "@type": "Person",
+        name: serie.autor.nome,
+      },
+    })),
+  };
+
   return (
     <>
-      <Head>
-        {/* Meta Tags para SEO */}
-        <link
-          rel="icon"
-          type="image/png"
-          href="/favicon-96x96.png"
-          sizes="96x96"
-        />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
-        />
-        <link rel="manifest" href="/site.webmanifest" />
-        <title>Início - Descubra Séries de Livros Incríveis</title>
-        <meta
-          name="description"
-          content="Explore uma coleção incrível de séries de livros, com autores renomados e histórias fascinantes. Descubra seu próximo livro favorito!"
-        />
-        <meta
-          name="keywords"
-          content="séries de livros, autores, literatura, livros populares, histórias épicas"
-        />
-        <meta name="robots" content="index, follow" />
-
-        {/* Open Graph para Redes Sociais */}
-        <meta
-          property="og:title"
-          content="Início - Descubra Séries de Livros Incríveis"
-        />
-        <meta
-          property="og:description"
-          content="Explore uma coleção incrível de séries de livros, com autores renomados e histórias fascinantes. Descubra seu próximo livro favorito!"
-        />
-        <meta property="og:image" content="/logo.png" />
-        <meta property="og:url" content="https://ordemlivro.vercel.app/" />
-        <meta property="og:type" content="website" />
-
-        {/* Twitter Cards */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Início - Descubra Séries de Livros Incríveis"
-        />
-        <meta
-          name="twitter:description"
-          content="Explore uma coleção incrível de séries de livros, com autores renomados e histórias fascinantes. Descubra seu próximo livro favorito!"
-        />
-        <meta name="twitter:image" content="/logo.png" />
-
-        {/* Link Canonical */}
-        <link rel="canonical" href="https://ordemlivro.vercel.app/" />
-
-        {/* Dados Estruturados JSON-LD */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "ItemList",
-              name: "Ordem Livro",
-              description:
-                "Explore uma coleção incrível de séries de livros, com autores renomados e histórias fascinantes.",
-              url: "https://ordemlivro.vercel.app/",
-              itemListElement: series.map((serie, index) => ({
-                "@type": "ListItem",
-                position: index + 1,
-                url: `https://ordemlivro.vercel.app/series/${serie.id}`,
-                name: serie.titulo,
-                image: serie.imagem,
-                author: {
-                  "@type": "Person",
-                  name: serie.autor.nome,
-                },
-              })),
-            }),
-          }}
-        />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8791475834761530"
-          crossOrigin="anonymous"
-        ></script>
-      </Head>
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Pagina>
         <LivrosDestaque series={series} />
 

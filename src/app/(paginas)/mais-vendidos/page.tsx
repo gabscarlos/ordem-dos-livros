@@ -1,90 +1,56 @@
+import { Metadata } from "next";
 import Titulo from "@/components/shared/Titulo";
 import LivroMaisVendido from "@/components/principal/LivroMaisVendido";
 import maisVendidos from "@/constants/mais-vendidos";
-import Head from "next/head";
+
+export const metadata: Metadata = {
+  title: "Mais Vendidos - Explore os livros mais vendidos | Ordem dos Livros",
+  description: "Explore uma lista completa com os livros mais vendidos do mercado na Amazon. Fique por dentro dos lançamentos e best-sellers.",
+  keywords: ["livros mais vendidos", "best sellers", "literatura", "leitura", "livros populares", "amazon"],
+  openGraph: {
+    title: "Mais Vendidos - Explore os livros mais vendidos",
+    description: "Explore os livros mais vendidos do mercado na Amazon.",
+    images: ["/logo.png"],
+    url: "https://ordemlivro.vercel.app/mais-vendidos",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mais Vendidos - Explore os livros mais vendidos",
+    description: "Explore os livros mais vendidos do mercado na Amazon.",
+    images: ["/logo.png"],
+  },
+  alternates: {
+    canonical: "https://ordemlivro.vercel.app/mais-vendidos",
+  },
+};
 
 export default function MaisVendidos() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Livros Mais Vendidos",
+    description: "Explore uma lista dos livros mais vendidos do mercado.",
+    url: "https://ordemlivro.vercel.app/mais-vendidos",
+    itemListElement: maisVendidos.map((livro, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `https://ordemlivro.vercel.app/mais-vendidos`,
+      name: livro.titulo,
+      image: livro.imagem,
+      author: {
+        "@type": "Person",
+        name: livro.autor,
+      },
+    })),
+  };
+
   return (
     <>
-      <Head>
-        {/* Meta Tags para SEO */}
-        <title>Mais Vendidos - Explore os livros mais vendidos</title>
-        <meta
-          name="description"
-          content="Explore uma lista com os livros mais vendidos do mercado"
-        />
-        <meta
-          name="keywords"
-          content="livros mais vendidos, best sellers, literatura, leitura, livros populares"
-        />
-        <meta name="robots" content="index, follow" />
-
-        {/* Open Graph para Redes Sociais */}
-        <meta
-          property="og:title"
-          content="Mais Vendidos - Explore os livros mais vendidos"
-        />
-        <meta
-          property="og:description"
-          content="Explore uma lista com os livros mais vendidos do mercado"
-        />
-        <meta property="og:image" content="/logo.png" />
-        <meta
-          property="og:url"
-          content="https://ordemlivro.vercel.app/mais-vendidos"
-        />
-        <meta property="og:type" content="website" />
-
-        {/* Twitter Cards */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Mais Vendidos - Explore os livros mais vendidos"
-        />
-        <meta
-          name="twitter:description"
-          content="Explore uma lista com os livros mais vendidos do mercado"
-        />
-        <meta name="twitter:image" content="/logo.png" />
-
-        {/* Link Canonical */}
-        <link
-          rel="canonical"
-          href="https://ordemlivro.vercel.app/mais-vendidos"
-        />
-
-        {/* Dados Estruturados JSON-LD */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "ItemList",
-              name: "Livros Mais Vendidos",
-              description:
-                "Explore uma lista dos livros mais vendidos do mercado.",
-              url: "https://ordemlivro.vercel.app/mais-vendidos",
-              itemListElement: maisVendidos.map((livro, index) => ({
-                "@type": "ListItem",
-                position: index + 1,
-                url: `https://ordemlivro.vercel.app/mais-vendidos`, // Ideally this would link to a detail page if it existed
-                name: livro.titulo,
-                image: livro.imagem,
-                author: {
-                  "@type": "Person",
-                  name: livro.autor,
-                },
-              })),
-            }),
-          }}
-        />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8791475834761530"
-          crossOrigin="anonymous"
-        ></script>
-      </Head>
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="flex flex-col gap-8">
         <Titulo
           principal="Mais Vendidos Amazon"

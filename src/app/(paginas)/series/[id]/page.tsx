@@ -1,9 +1,48 @@
+import { Metadata } from "next";
 import ConteudoSerie from "@/components/serie/ConteudoSerie";
 import series from "@/constants/series";
-import Head from "next/head";
 
 export interface SeriePageProps {
   params: Promise<{ id: string }>;
+}
+
+export async function generateMetadata({
+  params,
+}: SeriePageProps): Promise<Metadata> {
+  const { id } = await params;
+  const serie = series.find((s) => s.id === id);
+
+  if (!serie) {
+    return {
+      title: "Série não encontrada",
+    };
+  }
+
+  const titulo = `${serie.titulo} - Série de Livros | Ordem dos Livros`;
+  const descricao = `Explore a ordem cronológica e de leitura da série "${serie.titulo}" escrita por ${serie.autor?.nome}. ${serie.descricao}`;
+
+  return {
+    title: titulo,
+    description: descricao,
+    keywords: [serie.titulo, "ordem dos livros", serie.autor?.nome, "leitura", "cronológica"],
+    openGraph: {
+      title: titulo,
+      description: descricao,
+      images: [serie.imagem],
+      url: `https://ordemlivro.vercel.app/series/${serie.id}`,
+      type: "book",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: titulo,
+      description: descricao,
+      images: [serie.imagem],
+    },
+    alternates: {
+      canonical: `https://ordemlivro.vercel.app/series/${serie.id}`,
+    },
+    robots: "index, follow",
+  };
 }
 
 export default async function Serie({ params }: SeriePageProps) {
@@ -21,75 +60,26 @@ export default async function Serie({ params }: SeriePageProps) {
     "Explore os detalhes de uma série incrível de livros.";
   const autorNome = serieEspecifica.autor?.nome || "Autor Desconhecido";
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BookSeries",
+    name: titulo,
+    description: descricao,
+    author: {
+      "@type": "Person",
+      name: autorNome,
+    },
+    numberOfBooks: serieEspecifica.livros.length,
+    image: serieEspecifica.imagem,
+    url: `https://ordemlivro.vercel.app/series/${serieEspecifica.id}`,
+  };
+
   return (
-    <div>
-      <Head>
-        {/* Meta Tags para SEO */}
-        <title>{titulo} - Série de Livros</title>
-        <meta
-          name="description"
-          content={`Explore a série "${titulo}" escrita por ${autorNome}. ${descricao}`}
-        />
-        <meta
-          name="keywords"
-          content={`${titulo}, livros, série de livros, ${autorNome}, literatura`}
-        />
-        <meta name="robots" content="index, follow" />
-
-        {/* Open Graph */}
-        <meta property="og:title" content={`${titulo} - Série de Livros`} />
-        <meta
-          property="og:description"
-          content={`Explore a série "${titulo}" escrita por ${autorNome}. ${descricao}`}
-        />
-        <meta property="og:image" content={serieEspecifica.imagem} />
-        <meta
-          property="og:url"
-          content={`https://ordemlivro.vercel.app/series/${serieEspecifica.id}`}
-        />
-        <meta property="og:type" content="book" />
-
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${titulo} - Série de Livros`} />
-        <meta
-          name="twitter:description"
-          content={`Explore a série "${titulo}" escrita por ${autorNome}. ${descricao}`}
-        />
-        <meta name="twitter:image" content={serieEspecifica.imagem} />
-
-        {/* Canonical */}
-        <link
-          rel="canonical"
-          href={`https://ordemlivro.vercel.app/series/${serieEspecifica.id}`}
-        />
-
-        {/* Dados Estruturados JSON-LD */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "BookSeries",
-              name: titulo,
-              description: descricao,
-              author: {
-                "@type": "Person",
-                name: autorNome,
-              },
-              numberOfBooks: serieEspecifica.livros.length,
-              image: serieEspecifica.imagem,
-              url: `https://ordemlivro.vercel.app/series/${serieEspecifica.id}`,
-            }),
-          }}
-        />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8791475834761530"
-          crossOrigin="anonymous"
-        ></script>
-      </Head>
-
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <ConteudoSerie
         id={serieEspecifica.id}
         titulo={titulo}
@@ -99,6 +89,6 @@ export default async function Serie({ params }: SeriePageProps) {
         autor={serieEspecifica.autor}
         livros={serieEspecifica.livros}
       />
-    </div>
+    </>
   );
 }
