@@ -22,6 +22,7 @@ export default function Categoria(props:Categoria){
                     src={props.src}
                     alt={props.alt}
                     fill
+                    sizes="48px"
                     className="object-contain drop-shadow-md"
                   />
               </div>

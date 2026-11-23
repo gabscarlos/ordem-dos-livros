@@ -47,6 +47,7 @@ export default function ConteudoSerie(props: ConteudoSerieProps) {
           src={props.imagem}
           alt={`Capa da série ${props.titulo}`}
           fill
+          sizes="(max-width: 1280px) 100vw, 1280px"
           priority
           className="object-cover object-center scale-105"
         />

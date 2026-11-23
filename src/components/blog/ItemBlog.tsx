@@ -19,6 +19,7 @@ export default function ItemBlog(props: ItemBlogProps) {
                     src={props.imagem}
                     alt={props.titulo}
                     fill
+                    sizes="(max-width: 1024px) 100vw, 33vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
             </div>

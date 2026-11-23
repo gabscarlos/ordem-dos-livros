@@ -3,6 +3,12 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   
   images: {
+    // Cada combinação (imagem × largura × formato) conta como uma transformação na Vercel.
+    // Menos larguras + cache longo = muito menos transformações.
+    formats: ['image/webp'],
+    deviceSizes: [640, 828, 1200, 1920],
+    imageSizes: [96, 128, 256, 384],
+    minimumCacheTTL: 2678400, // 31 dias
     remotePatterns: [
       {
         protocol: 'https',

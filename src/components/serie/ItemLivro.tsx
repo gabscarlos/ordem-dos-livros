@@ -42,6 +42,7 @@ export default function ItemLivro(props: ItemLivroProps) {
             src={props.imagem}
             alt={`Capa do livro ${props.titulo}`}
             fill
+            sizes="96px"
             className={`object-cover transition-all ${
               lido ? "grayscale-[0.5] opacity-80" : "group-hover:scale-110"
             }`}
@@ -79,7 +80,7 @@ export default function ItemLivro(props: ItemLivroProps) {
             rel="nofollow"
             className="flex items-center justify-center gap-2 bg-[#FFD814] hover:bg-[#F7CA00] text-zinc-900 font-bold py-2 px-6 rounded-xl transition-all shadow-md active:scale-95 text-sm whitespace-nowrap"
           >
-            <Image src="/amazon.png" alt="Amazon" width={18} height={18} />
+            <Image unoptimized src="/amazon.png" alt="Amazon" width={18} height={18} />
             <span>Ver Menor Preço</span>
           </Link>
         </div>
@@ -115,6 +116,7 @@ export default function ItemLivro(props: ItemLivroProps) {
             src={props.imagem}
             alt={`Capa do livro ${props.titulo}`}
             fill
+            sizes="(max-width: 768px) 100vw, 33vw"
             className={`object-cover transition-all duration-700 ${
               lido ? "grayscale-[0.5] opacity-80 scale-100" : "group-hover:scale-110"
             }`}
@@ -145,7 +147,7 @@ export default function ItemLivro(props: ItemLivroProps) {
           rel="nofollow"
           className="flex items-center justify-center gap-2 bg-[#FFD814] hover:bg-[#F7CA00] text-zinc-900 font-bold py-2.5 px-4 rounded-xl transition-all shadow-md active:scale-95"
         >
-          <Image src="/amazon.png" alt="Amazon" width={20} height={20} />
+          <Image unoptimized src="/amazon.png" alt="Amazon" width={20} height={20} />
           <span className="text-sm">Ver Menor Preço</span>
         </Link>
       </div>

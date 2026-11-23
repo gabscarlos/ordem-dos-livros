@@ -32,6 +32,7 @@ export default function LivroDestaque(props: LivroDestaqueProps) {
           src={props.imagem}
           alt={`Capa do livro ${props.titulo}`}
           fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
           className="object-cover group-hover:scale-105 transition-transform duration-500"
         />
       </div>
@@ -51,7 +52,7 @@ export default function LivroDestaque(props: LivroDestaqueProps) {
           <StarIcon className="h-4 w-4" />
         </div>
         <button className="flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-500 text-zinc-900 font-bold py-2 px-6 rounded-full transition-colors shadow-sm w-full mt-2">
-          <Image src="/amazon.png" alt="Amazon" width={20} height={20} />
+          <Image unoptimized src="/amazon.png" alt="Amazon" width={20} height={20} />
           <span>Ver na Amazon</span>
         </button>
       </div>

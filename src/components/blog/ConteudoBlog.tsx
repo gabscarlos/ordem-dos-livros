@@ -29,6 +29,7 @@ export default function ConteudoBlog(props: ConteudoBlogProps) {
           src={props.imagem}
           alt={`Imagem de destaque: ${props.titulo}`}  
           fill
+          sizes="(max-width: 1024px) 100vw, 1024px"
           className="object-cover object-top"
           priority
         />
