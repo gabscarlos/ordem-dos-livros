@@ -1056,6 +1056,122 @@ A série acompanha Juliette, uma jovem cujo toque é letal, presa por um regime 
 Mafi também escreveu *Um Mar Infinito de Tristeza* e a série *Furthermore*.
 `,
   },
+  {
+    id: "pedro-bandeira",
+    nome: "Pedro Bandeira",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Pedro_Bandeira_3.JPG/330px-Pedro_Bandeira_3.JPG",
+    descricao: "Escritor brasileiro, literatura juvenil.",
+    biografia: `
+# Pedro Bandeira
+
+**Pedro Bandeira** é um escritor brasileiro, nascido em Santos (SP) em 1942, e um dos autores mais lidos da literatura juvenil do país. Antes de se dedicar aos livros, trabalhou como ator, jornalista e publicitário.
+
+## Os Karas
+Sua obra mais famosa é a série **"Os Karas"**, iniciada com *A Droga da Obediência* (1984). Os livros acompanham um grupo secreto de estudantes do Colégio Elite que investiga mistérios e crimes, e há décadas fazem parte das leituras indicadas nas escolas.
+
+## Outras Obras
+Pedro Bandeira também escreveu *A Marca de uma Lágrima*, *O Fantástico Mistério de Feiurinha* e dezenas de livros infantis.
+`,
+  },
+  {
+    id: "thalita-reboucas",
+    nome: "Thalita Rebouças",
+    imagem:
+      "https://m.media-amazon.com/images/I/61rvb-wNN9L._SL1500_.jpg",
+    descricao: "Escritora brasileira, literatura juvenil e humor.",
+    biografia: `
+# Thalita Rebouças
+
+**Thalita Rebouças** é uma escritora carioca, uma das autoras juvenis mais vendidas do Brasil. Seus livros falam do dia a dia dos adolescentes com muito humor.
+
+## Fala Sério!
+A série **"Fala Sério!"** começou com *Fala Sério, Mãe!*, que mostra a relação de Malu com a mãe desde a infância até a vida adulta, contada pelas duas. Os livros seguintes repetem a fórmula com pai, professor, amiga, amor, filha e irmãos. *Fala Sério, Mãe!* virou filme em 2017, com Ingrid Guimarães e Larissa Manoela.
+
+Thalita também escreveu *Tudo por um Popstar*, outro de seus livros adaptados para o cinema.
+`,
+  },
+  {
+    id: "monteiro-lobato",
+    nome: "Monteiro Lobato",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Monteiro_Lobato.jpg/330px-Monteiro_Lobato.jpg",
+    descricao: "Escritor brasileiro, literatura infantil.",
+    biografia: `
+# Monteiro Lobato
+
+**José Bento Renato Monteiro Lobato** (1882–1948) foi um escritor e editor brasileiro, considerado o pai da literatura infantil no país.
+
+## O Sítio do Picapau Amarelo
+Suas histórias mais famosas se passam no **Sítio do Picapau Amarelo**, onde vivem Dona Benta, Tia Nastácia, os netos Narizinho e Pedrinho, a boneca Emília e o sabugo de milho Visconde de Sabugosa. As aventuras misturam fantasia, folclore brasileiro, mitologia e até lições de gramática, aritmética e geologia.
+
+O Sítio ganhou várias adaptações para a TV, a mais famosa delas exibida pela TV Globo.
+`,
+  },
+  {
+    id: "vitor-e-lu-cafaggi",
+    nome: "Vitor e Lu Cafaggi",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Vitor_Cafaggi.jpg/330px-Vitor_Cafaggi.jpg",
+    descricao: "Quadrinistas brasileiros.",
+    biografia: `
+# Vitor e Lu Cafaggi
+
+**Vitor Cafaggi** e **Lu Cafaggi** são irmãos e quadrinistas brasileiros, de Belo Horizonte. Ficaram conhecidos do grande público com as graphic novels da **Turma da Mônica** publicadas no selo Graphic MSP, da Mauricio de Sousa Produções.
+
+## Turma da Mônica: Laços
+Em *Laços* (2013), Mônica, Cebolinha, Cascão e Magali saem em busca do Floquinho, o cachorro do Cebolinha, que desapareceu. A história emocionou leitores de todas as idades e virou filme em 2019. Vieram depois *Lições*, *Lembranças* e *Recomeços*, que acompanham a turma crescendo.
+`,
+  },
+  {
+    id: "carina-rissi",
+    nome: "Carina Rissi",
+    imagem:
+      "https://m.media-amazon.com/images/I/81HAuOpFJ8L._SL1500_.jpg",
+    descricao: "Escritora brasileira, romance.",
+    biografia: `
+# Carina Rissi
+
+**Carina Rissi** é uma escritora brasileira de romances, nascida no interior de São Paulo. Começou publicando seus livros na internet antes de ser contratada por uma editora.
+
+## A série Perdida
+Seu maior sucesso é **"Perdida"** (2013), a história de Sofia, uma jovem do século XXI que vai parar no século XIX e se apaixona por Ian Clarke. A série cresceu com os livros seguintes, que acompanham o casal e a família Clarke.
+
+Carina também escreveu romances como *Procura-se um Marido* e *No Mundo da Luna*.
+`,
+  },
+  {
+    id: "eduardo-spohr",
+    nome: "Eduardo Spohr",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Eduardo_spohr.jpg/330px-Eduardo_spohr.jpg",
+    descricao: "Escritor brasileiro, fantasia.",
+    biografia: `
+# Eduardo Spohr
+
+**Eduardo Spohr** é um escritor e jornalista carioca, um dos nomes mais conhecidos da fantasia brasileira.
+
+## Do Apocalipse ao Éden
+Seu primeiro livro, **A Batalha do Apocalipse**, foi lançado de forma independente e virou best-seller depois de ser publicado por uma grande editora. A história de anjos em guerra continuou na trilogia **Filhos do Éden**: *Herdeiros de Atlântida*, *Anjos da Morte* e *Paraíso Perdido*.
+
+Spohr também escreveu a série *Santo Guerreiro*, ambientada na Roma antiga.
+`,
+  },
+  {
+    id: "raphael-draccon",
+    nome: "Raphael Draccon",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Raphael_Draccon.jpg/330px-Raphael_Draccon.jpg",
+    descricao: "Escritor brasileiro, fantasia.",
+    biografia: `
+# Raphael Draccon
+
+**Raphael Draccon** é um escritor e roteirista brasileiro de fantasia. Ficou conhecido pela série **Dragões de Éter**, uma das primeiras sagas de fantasia nacionais a fazer grande sucesso.
+
+## Dragões de Éter
+A série se passa em Nova Ether, um mundo onde personagens de contos de fadas, como Chapeuzinho Vermelho e João e Maria, vivem uma história épica de magia, guerra e destino. O primeiro livro, *Caçadores de Bruxas*, foi lançado em 2009.
+`,
+  },
 ];
 
 export default autores;

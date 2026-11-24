@@ -283,6 +283,58 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     notaOrdem:
       "As Peças Infernais pode ser lida sozinha, mas foi publicada intercalada com Os Instrumentos Mortais. Se você ler as duas séries, termine As Peças Infernais antes de Cidade do Fogo Celestial, o último livro de Os Instrumentos Mortais, que revela o final desta trilogia.",
   },
+  "os-karas": {
+    generos: ["juvenil", "misterio", "aventura", "autores-brasileiros"],
+    idade: "a partir de 11 anos",
+    notaOrdem:
+      "Leia na ordem de publicação, começando por A Droga da Obediência, em que os Karas aparecem pela primeira vez. A Droga da Amizade, lançado em 2014, conta como o grupo se formou; mesmo sendo um prequel, funciona melhor depois dos outros livros.",
+  },
+  "fala-serio": {
+    generos: ["juvenil", "humor", "autores-brasileiros"],
+    idade: "a partir de 11 anos",
+    adaptacao:
+      "Sim. Fala Sério, Mãe! virou filme em 2017, com Ingrid Guimarães e Larissa Manoela.",
+    notaOrdem:
+      "Os livros são independentes e podem ser lidos em qualquer ordem: cada um fala de uma relação diferente (mãe, pai, professor, amiga...). Se for ler todos, comece por Fala Sério, Mãe!, o primeiro e mais famoso da série.",
+  },
+  "sitio-do-picapau-amarelo": {
+    generos: ["infantil", "aventura", "autores-brasileiros"],
+    idade: "a partir de 7 anos",
+    adaptacao:
+      "Sim. O Sítio teve várias adaptações para a TV; a mais conhecida foi exibida pela TV Globo.",
+    notaOrdem:
+      "Comece por Reinações de Narizinho, que apresenta o sítio e todos os personagens. Os outros livros são aventuras quase independentes e podem ser lidos em qualquer ordem; a lista acima segue a ordem em que Monteiro Lobato os publicou.",
+  },
+  "turma-da-monica-lacos": {
+    generos: ["infantil", "aventura", "autores-brasileiros"],
+    idade: "a partir de 8 anos",
+    adaptacao:
+      "Sim. Laços virou filme em 2019, e Lições ganhou um filme em 2021.",
+  },
+  perdida: {
+    generos: ["romance", "fantasia", "autores-brasileiros"],
+    idade: "a partir de 14 anos",
+    notaOrdem:
+      "Leia Perdida e Encontrada primeiro: são a história de Sofia e Ian. Os livros seguintes acompanham outros personagens da família Clarke e funcionam melhor depois dos dois primeiros.",
+  },
+  "princesas-modernas": {
+    generos: ["romance", "juvenil", "autores-brasileiros"],
+    idade: "a partir de 12 anos",
+    adaptacao:
+      "Sim. Cinderela Pop virou filme em 2019, com Maisa Silva.",
+    notaOrdem:
+      "Cada livro reconta um conto de fadas diferente e tem sua própria protagonista, então eles podem ser lidos em qualquer ordem.",
+  },
+  "filhos-do-eden": {
+    generos: ["fantasia", "aventura", "autores-brasileiros"],
+    idade: "a partir de 14 anos",
+    notaOrdem:
+      "A Batalha do Apocalipse é uma história completa e pode ser lida sozinha, mas apresenta o universo e alguns personagens que voltam na trilogia. Recomendamos lê-la primeiro e depois seguir com Herdeiros de Atlântida, Anjos da Morte e Paraíso Perdido.",
+  },
+  "dragoes-de-eter": {
+    generos: ["fantasia", "aventura", "autores-brasileiros"],
+    idade: "a partir de 12 anos",
+  },
 };
 
 export default detalhesSeries;

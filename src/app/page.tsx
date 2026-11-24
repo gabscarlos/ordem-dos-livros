@@ -78,6 +78,17 @@ const MAIS_PROCURADAS = [
   "the-witcher",
 ];
 
+const BRASILEIRAS = [
+  "diario-de-pilar",
+  "os-karas",
+  "fazendo-meu-filme",
+  "perdida",
+  "turma-da-monica-lacos",
+  "fala-serio",
+  "sitio-do-picapau-amarelo",
+  "filhos-do-eden",
+];
+
 const PEQUENOS_LEITORES = [
   "diario-de-um-banana",
   "o-homem-cao",
@@ -181,6 +192,15 @@ export default function Home() {
               ))}
             </ul>
           </nav>
+
+          <section>
+            <TituloSecao
+              titulo="Séries brasileiras"
+              subtitulo="Autores nacionais, da literatura infantil à fantasia"
+              link={{ href: "/generos/autores-brasileiros", texto: "Ver todas" }}
+            />
+            <FileiraSeries series={paraFileira(BRASILEIRAS)} />
+          </section>
 
           <section>
             <TituloSecao
