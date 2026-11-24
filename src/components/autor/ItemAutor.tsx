@@ -17,6 +17,7 @@ export default function ItemAutor(props: AutorProps) {
         src={props.imagem}
         alt={`Foto do autor ${props.nome}`}
         fill
+        sizes="(max-width: 640px) 100vw, 384px"
         className="object-cover object-top transition-all duration-1000 group-hover:scale-110 group-hover:rotate-1"
       />
       

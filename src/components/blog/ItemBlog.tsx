@@ -19,14 +19,15 @@ export default function ItemBlog(props: ItemBlogProps) {
                     src={props.imagem}
                     alt={props.titulo}
                     fill
+                    sizes="(max-width: 1024px) 100vw, 33vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
             </div>
             <div className="flex flex-col flex-1 p-5 gap-3">
                 <span className="text-xs font-bold text-indigo-600 tracking-wider uppercase">{props.data}</span>
-                <h1 className="text-xl font-serif font-bold text-zinc-900 leading-tight group-hover:text-indigo-600 transition-colors">
+                <h3 className="text-xl font-serif font-bold text-zinc-900 leading-tight group-hover:text-indigo-600 transition-colors">
                     {props.titulo}
-                </h1>
+                </h3>
                 <p className="text-sm text-zinc-600 leading-relaxed line-clamp-3 flex-1">
                     {props.descricao}
                 </p>

@@ -37,9 +37,9 @@ export default function Blog() {
       {/* Notícias */}
       <section className="mt-8">
         <div className="flex items-center gap-4 mb-6">
-          <h1 className="text-2xl font-serif font-bold text-zinc-900">
+          <h2 className="text-2xl font-serif font-bold text-zinc-900">
             Notícias
-          </h1>
+          </h2>
           <div className="h-px flex-1 bg-zinc-200" />
         </div>
         <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8">
@@ -56,9 +56,9 @@ export default function Blog() {
       {/* Resenhas */}
       <section className="mt-12">
         <div className="flex items-center gap-4 mb-6">
-          <h1 className="text-2xl font-serif font-bold text-zinc-900">
+          <h2 className="text-2xl font-serif font-bold text-zinc-900">
             Resenhas de Livros
-          </h1>
+          </h2>
           <div className="h-px flex-1 bg-zinc-200" />
         </div>
         <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8">
@@ -75,9 +75,9 @@ export default function Blog() {
       {/* Curiosidades Literárias */}
       <section className="mt-12">
         <div className="flex items-center gap-4 mb-6">
-          <h1 className="text-2xl font-serif font-bold text-zinc-900">
+          <h2 className="text-2xl font-serif font-bold text-zinc-900">
             Curiosidades Literárias
-          </h1>
+          </h2>
           <div className="h-px flex-1 bg-zinc-200" />
         </div>
         <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8">
@@ -94,9 +94,9 @@ export default function Blog() {
       {/* Listas Temáticas */}
       <section className="mt-12">
         <div className="flex items-center gap-4 mb-6">
-          <h1 className="text-2xl font-serif font-bold text-zinc-900">
+          <h2 className="text-2xl font-serif font-bold text-zinc-900">
             Listas Temáticas
-          </h1>
+          </h2>
           <div className="h-px flex-1 bg-zinc-200" />
         </div>
         <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8">

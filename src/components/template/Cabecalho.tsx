@@ -22,9 +22,9 @@ export default function Cabecalho() {
         {/* Seção do Logo */}
         <div className="flex flex-col items-center mt-4">
           <Logo />
-          <h1 className="text-sm sm:text-base md:text-lg font-serif italic text-center text-zinc-100 drop-shadow-md mt-2 max-w-2xl">
+          <p className="text-sm sm:text-base md:text-lg font-serif italic text-center text-zinc-100 drop-shadow-md mt-2 max-w-2xl">
             Lista Completa de Todas as Séries de Livros em Ordem
-          </h1>
+          </p>
         </div>
         {/* Busca */}
         <div className="w-full max-w-lg">

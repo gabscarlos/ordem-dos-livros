@@ -10,7 +10,7 @@ export interface ConteudoAutorProps {
 }
 
 export default function ConteudoAutor(props: ConteudoAutorProps) {
-  const biografia = marked.parse(props.biografia);
+  const biografia = marked.parse(props.biografia.replace(/^( {0,3})(#{1,5}) /gm, "$1#$2 "));
   return (
     <div className="flex flex-col gap-10">
       <div className="relative w-full h-[500px] rounded-2xl overflow-hidden shadow-2xl">

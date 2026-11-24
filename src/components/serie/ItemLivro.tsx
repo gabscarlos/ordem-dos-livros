@@ -42,6 +42,7 @@ export default function ItemLivro(props: ItemLivroProps) {
             src={props.imagem}
             alt={`Capa do livro ${props.titulo}`}
             fill
+            sizes="96px"
             className={`object-cover transition-all ${
               lido ? "grayscale-[0.5] opacity-80" : "group-hover:scale-110"
             }`}
@@ -115,6 +116,7 @@ export default function ItemLivro(props: ItemLivroProps) {
             src={props.imagem}
             alt={`Capa do livro ${props.titulo}`}
             fill
+            sizes="288px"
             className={`object-cover transition-all duration-700 ${
               lido ? "grayscale-[0.5] opacity-80 scale-100" : "group-hover:scale-110"
             }`}

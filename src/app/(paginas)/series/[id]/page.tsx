@@ -156,8 +156,17 @@ export default async function Serie({ params }: SeriePageProps) {
         imagem={serie.imagem}
         nome={serie.autor.nome}
         descricao={serie.descricao}
-        autor={serie.autor}
-        livros={serie.livros}
+        autor={{
+          id: serie.autor.id,
+          nome: serie.autor.nome,
+          imagem: serie.autor.imagem,
+        }}
+        livros={serie.livros.map((l) => ({
+          id: l.id,
+          titulo: l.titulo,
+          imagem: l.imagem,
+          link: l.link,
+        }))}
       />
 
       {"box" in serie && serie.box && (
@@ -167,6 +176,7 @@ export default async function Serie({ params }: SeriePageProps) {
               src={serie.box.imagem}
               alt={serie.box.titulo}
               fill
+              sizes="112px"
               className="object-cover"
             />
           </div>

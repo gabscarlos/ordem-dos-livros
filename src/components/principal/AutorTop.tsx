@@ -22,6 +22,7 @@ export default function AutorTop(props: AutorTopProps) {
             src={props.imagem}
             alt={`Foto de ${props.titulo}`}
             fill
+            sizes="128px"
             className="drop-shadow-md rounded-full object-cover border-2 border-white ring-2 ring-indigo-50 group-hover:ring-indigo-200 transition-all"
           />
         </div>

@@ -39,7 +39,7 @@ export default function Autores() {
       url: `https://ordemlivro.vercel.app/autores/${autor.id}`,
       name: autor.nome,
       image: autor.imagem,
-      description: autor.biografia,
+      description: autor.descricao,
     })),
   };
 

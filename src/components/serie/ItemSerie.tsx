@@ -19,6 +19,7 @@ export default function ItemSerie(props: ItemSerieProps) {
           src={props.imagem}
           alt={`Capa da série ${props.titulo}`}
           fill
+          sizes="(max-width: 640px) 100vw, 384px"
           className="object-cover transition-transform duration-1000 group-hover:scale-110"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent opacity-60 group-hover:opacity-100 transition-opacity duration-700" />
@@ -34,7 +35,7 @@ export default function ItemSerie(props: ItemSerieProps) {
         </h3>
         
         <p className="text-zinc-500 text-sm leading-relaxed line-clamp-3 text-justify italic">
-          "{props.descricao}"
+          "{props.descricao.length > 220 ? `${props.descricao.slice(0, 220).replace(/\s+\S*$/, "")}…` : props.descricao}"
         </p>
 
         <div className="flex items-center gap-2 mt-2 text-indigo-600 font-bold text-xs uppercase tracking-widest group-hover:gap-4 transition-all">

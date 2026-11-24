@@ -34,6 +34,7 @@ export default function LivroDestaque(props: LivroDestaqueProps) {
           src={props.imagem}
           alt={`Capa do livro ${props.titulo}`}
           fill
+          sizes="(max-width: 640px) 100vw, 320px"
           className="object-cover group-hover:scale-105 transition-transform duration-500"
         />
       </div>
