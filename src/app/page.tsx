@@ -1,4 +1,7 @@
 import { Metadata } from "next";
+import Link from "next/link";
+import generos from "@/constants/generos";
+import detalhesSeries from "@/constants/detalhes-series";
 import LivroDestaque from "@/components/principal/LivroDestaque";
 import Pagina from "@/components/template/Pagina";
 import series from "@/constants/series";
@@ -119,6 +122,33 @@ export default function Home() {
             />
           </div>
         </div>
+
+        <nav aria-label="Gêneros" className="flex flex-col gap-4 mt-12">
+          <h2 className="text-2xl font-serif font-bold text-zinc-900">
+            Séries por gênero
+          </h2>
+          <ul className="flex flex-wrap gap-3">
+            {generos
+              .map((g) => ({
+                ...g,
+                total: series.filter((s) => detalhesSeries[s.id]?.generos.includes(g.id)).length,
+              }))
+              .filter((g) => g.total > 0)
+              .map((g) => (
+                <li key={g.id}>
+                  <Link
+                    href={`/generos/${g.id}`}
+                    className="inline-flex items-center gap-2 bg-indigo-50 text-indigo-700 font-semibold px-4 py-2 rounded-full hover:bg-indigo-100 transition-colors"
+                  >
+                    {g.nome}
+                    <span className="text-xs bg-white text-indigo-600 rounded-full px-2 py-0.5">
+                      {g.total}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+          </ul>
+        </nav>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20 mt-12">
           <div className="flex flex-col gap-4">

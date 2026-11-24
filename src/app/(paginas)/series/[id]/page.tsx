@@ -50,7 +50,6 @@ export async function generateMetadata({
     openGraph: {
       title: titulo,
       description: descricao,
-      images: [serie.imagem],
       url: canonical,
       type: "website",
     },
@@ -58,7 +57,6 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: titulo,
       description: descricao,
-      images: [serie.imagem],
     },
   };
 }
