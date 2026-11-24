@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Logo from "./Logo";
 import FlyoutMenu from "./FlyoutMenu";
 import Busca from "./Busca";
@@ -8,10 +9,19 @@ export default function Cabecalho() {
       className="
         relative flex flex-col justify-center items-center 
         h-64 sm:h-72 md:h-80 max-w-full mx-auto w-full
-        bg-[url('https://images.pexels.com/photos/1485114/pexels-photo-1485114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]
-        bg-no-repeat bg-cover bg-center rounded-b-xl shadow-lg
+        rounded-b-xl shadow-lg
       "
     >
+      <div className="absolute inset-0 overflow-hidden rounded-b-xl">
+        <Image
+          src="https://images.pexels.com/photos/1485114/pexels-photo-1485114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center"
+        />
+      </div>
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70 rounded-b-xl" />
 
       <div className="absolute top-0 left-0 m-4 z-20">

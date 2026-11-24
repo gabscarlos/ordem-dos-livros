@@ -1,11 +1,16 @@
 import { Metadata } from "next";
 import Titulo from "@/components/shared/Titulo";
 import LivroMaisVendido from "@/components/principal/LivroMaisVendido";
-import maisVendidos from "@/constants/mais-vendidos";
+import maisVendidos, { atualizadoEm } from "@/constants/mais-vendidos";
+
+const [ano, mes, dia] = atualizadoEm.split("-").map(Number);
+const dataAtualizacao = new Date(Date.UTC(ano, mes - 1, dia, 12));
+const mesAno = dataAtualizacao.toLocaleDateString("pt-BR", { month: "long", year: "numeric", timeZone: "UTC" });
+const dataCompleta = dataAtualizacao.toLocaleDateString("pt-BR", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 
 export const metadata: Metadata = {
-  title: "Livros mais vendidos na Amazon",
-  description: "Explore uma lista completa com os livros mais vendidos do mercado na Amazon. Fique por dentro dos lançamentos e best-sellers.",
+  title: `Livros mais vendidos na Amazon em ${mesAno}`,
+  description: `Os ${maisVendidos.length} livros mais vendidos na Amazon Brasil em ${mesAno}, com ${maisVendidos[0].titulo}, de ${maisVendidos[0].autor}, em primeiro lugar.`,
   keywords: ["livros mais vendidos", "best sellers", "literatura", "leitura", "livros populares", "amazon"],
   openGraph: {
     title: "Mais Vendidos - Explore os livros mais vendidos",
@@ -29,8 +34,9 @@ export default function MaisVendidos() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Livros Mais Vendidos",
-    description: "Explore uma lista dos livros mais vendidos do mercado.",
+    name: `Livros mais vendidos na Amazon em ${mesAno}`,
+    description: `Ranking dos livros mais vendidos na Amazon Brasil, atualizado em ${dataCompleta}.`,
+    dateModified: atualizadoEm,
     url: "https://ordemlivro.vercel.app/mais-vendidos",
     itemListElement: maisVendidos.map((livro, index) => ({
       "@type": "ListItem",
@@ -53,8 +59,8 @@ export default function MaisVendidos() {
       />
       <div className="flex flex-col gap-8">
         <Titulo
-          principal="Mais Vendidos Amazon"
-          secundario="Explore os livros mais vendidos do mercado"
+          principal={`Livros mais vendidos na Amazon em ${mesAno}`}
+          secundario={`Ranking da Amazon Brasil, atualizado em ${dataCompleta}. A lista muda com frequência.`}
         />
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-content-center gap-8">
           {[...maisVendidos]

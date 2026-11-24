@@ -25,7 +25,7 @@ export default function LivroDestaque(props: LivroDestaqueProps) {
     >
       <div className="absolute top-0 left-4 z-10 bg-indigo-600 rounded-b-lg shadow-md">
         <span className="text-white text-xl font-black px-4 py-2 block">
-          #{props.posicao}
+          {props.posicao}
         </span>
       </div>
 
