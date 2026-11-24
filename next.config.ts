@@ -1,7 +1,19 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  
+  // Domínio principal: ordemlivro.com.br. O endereço antigo da Vercel e o
+  // www redirecionam (301) para ele, mantendo o caminho da página.
+  async redirects() {
+    return ["ordemlivro.vercel.app", "www.ordemlivro.com.br"].map((host) => ({
+      // O arquivo de verificação do Search Console fica fora do redirect,
+      // para a propriedade antiga continuar verificada.
+      source: "/:path((?!google7187fb85e434e81f\\.html$).*)",
+      has: [{ type: "host" as const, value: host }],
+      destination: "https://ordemlivro.com.br/:path",
+      permanent: true,
+    }));
+  },
+
   images: {
     remotePatterns: [
       {

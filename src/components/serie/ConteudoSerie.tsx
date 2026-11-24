@@ -6,6 +6,7 @@ import Breadcrumb from "../shared/Breadcrumb";
 import SocialShare from "../shared/SocialShare";
 import { useLeitura } from "@/hooks/useLeitura";
 import { useMemo, useState } from "react";
+import { SITE_URL } from "@/lib/site";
 
 export interface ConteudoSerieProps {
   id: string;
@@ -71,7 +72,7 @@ export default function ConteudoSerie(props: ConteudoSerieProps) {
       {/* Ações Sociais */}
       <div className="flex flex-col sm:flex-row justify-between items-center bg-white p-4 sm:p-6 rounded-3xl shadow-sm border border-zinc-100 gap-6">
          <SocialShare 
-            url={`https://ordemlivro.vercel.app/series/${props.id}`} 
+            url={`${SITE_URL}/series/${props.id}`} 
             title={`Confira a ordem correta dos livros da série ${props.titulo} no site Ordem dos Livros!`} 
          />
          

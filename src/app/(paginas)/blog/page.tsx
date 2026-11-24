@@ -4,6 +4,7 @@ import noticias from "@/constants/blog/noticias";
 import resenhas from "@/constants/blog/resenhas";
 import listasTematicas from "@/constants/blog/listas-tematicas";
 import curiosidadesLiterarias from "@/constants/blog/curiosidades-literarias";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata = {
   title: "Blog",
@@ -13,7 +14,7 @@ export const metadata = {
     title: "Blog | Ordem Livro",
     description:
       "Descubra resenhas de livros, listas temáticas, curiosidades literárias e muito mais. Mergulhe no mundo da literatura com a Ordem Livro.",
-    url: "https://ordemlivro.vercel.app/blog",
+    url: `${SITE_URL}/blog`,
     type: "website",
   },
   twitter: {

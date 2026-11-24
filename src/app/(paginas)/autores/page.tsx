@@ -3,6 +3,7 @@ import ItemAutor from "@/components/autor/ItemAutor";
 import Titulo from "@/components/shared/Titulo";
 import autores from "@/constants/autores";
 import Breadcrumb from "@/components/shared/Breadcrumb";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Autores - Conheça os Escritores das Histórias que Você Ama",
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
     title: "Autores - Conheça os Escritores das Histórias que Você Ama",
     description: "Explore detalhes sobre escritores famosos, suas obras e contribuições para a literatura.",
     images: ["/logo.png"],
-    url: "https://ordemlivro.vercel.app/autores",
+    url: `${SITE_URL}/autores`,
     type: "website",
   },
   twitter: {
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
     images: ["/logo.png"],
   },
   alternates: {
-    canonical: "https://ordemlivro.vercel.app/autores",
+    canonical: `${SITE_URL}/autores`,
   },
 };
 
@@ -32,11 +33,11 @@ export default function Autores() {
     "@type": "ItemList",
     name: "Autores",
     description: "Lista de autores famosos e suas obras.",
-    url: "https://ordemlivro.vercel.app/autores",
+    url: `${SITE_URL}/autores`,
     itemListElement: autores.map((autor, index) => ({
       "@type": "ListItem",
       position: index + 1,
-      url: `https://ordemlivro.vercel.app/autores/${autor.id}`,
+      url: `${SITE_URL}/autores/${autor.id}`,
       name: autor.nome,
       image: autor.imagem,
       description: autor.descricao,

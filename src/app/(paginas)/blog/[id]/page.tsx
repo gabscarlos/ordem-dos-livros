@@ -6,6 +6,7 @@ import noticias from "@/constants/blog/noticias";
 import resenhas from "@/constants/blog/resenhas";
 import listasTematicas from "@/constants/blog/listas-tematicas";
 import curiosidadesLiterarias from "@/constants/blog/curiosidades-literarias";
+import { SITE_URL } from "@/lib/site";
 
 export interface ConteudoPageProps {
   params: Promise<{ id: string }>;
@@ -34,10 +35,10 @@ export async function generateMetadata({
       title: `${conteudo.titulo} | Ordem Livro`,
       description: conteudo.descricao,
       images: [conteudo.imagem],
-      url: `https://ordemlivro.vercel.app/blog/${id}`,
+      url: `${SITE_URL}/blog/${id}`,
       type: "article",
     },
-    alternates: { canonical: `https://ordemlivro.vercel.app/blog/${id}` },
+    alternates: { canonical: `${SITE_URL}/blog/${id}` },
     twitter: {
       card: "summary_large_image",
       title: `${conteudo.titulo} | Ordem Livro`,
@@ -63,7 +64,7 @@ export default async function Conteudo({ params }: ConteudoPageProps) {
   // As datas estão em DD-MM-AAAA; o schema.org espera AAAA-MM-DD.
   const [dia, mes, ano] = conteudoEspecifico.data.split("-");
   const dataIso = ano && mes && dia ? `${ano}-${mes}-${dia}` : undefined;
-  const pageUrl = `https://ordemlivro.vercel.app/blog/${id}`;
+  const pageUrl = `${SITE_URL}/blog/${id}`;
   const jsonLd = [
     {
       "@context": "https://schema.org",
@@ -74,19 +75,19 @@ export default async function Conteudo({ params }: ConteudoPageProps) {
       ...(dataIso ? { datePublished: dataIso, dateModified: dataIso } : {}),
       inLanguage: "pt-BR",
       mainEntityOfPage: pageUrl,
-      author: { "@type": "Organization", name: "Ordem Livro", url: "https://ordemlivro.vercel.app" },
+      author: { "@type": "Organization", name: "Ordem Livro", url: `${SITE_URL}` },
       publisher: {
         "@type": "Organization",
         name: "Ordem Livro",
-        logo: { "@type": "ImageObject", url: "https://ordemlivro.vercel.app/logo.png" },
+        logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
       },
     },
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Início", item: "https://ordemlivro.vercel.app" },
-        { "@type": "ListItem", position: 2, name: "Blog", item: "https://ordemlivro.vercel.app/blog" },
+        { "@type": "ListItem", position: 1, name: "Início", item: `${SITE_URL}` },
+        { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
         { "@type": "ListItem", position: 3, name: conteudoEspecifico.titulo, item: pageUrl },
       ],
     },
