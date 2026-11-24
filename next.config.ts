@@ -189,6 +189,11 @@ const nextConfig: NextConfig = {
         hostname: 'miro.medium.com',
         port:''
       },
+      {
+        protocol: 'https',
+        hostname: 'thumb.wikimedia.org',
+        port:''
+      },
     ]
   }
 };

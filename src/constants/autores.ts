@@ -732,9 +732,155 @@ Sua obra continua a inspirar leitores, escritores e fãs da ficção científica
 
 > *"Não entre em pânico."* - Douglas Adams (*O Guia do Mochileiro das Galáxias*)
   `,
-}
+},
+  {
+    id: "paula-pimenta",
+    nome: "Paula Pimenta",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Paula_Pimenta_%28cropped%29.jpg/330px-Paula_Pimenta_%28cropped%29.jpg",
+    descricao: "Escritora brasileira, romance juvenil.",
+    biografia: `
+# Paula Pimenta
 
+**Paula Pimenta** é uma escritora brasileira nascida em Belo Horizonte, Minas Gerais. É uma das autoras juvenis mais lidas do país e ficou conhecida pela série **"Fazendo Meu Filme"**, que acompanha a adolescente Fani e sua paixão pelo cinema.
 
+## Principais Obras
+- **Fazendo Meu Filme** (2008–2012): quatro livros sobre Fani, uma garota apaixonada por filmes que vive um intercâmbio e descobre o amor.
+- **Minha Vida Fora de Série**: série protagonizada por Priscila, uma garota que precisa recomeçar a vida em uma nova cidade.
+- **Princesas Modernas**: releituras de contos de fadas, entre elas *Cinderela Pop*, que virou filme em 2019.
+
+## Estilo
+Seus livros misturam romance, humor e referências à cultura pop, com narrativas leves e protagonistas com quem os leitores jovens se identificam facilmente.
+`,
+  },
+  {
+    id: "kiera-cass",
+    nome: "Kiera Cass",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Kiera_Cass.jpg/330px-Kiera_Cass.jpg",
+    descricao: "Escritora norte-americana, romance distópico juvenil.",
+    biografia: `
+# Kiera Cass
+
+**Kiera Cass** é uma escritora norte-americana, nascida na Carolina do Sul. Ficou mundialmente conhecida pela série **"A Seleção"**, publicada a partir de 2012, que mistura romance e distopia em uma competição para conquistar o coração de um príncipe.
+
+## A Seleção
+A série acompanha America Singer, uma jovem escolhida para participar da Seleção, uma disputa entre 35 garotas pelo amor do príncipe Maxon. Os três primeiros livros contam a história de America, e os dois seguintes avançam uma geração e seguem a princesa Eadlyn.
+
+## Outras Obras
+Além de *A Seleção*, Kiera Cass escreveu *A Sereia*, um romance de fantasia, e contos ambientados no universo da série.
+`,
+  },
+  {
+    id: "sarah-j-maas",
+    nome: "Sarah J. Maas",
+    imagem:
+      "https://m.media-amazon.com/images/I/81aQ-osTBXL._SL1500_.jpg",
+    descricao: "Escritora norte-americana, fantasia e romantasia.",
+    biografia: `
+# Sarah J. Maas
+
+**Sarah J. Maas** é uma escritora norte-americana de fantasia, nascida em 1986, em Nova York. É uma das autoras mais vendidas do gênero conhecido como *romantasia*, que mistura fantasia épica e romance.
+
+## Início da Carreira
+Maas começou a escrever ainda adolescente a história que viria a se tornar **"Trono de Vidro"**, publicada originalmente em capítulos na internet antes de ser lançada como livro em 2012.
+
+## Principais Séries
+- **Trono de Vidro**: a saga da assassina Celaena Sardothien em oito volumes.
+- **Corte de Espinhos e Rosas** (ACOTAR): a história de Feyre, uma caçadora humana levada para o mundo das fadas.
+- **Cidade da Lua Crescente**: fantasia urbana ambientada em um mundo moderno habitado por criaturas mágicas.
+
+Seus livros se tornaram fenômenos nas redes sociais, especialmente no BookTok.
+`,
+  },
+  {
+    id: "rebecca-yarros",
+    nome: "Rebecca Yarros",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Rebecca_Yarros_at_the_2024_Library_of_Congress_National_Book_Festival_on_August_24%2C_2024_%28cropped%29.jpg/330px-Rebecca_Yarros_at_the_2024_Library_of_Congress_National_Book_Festival_on_August_24%2C_2024_%28cropped%29.jpg",
+    descricao: "Escritora norte-americana, romantasia.",
+    biografia: `
+# Rebecca Yarros
+
+**Rebecca Yarros** é uma escritora norte-americana. Antes da fama mundial, publicou diversos romances contemporâneos, muitos deles ligados ao universo militar.
+
+## O Empyriano
+Em 2023 lançou **"Quarta Asa"**, primeiro livro da série *O Empyriano*, que se tornou um dos maiores fenômenos editoriais dos últimos anos. A história acompanha Violet Sorrengail, uma jovem forçada a entrar no Instituto Militar Basgiath, onde cadetes tentam se tornar cavaleiros de dragões.
+
+A série continuou com *Chama de Ferro* (2023) e *Tempestade de Ônix* (2025).
+`,
+  },
+  {
+    id: "veronica-roth",
+    nome: "Veronica Roth",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Veronica_Roth_March_18%2C_2014_%28cropped%29.jpg/330px-Veronica_Roth_March_18%2C_2014_%28cropped%29.jpg",
+    descricao: "Escritora norte-americana, distopia juvenil.",
+    biografia: `
+# Veronica Roth
+
+**Veronica Roth** é uma escritora norte-americana, nascida em 1988. Escreveu **"Divergente"** enquanto ainda estudava na Universidade Northwestern, e o livro, lançado em 2011, se tornou um sucesso mundial.
+
+## A Série Divergente
+Ambientada em uma Chicago futurista dividida em cinco facções, a série acompanha Tris Prior, uma jovem que descobre não se encaixar em nenhuma delas. A trilogia foi adaptada para o cinema, com Shailene Woodley e Theo James nos papéis principais.
+
+## Outras Obras
+Roth também escreveu a duologia *Cravar a Marca* e romances para o público adulto.
+`,
+  },
+  {
+    id: "cassandra-clare",
+    nome: "Cassandra Clare",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Cassandra_Clare_by_Gage_Skidmore%2C_2013_b.jpg/330px-Cassandra_Clare_by_Gage_Skidmore%2C_2013_b.jpg",
+    descricao: "Escritora norte-americana, fantasia urbana.",
+    biografia: `
+# Cassandra Clare
+
+**Cassandra Clare** é o pseudônimo de uma escritora norte-americana, autora do universo dos **Caçadores de Sombras**. Sua estreia foi *Cidade dos Ossos*, em 2007, primeiro livro da série **"Os Instrumentos Mortais"**.
+
+## O Universo dos Caçadores de Sombras
+Os livros acompanham os Caçadores de Sombras, guerreiros meio-anjos que protegem o mundo dos demônios. Além de *Os Instrumentos Mortais*, o universo inclui as séries *As Peças Infernais* e *Os Artifícios das Trevas*.
+
+## Adaptações
+*Cidade dos Ossos* foi adaptado para o cinema em 2013, e a história ganhou a série de TV *Shadowhunters* (2016–2019).
+`,
+  },
+  {
+    id: "victoria-aveyard",
+    nome: "Victoria Aveyard",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Worldcon_2026_%28LAcon_V%29_-_Victoria_Aveyard_01_%28cropped%29.jpg/330px-Worldcon_2026_%28LAcon_V%29_-_Victoria_Aveyard_01_%28cropped%29.jpg",
+    descricao: "Escritora norte-americana, fantasia juvenil.",
+    biografia: `
+# Victoria Aveyard
+
+**Victoria Aveyard** é uma escritora norte-americana, formada em roteiro de cinema. Estreou em 2015 com **"A Rainha Vermelha"**, que chegou ao primeiro lugar da lista de mais vendidos do New York Times.
+
+## A Rainha Vermelha
+A série se passa em um mundo dividido pela cor do sangue: os Prateados, com poderes sobrenaturais, governam os Vermelhos, que vivem na pobreza. A protagonista, Mare Barrow, é uma Vermelha que descobre ter um poder próprio.
+
+A saga foi traduzida para dezenas de idiomas. Depois dela, Aveyard lançou a série *Destruidora de Reinos*.
+`,
+  },
+  {
+    id: "julia-quinn",
+    nome: "Julia Quinn",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Bokm%C3%A4ssan_2025_%E2%80%93_237.jpg/330px-Bokm%C3%A4ssan_2025_%E2%80%93_237.jpg",
+    descricao: "Escritora norte-americana, romance de época.",
+    biografia: `
+# Julia Quinn
+
+**Julia Quinn** é o pseudônimo de uma escritora norte-americana de romances históricos, formada pela Universidade Harvard. Seus livros foram traduzidos para dezenas de idiomas.
+
+## Os Bridgertons
+Sua série mais famosa é **"Os Bridgertons"**, publicada a partir de 2000. Cada um dos oito livros principais conta a história de amor de um dos oito irmãos Bridgerton, na alta sociedade de Londres do início do século XIX. Um nono livro, *E viveram felizes para sempre*, reúne epílogos e a história da matriarca Violet.
+
+## Adaptação
+Em 2020, a série virou *Bridgerton*, produção da Netflix que se tornou uma das séries mais assistidas da plataforma e trouxe uma nova geração de leitores para os livros.
+`,
+  },
 ];
 
 export default autores;

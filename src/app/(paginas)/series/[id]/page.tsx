@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ConteudoSerie from "@/components/serie/ConteudoSerie";
@@ -136,6 +137,37 @@ export default async function Serie({ params }: SeriePageProps) {
         autor={serie.autor}
         livros={serie.livros}
       />
+
+      {"box" in serie && serie.box && (
+        <section className="bg-amber-50 border border-amber-200 rounded-3xl p-6 sm:p-8 mb-10 flex flex-col sm:flex-row items-center gap-6">
+          <div className="relative h-40 w-28 flex-shrink-0 overflow-hidden rounded-lg shadow-md">
+            <Image
+              src={serie.box.imagem}
+              alt={serie.box.titulo}
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="flex flex-col gap-3 text-center sm:text-left">
+            <h2 className="text-2xl font-serif font-bold text-zinc-900">
+              Quer a coleção completa?
+            </h2>
+            <p className="text-zinc-700">
+              Compre todos os livros de {serie.titulo} de uma vez no{" "}
+              <strong>{serie.box.titulo}</strong>.
+            </p>
+            <a
+              href={serie.box.link}
+              target="_blank"
+              rel="sponsored nofollow noopener"
+              className="self-center sm:self-start flex items-center gap-2 bg-[#FFD814] hover:bg-[#F7CA00] text-zinc-900 font-bold py-2.5 px-6 rounded-xl transition-all shadow-md"
+            >
+              <Image src="/amazon.png" alt="Amazon" width={20} height={20} />
+              <span>Ver box na Amazon</span>
+            </a>
+          </div>
+        </section>
+      )}
 
       <section className="bg-white p-8 sm:p-10 rounded-3xl shadow-sm border border-zinc-100 mb-20 flex flex-col gap-6">
         <h2 className="text-2xl font-serif font-bold text-zinc-900">
