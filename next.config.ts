@@ -19,6 +19,14 @@ const nextConfig: NextConfig = {
   },
 
   images: {
+    // As imagens são redimensionadas pelas próprias origens (Amazon, Pexels),
+    // não pela Vercel: isso zera as "transformações de imagem" do plano.
+    loader: "custom",
+    loaderFile: "./src/lib/imageLoader.ts",
+    // Larguras usadas no srcset. Sem telas acima de 1920px, as capas e fotos
+    // do site não precisam de versões maiores.
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
+    imageSizes: [64, 96, 128, 160, 256, 384],
     remotePatterns: [
       {
         protocol: 'https',
