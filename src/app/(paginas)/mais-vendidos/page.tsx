@@ -4,7 +4,7 @@ import LivroMaisVendido from "@/components/principal/LivroMaisVendido";
 import maisVendidos from "@/constants/mais-vendidos";
 
 export const metadata: Metadata = {
-  title: "Mais Vendidos - Explore os livros mais vendidos | Ordem dos Livros",
+  title: "Livros mais vendidos na Amazon",
   description: "Explore uma lista completa com os livros mais vendidos do mercado na Amazon. Fique por dentro dos lançamentos e best-sellers.",
   keywords: ["livros mais vendidos", "best sellers", "literatura", "leitura", "livros populares", "amazon"],
   openGraph: {

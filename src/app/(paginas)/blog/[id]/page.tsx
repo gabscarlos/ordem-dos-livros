@@ -10,6 +10,10 @@ export interface ConteudoPageProps {
   params: Promise<{ id: string }>;
 }
 
+export function generateStaticParams() {
+  return [...resenhas, ...listasTematicas, ...curiosidadesLiterarias, ...noticias].map((c) => ({ id: c.id }));
+}
+
 export async function generateMetadata({
   params,
 }: ConteudoPageProps): Promise<Metadata> {
@@ -23,7 +27,7 @@ export async function generateMetadata({
   if (!conteudo) return { title: "Conteúdo não encontrado" };
 
   return {
-    title: `${conteudo.titulo} | Ordem Livro`,
+    title: conteudo.titulo,
     description: conteudo.descricao,
     openGraph: {
       title: `${conteudo.titulo} | Ordem Livro`,
@@ -32,6 +36,7 @@ export async function generateMetadata({
       url: `https://ordemlivro.vercel.app/blog/${id}`,
       type: "article",
     },
+    alternates: { canonical: `https://ordemlivro.vercel.app/blog/${id}` },
     twitter: {
       card: "summary_large_image",
       title: `${conteudo.titulo} | Ordem Livro`,

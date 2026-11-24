@@ -17,6 +17,7 @@ export default function LivroTop(props: LivroTopProps) {
       <Link
         href={props.linkAmazon}
         target="_blank"
+        rel="sponsored nofollow noopener"
         className={`rounded-md overflow-hidden ${props.className} w-28`}
       >
         <Image

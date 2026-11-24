@@ -8,7 +8,7 @@ import LivrosDestaque from "@/components/principal/LivrosDestaque";
 import Titulo from "@/components/shared/Titulo";
 
 export const metadata: Metadata = {
-  title: "Início - Descubra Séries de Livros Incríveis | Ordem dos Livros",
+  title: { absolute: "Ordem Livro - Séries de Livros em Ordem de Leitura" },
   description: "Explore uma coleção incrível de séries de livros em ordem cronológica e de leitura. Encontre seu próximo livro favorito com autores renomados.",
   keywords: ["séries de livros", "autores", "literatura", "livros populares", "histórias épicas", "ordem de leitura"],
   openGraph: {

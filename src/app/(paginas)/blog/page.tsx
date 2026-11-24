@@ -6,7 +6,7 @@ import listasTematicas from "@/constants/blog/listas-tematicas";
 import curiosidadesLiterarias from "@/constants/blog/curiosidades-literarias";
 
 export const metadata = {
-  title: "Blog | Ordem Livro",
+  title: "Blog",
   description:
     "Explore resenhas de livros, listas temáticas, curiosidades literárias e notícias sobre o universo literário. Tudo em um só lugar!",
   openGraph: {

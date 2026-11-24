@@ -5,7 +5,7 @@ const maisVendidos = [
         autor: "Júnior Rostirola",
         posicao: "#1",
         imagem: "https://m.media-amazon.com/images/I/5109YEIX0kL._SY425_.jpg",
-        link: "https://amzn.to/4iUfJx7",
+        link: "https://www.amazon.com.br/dp/6585930010?tag=gabscarlos0b-20",
     },
     {
         id: "o-homem-mais-rico-da-babilonia",
@@ -13,7 +13,7 @@ const maisVendidos = [
         autor: "George S Clason",
         posicao: "#2",
         imagem: "https://m.media-amazon.com/images/I/81ehX6Quw2L._SY425_.jpg",
-        link: "https://amzn.to/40bLPxl",
+        link: "https://www.amazon.com.br/dp/8595081530?tag=gabscarlos0b-20",
     },
     {
         id: "a-psicologia-financeira",
@@ -21,7 +21,7 @@ const maisVendidos = [
         autor: "Morgan Housel",
         posicao: "#6",
         imagem: "https://m.media-amazon.com/images/I/81ehvI03NYS._SY425_.jpg",
-        link: "https://amzn.to/3PyqckJ",
+        link: "https://www.amazon.com.br/dp/6555111100?tag=gabscarlos0b-20",
     },
     {
         id: "verity",
@@ -29,7 +29,7 @@ const maisVendidos = [
         autor: "Colleen Hoover",
         posicao: "#8",
         imagem: "https://m.media-amazon.com/images/I/91SDZ2eUj+L._SY425_.jpg",
-        link: "https://amzn.to/4fvEYmN",
+        link: "https://www.amazon.com.br/dp/8501117846?tag=gabscarlos0b-20",
     },
     {
         id: "forte",
@@ -37,7 +37,7 @@ const maisVendidos = [
         autor: "Lisa Bevere",
         posicao: "#4",
         imagem: "https://m.media-amazon.com/images/I/81iP98T6pwL._SY342_.jpg",
-        link: "https://amzn.to/4fvF91m",
+        link: "https://www.amazon.com.br/dp/6556890111?tag=gabscarlos0b-20",
     },
     {
         id: "habitos-atomicos",
@@ -45,7 +45,7 @@ const maisVendidos = [
         autor: "James Clear",
         posicao: "#3",
         imagem: "https://m.media-amazon.com/images/I/81eT2pjx4jL._SY425_.jpg",
-        link: "https://amzn.to/3PdTMvn",
+        link: "https://www.amazon.com.br/dp/8550807567?tag=gabscarlos0b-20",
     },
     {
         id: "cem-anos-de-solidao",
@@ -53,7 +53,7 @@ const maisVendidos = [
         autor: "Gabriel Garcia Marquez",
         posicao: "#9",
         imagem: "https://m.media-amazon.com/images/I/817esPahlrL._SY466_.jpg",
-        link: "https://amzn.to/4iW2SdR",
+        link: "https://www.amazon.com.br/dp/8501012076?tag=gabscarlos0b-20",
     },
     {
         id: "como-falar-sobre-sexualidade-com-as-criancas",
@@ -61,7 +61,7 @@ const maisVendidos = [
         autor: "Leiliane Rocha",
         posicao: "#11",
         imagem: "https://m.media-amazon.com/images/I/61fsQjG2Q1L._SY466_.jpg",
-        link: "https://amzn.to/3PjXJi5",
+        link: "https://www.amazon.com.br/dp/6555664819?tag=gabscarlos0b-20",
     },
     {
         id: "a-hora-da-estrela",
@@ -69,7 +69,7 @@ const maisVendidos = [
         autor: "Clarice Lispector",
         posicao: "#7",
         imagem: "https://m.media-amazon.com/images/I/61TaHURu27L._SL1000_.jpg",
-        link: "https://amzn.to/40bPcnY",
+        link: "https://www.amazon.com.br/dp/6555320354?tag=gabscarlos0b-20",
     },
     {
         id: "a-morte",
@@ -77,7 +77,7 @@ const maisVendidos = [
         autor: "Ana Claudia Quintana Arantes",
         posicao: "#14",
         imagem: "https://m.media-amazon.com/images/I/615KDfCxHFL._SY466_.jpg",
-        link: "https://amzn.to/3VRJAwA",
+        link: "https://www.amazon.com.br/dp/8543107202?tag=gabscarlos0b-20",
     },
     {
         id: "como-fazer-amigos-e-influenciar-pessoas",
@@ -85,7 +85,7 @@ const maisVendidos = [
         autor: "Dale Carnegie",
         posicao: "#10",
         imagem: "https://m.media-amazon.com/images/I/71x-i7sKSvL._SY425_.jpg",
-        link: "https://amzn.to/4gx9y0n",
+        link: "https://www.amazon.com.br/dp/8543108683?tag=gabscarlos0b-20",
     },
     {
         id: "como-se-tornar-sobrenatural",
@@ -93,7 +93,7 @@ const maisVendidos = [
         autor: "Dr. Joe Dizpenza",
         posicao: "#12",
         imagem: "https://m.media-amazon.com/images/I/61miHJ2Wx2L._SY466_.jpg",
-        link: "https://amzn.to/4gUhMiT",
+        link: "https://www.amazon.com.br/dp/655047051X?tag=gabscarlos0b-20",
     },
     {
         id: "duologia-divinos-rivais",
@@ -101,7 +101,7 @@ const maisVendidos = [
         autor: "Rebecca Ross",
         posicao: "#5",
         imagem: "https://m.media-amazon.com/images/I/81BtUtBjWnL._SY466_.jpg",
-        link: "https://amzn.to/3Pilmry",
+        link: "https://www.amazon.com.br/dp/6585348818?tag=gabscarlos0b-20",
     },
     {
         id: "os-segredos-da-mente-milionária",
@@ -109,7 +109,7 @@ const maisVendidos = [
         autor: "T. Harv Eker",
         posicao: "#13",
         imagem: "https://m.media-amazon.com/images/I/81WzW3xJb5L._SY466_.jpg",
-        link: "https://amzn.to/3ZUCVCN",
+        link: "https://www.amazon.com.br/dp/8575422391?tag=gabscarlos0b-20",
     },
 ]
 

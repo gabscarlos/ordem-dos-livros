@@ -5,7 +5,7 @@ import autores from "@/constants/autores";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Autores - Conheça os Escritores das Histórias que Você Ama | Ordem dos Livros",
+  title: "Autores - Conheça os Escritores das Histórias que Você Ama",
   description: "Conheça os autores das histórias que você ama! Descubra mais sobre escritores famosos, suas obras e trajetórias.",
   keywords: ["autores", "escritores", "livros", "literatura", "biografias", "obras literárias"],
   openGraph: {

@@ -1,87 +1,52 @@
+import type { Metadata } from "next";
 import ItemSerie from "@/components/serie/ItemSerie";
 import Titulo from "@/components/shared/Titulo";
 import series from "@/constants/series";
-import Head from "next/head";
+import { url } from "@/lib/site";
+
+const titulo = "Séries de livros em ordem de leitura";
+const descricao =
+  "Lista de séries de livros com a ordem certa de leitura: Harry Potter, Percy Jackson, Diário de Pilar, Maze Runner, Jogos Vorazes e muito mais.";
+
+export const metadata: Metadata = {
+  title: titulo,
+  description: descricao,
+  alternates: { canonical: url("/series") },
+  openGraph: {
+    title: titulo,
+    description: descricao,
+    url: url("/series"),
+    images: ["/logo.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: titulo,
+    description: descricao,
+    images: ["/logo.png"],
+  },
+};
 
 export default function Series() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: titulo,
+    description: descricao,
+    url: url("/series"),
+    itemListElement: series.map((serie, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: url(`/series/${serie.id}`),
+      name: serie.titulo,
+    })),
+  };
+
   return (
     <>
-      <Head>
-        {/* Meta Tags para SEO */}
-        <title>Séries - Descubra as Melhores Séries de Livros</title>
-        <meta
-          name="description"
-          content="Explore uma lista das melhores séries de livros, conheça autores incríveis e descubra histórias fascinantes para sua próxima leitura."
-        />
-        <meta
-          name="keywords"
-          content="séries de livros, livros populares, histórias incríveis, autores renomados, literatura, leitura"
-        />
-        <meta name="robots" content="index, follow" />
-
-        {/* Open Graph para Redes Sociais */}
-        <meta
-          property="og:title"
-          content="Séries - Descubra as Melhores Séries de Livros"
-        />
-        <meta
-          property="og:description"
-          content="Explore uma lista das melhores séries de livros, conheça autores incríveis e descubra histórias fascinantes para sua próxima leitura."
-        />
-        <meta property="og:image" content="/logo.png" />
-        <meta
-          property="og:url"
-          content="https://ordemlivro.vercel.app/series"
-        />
-        <meta property="og:type" content="website" />
-
-        {/* Twitter Cards */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Séries - Descubra as Melhores Séries de Livros"
-        />
-        <meta
-          name="twitter:description"
-          content="Explore uma lista das melhores séries de livros, conheça autores incríveis e descubra histórias fascinantes para sua próxima leitura."
-        />
-        <meta name="twitter:image" content="/logo.png" />
-
-        {/* Link Canonical */}
-        <link rel="canonical" href="https://ordemlivro.vercel.app/series" />
-
-        {/* Dados Estruturados JSON-LD */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "ItemList",
-              name: "Séries de Livros",
-              description:
-                "Explore uma lista das melhores séries de livros, conheça autores incríveis e descubra histórias fascinantes para sua próxima leitura.",
-              url: "https://ordemlivro.vercel.app/series",
-              itemListElement: series.map((serie, index) => ({
-                "@type": "ListItem",
-                position: index + 1,
-                url: `https://ordemlivro.vercel.app/series/${serie.id}`,
-                name: serie.titulo,
-                image: serie.imagem,
-                author: {
-                  "@type": "Person",
-                  name: serie.autor.nome,
-                },
-              })),
-            }),
-          }}
-        />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8791475834761530"
-          crossOrigin="anonymous"
-        ></script>
-      </Head>
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="flex flex-col gap-8">
         <Titulo
           principal="Séries"

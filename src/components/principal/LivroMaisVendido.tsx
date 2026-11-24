@@ -15,6 +15,8 @@ export default function LivroDestaque(props: LivroDestaqueProps) {
   return (
     <Link
       href={props.link}
+      target="_blank"
+      rel="sponsored nofollow noopener"
       className={`group relative rounded-xl overflow-hidden ${props.className}
         flex flex-col w-full items-center gap-3
         bg-white shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1

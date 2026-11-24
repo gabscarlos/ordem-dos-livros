@@ -76,7 +76,7 @@ export default function ItemLivro(props: ItemLivroProps) {
           <Link 
             href={props.link} 
             target="_blank" 
-            rel="nofollow"
+            rel="sponsored nofollow noopener"
             className="flex items-center justify-center gap-2 bg-[#FFD814] hover:bg-[#F7CA00] text-zinc-900 font-bold py-2 px-6 rounded-xl transition-all shadow-md active:scale-95 text-sm whitespace-nowrap"
           >
             <Image src="/amazon.png" alt="Amazon" width={18} height={18} />
@@ -107,7 +107,7 @@ export default function ItemLivro(props: ItemLivroProps) {
       <Link
         href={props.link}
         target="_blank"
-        rel="nofollow"
+        rel="sponsored nofollow noopener"
         className="contents"
       >
         <div className="relative h-96 w-full overflow-hidden">
@@ -142,7 +142,7 @@ export default function ItemLivro(props: ItemLivroProps) {
         <Link 
           href={props.link} 
           target="_blank" 
-          rel="nofollow"
+          rel="sponsored nofollow noopener"
           className="flex items-center justify-center gap-2 bg-[#FFD814] hover:bg-[#F7CA00] text-zinc-900 font-bold py-2.5 px-4 rounded-xl transition-all shadow-md active:scale-95"
         >
           <Image src="/amazon.png" alt="Amazon" width={20} height={20} />

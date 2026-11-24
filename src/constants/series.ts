@@ -18,7 +18,7 @@ const series = [
         ano: 1997,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/81pB+joKL4L._SL1500_.jpg",
-        link: "https://amzn.to/49heZ0X",
+        link: "https://www.amazon.com.br/dp/B01LQM96G4?tag=gabscarlos0b-20",
       },
       {
         id: "harry-potter-e-a-camara-secreta",
@@ -27,7 +27,7 @@ const series = [
         ano: 1998,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/81D+5aMHzFL._SL1500_.jpg",
-        link: "https://amzn.to/3B702Sg",
+        link: "https://www.amazon.com.br/dp/B01LQM96K0?tag=gabscarlos0b-20",
       },
       {
         id: "harry-potter-e-o-prisioneiro-de-azkaban",
@@ -36,7 +36,7 @@ const series = [
         ano: 1999,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/81Q+2zleuwL._SL1500_.jpg",
-        link: "https://amzn.to/3B46wS0",
+        link: "https://www.amazon.com.br/dp/B01LQM96HI?tag=gabscarlos0b-20",
       },
       {
         id: "harry-potter-e-o-calice-de-fogo",
@@ -45,7 +45,7 @@ const series = [
         ano: 2000,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/81IsnaNraBL._SL1500_.jpg",
-        link: "https://amzn.to/41d45ay",
+        link: "https://www.amazon.com.br/dp/B01LQM96FA?tag=gabscarlos0b-20",
       },
       {
         id: "harry-potter-e-a-ordem-da-fenix",
@@ -54,7 +54,7 @@ const series = [
         ano: 2003,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/81ZQUV67MGL._SL1500_.jpg",
-        link: "https://amzn.to/3Zw4ZgU",
+        link: "https://www.amazon.com.br/dp/B01LQM96IC?tag=gabscarlos0b-20",
       },
       {
         id: "harry-potter-e-o-enigma-do-principe",
@@ -63,7 +63,7 @@ const series = [
         ano: 2005,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/81SZC96OGOL._SL1500_.jpg",
-        link: "https://amzn.to/4ibXDXg",
+        link: "https://www.amazon.com.br/dp/B01LQM96LY?tag=gabscarlos0b-20",
       },
       {
         id: "Harry Potter e as Reliquias da Morte",
@@ -72,7 +72,7 @@ const series = [
         ano: 2007,
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/81PbdwXqKkL._SL1500_.jpg",
-        link: "https://amzn.to/3CUdBFl",
+        link: "https://www.amazon.com.br/dp/B01LQM96GE?tag=gabscarlos0b-20",
       },
       {
         id: "harry-potter-e-a-crianca-amaldicoada",
@@ -81,7 +81,7 @@ const series = [
         ano: 2016,
         ordem: 8,
         imagem: "https://rocco.com.br/app/uploads/2024/04/9786555322682.jpg",
-        link: "https://amzn.to/3ZevtlR",
+        link: "https://www.amazon.com.br/dp/8532530435?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -102,7 +102,7 @@ const series = [
         ano: 1954,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/81SM0D5+DwL._SL1500_.jpg",
-        link: "https://amzn.to/49htqlr",
+        link: "https://www.amazon.com.br/dp/B0B3C98K98?tag=gabscarlos0b-20",
       },
       {
         id: "as-duas-torres",
@@ -111,7 +111,7 @@ const series = [
         ano: 1954,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/81N9hxO6XdL._SL1500_.jpg",
-        link: "https://amzn.to/3CMSgxm",
+        link: "https://www.amazon.com.br/dp/6555113626?tag=gabscarlos0b-20",
       },
       {
         id: "o-retorno-do-rei",
@@ -120,7 +120,7 @@ const series = [
         ano: 1955,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/81LUEEYfQNL._SL1500_.jpg",
-        link: "https://amzn.to/3D1Tmp0",
+        link: "https://www.amazon.com.br/dp/6555113669?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -141,7 +141,7 @@ const series = [
         ano: 1996,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/91eHityofNL._SL1500_.jpg",
-        link: "https://amzn.to/3CWfCAY",
+        link: "https://www.amazon.com.br/dp/8556510787?tag=gabscarlos0b-20",
       },
       {
         id: "a-furia-dos-reis",
@@ -150,7 +150,7 @@ const series = [
         ano: 1998,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/91N6C0jwzuL._SL1500_.jpg",
-        link: "https://amzn.to/3ZckitU",
+        link: "https://www.amazon.com.br/dp/8556510795?tag=gabscarlos0b-20",
       },
       {
         id: "a-tormenta-de-espadas",
@@ -159,7 +159,7 @@ const series = [
         ano: 2000,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/91VVZ-v5GYL._SL1500_.jpg",
-        link: "https://amzn.to/3CSvhBc",
+        link: "https://www.amazon.com.br/dp/B07QXSYDSB?tag=gabscarlos0b-20",
       },
       {
         id: "o-festim-dos-corvos",
@@ -168,7 +168,7 @@ const series = [
         ano: 2019,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/814UZhEYFfL._SL1500_.jpg",
-        link: "https://amzn.to/3ZtIRUu",
+        link: "https://www.amazon.com.br/dp/8556510884?tag=gabscarlos0b-20",
       },
       {
         id: "a-danca-dos-dragoes",
@@ -177,7 +177,7 @@ const series = [
         ano: 2020,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/91DisjRjFxL._SL1500_.jpg",
-        link: "https://amzn.to/3Ozr8os",
+        link: "https://www.amazon.com.br/dp/8556510906?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -198,7 +198,7 @@ const series = [
         ano: 2008,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/71fWaI5myqL._SY385_.jpg",
-        link: "https://amzn.to/4f0OOwy",
+        link: "https://www.amazon.com.br/dp/8576831309?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-2",
@@ -207,7 +207,7 @@ const series = [
         ano: 2009,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/71+fh2vstSL._SY385_.jpg",
-        link: "https://amzn.to/4197nv9",
+        link: "https://www.amazon.com.br/dp/8576831953?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-3",
@@ -216,7 +216,7 @@ const series = [
         ano: 2010,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/81T9BY8yEnL._SY385_.jpg",
-        link: "https://amzn.to/41aONCS",
+        link: "https://www.amazon.com.br/dp/8576832291?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-4",
@@ -225,7 +225,7 @@ const series = [
         ano: 2011,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/71MuD6Hn8OL._SY385_.jpg",
-        link: "https://amzn.to/4g8O1us",
+        link: "https://www.amazon.com.br/dp/8576832763?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-5",
@@ -234,7 +234,7 @@ const series = [
         ano: 2011,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/711dw9VO+jL._SY385_.jpg",
-        link: "https://amzn.to/4g8zcYT",
+        link: "https://www.amazon.com.br/dp/8576833077?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-6",
@@ -243,7 +243,7 @@ const series = [
         ano: 2012,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/71beaUwsF0L._SY385_.jpg",
-        link: "https://amzn.to/4g9VrO8",
+        link: "https://www.amazon.com.br/dp/8576833689?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-7",
@@ -252,7 +252,7 @@ const series = [
         ano: 2013,
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/71gWCy-KesL._SY385_.jpg",
-        link: "https://amzn.to/3VhvmEC",
+        link: "https://www.amazon.com.br/dp/8576834847?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-8",
@@ -261,7 +261,7 @@ const series = [
         ano: 2014,
         ordem: 8,
         imagem: "https://m.media-amazon.com/images/I/716yGyLTIxL._SY385_.jpg",
-        link: "https://amzn.to/3VhvpQO",
+        link: "https://www.amazon.com.br/dp/8576836904?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-9",
@@ -270,7 +270,7 @@ const series = [
         ano: 2015,
         ordem: 9,
         imagem: "https://m.media-amazon.com/images/I/71D7-E0gtIL._SY385_.jpg",
-        link: "https://amzn.to/4f3qOJq",
+        link: "https://www.amazon.com.br/dp/8576838230?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-10",
@@ -279,7 +279,7 @@ const series = [
         ano: 2015,
         ordem: 10,
         imagem: "https://m.media-amazon.com/images/I/71ci78zaT-L._SY385_.jpg",
-        link: "https://amzn.to/4fRin4O",
+        link: "https://www.amazon.com.br/dp/8576839423?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-11",
@@ -288,7 +288,7 @@ const series = [
         ano: 2016,
         ordem: 11,
         imagem: "https://m.media-amazon.com/images/I/718cIIlLIwL._SY385_.jpg",
-        link: "https://amzn.to/3B8g12E",
+        link: "https://www.amazon.com.br/dp/8550700606?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-12",
@@ -297,7 +297,7 @@ const series = [
         ano: 2017,
         ordem: 12,
         imagem: "https://m.media-amazon.com/images/I/71vHGC4hRmL._SY385_.jpg",
-        link: "https://amzn.to/3B2fwXP",
+        link: "https://www.amazon.com.br/dp/8550701440?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-13",
@@ -306,7 +306,7 @@ const series = [
         ano: 2018,
         ordem: 13,
         imagem: "https://m.media-amazon.com/images/I/71AII-WDnXL._SY385_.jpg",
-        link: "https://amzn.to/4idwbIA",
+        link: "https://www.amazon.com.br/dp/8550702471?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-14",
@@ -315,7 +315,7 @@ const series = [
         ano: 2019,
         ordem: 14,
         imagem: "https://m.media-amazon.com/images/I/71RqnIKaA9L._SY385_.jpg",
-        link: "https://amzn.to/3CTuOi3",
+        link: "https://www.amazon.com.br/dp/8550702919?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-15",
@@ -324,7 +324,7 @@ const series = [
         ano: 2020,
         ordem: 15,
         imagem: "https://m.media-amazon.com/images/I/71qp05Xbw9L._SY385_.jpg",
-        link: "https://amzn.to/4fSEYy1",
+        link: "https://www.amazon.com.br/dp/6586070139?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-16",
@@ -333,7 +333,7 @@ const series = [
         ano: 2021,
         ordem: 16,
         imagem: "https://m.media-amazon.com/images/I/91Bd39WTNuL._SY385_.jpg",
-        link: "https://amzn.to/3VfwIQm",
+        link: "https://www.amazon.com.br/dp/6586070627?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-17",
@@ -343,7 +343,7 @@ const series = [
         ordem: 17,
         imagem:
           "https://m.media-amazon.com/images/I/916K1XCNRBL._UF894,1000_QL80_.jpg",
-        link: "https://amzn.to/3VkQdqL",
+        link: "https://www.amazon.com.br/dp/855070363X?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-18",
@@ -353,7 +353,7 @@ const series = [
         ordem: 18,
         imagem:
           "https://m.media-amazon.com/images/I/71HODD5GbdL._AC_UF1000,1000_QL80_.jpg",
-        link: "https://amzn.to/4eVdIOd",
+        link: "https://www.amazon.com.br/dp/855070475X?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-um-banana-19",
@@ -362,7 +362,7 @@ const series = [
         ano: 2024,
         ordem: 19,
         imagem: "https://m.media-amazon.com/images/I/71GJo0STB8L._SY385_.jpg",
-        link: "https://amzn.to/3D2gC6h",
+        link: "https://www.amazon.com.br/dp/8550705691?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -383,7 +383,7 @@ const series = [
         ano: 2013,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/61ILpNSiAuL._SY385_.jpg",
-        link: "https://amzn.to/49huiqd",
+        link: "https://www.amazon.com.br/dp/8576834901?tag=gabscarlos0b-20",
       },
       {
         id: "maze-runner-2",
@@ -392,7 +392,7 @@ const series = [
         ano: 2014,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/51MTj2LpsQL._SY385_.jpg",
-        link: "https://amzn.to/4eTDylE",
+        link: "https://www.amazon.com.br/dp/8576836238?tag=gabscarlos0b-20",
       },
       {
         id: "maze-runner-3",
@@ -402,7 +402,7 @@ const series = [
         ordem: 3,
         imagem:
           "https://m.media-amazon.com/images/I/51UqHWh58-L._SY445_SX342_.jpg",
-        link: "https://amzn.to/49dil4M",
+        link: "https://www.amazon.com.br/dp/857683247X?tag=gabscarlos0b-20",
       },
       {
         id: "maze-runner-4",
@@ -411,7 +411,7 @@ const series = [
         ano: 2011,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/61pGP-2ZaCL._SY385_.jpg",
-        link: "https://amzn.to/3COnapk",
+        link: "https://www.amazon.com.br/dp/8576832992?tag=gabscarlos0b-20",
       },
       {
         id: "maze-runner-5",
@@ -420,7 +420,7 @@ const series = [
         ano: 2012,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/61pR3wqzNgL._SY385_.jpg",
-        link: "https://amzn.to/49fq822",
+        link: "https://www.amazon.com.br/dp/8576833883?tag=gabscarlos0b-20",
       },
       {
         id: "maze-runner-6",
@@ -429,7 +429,7 @@ const series = [
         ano: 2012,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/81AtmD2CM2L._SY385_.jpg",
-        link: "https://amzn.to/4g9QBAq",
+        link: "https://www.amazon.com.br/dp/B0BLP3NLM1?tag=gabscarlos0b-20",
       },
       {
         id: "maze-runner-7",
@@ -438,7 +438,7 @@ const series = [
         ano: 2018,
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/81UckzVmQPL._SY385_.jpg",
-        link: "https://amzn.to/3B80pMm",
+        link: "https://www.amazon.com.br/dp/B079VRTWSJ?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -458,7 +458,7 @@ const series = [
         ano: 1965,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/81zN7udGRUL._SY385_.jpg",
-        link: "https://amzn.to/3VlZkYq",
+        link: "https://www.amazon.com.br/dp/857657313X?tag=gabscarlos0b-20",
       },
       {
         id: "duna-2",
@@ -467,7 +467,7 @@ const series = [
         ano: 1969,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/91iLyWRwmRL._SY385_.jpg",
-        link: "https://amzn.to/4fSDGmN",
+        link: "https://www.amazon.com.br/dp/8576573822?tag=gabscarlos0b-20",
       },
       {
         id: "duna-3",
@@ -476,7 +476,7 @@ const series = [
         ano: 1976,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/810pYklnGsL._SY385_.jpg",
-        link: "https://amzn.to/4iheojJ",
+        link: "https://www.amazon.com.br/dp/8576573148?tag=gabscarlos0b-20",
       },
       {
         id: "duna-4",
@@ -485,7 +485,7 @@ const series = [
         ano: 1981,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/91XCwEX5fiL._SY385_.jpg",
-        link: "https://amzn.to/4eW2Yzc",
+        link: "https://www.amazon.com.br/dp/8576572621?tag=gabscarlos0b-20",
       },
       {
         id: "duna-5",
@@ -494,7 +494,7 @@ const series = [
         ano: 1984,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/61HtrwULeBL._SY385_.jpg",
-        link: "https://amzn.to/4ifQ7KL",
+        link: "https://www.amazon.com.br/dp/8576574020?tag=gabscarlos0b-20",
       },
       {
         id: "duna-6",
@@ -503,7 +503,7 @@ const series = [
         ano: 1984,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/61zKJw+JQRL._SY385_.jpg",
-        link: "https://amzn.to/49gQHnv",
+        link: "https://www.amazon.com.br/dp/6586064252?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -524,7 +524,7 @@ const series = [
         ano: 1991,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/61C4rFG-oYL._SY385_.jpg",
-        link: "https://amzn.to/4fdB8P7",
+        link: "https://www.amazon.com.br/dp/8580418216?tag=gabscarlos0b-20",
       },
       {
         id: "outlander-2",
@@ -533,7 +533,7 @@ const series = [
         ano: 1992,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/71N1LwdVFEL._SY385_.jpg",
-        link: "https://amzn.to/3OwQ3ca",
+        link: "https://www.amazon.com.br/dp/8580417899?tag=gabscarlos0b-20",
       },
       {
         id: "outlander-3",
@@ -542,7 +542,7 @@ const series = [
         ano: 1994,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/61tpKt86eXL._SY385_.jpg",
-        link: "https://amzn.to/4iheojJ",
+        link: "https://www.amazon.com.br/dp/8576573148?tag=gabscarlos0b-20",
       },
       {
         id: "outlander-4",
@@ -551,7 +551,7 @@ const series = [
         ano: 1996,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/61sf584vtmL._SY385_.jpg",
-        link: "https://amzn.to/3Vk8kx5",
+        link: "https://www.amazon.com.br/dp/8580418984?tag=gabscarlos0b-20",
       },
       {
         id: "outlander-5",
@@ -560,7 +560,7 @@ const series = [
         ano: 2001,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/81fcFqkUbGL._SY385_.jpg",
-        link: "https://amzn.to/49p9bCr",
+        link: "https://www.amazon.com.br/dp/8580418240?tag=gabscarlos0b-20",
       },
       {
         id: "outlander-6",
@@ -569,7 +569,7 @@ const series = [
         ano: 2005,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/91m536AwQwL._SY385_.jpg",
-        link: "https://amzn.to/4eYVc7J",
+        link: "https://www.amazon.com.br/dp/8580418054?tag=gabscarlos0b-20",
       },
       {
         id: "outlander-7",
@@ -578,7 +578,7 @@ const series = [
         ano: 2009,
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/81Y4YAmBR4L._SY385_.jpg",
-        link: "https://amzn.to/4fKnmV3",
+        link: "https://www.amazon.com.br/dp/8580419646?tag=gabscarlos0b-20",
       },
       {
         id: "outlander-8",
@@ -587,7 +587,7 @@ const series = [
         ano: 2014,
         ordem: 8,
         imagem: "https://m.media-amazon.com/images/I/919S+MeMzkL._SY385_.jpg",
-        link: "https://amzn.to/4i8iSJo",
+        link: "https://www.amazon.com.br/dp/6555650516?tag=gabscarlos0b-20",
       },
       {
         id: "outlander-9",
@@ -596,7 +596,7 @@ const series = [
         ano: 2021,
         ordem: 9,
         imagem: "https://m.media-amazon.com/images/I/81yPcolgsuL._SY385_.jpg",
-        link: "https://amzn.to/3BcAYJF",
+        link: "https://www.amazon.com.br/dp/6555653779?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -617,7 +617,7 @@ const series = [
         ano: 2013,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/91AkpDJouPL._SY385_.jpg",
-        link: "https://amzn.to/3BdOf4C",
+        link: "https://www.amazon.com.br/dp/8566642007?tag=gabscarlos0b-20",
       },
       {
         id: "os-detetives-do-predio-azul-2",
@@ -626,7 +626,7 @@ const series = [
         ano: 2014,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/91TeXWU9RzL._SY385_.jpg",
-        link: "https://amzn.to/4giSUkJ",
+        link: "https://www.amazon.com.br/dp/8566642252?tag=gabscarlos0b-20",
       },
       {
         id: "os-detetives-do-predio-azul-3",
@@ -635,7 +635,7 @@ const series = [
         ano: 2016,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/91oygY30N9L._SY385_.jpg",
-        link: "https://amzn.to/3CZ4N0Z",
+        link: "https://www.amazon.com.br/dp/8566642481?tag=gabscarlos0b-20",
       },
       {
         id: "os-detetives-do-predio-azul-4",
@@ -644,7 +644,7 @@ const series = [
         ano: 2022,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/81z1InV7onL._SY385_.jpg",
-        link: "https://amzn.to/4f6YyoV",
+        link: "https://www.amazon.com.br/dp/6588899327?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -665,7 +665,7 @@ const series = [
         ano: 2010,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/91K6PTWRdLL._SY385_.jpg",
-        link: "https://amzn.to/49jNh3s",
+        link: "https://www.amazon.com.br/dp/6588899300?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-pilar-2",
@@ -674,7 +674,7 @@ const series = [
         ano: 2012,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/91U9l2oN-NL._SY385_.jpg",
-        link: "https://amzn.to/3VmUgTy",
+        link: "https://www.amazon.com.br/dp/8566642643?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-pilar-3",
@@ -683,7 +683,7 @@ const series = [
         ano: 2013,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/914ObIJxC-L._SY385_.jpg",
-        link: "https://amzn.to/4fU8OST",
+        link: "https://www.amazon.com.br/dp/6588899203?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-pilar-4",
@@ -692,7 +692,7 @@ const series = [
         ano: 2015,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/91VTYTkBwcL._SY385_.jpg",
-        link: "https://amzn.to/4eYN1YR",
+        link: "https://www.amazon.com.br/dp/658889936X?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-pilar-5",
@@ -701,7 +701,7 @@ const series = [
         ano: 2018,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/A1T3-AY8TUL._SY385_.jpg",
-        link: "https://amzn.to/4ggg23m",
+        link: "https://www.amazon.com.br/dp/6588407068?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-pilar-6",
@@ -711,7 +711,7 @@ const series = [
         ordem: 6,
         imagem:
           "https://m.media-amazon.com/images/I/51s3CdCanML._SY445_SX342_.jpg",
-        link: "https://amzn.to/4eWE8iA",
+        link: "https://www.amazon.com.br/dp/658889919X?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-pilar-7",
@@ -720,7 +720,7 @@ const series = [
         ano: 2022,
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/71JbaxJPBQL._SY385_.jpg",
-        link: "https://amzn.to/3BceVmp",
+        link: "https://www.amazon.com.br/dp/6588899378?tag=gabscarlos0b-20",
       },
       {
         id: "diario-de-pilar-8",
@@ -729,7 +729,7 @@ const series = [
         ano: 2023,
         ordem: 8,
         imagem: "https://m.media-amazon.com/images/I/91gvg5ZsstL._SY385_.jpg",
-        link: "https://amzn.to/41hIBJy",
+        link: "https://www.amazon.com.br/dp/658889953X?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -750,7 +750,7 @@ const series = [
         ano: 2021,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/813qC-wJ-VL._SY385_.jpg",
-        link: "https://amzn.to/3OFjJnj",
+        link: "https://www.amazon.com.br/dp/6559570568?tag=gabscarlos0b-20",
       },
       {
         id: "socorro-cai-dentro-do-videogame-2",
@@ -759,7 +759,7 @@ const series = [
         ano: 2022,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/61r-9MkRsWL._SY385_.jpg",
-        link: "https://amzn.to/4fYdRl5",
+        link: "https://www.amazon.com.br/dp/6559571327?tag=gabscarlos0b-20",
       },
       {
         id: "socorro-cai-dentro-do-videogame-3",
@@ -768,7 +768,7 @@ const series = [
         ano: 2022,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/81vNWgSVo5L._SY385_.jpg",
-        link: "https://amzn.to/4gjnxGJ",
+        link: "https://www.amazon.com.br/dp/6559571270?tag=gabscarlos0b-20",
       },
       {
         id: "socorro-cai-dentro-do-videogame-4",
@@ -777,7 +777,7 @@ const series = [
         ano: 2022,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/71hqZuZY4-L._SY385_.jpg",
-        link: "https://amzn.to/4g9HD6i",
+        link: "https://www.amazon.com.br/dp/6559571637?tag=gabscarlos0b-20",
       },
       {
         id: "socorro-cai-dentro-do-videogame-5",
@@ -786,7 +786,7 @@ const series = [
         ano: 2022,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/61oqYemIbSL._SY385_.jpg",
-        link: "https://amzn.to/3OCQuS2",
+        link: "https://www.amazon.com.br/dp/6559572013?tag=gabscarlos0b-20",
       },
       {
         id: "socorro-cai-dentro-do-videogame-6",
@@ -795,7 +795,7 @@ const series = [
         ano: 2023,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/71ieul6Qy3L._SX606_.jpg",
-        link: "https://amzn.to/3Ziyp0Q",
+        link: "https://www.amazon.com.br/dp/6559573621?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -816,7 +816,7 @@ const series = [
         ano: 2017,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/81efZ9kHKGL._SY385_.jpg",
-        link: "https://amzn.to/4im6juk",
+        link: "https://www.amazon.com.br/dp/8574067547?tag=gabscarlos0b-20",
       },
       {
         id: "as-aventuras-do-capitao-cueca-2",
@@ -825,7 +825,7 @@ const series = [
         ano: 2017,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/916akMbwa6L._SY385_.jpg",
-        link: "https://amzn.to/4gkSrOS",
+        link: "https://www.amazon.com.br/dp/8574067784?tag=gabscarlos0b-20",
       },
       {
         id: "as-aventuras-do-capitao-cueca-3",
@@ -835,7 +835,7 @@ const series = [
         ano: 2017,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/81kz6y5JopL._SY385_.jpg",
-        link: "https://amzn.to/4fXGwqC",
+        link: "https://www.amazon.com.br/dp/8574067970?tag=gabscarlos0b-20",
       },
       {
         id: "as-aventuras-do-capitao-cueca-4",
@@ -845,7 +845,7 @@ const series = [
         ano: 2018,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/81bvSzdpH-L._SY385_.jpg",
-        link: "https://amzn.to/4im0exW",
+        link: "https://www.amazon.com.br/dp/8574068160?tag=gabscarlos0b-20",
       },
       {
         id: "as-aventuras-do-capitao-cueca-5",
@@ -854,7 +854,7 @@ const series = [
         ano: 2018,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/8184YPG3PJL._SY385_.jpg",
-        link: "https://amzn.to/4faJ6Zi",
+        link: "https://www.amazon.com.br/dp/8574068470?tag=gabscarlos0b-20",
       },
       {
         id: "as-aventuras-do-capitao-cueca-6",
@@ -864,7 +864,7 @@ const series = [
         ano: 2019,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/71A-eI5HvIL._SY385_.jpg",
-        link: "https://amzn.to/4fZaMRN",
+        link: "https://www.amazon.com.br/dp/8574068705?tag=gabscarlos0b-20",
       },
       {
         id: "as-aventuras-do-capitao-cueca-7",
@@ -874,7 +874,7 @@ const series = [
         ano: 2019,
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/91eQHQt-z5L._SY385_.jpg",
-        link: "https://amzn.to/3ZClSXa",
+        link: "https://www.amazon.com.br/dp/8574068837?tag=gabscarlos0b-20",
       },
       {
         id: "as-aventuras-do-capitao-cueca-8",
@@ -883,7 +883,7 @@ const series = [
         ano: 2020,
         ordem: 8,
         imagem: "https://m.media-amazon.com/images/I/91EHqALW2eL._SY385_.jpg",
-        link: "https://amzn.to/49jRfJx",
+        link: "https://www.amazon.com.br/dp/8574068977?tag=gabscarlos0b-20",
       },
       {
         id: "as-aventuras-do-capitao-cueca-9",
@@ -893,7 +893,7 @@ const series = [
         ano: 2020,
         ordem: 9,
         imagem: "https://m.media-amazon.com/images/I/91jfcR-T7EL._SY385_.jpg",
-        link: "https://amzn.to/3ZDeFWW",
+        link: "https://www.amazon.com.br/dp/8574069140?tag=gabscarlos0b-20",
       },
       {
         id: "as-aventuras-do-capitao-cueca-10",
@@ -902,7 +902,7 @@ const series = [
         ano: 2021,
         ordem: 10,
         imagem: "https://m.media-amazon.com/images/I/9136Pc1nZ6L._SY385_.jpg",
-        link: "https://amzn.to/4g0SiR2",
+        link: "https://www.amazon.com.br/dp/8574069353?tag=gabscarlos0b-20",
       },
       {
         id: "as-aventuras-do-capitao-cueca-11",
@@ -911,7 +911,7 @@ const series = [
         ano: 2021,
         ordem: 11,
         imagem: "https://m.media-amazon.com/images/I/81TpFUTUlNS._SY385_.jpg",
-        link: "https://amzn.to/3Zottaw",
+        link: "https://www.amazon.com.br/dp/8574069574?tag=gabscarlos0b-20",
       },
       {
         id: "as-aventuras-do-capitao-cueca-12",
@@ -920,7 +920,7 @@ const series = [
         ano: 2022,
         ordem: 12,
         imagem: "https://m.media-amazon.com/images/I/91-E46av99L._SY385_.jpg",
-        link: "https://amzn.to/41hZi7s",
+        link: "https://www.amazon.com.br/dp/8574069906?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -941,7 +941,7 @@ const series = [
         ano: 2017,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/81DW1gZuEfL._SY425_.jpg",
-        link: "https://amzn.to/49oz6KH",
+        link: "https://www.amazon.com.br/dp/8574068071?tag=gabscarlos0b-20",
       },
       {
         id: "o-homem-cao-2",
@@ -950,7 +950,7 @@ const series = [
         ano: 2018,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/91XDd5k0qXL._SY425_.jpg",
-        link: "https://amzn.to/3Zow6ZW",
+        link: "https://www.amazon.com.br/dp/8574068187?tag=gabscarlos0b-20",
       },
       {
         id: "o-homem-cao-3",
@@ -959,7 +959,7 @@ const series = [
         ano: 2018,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/81s79ir0X8L._SY425_.jpg",
-        link: "https://amzn.to/3B0NFY8",
+        link: "https://www.amazon.com.br/dp/8574068314?tag=gabscarlos0b-20",
       },
       {
         id: "o-homem-cao-4",
@@ -968,7 +968,7 @@ const series = [
         ano: 2019,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/81ZOaAaFeFL._SY425_.jpg",
-        link: "https://amzn.to/4f0W4Zu",
+        link: "https://www.amazon.com.br/dp/8574068489?tag=gabscarlos0b-20",
       },
       {
         id: "o-homem-cao-5",
@@ -977,7 +977,7 @@ const series = [
         ano: 2019,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/811ta+Utd1L._SY425_.jpg",
-        link: "https://amzn.to/3ODleCL",
+        link: "https://www.amazon.com.br/dp/8574068829?tag=gabscarlos0b-20",
       },
       {
         id: "o-homem-cao-6",
@@ -986,7 +986,7 @@ const series = [
         ano: 2020,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/91NZGONlD9L._SY425_.jpg",
-        link: "https://amzn.to/3VqloAZ",
+        link: "https://www.amazon.com.br/dp/8574068985?tag=gabscarlos0b-20",
       },
       {
         id: "o-homem-cao-7",
@@ -995,7 +995,7 @@ const series = [
         ano: 2020,
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/91VWvX7blSL._SY425_.jpg",
-        link: "https://amzn.to/4fVjxN1",
+        link: "https://www.amazon.com.br/dp/8574069159?tag=gabscarlos0b-20",
       },
       {
         id: "o-homem-cao-8",
@@ -1004,7 +1004,7 @@ const series = [
         ano: 2021,
         ordem: 8,
         imagem: "https://m.media-amazon.com/images/I/91Fmp+GBpxS._SY425_.jpg",
-        link: "https://amzn.to/3BaadFR",
+        link: "https://www.amazon.com.br/dp/8574069590?tag=gabscarlos0b-20",
       },
       {
         id: "o-homem-cao-9",
@@ -1013,7 +1013,7 @@ const series = [
         ano: 2022,
         ordem: 9,
         imagem: "https://m.media-amazon.com/images/I/81LS61OUGuL._SY425_.jpg",
-        link: "https://amzn.to/3VmMOaW",
+        link: "https://www.amazon.com.br/dp/8574069914?tag=gabscarlos0b-20",
       },
       {
         id: "o-homem-cao-10",
@@ -1022,7 +1022,7 @@ const series = [
         ano: 2022,
         ordem: 10,
         imagem: "https://m.media-amazon.com/images/I/71lE3-fKVaL._SY425_.jpg",
-        link: "https://amzn.to/49lHI4w",
+        link: "https://www.amazon.com.br/dp/658177619X?tag=gabscarlos0b-20",
       },
       {
         id: "o-homem-cao-11",
@@ -1031,7 +1031,7 @@ const series = [
         ano: 2024,
         ordem: 11,
         imagem: "https://m.media-amazon.com/images/I/81He-gi3X0L._SY425_.jpg",
-        link: "https://amzn.to/4eWCEEY",
+        link: "https://www.amazon.com.br/dp/655485035X?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -1052,7 +1052,7 @@ const series = [
         ano: 2019,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/A1hFhgISH9L._SY425_.jpg",
-        link: "https://amzn.to/41mWZjB",
+        link: "https://www.amazon.com.br/dp/8574068446?tag=gabscarlos0b-20",
       },
       {
         id: "mortina-2",
@@ -1061,7 +1061,7 @@ const series = [
         ano: 2019,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/91e9ZKoPXnL._SY425_.jpg",
-        link: "https://amzn.to/3OGNbJW",
+        link: "https://www.amazon.com.br/dp/8574068896?tag=gabscarlos0b-20",
       },
       {
         id: "mortina-3",
@@ -1070,7 +1070,7 @@ const series = [
         ano: 2020,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/91ui8u+xz7L._SY425_.jpg",
-        link: "https://amzn.to/3CXZleG",
+        link: "https://www.amazon.com.br/dp/8574068993?tag=gabscarlos0b-20",
       },
       {
         id: "mortina-4",
@@ -1079,7 +1079,7 @@ const series = [
         ano: 2021,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/91hFne2EX2L._SY425_.jpg",
-        link: "https://amzn.to/3ZBa1c1",
+        link: "https://www.amazon.com.br/dp/8574069663?tag=gabscarlos0b-20",
       },
       {
         id: "mortina-5",
@@ -1088,7 +1088,7 @@ const series = [
         ano: 2023,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/A122svPcsXL._SY425_.jpg",
-        link: "https://amzn.to/4eZSPRT",
+        link: "https://www.amazon.com.br/dp/6581776610?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -1109,7 +1109,7 @@ const series = [
         ano: 2005,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/618fXbK+OkL._SY385_.jpg",
-        link: "https://amzn.to/3BhstNo",
+        link: "https://www.amazon.com.br/dp/8598078301?tag=gabscarlos0b-20",
       },
       {
         id: "crepusculo-2",
@@ -1118,7 +1118,7 @@ const series = [
         ano: 2006,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/7153D5oFumL._SY385_.jpg",
-        link: "https://amzn.to/49qNdPF",
+        link: "https://www.amazon.com.br/dp/8598078352?tag=gabscarlos0b-20",
       },
       {
         id: "crepusculo-3",
@@ -1128,7 +1128,7 @@ const series = [
         ordem: 3,
         imagem:
           "https://m.media-amazon.com/images/I/41pa-jBfOkL._SY445_SX342_.jpg",
-        link: "https://amzn.to/41jSw16",
+        link: "https://www.amazon.com.br/dp/8598078417?tag=gabscarlos0b-20",
       },
       {
         id: "crepusculo-4",
@@ -1137,7 +1137,7 @@ const series = [
         ano: 2008,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/71DW9z3UXkL._SY385_.jpg",
-        link: "https://amzn.to/4g0XKDB",
+        link: "https://www.amazon.com.br/dp/8598078468?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -1158,7 +1158,7 @@ const series = [
         ano: 2021,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/61pAHgiGIDL._SY385_.jpg",
-        link: "https://amzn.to/3VGKGuM",
+        link: "https://www.amazon.com.br/dp/6586064872?tag=gabscarlos0b-20",
       },
       {
         id: "fundacao-2",
@@ -1167,7 +1167,7 @@ const series = [
         ano: 2021,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/617+DmuBikL._SY385_.jpg",
-        link: "https://amzn.to/4gCUU7t",
+        link: "https://www.amazon.com.br/dp/6586064880?tag=gabscarlos0b-20",
       },
       {
         id: "fundacao-3",
@@ -1176,7 +1176,7 @@ const series = [
         ano: 2020,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/712vJIziMgL._SY385_.jpg",
-        link: "https://amzn.to/49GPCpm",
+        link: "https://www.amazon.com.br/dp/8576574837?tag=gabscarlos0b-20",
       },
       {
         id: "fundacao-4",
@@ -1185,7 +1185,7 @@ const series = [
         ano: 2020,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/710RQOEZkpL._SY385_.jpg",
-        link: "https://amzn.to/3VHjw7a",
+        link: "https://www.amazon.com.br/dp/8576574845?tag=gabscarlos0b-20",
       },
       {
         id: "fundacao-5",
@@ -1194,7 +1194,7 @@ const series = [
         ano: 2020,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/61pFzGMR+AL._SY385_.jpg",
-        link: "https://amzn.to/4gGFjnH",
+        link: "https://www.amazon.com.br/dp/8576574853?tag=gabscarlos0b-20",
       },
       {
         id: "fundacao-6",
@@ -1203,7 +1203,7 @@ const series = [
         ano: 2021,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/71KLAgswS+L._SY385_.jpg",
-        link: "https://amzn.to/3W5yMuX",
+        link: "https://www.amazon.com.br/dp/6586064864?tag=gabscarlos0b-20",
       },
       {
         id: "fundacao-7",
@@ -1212,7 +1212,7 @@ const series = [
         ano: 2021,
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/71i3rIMdtpL._SY385_.jpg",
-        link: "https://amzn.to/3DfkpgK",
+        link: "https://www.amazon.com.br/dp/6586064899?tag=gabscarlos0b-20",
       },
       {
         id: "fundacao-8",
@@ -1221,7 +1221,7 @@ const series = [
         ano: 2021,
         ordem: 8,
         imagem: "https://m.media-amazon.com/images/I/91yXw2O0j6L._SY342_.jpg",
-        link: "https://amzn.to/4iCNymo",
+        link: "https://www.amazon.com.br/dp/6586064910?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -1241,7 +1241,7 @@ const series = [
         ano: 1955,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/81NkAyQ62LL._SY342_.jpg",
-        link: "https://amzn.to/49Elk6w",
+        link: "https://www.amazon.com.br/dp/6560050165?tag=gabscarlos0b-20",
       },
       {
         id: "as-cronicas-de-narnia-2",
@@ -1250,7 +1250,7 @@ const series = [
         ano: 1950,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/71aJZfkkKaL._SY342_.jpg",
-        link: "https://amzn.to/4fpcqv9",
+        link: "https://www.amazon.com.br/dp/6555114746?tag=gabscarlos0b-20",
       },
       {
         id: "as-cronicas-de-narnia-3",
@@ -1260,7 +1260,7 @@ const series = [
         ordem: 3,
         imagem:
           "https://m.media-amazon.com/images/I/51-HaHI4BJL._SX342_SY445_.jpg",
-        link: "https://amzn.to/4ghu6tS",
+        link: "https://www.amazon.com.br/dp/6555114940?tag=gabscarlos0b-20",
       },
       {
         id: "as-cronicas-de-narnia-4",
@@ -1269,7 +1269,7 @@ const series = [
         ano: 1952,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/81cnx9o5LoL._SL1500_.jpg",
-        link: "https://amzn.to/49F6NHY",
+        link: "https://www.amazon.com.br/dp/6555114991?tag=gabscarlos0b-20",
       },
       {
         id: "as-cronicas-de-narnia-5",
@@ -1278,7 +1278,7 @@ const series = [
         ano: 1953,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/81EeHaBVYJL._SY342_.jpg",
-        link: "https://amzn.to/41CiQnq",
+        link: "https://www.amazon.com.br/dp/6555115211?tag=gabscarlos0b-20",
       },
       {
         id: "as-cronicas-de-narnia-6",
@@ -1287,7 +1287,7 @@ const series = [
         ano: 1954,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/91a2bC55YxL._SY342_.jpg",
-        link: "https://amzn.to/4flTc9x",
+        link: "https://www.amazon.com.br/dp/6555115319?tag=gabscarlos0b-20",
       },
       {
         id: "as-cronicas-de-narnia-7",
@@ -1296,7 +1296,7 @@ const series = [
         ano: 1956,
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/81IS5uk-PkL._SY342_.jpg",
-        link: "https://amzn.to/41BzD9Y",
+        link: "https://www.amazon.com.br/dp/6560050076?tag=gabscarlos0b-20",
       },
       {
         id: "fundacao-8",
@@ -1305,7 +1305,7 @@ const series = [
         ano: 2024,
         ordem: 8,
         imagem: "https://m.media-amazon.com/images/I/81erRs9DQDL._SY342_.jpg",
-        link: "https://amzn.to/3DkjN9T",
+        link: "https://www.amazon.com.br/dp/6560050416?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -1327,7 +1327,7 @@ const series = [
         ordem: 1,
         imagem:
           "https://m.media-amazon.com/images/I/81t6a6Cje2L._UF894,1000_QL80_.jpg",
-        link: "https://amzn.to/49LvMtc",
+        link: "https://www.amazon.com.br/dp/6555606533?tag=gabscarlos0b-20",
       },
       {
         id: "percy-jackson-2",
@@ -1337,7 +1337,7 @@ const series = [
         ordem: 2,
         imagem:
           "https://m.media-amazon.com/images/I/51JfKjFdLIL._SY445_SX342_.jpg",
-        link: "https://amzn.to/4fscOc8",
+        link: "https://www.amazon.com.br/dp/6555606525?tag=gabscarlos0b-20",
       },
       {
         id: "percy-jackson-3",
@@ -1346,7 +1346,7 @@ const series = [
         ano: 2007,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/61s1FVTeVpL._SY385_.jpg",
-        link: "https://amzn.to/3VNvtYU",
+        link: "https://www.amazon.com.br/dp/6555606541?tag=gabscarlos0b-20",
       },
       {
         id: "percy-jackson-4",
@@ -1355,7 +1355,7 @@ const series = [
         ano: 2008,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/718W1i4RGyL._SY385_.jpg",
-        link: "https://amzn.to/3Pco2GV",
+        link: "https://www.amazon.com.br/dp/6555606509?tag=gabscarlos0b-20",
       },
       {
         id: "percy-jackson-5",
@@ -1364,7 +1364,7 @@ const series = [
         ano: 2009,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/61zKLgJx0IL._SY385_.jpg",
-        link: "https://amzn.to/4fsYW1r",
+        link: "https://www.amazon.com.br/dp/6555606517?tag=gabscarlos0b-20",
       },
       {
         id: "percy-jackson-6",
@@ -1373,7 +1373,7 @@ const series = [
         ano: 2024,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/61NTMkF4d+L._SY425_.jpg",
-        link: "https://amzn.to/3VKrOv5",
+        link: "https://www.amazon.com.br/dp/8551008889?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -1394,7 +1394,7 @@ const series = [
         ano: 2001,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/91Q5llF8hoL._SY385_.jpg",
-        link: "https://amzn.to/406PVqw",
+        link: "https://www.amazon.com.br/dp/8535900942?tag=gabscarlos0b-20",
       },
       {
         id: "desventuras-em-serie-2",
@@ -1403,7 +1403,7 @@ const series = [
         ano: 2001,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/81+z537Q+NL._SY385_.jpg",
-        link: "https://amzn.to/3P4wV5u",
+        link: "https://www.amazon.com.br/dp/8535901434?tag=gabscarlos0b-20",
       },
       {
         id: "desventuras-em-serie-3",
@@ -1412,7 +1412,7 @@ const series = [
         ano: 2001,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/91vUaQlxfqL._SY385_.jpg",
-        link: "https://amzn.to/41KGdeC",
+        link: "https://www.amazon.com.br/dp/853590171X?tag=gabscarlos0b-20",
       },
       {
         id: "desventuras-em-serie-4",
@@ -1421,7 +1421,7 @@ const series = [
         ano: 2002,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/91aWm3+0-zL._SY385_.jpg",
-        link: "https://amzn.to/4fvsbAu",
+        link: "https://www.amazon.com.br/dp/8535902104?tag=gabscarlos0b-20",
       },
       {
         id: "desventuras-em-serie-5",
@@ -1430,7 +1430,7 @@ const series = [
         ano: 2002,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/914wWorrKMS._SY385_.jpg",
-        link: "https://amzn.to/3WcqkKr",
+        link: "https://www.amazon.com.br/dp/8535902740?tag=gabscarlos0b-20",
       },
       {
         id: "desventuras-em-serie-6",
@@ -1439,7 +1439,7 @@ const series = [
         ano: 2003,
         ordem: 6,
         imagem: "https://m.media-amazon.com/images/I/91fbZzRR2tL._SY385_.jpg",
-        link: "https://amzn.to/3VMpDHa",
+        link: "https://www.amazon.com.br/dp/8535903208?tag=gabscarlos0b-20",
       },
       {
         id: "desventuras-em-serie-7",
@@ -1448,7 +1448,7 @@ const series = [
         ano: 2003,
         ordem: 7,
         imagem: "https://m.media-amazon.com/images/I/91d6QS9r8-L._SY425_.jpg",
-        link: "https://amzn.to/4iHRdPR",
+        link: "https://www.amazon.com.br/dp/8535903925?tag=gabscarlos0b-20",
       },
       {
         id: "desventuras-em-serie-8",
@@ -1457,7 +1457,7 @@ const series = [
         ano: 2004,
         ordem: 8,
         imagem: "https://m.media-amazon.com/images/I/91j6uhkxYEL._SY425_.jpg",
-        link: "https://amzn.to/3ZOADVK",
+        link: "https://www.amazon.com.br/dp/8535904514?tag=gabscarlos0b-20",
       },
       {
         id: "desventuras-em-serie-9",
@@ -1466,7 +1466,7 @@ const series = [
         ano: 2004,
         ordem: 9,
         imagem: "https://m.media-amazon.com/images/I/91OEJ3+TIfL._SY425_.jpg",
-        link: "https://amzn.to/4gGrK7y",
+        link: "https://www.amazon.com.br/dp/8535905243?tag=gabscarlos0b-20",
       },
       {
         id: "desventuras-em-serie-10",
@@ -1475,7 +1475,7 @@ const series = [
         ano: 2004,
         ordem: 10,
         imagem: "https://m.media-amazon.com/images/I/917LlM9FRHS._SY425_.jpg",
-        link: "https://amzn.to/4gKae26",
+        link: "https://www.amazon.com.br/dp/8535905758?tag=gabscarlos0b-20",
       },
       {
         id: "desventuras-em-serie-11",
@@ -1484,7 +1484,7 @@ const series = [
         ano: 2005,
         ordem: 11,
         imagem: "https://m.media-amazon.com/images/I/91yHN+gKr3S._SY425_.jpg",
-        link: "https://amzn.to/4iIIGMB",
+        link: "https://www.amazon.com.br/dp/8535907025?tag=gabscarlos0b-20",
       },
       {
         id: "desventuras-em-serie-12",
@@ -1493,7 +1493,7 @@ const series = [
         ano: 2006,
         ordem: 12,
         imagem: "https://m.media-amazon.com/images/I/915ce2gkfBL._SY425_.jpg",
-        link: "https://amzn.to/4iMNWPm",
+        link: "https://www.amazon.com.br/dp/8535908269?tag=gabscarlos0b-20",
       },
       {
         id: "desventuras-em-serie-13",
@@ -1502,7 +1502,7 @@ const series = [
         ano: 2006,
         ordem: 13,
         imagem: "https://m.media-amazon.com/images/I/91Ql21YfUlL._SY425_.jpg",
-        link: "https://amzn.to/3ZKqyJu",
+        link: "https://www.amazon.com.br/dp/853590946X?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -1523,7 +1523,7 @@ const series = [
         ano: 2012,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/61rzXkz4qAL._SY342_.jpg",
-        link: "https://amzn.to/4gN9gm0",
+        link: "https://www.amazon.com.br/dp/655532144X?tag=gabscarlos0b-20",
       },
       {
         id: "jogos-vorazes-2",
@@ -1532,7 +1532,7 @@ const series = [
         ano: 2013,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/71YVc7R8ajL._SY425_.jpg",
-        link: "https://amzn.to/3P9BjQA",
+        link: "https://www.amazon.com.br/dp/6555321458?tag=gabscarlos0b-20",
       },
       {
         id: "jogos-vorazes-3",
@@ -1541,7 +1541,7 @@ const series = [
         ano: 2014,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/718In-jI-AL._SY425_.jpg",
-        link: "https://amzn.to/4fxjK7M",
+        link: "https://www.amazon.com.br/dp/6555321466?tag=gabscarlos0b-20",
       },
       {
         id: "jogos-vorazes-4",
@@ -1550,7 +1550,7 @@ const series = [
         ano: 2015,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/61MCf2k-MgS._SY342_.jpg",
-        link: "https://amzn.to/3DEiJ0o",
+        link: "https://www.amazon.com.br/dp/6555320575?tag=gabscarlos0b-20",
       },
       {
         id: "jogos-vorazes-5",
@@ -1560,7 +1560,7 @@ const series = [
         ano: 2023,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/61KaNOjhi2L._SY342_.jpg",
-        link: "https://amzn.to/4gpV3M0",
+        link: "https://www.amazon.com.br/dp/6555323876?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -1581,7 +1581,7 @@ const series = [
         ano: 1979,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/91NAJgaUlKL._SY466_.jpg",
-        link: "https://amzn.to/3DFf0Qy",
+        link: "https://www.amazon.com.br/dp/6555651326?tag=gabscarlos0b-20",
       },
       {
         id: "o-mochileiro-das-galaxias-2",
@@ -1590,7 +1590,7 @@ const series = [
         ano: 1980,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/81ti1b7Z+wL._SY466_.jpg",
-        link: "https://amzn.to/4jjix7x",
+        link: "https://www.amazon.com.br/dp/B00A3D90JQ?tag=gabscarlos0b-20",
       },
       {
         id: "o-mochileiro-das-galaxias-3",
@@ -1599,7 +1599,7 @@ const series = [
         ano: 1982,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/81FQ4EtK+WL._SY466_.jpg",
-        link: "https://amzn.to/3PpdyUQ",
+        link: "https://www.amazon.com.br/dp/B00A3D0B58?tag=gabscarlos0b-20",
       },
       {
         id: "o-mochileiro-das-galaxias-4",
@@ -1608,7 +1608,7 @@ const series = [
         ano: 1984,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/814pZZRRmCL._SY466_.jpg",
-        link: "https://amzn.to/3W9bowi",
+        link: "https://www.amazon.com.br/dp/8599296604?tag=gabscarlos0b-20",
       },
       {
         id: "o-mochileiro-das-galaxias-5",
@@ -1617,7 +1617,7 @@ const series = [
         ano: 1992,
         ordem: 5,
         imagem: "https://m.media-amazon.com/images/I/819LkYfDZeL._SY466_.jpg",
-        link: "https://amzn.to/3W7Xz14",
+        link: "https://www.amazon.com.br/dp/B00A3HACV2?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -1638,7 +1638,7 @@ const series = [
         ano: 1950,
         ordem: 1,
         imagem: "https://m.media-amazon.com/images/I/61ooZHl+CTL._SY466_.jpg",
-        link: "https://amzn.to/3BXH15a",
+        link: "https://www.amazon.com.br/dp/8576572001?tag=gabscarlos0b-20",
       },
       {
         id: "robos-2",
@@ -1647,7 +1647,7 @@ const series = [
         ano: 1954,
         ordem: 2,
         imagem: "https://m.media-amazon.com/images/I/714RAVDEBmL._SY466_.jpg",
-        link: "https://amzn.to/4a52kP0",
+        link: "https://www.amazon.com.br/dp/8576574535?tag=gabscarlos0b-20",
       },
       {
         id: "robos-3",
@@ -1656,7 +1656,7 @@ const series = [
         ano: 1957,
         ordem: 3,
         imagem: "https://m.media-amazon.com/images/I/71BBv4oeCGL._SY466_.jpg",
-        link: "https://amzn.to/3WamNMn",
+        link: "https://www.amazon.com.br/dp/8576574594?tag=gabscarlos0b-20",
       },
       {
         id: "robos-4",
@@ -1665,7 +1665,7 @@ const series = [
         ano: 1983,
         ordem: 4,
         imagem: "https://m.media-amazon.com/images/I/91SSMthACEL._SY466_.jpg",
-        link: "https://amzn.to/3BMgqbr",
+        link: "https://www.amazon.com.br/dp/B07FP1QWN9?tag=gabscarlos0b-20",
       },
       {
         id: "robos-5",
@@ -1675,7 +1675,7 @@ const series = [
         ordem: 5,
         imagem:
           "https://m.media-amazon.com/images/I/511YB3QKAEL._SX342_SY445_DpWeblab_.jpg",
-        link: "https://amzn.to/3BVkiXA",
+        link: "https://www.amazon.com.br/dp/8576573199?tag=gabscarlos0b-20",
       },
     ],
   },
