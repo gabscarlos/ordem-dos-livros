@@ -56,7 +56,7 @@ export default function Series() {
           secundario="Conheça as séries das histórias que você ama!"
         />
         <nav aria-label="Gêneros" className="flex flex-wrap items-center gap-2">
-          <span className="text-sm font-bold text-zinc-900 mr-1">
+          <span className="text-sm font-bold text-areia-900 mr-1">
             Navegue por gênero:
           </span>
           {generos
@@ -67,7 +67,7 @@ export default function Series() {
               <Link
                 key={g.id}
                 href={`/generos/${g.id}`}
-                className="text-sm bg-indigo-50 text-indigo-700 font-semibold px-3 py-1 rounded-full hover:bg-indigo-100 transition-colors"
+                className="text-sm bg-marca-50 text-marca-700 font-semibold px-3 py-1 rounded-full hover:bg-marca-100 transition-colors"
               >
                 {g.nome}
               </Link>

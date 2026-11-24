@@ -1,44 +1,45 @@
-import Image from "next/image";
+import Link from "next/link";
 import Logo from "./Logo";
 import FlyoutMenu from "./FlyoutMenu";
 import Busca from "./Busca";
 
+const links = [
+  { href: "/series", texto: "Séries" },
+  { href: "/autores", texto: "Autores" },
+  { href: "/mais-vendidos", texto: "Mais vendidos" },
+  { href: "/blog", texto: "Blog" },
+];
+
 export default function Cabecalho() {
   return (
-    <header
-      className="
-        relative flex flex-col justify-center items-center 
-        h-64 sm:h-72 md:h-80 max-w-full mx-auto w-full
-        rounded-b-xl shadow-lg
-      "
-    >
-      <div className="absolute inset-0 overflow-hidden rounded-b-xl">
-        <Image
-          src="https://images.pexels.com/photos/1485114/pexels-photo-1485114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt=""
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover object-center"
-        />
-      </div>
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70 rounded-b-xl" />
+    <header className="sticky top-0 z-40 bg-areia-100/90 backdrop-blur border-b border-areia-200">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex flex-col gap-3">
+        <div className="flex items-center gap-4">
+          <div className="md:hidden">
+            <FlyoutMenu />
+          </div>
+          <Logo compacto />
 
-      <div className="absolute top-0 left-0 m-4 z-20">
-        <FlyoutMenu />
-      </div>
+          <nav aria-label="Principal" className="hidden md:flex items-center gap-1 ml-4">
+            {links.map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="px-3 py-2 rounded-full text-sm font-medium text-areia-700 hover:text-areia-900 hover:bg-areia-200/60 transition-colors"
+              >
+                {l.texto}
+              </Link>
+            ))}
+          </nav>
 
-      <div className="relative z-10 flex flex-col gap-6 items-center justify-center px-4 w-full max-w-4xl">
-        {/* Seção do Logo */}
-        <div className="flex flex-col items-center mt-4">
-          <Logo />
-          <p className="text-sm sm:text-base md:text-lg font-serif italic text-center text-zinc-100 drop-shadow-md mt-2 max-w-2xl">
-            Lista Completa de Todas as Séries de Livros em Ordem
-          </p>
+          <div className="hidden sm:block ml-auto w-full max-w-xs">
+            <Busca id="busca-topo" />
+          </div>
         </div>
-        {/* Busca */}
-        <div className="w-full max-w-lg">
-          <Busca />
+
+        {/* No celular a busca fica numa linha própria, com a largura toda. */}
+        <div className="sm:hidden">
+          <Busca id="busca-topo-celular" />
         </div>
       </div>
     </header>

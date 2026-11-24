@@ -35,16 +35,16 @@ export default function ConteudoBlog(props: ConteudoBlogProps) {
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
         <div className="absolute bottom-0 left-0 p-8 sm:p-12 w-full max-w-4xl">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-white mb-4 leading-tight">{props.titulo}</h1>
-          <div className="h-1.5 w-24 bg-indigo-500 rounded-full" />
+          <div className="h-1.5 w-24 bg-marca-500 rounded-full" />
         </div>
       </div>
 
-      <div className="flex justify-between items-center bg-white p-4 sm:p-6 rounded-2xl shadow-sm border border-zinc-100">
+      <div className="flex justify-between items-center bg-white p-4 sm:p-6 rounded-2xl shadow-sm border border-areia-100">
          <SocialShare url={shareUrl} title={props.titulo} />
       </div>
 
-      <div className="bg-white p-8 sm:p-12 rounded-xl shadow-sm border border-zinc-100">
-        <article className="prose prose-zinc lg:prose-xl max-w-none text-justify prose-headings:font-serif prose-headings:text-zinc-900 prose-p:text-zinc-700 prose-a:text-indigo-600 hover:prose-a:text-indigo-700 prose-img:rounded-xl prose-img:shadow-lg">
+      <div className="bg-white p-8 sm:p-12 rounded-xl shadow-sm border border-areia-100">
+        <article className="prose prose-stone lg:prose-xl max-w-none text-justify prose-headings:font-serif prose-headings:text-areia-900 prose-p:text-areia-700 prose-a:text-marca-600 hover:prose-a:text-marca-700 prose-img:rounded-xl prose-img:shadow-lg">
           <div dangerouslySetInnerHTML={{ __html: conteudo }} />
         </article>
       </div>

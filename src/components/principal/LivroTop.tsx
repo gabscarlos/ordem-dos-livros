@@ -31,7 +31,7 @@ export default function LivroTop(props: LivroTopProps) {
       <div className="flex flex-col gap-2">
         <span className="text-xs uppercase w-40">{props.titulo}</span>
         <Link href={props.linkAutor} className="-mt-2">
-          <span className="text-xs text-gray-400">{props.autor}</span>
+          <span className="text-xs text-areia-400">{props.autor}</span>
         </Link>
         <div className="flex gap-1">
           <StarIcon className="h-3 w-3" />

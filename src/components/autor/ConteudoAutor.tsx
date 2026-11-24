@@ -24,12 +24,12 @@ export default function ConteudoAutor(props: ConteudoAutorProps) {
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
         <div className="absolute bottom-0 left-0 p-8 sm:p-12">
           <h1 className="text-4xl sm:text-5xl font-serif font-bold text-white mb-2">{props.nome}</h1>
-          <div className="h-1.5 w-24 bg-indigo-500 rounded-full" />
+          <div className="h-1.5 w-24 bg-marca-500 rounded-full" />
         </div>
       </div>
       
-      <div className="bg-white p-8 sm:p-12 rounded-xl shadow-sm border border-zinc-100">
-        <article className="prose prose-zinc lg:prose-xl max-w-none text-justify prose-headings:font-serif prose-headings:text-zinc-900 prose-p:text-zinc-700 prose-a:text-indigo-600 hover:prose-a:text-indigo-700">
+      <div className="bg-white p-8 sm:p-12 rounded-xl shadow-sm border border-areia-100">
+        <article className="prose prose-stone lg:prose-xl max-w-none text-justify prose-headings:font-serif prose-headings:text-areia-900 prose-p:text-areia-700 prose-a:text-marca-600 hover:prose-a:text-marca-700">
           <div dangerouslySetInnerHTML={{ __html: biografia }} />
         </article>
       </div>

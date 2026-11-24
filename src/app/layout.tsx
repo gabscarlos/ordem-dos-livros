@@ -1,20 +1,21 @@
 import type { Metadata, Viewport } from "next";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
-import { Inter, Merriweather } from "next/font/google";
+import { Libre_Caslon_Text, Montserrat } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
 import { LeituraProvider } from "@/contexts/LeituraContext";
 
-const inter = Inter({
+const montserrat = Montserrat({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-montserrat",
 });
 
-const merriweather = Merriweather({
-  weight: ["300", "400", "700", "900"],
+const caslon = Libre_Caslon_Text({
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
   subsets: ["latin"],
-  variable: "--font-merriweather",
+  variable: "--font-caslon",
 });
 
 export const metadata: Metadata = {
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#ffffff",
+  themeColor: "#F7F0E6",
 };
 
 export default function RootLayout({
@@ -52,7 +53,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={`${inter.variable} ${merriweather.variable} font-sans`}>
+      <body className={`${montserrat.variable} ${caslon.variable} font-sans`}>
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8791475834761530"

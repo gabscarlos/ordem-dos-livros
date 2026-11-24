@@ -8,10 +8,10 @@ export interface PaginaProps {
 
 export default function Pagina(props: PaginaProps) {
   return (
-    <div className="flex flex-col min-h-screen bg-slate-50 text-zinc-950">
+    <div className="flex flex-col min-h-screen bg-background text-foreground">
       <Cabecalho />
-      <div className="flex-1 flex flex-col sm:flex-row gap-3 sm:gap-5 max-w-full sm:max-w-3xl lg:max-w-7xl mx-auto w-full p-3 sm:p-5">
-        <main className="flex-1">{props.children}</main>
+      <div className="flex-1 flex flex-col sm:flex-row gap-3 sm:gap-5 max-w-7xl mx-auto w-full px-4 sm:px-6 py-6 sm:py-8">
+        <main className="flex-1 min-w-0">{props.children}</main>
       </div>
       <Rodape />
     </div>

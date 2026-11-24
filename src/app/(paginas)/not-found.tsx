@@ -22,9 +22,9 @@ export default function NotFound() {
         secundario="O endereço pode ter mudado ou não existe mais."
       />
 
-      <p className="text-zinc-700">
+      <p className="text-areia-700">
         Use a busca no topo da página ou veja{" "}
-        <Link href="/series" className="text-indigo-600 font-semibold hover:underline">
+        <Link href="/series" className="text-marca-600 font-semibold hover:underline">
           todas as séries
         </Link>
         . Algumas das mais procuradas:
@@ -43,7 +43,7 @@ export default function NotFound() {
                   className="object-cover group-hover:scale-105 transition-transform"
                 />
               </div>
-              <span className="font-serif font-bold text-zinc-900 group-hover:text-indigo-600 leading-tight">
+              <span className="font-serif font-bold text-areia-900 group-hover:text-marca-600 leading-tight">
                 {s.titulo}
               </span>
             </Link>

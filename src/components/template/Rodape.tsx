@@ -1,75 +1,84 @@
 import Link from "next/link";
 import Logo from "./Logo";
-import Menu from "./Menu";
-import MenuItem from "./MenuItem";
+
+const colunas = [
+  {
+    titulo: "Descubra",
+    links: [
+      { texto: "Séries", href: "/series" },
+      { texto: "Autores", href: "/autores" },
+      { texto: "Mais vendidos", href: "/mais-vendidos" },
+      { texto: "Blog", href: "/blog" },
+    ],
+  },
+  {
+    titulo: "Gêneros",
+    links: [
+      { texto: "Fantasia", href: "/generos/fantasia" },
+      { texto: "Romantasia", href: "/generos/romantasia" },
+      { texto: "Infantil", href: "/generos/infantil" },
+      { texto: "Juvenil", href: "/generos/juvenil" },
+      { texto: "Autores brasileiros", href: "/generos/autores-brasileiros" },
+    ],
+  },
+  {
+    titulo: "Ordem Livro",
+    links: [
+      { texto: "Contato", href: "/contato" },
+      { texto: "Política de Privacidade", href: "/politica-privacidade" },
+      { texto: "Facebook", href: "https://www.facebook.com/profile.php?id=61569512772060", externo: true },
+      { texto: "Instagram", href: "https://www.instagram.com/ordemlivro/", externo: true },
+    ],
+  },
+];
 
 export default function Rodape() {
   return (
-    <div>
-      <footer className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 px-2 sm:px-7 md:px-10 py-10 border-t-2 border-zinc-200 mt-2 gap-10">
-        {/* Coluna para Logo e Frase */}
-        <div className="flex flex-col items-center gap-2 mr-12">
-          <Logo />
-          <p className="text-sm text-zinc-950 text-center sm:text-left">
-            O guia perfeito para organizar suas leituras, com a ordem ideal de
-            séries, trilogias e mais.
+    <footer className="bg-areia-900 text-areia-300 mt-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="flex flex-col gap-4">
+          <Logo claro />
+          <p className="text-sm leading-relaxed text-areia-300 max-w-xs">
+            A ordem certa de leitura das suas séries favoritas, livro por livro.
           </p>
         </div>
 
-        {/* Coluna para Menu Descubra */}
-        <Menu titulo="Descubra" className="flex flex-col items-start">
-          <MenuItem href="/series" texto="Séries" />
-          <MenuItem href="/autores" texto="Autores" />
-          <MenuItem href="/blog" texto="Blog" />
-          <MenuItem href="/mais-vendidos" texto="Mais Vendidos" />
-        </Menu>
-
-        {/* Coluna para Menu Social */}
-        <Menu titulo="Social" className="flex flex-col items-start">
-          <MenuItem texto="Contato" href="/contato" />
-          <MenuItem
-            texto="Facebook"
-            href="https://www.facebook.com/profile.php?id=61569512772060"
-            alvo="_blank"
-          />
-          <MenuItem
-            texto="Instagram"
-            href="https://www.instagram.com/ordemlivro/"
-            alvo="_blank"
-          />
-        </Menu>
-
-        {/* Coluna para Outras Categorias */}
-        <Menu titulo="Gêneros" className="flex flex-col items-start">
-          <MenuItem texto="Fantasia" href="/generos/fantasia" />
-          <MenuItem texto="Romantasia" href="/generos/romantasia" />
-          <MenuItem texto="Infantil" href="/generos/infantil" />
-          <MenuItem texto="Juvenil" href="/generos/juvenil" />
-          <MenuItem texto="Autores brasileiros" href="/generos/autores-brasileiros" />
-          <MenuItem
-            texto="Política de Privacidade"
-            href="/politica-privacidade"
-          />
-        </Menu>
-      </footer>
-
-      {/* Copyright */}
-      <div className="flex flex-col items-center justify-center w-full bg-zinc-900 py-4 px-4 gap-2">
-        <span className="text-sm text-center text-zinc-400">
-          Todos os direitos reservados &copy; {new Date().getFullYear()} -{" "}
-          <Link
-            href="https://github.com/gabscarlos"
-            className="hover:text-white transition-colors"
-          >
-            gabscarlos.dev
-          </Link>
-        </span>
-        <p className="text-zinc-500 text-xs text-center max-w-4xl">
-          Como Associado da Amazon, o Ordem Livro ganha com compras
-          qualificadas. Ao comprar pelos nossos links, você não paga nada a
-          mais por isso.
-        </p>
+        {colunas.map((coluna) => (
+          <nav key={coluna.titulo} aria-label={coluna.titulo} className="flex flex-col gap-3">
+            <span className="text-xs font-semibold uppercase tracking-[0.2em] text-marca-400">
+              {coluna.titulo}
+            </span>
+            <ul className="flex flex-col gap-2">
+              {coluna.links.map((l) => (
+                <li key={l.href}>
+                  <Link
+                    href={l.href}
+                    {...("externo" in l && l.externo ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                    className="text-sm text-areia-200 hover:text-marca-300 transition-colors"
+                  >
+                    {l.texto}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        ))}
       </div>
-    </div>
+
+      <div className="border-t border-areia-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-5 flex flex-col sm:flex-row gap-2 justify-between text-xs text-areia-400">
+          <span>
+            &copy; {new Date().getFullYear()} Ordem Livro ·{" "}
+            <Link href="https://github.com/gabscarlos" className="hover:text-areia-100 transition-colors">
+              gabscarlos.dev
+            </Link>
+          </span>
+          <p className="max-w-xl sm:text-right">
+            Como Associado da Amazon, o Ordem Livro ganha com compras qualificadas. Ao comprar
+            pelos nossos links, você não paga nada a mais por isso.
+          </p>
+        </div>
+      </div>
+    </footer>
   );
 }

@@ -50,17 +50,17 @@ export default function ConteudoSerie(props: ConteudoSerieProps) {
           priority
           className="object-cover object-center scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-areia-950 via-areia-950/40 to-transparent" />
         
         <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-10 flex flex-col gap-2">
           <h1 className="text-3xl sm:text-5xl font-serif font-black text-white drop-shadow-lg text-balance">
             {props.titulo}
           </h1>
           <div className="flex items-center gap-3">
-             <span className="text-zinc-300 text-sm sm:text-base">Série escrita por</span>
+             <span className="text-areia-300 text-sm sm:text-base">Série escrita por</span>
              <a
                 href={`/autores/${props.autor.id}`}
-                className="text-amber-400 font-bold hover:text-amber-300 transition-colors text-sm sm:text-base underline"
+                className="text-marca-400 font-bold hover:text-marca-300 transition-colors text-sm sm:text-base underline"
               >
                 {props.autor.nome}
               </a>
@@ -69,19 +69,19 @@ export default function ConteudoSerie(props: ConteudoSerieProps) {
       </section>
 
       {/* Ações Sociais */}
-      <div className="flex flex-col sm:flex-row justify-between items-center bg-white p-4 sm:p-6 rounded-3xl shadow-sm border border-zinc-100 gap-6">
+      <div className="flex flex-col sm:flex-row justify-between items-center bg-white p-4 sm:p-6 rounded-3xl shadow-sm border border-areia-100 gap-6">
          <SocialShare 
             url={`https://ordemlivro.vercel.app/series/${props.id}`} 
             title={`Confira a ordem correta dos livros da série ${props.titulo} no site Ordem dos Livros!`} 
          />
          
-         <div className="flex items-center bg-zinc-100 p-1.5 rounded-2xl gap-1">
+         <div className="flex items-center bg-areia-100 p-1.5 rounded-2xl gap-1">
             <button
               onClick={() => setLayout("grid")}
               className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                 layout === "grid" 
-                  ? "bg-white text-indigo-600 shadow-sm" 
-                  : "text-zinc-500 hover:text-zinc-900"
+                  ? "bg-white text-marca-600 shadow-sm" 
+                  : "text-areia-500 hover:text-areia-900"
               }`}
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -93,8 +93,8 @@ export default function ConteudoSerie(props: ConteudoSerieProps) {
               onClick={() => setLayout("list")}
               className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                 layout === "list" 
-                  ? "bg-white text-indigo-600 shadow-sm" 
-                  : "text-zinc-500 hover:text-zinc-900"
+                  ? "bg-white text-marca-600 shadow-sm" 
+                  : "text-areia-500 hover:text-areia-900"
               }`}
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -106,49 +106,49 @@ export default function ConteudoSerie(props: ConteudoSerieProps) {
       </div>
 
       {/* Progress Bar - Gamificação */}
-      <div className="bg-white p-6 rounded-3xl shadow-sm border border-zinc-100 flex flex-col gap-4">
-        <div className="flex justify-between items-center text-sm font-bold text-zinc-900">
+      <div className="bg-white p-6 rounded-3xl shadow-sm border border-areia-100 flex flex-col gap-4">
+        <div className="flex justify-between items-center text-sm font-bold text-areia-900">
            <span className="flex items-center gap-2">
-             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-marca-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
              </svg>
              Seu progresso na série
            </span>
-           <span className="text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full uppercase tracking-tighter">
+           <span className="text-marca-600 bg-marca-50 px-3 py-1 rounded-full uppercase tracking-tighter">
              {estatisticas.lidosCount} de {estatisticas.total} livros
            </span>
         </div>
-        <div className="w-full bg-zinc-100 h-3 rounded-full overflow-hidden">
+        <div className="w-full bg-areia-100 h-3 rounded-full overflow-hidden">
            <div 
-             className="bg-gradient-to-r from-indigo-500 to-indigo-700 h-full transition-all duration-1000 ease-out shadow-[0_0_10px_rgba(79,70,229,0.5)]"
+             className="bg-gradient-to-r from-marca-500 to-marca-700 h-full transition-all duration-1000 ease-out shadow-[0_0_10px_rgba(79,70,229,0.5)]"
              style={{ width: `${estatisticas.porcentagem}%` }}
            />
         </div>
-        <p className="text-xs text-zinc-500 font-medium">
+        <p className="text-xs text-areia-500 font-medium">
           Marque os livros que você já leu para acompanhar seu progresso nesta jornada incrível!
         </p>
       </div>
 
       {/* Descrição e Curadoria */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start mt-4">
-        <div className="lg:col-span-2 bg-white p-8 sm:p-10 rounded-3xl shadow-sm border border-zinc-100">
-          <h2 className="text-xl font-serif font-bold text-zinc-900 mb-4 flex items-center gap-2">
-            <span className="w-1.5 h-6 bg-indigo-600 rounded-full" />
+        <div className="lg:col-span-2 bg-white p-8 sm:p-10 rounded-3xl shadow-sm border border-areia-100">
+          <h2 className="text-xl font-serif font-bold text-areia-900 mb-4 flex items-center gap-2">
+            <span className="w-1.5 h-6 bg-marca-600 rounded-full" />
             Sobre a obra
           </h2>
-          <p className="text-lg text-zinc-700 leading-relaxed text-justify italic">
+          <p className="text-lg text-areia-700 leading-relaxed text-justify italic">
             "{props.descricao}"
           </p>
         </div>
 
-        <aside className="bg-indigo-50 p-8 rounded-3xl border border-indigo-100 flex flex-col gap-4">
-          <h3 className="text-indigo-900 font-bold flex items-center gap-2">
+        <aside className="bg-marca-50 p-8 rounded-3xl border border-marca-100 flex flex-col gap-4">
+          <h3 className="text-marca-900 font-bold flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
             </svg>
             Dica do Editor
           </h3>
-          <p className="text-sm text-indigo-800 leading-snug">
+          <p className="text-sm text-marca-800 leading-snug">
             Esta é uma das séries mais populares do gênero. Recomendamos começar por <strong>{props.livros[0].titulo}</strong> para entender a base do universo criado por {props.autor.nome}.
           </p>
         </aside>
@@ -156,9 +156,9 @@ export default function ConteudoSerie(props: ConteudoSerieProps) {
 
       {/* Listagem de Livros */}
       <section className="flex flex-col gap-10 mt-10">
-        <div className="flex flex-col sm:flex-row sm:items-center gap-4 border-b border-zinc-200 pb-4">
-           <h2 className="text-3xl font-serif font-black text-zinc-900">Livros da Série em Ordem</h2>
-           <span className="bg-zinc-100 text-zinc-600 px-3 py-1 rounded-full text-sm font-medium">
+        <div className="flex flex-col sm:flex-row sm:items-center gap-4 border-b border-areia-200 pb-4">
+           <h2 className="text-3xl font-serif font-black text-areia-900">Livros da Série em Ordem</h2>
+           <span className="bg-areia-100 text-areia-600 px-3 py-1 rounded-full text-sm font-medium">
              {props.livros.length} livros encontrados
            </span>
         </div>

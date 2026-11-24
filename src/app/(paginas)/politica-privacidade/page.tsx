@@ -13,10 +13,10 @@ const ATUALIZADA_EM = "23 de novembro de 2026";
 
 export default function PoliticaDePrivacidade() {
   return (
-    <div className="bg-white p-8 sm:p-12 rounded-xl shadow-sm border border-zinc-100 mb-20">
-      <article className="prose prose-zinc max-w-3xl mx-auto prose-headings:font-serif prose-a:text-indigo-600">
+    <div className="bg-white p-8 sm:p-12 rounded-xl shadow-sm border border-areia-100 mb-20">
+      <article className="prose prose-stone max-w-3xl mx-auto prose-headings:font-serif prose-a:text-marca-600">
         <h1>Política de Privacidade</h1>
-        <p className="text-sm text-zinc-500">Última atualização: {ATUALIZADA_EM}</p>
+        <p className="text-sm text-areia-500">Última atualização: {ATUALIZADA_EM}</p>
 
         <p>
           O <strong>Ordem Livro</strong> é um site que mostra a ordem de leitura de séries de

@@ -68,9 +68,9 @@ export default async function Resultados({ searchParams }: ResultadosProps) {
 
         {seriesEncontradas.length > 0 && (
           <section className="flex flex-col gap-8">
-            <div className="flex items-center gap-4 border-b border-zinc-200 pb-4">
-              <h2 className="text-2xl font-serif font-bold text-zinc-900">Séries</h2>
-              <span className="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-xs font-bold uppercase">
+            <div className="flex items-center gap-4 border-b border-areia-200 pb-4">
+              <h2 className="text-2xl font-serif font-bold text-areia-900">Séries</h2>
+              <span className="bg-marca-100 text-marca-700 px-3 py-1 rounded-full text-xs font-bold uppercase">
                 {seriesEncontradas.length}
               </span>
             </div>
@@ -90,8 +90,8 @@ export default async function Resultados({ searchParams }: ResultadosProps) {
 
         {livrosEncontrados.length > 0 && (
           <section className="flex flex-col gap-8">
-            <div className="flex items-center gap-4 border-b border-zinc-200 pb-4">
-              <h2 className="text-2xl font-serif font-bold text-zinc-900">Livros</h2>
+            <div className="flex items-center gap-4 border-b border-areia-200 pb-4">
+              <h2 className="text-2xl font-serif font-bold text-areia-900">Livros</h2>
               <span className="bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full text-xs font-bold uppercase">
                 {livrosEncontrados.length}
               </span>
@@ -101,7 +101,7 @@ export default async function Resultados({ searchParams }: ResultadosProps) {
                 <li key={`${serie.id}-${livro.id}`}>
                   <Link
                     href={`/series/${serie.id}`}
-                    className="group flex gap-4 items-center bg-white p-4 rounded-2xl border border-zinc-100 shadow-sm hover:shadow-md transition-shadow"
+                    className="group flex gap-4 items-center bg-white p-4 rounded-2xl border border-areia-100 shadow-sm hover:shadow-md transition-shadow"
                   >
                     <div className="relative h-24 w-16 flex-shrink-0 overflow-hidden rounded-md shadow">
                       <Image
@@ -113,14 +113,14 @@ export default async function Resultados({ searchParams }: ResultadosProps) {
                       />
                     </div>
                     <div className="flex flex-col gap-1">
-                      <span className="font-serif font-bold text-zinc-900 leading-tight group-hover:text-indigo-600">
+                      <span className="font-serif font-bold text-areia-900 leading-tight group-hover:text-marca-600">
                         {livro.titulo}
                       </span>
-                      <span className="text-sm text-zinc-600">
+                      <span className="text-sm text-areia-600">
                         Livro {posicao} de {serie.livros.length} da série{" "}
                         <strong>{serie.titulo}</strong>
                       </span>
-                      <span className="text-xs text-indigo-600 font-semibold">
+                      <span className="text-xs text-marca-600 font-semibold">
                         Ver a ordem completa →
                       </span>
                     </div>
@@ -133,9 +133,9 @@ export default async function Resultados({ searchParams }: ResultadosProps) {
 
         {autoresEncontrados.length > 0 && (
           <section className="flex flex-col gap-8">
-            <div className="flex items-center gap-4 border-b border-zinc-200 pb-4">
-              <h2 className="text-2xl font-serif font-bold text-zinc-900">Autores</h2>
-              <span className="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-xs font-bold uppercase">
+            <div className="flex items-center gap-4 border-b border-areia-200 pb-4">
+              <h2 className="text-2xl font-serif font-bold text-areia-900">Autores</h2>
+              <span className="bg-marca-100 text-marca-700 px-3 py-1 rounded-full text-xs font-bold uppercase">
                 {autoresEncontrados.length}
               </span>
             </div>
@@ -148,17 +148,17 @@ export default async function Resultados({ searchParams }: ResultadosProps) {
         )}
 
         {total === 0 && termo && (
-          <div className="bg-white p-12 rounded-[40px] shadow-sm border border-zinc-100 text-center flex flex-col items-center gap-6">
-            <div className="w-20 h-20 bg-zinc-50 rounded-full flex items-center justify-center text-zinc-300">
+          <div className="bg-white p-12 rounded-[40px] shadow-sm border border-areia-100 text-center flex flex-col items-center gap-6">
+            <div className="w-20 h-20 bg-areia-50 rounded-full flex items-center justify-center text-areia-300">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
             </div>
-            <p className="text-zinc-500 max-w-md text-lg">
+            <p className="text-areia-500 max-w-md text-lg">
               Não encontramos nenhuma série, livro ou autor com <strong>&quot;{termo}&quot;</strong>.
               Que tal tentar outro nome?
             </p>
-            <Link href="/series" className="text-indigo-600 font-bold hover:underline">
+            <Link href="/series" className="text-marca-600 font-bold hover:underline">
               Ver todas as séries
             </Link>
           </div>

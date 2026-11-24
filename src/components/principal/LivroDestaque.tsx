@@ -26,9 +26,9 @@ export default function LivroDestaque(props: LivroDestaqueProps) {
         />
       </div>
       <div className="flex flex-col gap-1 mt-1">
-        <span className="text-base font-serif font-bold text-zinc-900 leading-tight line-clamp-2">{props.titulo}</span>
-        <span className="text-sm text-zinc-600 font-medium">{props.autor}</span>
-        <div className="flex gap-0.5 text-amber-400">
+        <span className="text-base font-serif font-bold text-areia-900 leading-tight line-clamp-2">{props.titulo}</span>
+        <span className="text-sm text-areia-600 font-medium">{props.autor}</span>
+        <div className="flex gap-0.5 text-marca-400">
           <StarIcon className="h-4 w-4" />
           <StarIcon className="h-4 w-4" />
           <StarIcon className="h-4 w-4" />

@@ -104,7 +104,7 @@ export default async function Conteudo({ params }: ConteudoPageProps) {
       <div className="flex justify-end mt-12 pb-8">
         <Link
           href={`/blog`}
-          className="inline-flex items-center gap-2 bg-indigo-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-indigo-700 transition-colors shadow-md hover:shadow-lg"
+          className="inline-flex items-center gap-2 bg-marca-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-marca-700 transition-colors shadow-md hover:shadow-lg"
         >
           <svg
             className="w-5 h-5"

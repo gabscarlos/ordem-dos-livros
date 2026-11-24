@@ -167,7 +167,7 @@ export default async function Serie({ params }: SeriePageProps) {
       />
 
       {"box" in serie && serie.box && (
-        <section className="bg-amber-50 border border-amber-200 rounded-3xl p-6 sm:p-8 mb-10 flex flex-col sm:flex-row items-center gap-6">
+        <section className="bg-marca-50 border border-marca-200 rounded-3xl p-6 sm:p-8 mb-10 flex flex-col sm:flex-row items-center gap-6">
           <div className="relative h-40 w-28 flex-shrink-0 overflow-hidden rounded-lg shadow-md">
             <Image
               src={serie.box.imagem}
@@ -178,10 +178,10 @@ export default async function Serie({ params }: SeriePageProps) {
             />
           </div>
           <div className="flex flex-col gap-3 text-center sm:text-left">
-            <h2 className="text-2xl font-serif font-bold text-zinc-900">
+            <h2 className="text-2xl font-serif font-bold text-areia-900">
               Quer a coleção completa?
             </h2>
-            <p className="text-zinc-700">
+            <p className="text-areia-700">
               Compre todos os livros de {serie.titulo} de uma vez no{" "}
               <strong>{serie.box.titulo}</strong>.
             </p>
@@ -189,7 +189,7 @@ export default async function Serie({ params }: SeriePageProps) {
               href={serie.box.link}
               target="_blank"
               rel="sponsored nofollow noopener"
-              className="self-center sm:self-start flex items-center gap-2 bg-[#FFD814] hover:bg-[#F7CA00] text-zinc-900 font-bold py-2.5 px-6 rounded-xl transition-all shadow-md"
+              className="self-center sm:self-start flex items-center gap-2 bg-marca-400 hover:bg-marca-300 text-areia-900 font-bold py-2.5 px-6 rounded-xl transition-all shadow-md"
             >
               <Image src="/amazon.png" alt="Amazon" width={20} height={20} />
               <span>Ver box na Amazon</span>
@@ -198,15 +198,15 @@ export default async function Serie({ params }: SeriePageProps) {
         </section>
       )}
 
-      <section className="bg-white p-8 sm:p-10 rounded-3xl shadow-sm border border-zinc-100 mb-20 flex flex-col gap-6">
-        <h2 className="text-2xl font-serif font-bold text-zinc-900">
+      <section className="bg-white p-8 sm:p-10 rounded-3xl shadow-sm border border-areia-100 mb-20 flex flex-col gap-6">
+        <h2 className="text-2xl font-serif font-bold text-areia-900">
           Qual a ordem de leitura de {serie.titulo}?
         </h2>
-        <p className="text-zinc-700 leading-relaxed">
+        <p className="text-areia-700 leading-relaxed">
           A série {serie.titulo}, de {serie.autor.nome}, tem{" "}
           {livrosOrdenados.length} livros. A ordem recomendada de leitura é:
         </p>
-        <ol className="list-decimal pl-6 flex flex-col gap-1 text-zinc-800">
+        <ol className="list-decimal pl-6 flex flex-col gap-1 text-areia-800">
           {livrosOrdenados.map((livro) => (
             <li key={livro.id}>
               <strong>{livro.titulo}</strong>
@@ -215,10 +215,10 @@ export default async function Serie({ params }: SeriePageProps) {
           ))}
         </ol>
 
-        <h3 className="text-xl font-serif font-bold text-zinc-900 mt-2">
+        <h3 className="text-xl font-serif font-bold text-areia-900 mt-2">
           Quantos livros tem {serie.titulo}?
         </h3>
-        <p className="text-zinc-700 leading-relaxed">
+        <p className="text-areia-700 leading-relaxed">
           A série tem <strong>{livrosOrdenados.length} livros</strong>
           {anos.length > 0 &&
             anos.length === livrosOrdenados.length &&
@@ -228,10 +228,10 @@ export default async function Serie({ params }: SeriePageProps) {
           .
         </p>
 
-        <h3 className="text-xl font-serif font-bold text-zinc-900 mt-2">
+        <h3 className="text-xl font-serif font-bold text-areia-900 mt-2">
           Por qual livro de {serie.titulo} começar?
         </h3>
-        <p className="text-zinc-700 leading-relaxed">
+        <p className="text-areia-700 leading-relaxed">
           Comece por <strong>{livrosOrdenados[0].titulo}</strong>, o primeiro
           livro da série. Daí siga a lista acima para acompanhar a história na
           ordem certa.
@@ -239,19 +239,19 @@ export default async function Serie({ params }: SeriePageProps) {
 
         {detalhes?.notaOrdem && (
           <>
-            <h3 className="text-xl font-serif font-bold text-zinc-900 mt-2">
+            <h3 className="text-xl font-serif font-bold text-areia-900 mt-2">
               Qual a melhor ordem para ler {serie.titulo}?
             </h3>
-            <p className="text-zinc-700 leading-relaxed">{detalhes.notaOrdem}</p>
+            <p className="text-areia-700 leading-relaxed">{detalhes.notaOrdem}</p>
           </>
         )}
 
         {detalhes && (
           <>
-            <h3 className="text-xl font-serif font-bold text-zinc-900 mt-2">
+            <h3 className="text-xl font-serif font-bold text-areia-900 mt-2">
               Para qual idade é {serie.titulo}?
             </h3>
-            <p className="text-zinc-700 leading-relaxed">
+            <p className="text-areia-700 leading-relaxed">
               Recomendamos a série <strong>{detalhes.idade}</strong>.
             </p>
           </>
@@ -259,21 +259,21 @@ export default async function Serie({ params }: SeriePageProps) {
 
         {detalhes?.adaptacao && (
           <>
-            <h3 className="text-xl font-serif font-bold text-zinc-900 mt-2">
+            <h3 className="text-xl font-serif font-bold text-areia-900 mt-2">
               {serie.titulo} tem filme ou série?
             </h3>
-            <p className="text-zinc-700 leading-relaxed">{detalhes.adaptacao}</p>
+            <p className="text-areia-700 leading-relaxed">{detalhes.adaptacao}</p>
           </>
         )}
 
         {generosDaSerie.length > 0 && (
           <div className="flex flex-wrap items-center gap-2 mt-2">
-            <span className="text-sm font-bold text-zinc-900">Gêneros:</span>
+            <span className="text-sm font-bold text-areia-900">Gêneros:</span>
             {generosDaSerie.map((g) => (
               <Link
                 key={g.id}
                 href={`/generos/${g.id}`}
-                className="text-sm bg-indigo-50 text-indigo-700 font-semibold px-3 py-1 rounded-full hover:bg-indigo-100 transition-colors"
+                className="text-sm bg-marca-50 text-marca-700 font-semibold px-3 py-1 rounded-full hover:bg-marca-100 transition-colors"
               >
                 {g.nome}
               </Link>
@@ -283,7 +283,7 @@ export default async function Serie({ params }: SeriePageProps) {
 
         {outrasDoAutor.length > 0 && (
           <>
-            <h3 className="text-xl font-serif font-bold text-zinc-900 mt-2">
+            <h3 className="text-xl font-serif font-bold text-areia-900 mt-2">
               Outras séries de {serie.autor.nome}
             </h3>
             <ul className="flex flex-wrap gap-3">
@@ -291,7 +291,7 @@ export default async function Serie({ params }: SeriePageProps) {
                 <li key={s.id}>
                   <Link
                     href={`/series/${s.id}`}
-                    className="text-indigo-600 font-semibold hover:underline"
+                    className="text-marca-600 font-semibold hover:underline"
                   >
                     {s.titulo}
                   </Link>
@@ -303,7 +303,7 @@ export default async function Serie({ params }: SeriePageProps) {
 
         {parecidas.length > 0 && (
           <>
-            <h3 className="text-xl font-serif font-bold text-zinc-900 mt-2">
+            <h3 className="text-xl font-serif font-bold text-areia-900 mt-2">
               Se você gostou de {serie.titulo}, leia também
             </h3>
             <ul className="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -322,10 +322,10 @@ export default async function Serie({ params }: SeriePageProps) {
                         className="object-cover group-hover:scale-105 transition-transform"
                       />
                     </div>
-                    <span className="font-serif font-bold text-zinc-900 group-hover:text-indigo-600 leading-tight">
+                    <span className="font-serif font-bold text-areia-900 group-hover:text-marca-600 leading-tight">
                       {s.titulo}
                     </span>
-                    <span className="text-xs text-zinc-500">{s.autor.nome}</span>
+                    <span className="text-xs text-areia-500">{s.autor.nome}</span>
                   </Link>
                 </li>
               ))}
@@ -333,7 +333,7 @@ export default async function Serie({ params }: SeriePageProps) {
           </>
         )}
 
-        <p className="text-xs text-zinc-500">
+        <p className="text-xs text-areia-500">
           Como associado da Amazon, o Ordem Livro ganha comissão com compras
           qualificadas feitas pelos links desta página.
         </p>

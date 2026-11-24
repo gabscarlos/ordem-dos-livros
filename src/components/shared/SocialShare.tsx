@@ -32,7 +32,7 @@ export default function SocialShare({ url, title }: SocialShareProps) {
         </svg>
       ),
       href: `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`,
-      color: "bg-zinc-900 hover:bg-zinc-800",
+      color: "bg-areia-900 hover:bg-areia-800",
     },
   ];
 
@@ -44,7 +44,7 @@ export default function SocialShare({ url, title }: SocialShareProps) {
 
   return (
     <div className="flex flex-wrap items-center gap-3">
-      <span className="text-sm font-bold text-zinc-400 uppercase tracking-widest mr-2">Compartilhar:</span>
+      <span className="text-sm font-bold text-areia-400 uppercase tracking-widest mr-2">Compartilhar:</span>
       {shareLinks.map((link) => (
         <a
           key={link.name}
@@ -59,7 +59,7 @@ export default function SocialShare({ url, title }: SocialShareProps) {
       ))}
       <button
         onClick={copyToClipboard}
-        className="bg-zinc-100 hover:bg-zinc-200 text-zinc-600 p-2.5 rounded-xl shadow-sm transition-all active:scale-95 flex items-center justify-center gap-2"
+        className="bg-areia-100 hover:bg-areia-200 text-areia-600 p-2.5 rounded-xl shadow-sm transition-all active:scale-95 flex items-center justify-center gap-2"
         title="Copiar link"
       >
         {copied ? (

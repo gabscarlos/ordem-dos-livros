@@ -11,7 +11,7 @@ export default function ItemAutor(props: AutorProps) {
   return (
     <Link
       href={`/autores/${props.id}`}
-      className="group relative flex flex-col h-[400px] w-full max-w-sm rounded-[32px] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-700 bg-zinc-100 hover:-translate-y-2"
+      className="group relative flex flex-col h-[400px] w-full max-w-sm rounded-[32px] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-700 bg-areia-100 hover:-translate-y-2"
     >
       <Image
         src={props.imagem}
@@ -22,16 +22,16 @@ export default function ItemAutor(props: AutorProps) {
       />
       
       {/* Overlay com gradiente premium */}
-      <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent group-hover:from-indigo-950/90 transition-all duration-700" />
+      <div className="absolute inset-0 bg-gradient-to-t from-areia-950 via-areia-950/40 to-transparent group-hover:from-marca-950/90 transition-all duration-700" />
       
       <div className="absolute bottom-0 left-0 right-0 p-8 flex flex-col gap-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-        <span className="text-sm font-bold text-amber-400 uppercase tracking-[0.2em] opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+        <span className="text-sm font-bold text-marca-400 uppercase tracking-[0.2em] opacity-0 group-hover:opacity-100 transition-opacity duration-700">
            Autor em Destaque
         </span>
         <h3 className="text-3xl font-serif font-black text-white leading-tight drop-shadow-lg">
           {props.nome}
         </h3>
-        <div className="h-1.5 w-16 bg-indigo-500 rounded-full scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700 delay-100" />
+        <div className="h-1.5 w-16 bg-marca-500 rounded-full scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700 delay-100" />
       </div>
 
       {/* Botão flutuante sutil */}

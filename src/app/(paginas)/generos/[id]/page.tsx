@@ -98,7 +98,7 @@ export default async function Genero({ params }: GeneroPageProps) {
       />
       <Titulo principal={genero.titulo} secundario={genero.descricao} />
 
-      <p className="text-zinc-700">
+      <p className="text-areia-700">
         {lista.length === 1
           ? "Encontramos 1 série"
           : `Encontramos ${lista.length} séries`}{" "}
@@ -113,7 +113,7 @@ export default async function Genero({ params }: GeneroPageProps) {
       </div>
 
       <section className="flex flex-col gap-4 mt-6">
-        <h2 className="text-2xl font-serif font-bold text-zinc-900">
+        <h2 className="text-2xl font-serif font-bold text-areia-900">
           Outros gêneros
         </h2>
         <ul className="flex flex-wrap gap-3">
@@ -121,7 +121,7 @@ export default async function Genero({ params }: GeneroPageProps) {
             <li key={g.id}>
               <Link
                 href={`/generos/${g.id}`}
-                className="inline-block bg-indigo-50 text-indigo-700 font-semibold px-4 py-2 rounded-full hover:bg-indigo-100 transition-colors"
+                className="inline-block bg-marca-50 text-marca-700 font-semibold px-4 py-2 rounded-full hover:bg-marca-100 transition-colors"
               >
                 {g.nome}
               </Link>

@@ -23,7 +23,7 @@ export default function ItemLivro(props: ItemLivroProps) {
         {[...Array(5)].map((_, i) => (
           <svg
             key={i}
-            className={`w-4 h-4 ${i < Math.floor(nota) ? "text-amber-400" : "text-zinc-200"}`}
+            className={`w-4 h-4 ${i < Math.floor(nota) ? "text-marca-400" : "text-areia-200"}`}
             fill="currentColor"
             viewBox="0 0 20 20"
           >
@@ -36,7 +36,7 @@ export default function ItemLivro(props: ItemLivroProps) {
 
   if (props.layout === "list") {
     return (
-      <div className="group flex items-center w-full max-w-4xl bg-white border border-zinc-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all p-4 gap-6 relative">
+      <div className="group flex items-center w-full max-w-4xl bg-white border border-areia-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all p-4 gap-6 relative">
         <div className="relative h-24 w-16 sm:h-32 sm:w-24 flex-shrink-0 overflow-hidden rounded-lg shadow-md">
           <Image
             src={props.imagem}
@@ -60,14 +60,14 @@ export default function ItemLivro(props: ItemLivroProps) {
           <div className="flex flex-col gap-1">
             {renderEstrelas(props.nota)}
             <span className={`font-serif font-bold text-lg transition-colors ${
-              lido ? "text-zinc-400 line-through decoration-zinc-300 font-medium" : "text-zinc-900 group-hover:text-indigo-600"
+              lido ? "text-areia-400 line-through decoration-areia-300 font-medium" : "text-areia-900 group-hover:text-marca-600"
             }`}>
               {props.titulo}
             </span>
             <button 
               onClick={() => alternarLido(props.id)}
               className={`text-xs font-bold uppercase tracking-wider transition-colors w-fit ${
-                 lido ? "text-green-600" : "text-zinc-400 hover:text-indigo-600"
+                 lido ? "text-green-600" : "text-areia-400 hover:text-marca-600"
               }`}
             >
               {lido ? "Marcar como não lido" : "Marcar como lido"}
@@ -78,7 +78,7 @@ export default function ItemLivro(props: ItemLivroProps) {
             href={props.link} 
             target="_blank" 
             rel="sponsored nofollow noopener"
-            className="flex items-center justify-center gap-2 bg-[#FFD814] hover:bg-[#F7CA00] text-zinc-900 font-bold py-2 px-6 rounded-xl transition-all shadow-md active:scale-95 text-sm whitespace-nowrap"
+            className="flex items-center justify-center gap-2 bg-marca-400 hover:bg-marca-300 text-areia-900 font-bold py-2 px-6 rounded-xl transition-all shadow-md active:scale-95 text-sm whitespace-nowrap"
           >
             <Image src="/amazon.png" alt="Amazon" width={18} height={18} />
             <span>Ver Menor Preço</span>
@@ -89,14 +89,14 @@ export default function ItemLivro(props: ItemLivroProps) {
   }
 
   return (
-    <div className="group flex flex-col w-72 rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-zinc-100 relative">
+    <div className="group flex flex-col w-72 rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-areia-100 relative">
       {/* Badge de Lido */}
       <button
         onClick={() => alternarLido(props.id)}
         className={`absolute top-4 right-4 z-10 p-2 rounded-full shadow-lg transition-all active:scale-90 ${
           lido 
             ? "bg-green-500 text-white" 
-            : "bg-white/80 text-zinc-400 hover:text-green-600 backdrop-blur-sm"
+            : "bg-white/80 text-areia-400 hover:text-green-600 backdrop-blur-sm"
         }`}
         title={lido ? "Marcar como não lido" : "Marcar como lido"}
       >
@@ -136,7 +136,7 @@ export default function ItemLivro(props: ItemLivroProps) {
         <div className="flex flex-col items-center gap-2">
            {renderEstrelas(props.nota)}
            <span className={`flex-1 font-serif font-bold text-center text-lg leading-tight transition-colors ${
-             lido ? "text-zinc-400 line-through decoration-zinc-300" : "text-zinc-900 group-hover:text-indigo-600"
+             lido ? "text-areia-400 line-through decoration-areia-300" : "text-areia-900 group-hover:text-marca-600"
            }`}>
              {props.titulo}
            </span>
@@ -145,7 +145,7 @@ export default function ItemLivro(props: ItemLivroProps) {
           href={props.link} 
           target="_blank" 
           rel="sponsored nofollow noopener"
-          className="flex items-center justify-center gap-2 bg-[#FFD814] hover:bg-[#F7CA00] text-zinc-900 font-bold py-2.5 px-4 rounded-xl transition-all shadow-md active:scale-95"
+          className="flex items-center justify-center gap-2 bg-marca-400 hover:bg-marca-300 text-areia-900 font-bold py-2.5 px-4 rounded-xl transition-all shadow-md active:scale-95"
         >
           <Image src="/amazon.png" alt="Amazon" width={20} height={20} />
           <span className="text-sm">Ver Menor Preço</span>

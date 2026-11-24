@@ -24,7 +24,7 @@ export default function TopAutores({ autores }: TopAutoresProps) {
   }, [autores]);
 
   return (
-    <div className="flex flex-col items-start bg-pink-50 rounded-l-xl p-4 gap-4">
+    <div className="flex flex-col items-start bg-marca-50 rounded-l-xl p-4 gap-4">
       <span className="text-3xl font-bold uppercase">Top 3 Autores</span>
       <div className="flex flex-col gap-8 mx-4">
         {topAutores.map((autor) => (

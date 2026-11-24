@@ -31,17 +31,17 @@ export default function Contato() {
   };
 
   return (
-    <section className="flex justify-center items-center min-h-full bg-gradient-to-br from-indigo-600 to-purple-700 py-10 rounded-xl">
+    <section className="flex justify-center items-center min-h-full bg-gradient-to-br from-marca-600 to-marca-700 py-10 rounded-xl">
       <form
         onSubmit={onSubmit}
-        className="max-w-2xl w-full bg-white p-8 sm:p-12 rounded-2xl text-zinc-900 mx-4 shadow-2xl"
+        className="max-w-2xl w-full bg-white p-8 sm:p-12 rounded-2xl text-areia-900 mx-4 shadow-2xl"
       >
-        <h1 className="text-3xl font-serif font-bold text-center mb-8 text-zinc-800">Me Envie uma Mensagem</h1>
+        <h1 className="text-3xl font-serif font-bold text-center mb-8 text-areia-800">Me Envie uma Mensagem</h1>
         <div className="mt-5">
-          <label htmlFor="name" className="block text-sm font-medium text-zinc-700 mb-1">Nome</label>
+          <label htmlFor="name" className="block text-sm font-medium text-areia-700 mb-1">Nome</label>
           <input
             id="name"
-            className="w-full bg-zinc-50 border border-zinc-200 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
+            className="w-full bg-areia-50 border border-areia-200 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-marca-500 focus:border-transparent transition-all"
             type="text"
             name="name"
             placeholder="Digite seu nome"
@@ -49,10 +49,10 @@ export default function Contato() {
           />
         </div>
         <div className="mt-5">
-          <label htmlFor="email" className="block text-sm font-medium text-zinc-700 mb-1">Email</label>
+          <label htmlFor="email" className="block text-sm font-medium text-areia-700 mb-1">Email</label>
           <input
             id="email"
-            className="w-full bg-zinc-50 border border-zinc-200 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
+            className="w-full bg-areia-50 border border-areia-200 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-marca-500 focus:border-transparent transition-all"
             type="email"
             name="email"
             placeholder="Digite seu email"
@@ -60,17 +60,17 @@ export default function Contato() {
           />
         </div>
         <div className="mt-5">
-          <label htmlFor="message" className="block text-sm font-medium text-zinc-700 mb-1">Sua Mensagem</label>
+          <label htmlFor="message" className="block text-sm font-medium text-areia-700 mb-1">Sua Mensagem</label>
           <textarea
             id="message"
-            className="w-full h-40 bg-zinc-50 border border-zinc-200 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent resize-none transition-all"
+            className="w-full h-40 bg-areia-50 border border-areia-200 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-marca-500 focus:border-transparent resize-none transition-all"
             name="message"
             placeholder="Digite sua mensagem"
             required
           ></textarea>
         </div>
         <button
-          className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 mt-8 transform hover:-translate-y-0.5"
+          className="w-full bg-marca-600 hover:bg-marca-700 text-white font-bold py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 mt-8 transform hover:-translate-y-0.5"
           type="submit"
         >
           Enviar Mensagem

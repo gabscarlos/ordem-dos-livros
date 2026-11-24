@@ -81,9 +81,9 @@ export default async function Autor({ params }: AutorPageProps) {
       {seriesDoAutor.map((serie) => (
         <section
           key={serie.id}
-          className="bg-white p-6 sm:p-10 rounded-xl shadow-sm border border-zinc-100 mt-10 flex flex-col gap-6"
+          className="bg-white p-6 sm:p-10 rounded-xl shadow-sm border border-areia-100 mt-10 flex flex-col gap-6"
         >
-          <h2 className="text-2xl font-serif font-bold text-zinc-900">
+          <h2 className="text-2xl font-serif font-bold text-areia-900">
             Livros de {serie.titulo} em ordem
           </h2>
           <ol className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
@@ -104,8 +104,8 @@ export default async function Autor({ params }: AutorPageProps) {
                       className="object-cover group-hover:scale-105 transition-transform"
                     />
                   </div>
-                  <span className="text-sm text-zinc-500 font-bold">{i + 1}.</span>
-                  <span className="font-serif font-bold text-zinc-900 leading-tight group-hover:text-indigo-600">
+                  <span className="text-sm text-areia-500 font-bold">{i + 1}.</span>
+                  <span className="font-serif font-bold text-areia-900 leading-tight group-hover:text-marca-600">
                     {livro.titulo}
                   </span>
                 </a>
@@ -114,7 +114,7 @@ export default async function Autor({ params }: AutorPageProps) {
           </ol>
           <Link
             href={`/series/${serie.id}`}
-            className="self-end inline-flex items-center gap-2 bg-indigo-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-indigo-700 transition-colors shadow-md hover:shadow-lg"
+            className="self-end inline-flex items-center gap-2 bg-marca-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-marca-700 transition-colors shadow-md hover:shadow-lg"
           >
               <span>Ver a série completa</span>
               <svg

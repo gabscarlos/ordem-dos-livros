@@ -2,16 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* O site tem um único tema claro (creme), sem modo escuro. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #F7F0E6;
+  --foreground: #2C1810;
 }
 
 body {
