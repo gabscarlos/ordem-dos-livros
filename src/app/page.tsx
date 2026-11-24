@@ -10,6 +10,7 @@ import EstanteDestaque from "@/components/home/EstanteDestaque";
 import FileiraSeries, { type SerieNaFileira } from "@/components/home/FileiraSeries";
 import MaisVendidosResumo from "@/components/home/MaisVendidosResumo";
 import TituloSecao from "@/components/home/TituloSecao";
+import { SITE_URL } from "@/lib/site";
 
 // Regera a página uma vez por dia para alternar os livros em destaque.
 export const revalidate = 86400;
@@ -108,7 +109,7 @@ export const metadata: Metadata = {
     title: "Início - Descubra Séries de Livros Incríveis",
     description: "Explore uma coleção incrível de séries de livros em ordem cronológica e de leitura.",
     images: ["/logo.png"],
-    url: "https://ordemlivro.vercel.app/",
+    url: `${SITE_URL}/`,
     type: "website",
   },
   twitter: {
@@ -118,7 +119,7 @@ export const metadata: Metadata = {
     images: ["/logo.png"],
   },
   alternates: {
-    canonical: "https://ordemlivro.vercel.app/",
+    canonical: `${SITE_URL}/`,
   },
 };
 
@@ -128,11 +129,11 @@ export default function Home() {
     "@type": "ItemList",
     name: "Ordem Livro",
     description: "Explore uma coleção incrível de séries de livros, com autores renomados e histórias fascinantes.",
-    url: "https://ordemlivro.vercel.app/",
+    url: `${SITE_URL}/`,
     itemListElement: series.map((serie, index) => ({
       "@type": "ListItem",
       position: index + 1,
-      url: `https://ordemlivro.vercel.app/series/${serie.id}`,
+      url: `${SITE_URL}/series/${serie.id}`,
       name: serie.titulo,
       image: serie.imagem,
       author: {

@@ -2,6 +2,7 @@ import { marked } from "marked";
 import Image from "next/image";
 import Breadcrumb from "../shared/Breadcrumb";
 import SocialShare from "../shared/SocialShare";
+import { SITE_URL } from "@/lib/site";
 
 
 export interface ConteudoBlogProps {
@@ -13,7 +14,7 @@ export interface ConteudoBlogProps {
 
 export default function ConteudoBlog(props: ConteudoBlogProps) {
   const conteudo = marked.parse(props.conteudo.replace(/^( {0,3})(#{1,5}) /gm, "$1#$2 "));
-  const shareUrl = `https://ordemlivro.vercel.app/blog/${props.id}`;
+  const shareUrl = `${SITE_URL}/blog/${props.id}`;
 
   return (
     <div className="flex flex-col gap-6">

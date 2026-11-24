@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Titulo from "@/components/shared/Titulo";
 import LivroMaisVendido from "@/components/principal/LivroMaisVendido";
 import maisVendidos, { atualizadoEm } from "@/constants/mais-vendidos";
+import { SITE_URL } from "@/lib/site";
 
 const [ano, mes, dia] = atualizadoEm.split("-").map(Number);
 const dataAtualizacao = new Date(Date.UTC(ano, mes - 1, dia, 12));
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     title: "Mais Vendidos - Explore os livros mais vendidos",
     description: "Explore os livros mais vendidos do mercado na Amazon.",
     images: ["/logo.png"],
-    url: "https://ordemlivro.vercel.app/mais-vendidos",
+    url: `${SITE_URL}/mais-vendidos`,
     type: "website",
   },
   twitter: {
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     images: ["/logo.png"],
   },
   alternates: {
-    canonical: "https://ordemlivro.vercel.app/mais-vendidos",
+    canonical: `${SITE_URL}/mais-vendidos`,
   },
 };
 
@@ -37,11 +38,11 @@ export default function MaisVendidos() {
     name: `Livros mais vendidos na Amazon em ${mesAno}`,
     description: `Ranking dos livros mais vendidos na Amazon Brasil, atualizado em ${dataCompleta}.`,
     dateModified: atualizadoEm,
-    url: "https://ordemlivro.vercel.app/mais-vendidos",
+    url: `${SITE_URL}/mais-vendidos`,
     itemListElement: maisVendidos.map((livro, index) => ({
       "@type": "ListItem",
       position: index + 1,
-      url: `https://ordemlivro.vercel.app/mais-vendidos`,
+      url: `${SITE_URL}/mais-vendidos`,
       name: livro.titulo,
       image: livro.imagem,
       author: {
