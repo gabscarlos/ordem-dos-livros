@@ -221,6 +221,7 @@ export default async function Serie({ params }: SeriePageProps) {
         <p className="text-zinc-700 leading-relaxed">
           A série tem <strong>{livrosOrdenados.length} livros</strong>
           {anos.length > 0 &&
+            anos.length === livrosOrdenados.length &&
             (anos[0] === anos[anos.length - 1]
               ? `, lançados em ${anos[0]}`
               : `, lançados entre ${anos[0]} e ${anos[anos.length - 1]}`)}
@@ -235,6 +236,15 @@ export default async function Serie({ params }: SeriePageProps) {
           livro da série. Daí siga a lista acima para acompanhar a história na
           ordem certa.
         </p>
+
+        {detalhes?.notaOrdem && (
+          <>
+            <h3 className="text-xl font-serif font-bold text-zinc-900 mt-2">
+              Qual a melhor ordem para ler {serie.titulo}?
+            </h3>
+            <p className="text-zinc-700 leading-relaxed">{detalhes.notaOrdem}</p>
+          </>
+        )}
 
         {detalhes && (
           <>
