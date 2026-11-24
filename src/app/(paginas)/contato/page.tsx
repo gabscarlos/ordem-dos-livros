@@ -36,7 +36,7 @@ export default function Contato() {
         onSubmit={onSubmit}
         className="max-w-2xl w-full bg-white p-8 sm:p-12 rounded-2xl text-zinc-900 mx-4 shadow-2xl"
       >
-        <h2 className="text-3xl font-serif font-bold text-center mb-8 text-zinc-800">Me Envie uma Mensagem</h2>
+        <h1 className="text-3xl font-serif font-bold text-center mb-8 text-zinc-800">Me Envie uma Mensagem</h1>
         <div className="mt-5">
           <label htmlFor="name" className="block text-sm font-medium text-zinc-700 mb-1">Nome</label>
           <input

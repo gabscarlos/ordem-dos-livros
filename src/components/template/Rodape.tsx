@@ -56,7 +56,7 @@ export default function Rodape() {
       {/* Copyright */}
       <div className="flex flex-col items-center justify-center w-full bg-zinc-900 py-4 px-4 gap-2">
         <span className="text-sm text-center text-zinc-400">
-          Todos os direitos reservados &copy; 2025 -{" "}
+          Todos os direitos reservados &copy; {new Date().getFullYear()} -{" "}
           <Link
             href="https://github.com/gabscarlos"
             className="hover:text-white transition-colors"
@@ -65,9 +65,9 @@ export default function Rodape() {
           </Link>
         </span>
         <p className="text-zinc-500 text-xs text-center max-w-4xl">
-          Ordem Livro é um participante do Programa de Associados da Amazon
-          Services LLC. Ao comprar pelos nossos links, ganhamos uma comissão,
-          mas você não paga nada a mais por isso.
+          Como Associado da Amazon, o Ordem Livro ganha com compras
+          qualificadas. Ao comprar pelos nossos links, você não paga nada a
+          mais por isso.
         </p>
       </div>
     </div>
