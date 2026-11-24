@@ -81,7 +81,7 @@ export default async function Autor({ params }: AutorPageProps) {
       {seriesDoAutor.map((serie) => (
         <section
           key={serie.id}
-          className="bg-white p-6 sm:p-10 rounded-xl shadow-sm border border-areia-100 mt-10 flex flex-col gap-6"
+          className="bg-white/70 p-6 sm:p-10 rounded-[2rem] border border-areia-200 mt-10 flex flex-col gap-6"
         >
           <h2 className="text-2xl font-serif font-bold text-areia-900">
             Livros de {serie.titulo} em ordem

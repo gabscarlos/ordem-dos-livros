@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import ItemAutor from "@/components/autor/ItemAutor";
 import Titulo from "@/components/shared/Titulo";
 import autores from "@/constants/autores";
+import series from "@/constants/series";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 
 export const metadata: Metadata = {
@@ -54,15 +55,23 @@ export default function Autores() {
 
       <div className="flex flex-col gap-10">
         <Titulo
-          principal="Autores Consagrados"
-          secundario="Explore os perfis dos grandes nomes da literatura mundial"
+          principal="Autores"
+          secundario="Conheça quem escreveu as séries do site e veja os livros de cada um em ordem"
         />
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 justify-items-center">
-          {autores
-            .sort((a, b) => a.nome.localeCompare(b.nome))
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          {/* Cópia ordenada: sort() no array original mudaria a ordem para o resto do site. */}
+          {[...autores]
+            .sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"))
             .map((autor) => (
-              <ItemAutor key={autor.id} {...autor} />
+              <ItemAutor
+                key={autor.id}
+                id={autor.id}
+                nome={autor.nome}
+                imagem={autor.imagem}
+                descricao={autor.descricao}
+                series={series.filter((s) => s.autor.id === autor.id).length}
+              />
             ))}
         </div>
       </div>

@@ -74,15 +74,9 @@ export default async function Resultados({ searchParams }: ResultadosProps) {
                 {seriesEncontradas.length}
               </span>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 justify-items-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {seriesEncontradas.map((serie) => (
-                <ItemSerie
-                  key={serie.id}
-                  id={serie.id}
-                  titulo={serie.titulo}
-                  imagem={serie.imagem}
-                  descricao={serie.descricao}
-                />
+                <ItemSerie key={serie.id} {...serie} />
               ))}
             </div>
           </section>
@@ -139,9 +133,16 @@ export default async function Resultados({ searchParams }: ResultadosProps) {
                 {autoresEncontrados.length}
               </span>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 justify-items-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {autoresEncontrados.map((autor) => (
-                <ItemAutor key={autor.id} id={autor.id} nome={autor.nome} imagem={autor.imagem} />
+                <ItemAutor
+                  key={autor.id}
+                  id={autor.id}
+                  nome={autor.nome}
+                  imagem={autor.imagem}
+                  descricao={autor.descricao}
+                  series={series.filter((s) => s.autor.id === autor.id).length}
+                />
               ))}
             </div>
           </section>
