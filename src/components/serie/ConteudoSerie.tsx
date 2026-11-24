@@ -149,7 +149,7 @@ export default function ConteudoSerie(props: ConteudoSerieProps) {
             Dica do Editor
           </h3>
           <p className="text-sm text-indigo-800 leading-snug">
-            Esta é uma das séries mais populares do gênero. Recomendamos começar pelo <strong>{props.livros[0].titulo}</strong> para entender a base do universo criado por {props.autor.nome}.
+            Esta é uma das séries mais populares do gênero. Recomendamos começar por <strong>{props.livros[0].titulo}</strong> para entender a base do universo criado por {props.autor.nome}.
           </p>
         </aside>
       </div>

@@ -5,6 +5,8 @@ import noticias from "@/constants/blog/noticias";
 import resenhas from "@/constants/blog/resenhas";
 import listasTematicas from "@/constants/blog/listas-tematicas";
 import curiosidadesLiterarias from "@/constants/blog/curiosidades-literarias";
+import generos from "@/constants/generos";
+import detalhesSeries from "@/constants/detalhes-series";
 import { url } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -39,5 +41,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  return [...estaticas, ...paginasSeries, ...paginasAutores, ...paginasBlog];
+  const paginasGeneros = generos
+    .filter((g) => series.some((s) => detalhesSeries[s.id]?.generos.includes(g.id)))
+    .map((g) => ({
+      url: url(`/generos/${g.id}`),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    }));
+
+  return [
+    ...estaticas,
+    ...paginasSeries,
+    ...paginasGeneros,
+    ...paginasAutores,
+    ...paginasBlog,
+  ];
 }

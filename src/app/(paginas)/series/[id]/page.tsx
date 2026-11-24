@@ -4,6 +4,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ConteudoSerie from "@/components/serie/ConteudoSerie";
 import series from "@/constants/series";
+import detalhesSeries from "@/constants/detalhes-series";
+import generos from "@/constants/generos";
 import { url } from "@/lib/site";
 
 export interface SeriePageProps {
@@ -74,6 +76,26 @@ export default async function Serie({ params }: SeriePageProps) {
   const outrasDoAutor = series.filter(
     (s) => s.autor.id === serie.autor.id && s.id !== serie.id
   );
+  const anos = livrosOrdenados
+    .map((l) => ("ano" in l ? l.ano : undefined))
+    .filter((a): a is number => typeof a === "number" && a > 0)
+    .sort((a, b) => a - b);
+  const detalhes = detalhesSeries[serie.id];
+  const generosDaSerie = (detalhes?.generos ?? [])
+    .map((id) => generos.find((g) => g.id === id))
+    .filter((g): g is (typeof generos)[number] => Boolean(g));
+  const parecidas = series
+    .filter((s) => s.id !== serie.id && s.autor.id !== serie.autor.id)
+    .map((s) => ({
+      serie: s,
+      pontos: (detalhesSeries[s.id]?.generos ?? []).filter((g) =>
+        detalhes?.generos.includes(g)
+      ).length,
+    }))
+    .filter((x) => x.pontos > 0)
+    .sort((a, b) => b.pontos - a.pontos || a.serie.titulo.localeCompare(b.serie.titulo))
+    .slice(0, 4)
+    .map((x) => x.serie);
 
   const jsonLd = [
     {
@@ -187,6 +209,18 @@ export default async function Serie({ params }: SeriePageProps) {
         </ol>
 
         <h3 className="text-xl font-serif font-bold text-zinc-900 mt-2">
+          Quantos livros tem {serie.titulo}?
+        </h3>
+        <p className="text-zinc-700 leading-relaxed">
+          A série tem <strong>{livrosOrdenados.length} livros</strong>
+          {anos.length > 0 &&
+            (anos[0] === anos[anos.length - 1]
+              ? `, lançados em ${anos[0]}`
+              : `, lançados entre ${anos[0]} e ${anos[anos.length - 1]}`)}
+          .
+        </p>
+
+        <h3 className="text-xl font-serif font-bold text-zinc-900 mt-2">
           Por qual livro de {serie.titulo} começar?
         </h3>
         <p className="text-zinc-700 leading-relaxed">
@@ -194,6 +228,41 @@ export default async function Serie({ params }: SeriePageProps) {
           livro da série. Daí siga a lista acima para acompanhar a história na
           ordem certa.
         </p>
+
+        {detalhes && (
+          <>
+            <h3 className="text-xl font-serif font-bold text-zinc-900 mt-2">
+              Para qual idade é {serie.titulo}?
+            </h3>
+            <p className="text-zinc-700 leading-relaxed">
+              Recomendamos a série <strong>{detalhes.idade}</strong>.
+            </p>
+          </>
+        )}
+
+        {detalhes?.adaptacao && (
+          <>
+            <h3 className="text-xl font-serif font-bold text-zinc-900 mt-2">
+              {serie.titulo} tem filme ou série?
+            </h3>
+            <p className="text-zinc-700 leading-relaxed">{detalhes.adaptacao}</p>
+          </>
+        )}
+
+        {generosDaSerie.length > 0 && (
+          <div className="flex flex-wrap items-center gap-2 mt-2">
+            <span className="text-sm font-bold text-zinc-900">Gêneros:</span>
+            {generosDaSerie.map((g) => (
+              <Link
+                key={g.id}
+                href={`/generos/${g.id}`}
+                className="text-sm bg-indigo-50 text-indigo-700 font-semibold px-3 py-1 rounded-full hover:bg-indigo-100 transition-colors"
+              >
+                {g.nome}
+              </Link>
+            ))}
+          </div>
+        )}
 
         {outrasDoAutor.length > 0 && (
           <>
@@ -208,6 +277,38 @@ export default async function Serie({ params }: SeriePageProps) {
                     className="text-indigo-600 font-semibold hover:underline"
                   >
                     {s.titulo}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+
+        {parecidas.length > 0 && (
+          <>
+            <h3 className="text-xl font-serif font-bold text-zinc-900 mt-2">
+              Se você gostou de {serie.titulo}, leia também
+            </h3>
+            <ul className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              {parecidas.map((s) => (
+                <li key={s.id}>
+                  <Link
+                    href={`/series/${s.id}`}
+                    className="group flex flex-col gap-2"
+                  >
+                    <div className="relative aspect-[2/3] w-full overflow-hidden rounded-xl shadow-md">
+                      <Image
+                        src={s.livros[0].imagem}
+                        alt={`Capa de ${s.titulo}`}
+                        fill
+                        sizes="(max-width: 640px) 50vw, 200px"
+                        className="object-cover group-hover:scale-105 transition-transform"
+                      />
+                    </div>
+                    <span className="font-serif font-bold text-zinc-900 group-hover:text-indigo-600 leading-tight">
+                      {s.titulo}
+                    </span>
+                    <span className="text-xs text-zinc-500">{s.autor.nome}</span>
                   </Link>
                 </li>
               ))}
