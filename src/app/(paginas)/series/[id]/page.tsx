@@ -150,8 +150,6 @@ export default async function Serie({ params }: SeriePageProps) {
       <ConteudoSerie
         id={serie.id}
         titulo={serie.titulo}
-        imagem={serie.imagem}
-        nome={serie.autor.nome}
         descricao={serie.descricao}
         autor={{
           id: serie.autor.id,
@@ -167,8 +165,8 @@ export default async function Serie({ params }: SeriePageProps) {
       />
 
       {"box" in serie && serie.box && (
-        <section className="bg-marca-50 border border-marca-200 rounded-3xl p-6 sm:p-8 mb-10 flex flex-col sm:flex-row items-center gap-6">
-          <div className="relative h-40 w-28 flex-shrink-0 overflow-hidden rounded-lg shadow-md">
+        <section className="bg-marca-50 border border-marca-200 rounded-[2rem] p-6 sm:p-8 mb-10 flex flex-col sm:flex-row items-center gap-6">
+          <div className="relative h-40 w-28 flex-shrink-0 overflow-hidden rounded-r-md rounded-l-[3px] shadow-livro">
             <Image
               src={serie.box.imagem}
               alt={serie.box.titulo}
@@ -198,7 +196,7 @@ export default async function Serie({ params }: SeriePageProps) {
         </section>
       )}
 
-      <section className="bg-white p-8 sm:p-10 rounded-3xl shadow-sm border border-areia-100 mb-20 flex flex-col gap-6">
+      <section className="bg-white/70 p-8 sm:p-10 rounded-[2rem] border border-areia-200 flex flex-col gap-6">
         <h2 className="text-2xl font-serif font-bold text-areia-900">
           Qual a ordem de leitura de {serie.titulo}?
         </h2>

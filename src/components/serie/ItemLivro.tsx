@@ -1,156 +1,73 @@
-"use client";
-
 import Image from "next/image";
-import Link from "next/link";
-import { useLeitura } from "@/hooks/useLeitura";
 
 export interface ItemLivroProps {
-  id: string; 
   link: string;
   titulo: string;
   imagem: string;
+  /** Posição do livro na ordem de leitura (1, 2, 3...). */
+  ordem: number;
   layout?: "grid" | "list";
-  nota?: number;
+}
+
+function Capa({ src, alt, className }: { src: string; alt: string; className: string }) {
+  return (
+    <div className={`relative aspect-[2/3] flex-none overflow-hidden rounded-l-[3px] rounded-r-md shadow-livro ${className}`}>
+      <Image src={src} alt={alt} fill sizes="(max-width: 640px) 45vw, 200px" className="object-cover" />
+      <span aria-hidden="true" className="absolute inset-y-0 left-0 w-2.5 bg-gradient-to-r from-black/25 via-white/10 to-transparent" />
+    </div>
+  );
+}
+
+function BotaoAmazon({ link }: { link: string }) {
+  return (
+    <a
+      href={link}
+      target="_blank"
+      rel="sponsored nofollow noopener"
+      className="inline-flex items-center justify-center rounded-full bg-marca-400 px-4 py-2 text-sm font-semibold text-areia-900 hover:bg-marca-300 transition-colors whitespace-nowrap"
+    >
+      Ver na Amazon
+    </a>
+  );
 }
 
 export default function ItemLivro(props: ItemLivroProps) {
-  const { alternarLido, estaLido } = useLeitura();
-  const lido = estaLido(props.id);
-
-  const renderEstrelas = (nota: number = 5) => {
-    return (
-      <div className="flex gap-0.5" title={`${nota} de 5 estrelas`}>
-        {[...Array(5)].map((_, i) => (
-          <svg
-            key={i}
-            className={`w-4 h-4 ${i < Math.floor(nota) ? "text-marca-400" : "text-areia-200"}`}
-            fill="currentColor"
-            viewBox="0 0 20 20"
-          >
-            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-          </svg>
-        ))}
-      </div>
-    );
-  };
+  const alt = `Capa do livro ${props.titulo}`;
 
   if (props.layout === "list") {
     return (
-      <div className="group flex items-center w-full max-w-4xl bg-white border border-areia-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all p-4 gap-6 relative">
-        <div className="relative h-24 w-16 sm:h-32 sm:w-24 flex-shrink-0 overflow-hidden rounded-lg shadow-md">
-          <Image
-            src={props.imagem}
-            alt={`Capa do livro ${props.titulo}`}
-            fill
-            sizes="96px"
-            className={`object-cover transition-all ${
-              lido ? "grayscale-[0.5] opacity-80" : "group-hover:scale-110"
-            }`}
-          />
-          {lido && (
-            <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-500" viewBox="0 0 20 20" fill="currentColor">
-                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-              </svg>
-            </div>
-          )}
-        </div>
-
-        <div className="flex-1 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-          <div className="flex flex-col gap-1">
-            {renderEstrelas(props.nota)}
-            <span className={`font-serif font-bold text-lg transition-colors ${
-              lido ? "text-areia-400 line-through decoration-areia-300 font-medium" : "text-areia-900 group-hover:text-marca-600"
-            }`}>
-              {props.titulo}
-            </span>
-            <button 
-              onClick={() => alternarLido(props.id)}
-              className={`text-xs font-bold uppercase tracking-wider transition-colors w-fit ${
-                 lido ? "text-green-600" : "text-areia-400 hover:text-marca-600"
-              }`}
-            >
-              {lido ? "Marcar como não lido" : "Marcar como lido"}
-            </button>
+      <div className="flex items-center gap-4 sm:gap-6 w-full rounded-2xl bg-white/70 border border-areia-200 p-4">
+        <span className="font-serif text-2xl text-marca-500 w-8 text-center flex-none">{props.ordem}</span>
+        <a href={props.link} target="_blank" rel="sponsored nofollow noopener" className="flex-none">
+          <Capa src={props.imagem} alt={alt} className="w-14 sm:w-16" />
+        </a>
+        <div className="flex-1 min-w-0 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
+          <span className="flex-1 min-w-0 font-serif text-lg leading-tight text-areia-900">{props.titulo}</span>
+          <div>
+            <BotaoAmazon link={props.link} />
           </div>
-
-          <Link 
-            href={props.link} 
-            target="_blank" 
-            rel="sponsored nofollow noopener"
-            className="flex items-center justify-center gap-2 bg-marca-400 hover:bg-marca-300 text-areia-900 font-bold py-2 px-6 rounded-xl transition-all shadow-md active:scale-95 text-sm whitespace-nowrap"
-          >
-            <Image src="/amazon.png" alt="Amazon" width={18} height={18} />
-            <span>Ver Menor Preço</span>
-          </Link>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="group flex flex-col w-72 rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-areia-100 relative">
-      {/* Badge de Lido */}
-      <button
-        onClick={() => alternarLido(props.id)}
-        className={`absolute top-4 right-4 z-10 p-2 rounded-full shadow-lg transition-all active:scale-90 ${
-          lido 
-            ? "bg-green-500 text-white" 
-            : "bg-white/80 text-areia-400 hover:text-green-600 backdrop-blur-sm"
-        }`}
-        title={lido ? "Marcar como não lido" : "Marcar como lido"}
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-        </svg>
-      </button>
-
-      <Link
-        href={props.link}
-        target="_blank"
-        rel="sponsored nofollow noopener"
-        className="contents"
-      >
-        <div className="relative h-96 w-full overflow-hidden">
-          <Image
-            src={props.imagem}
-            alt={`Capa do livro ${props.titulo}`}
-            fill
-            sizes="288px"
-            className={`object-cover transition-all duration-700 ${
-              lido ? "grayscale-[0.5] opacity-80 scale-100" : "group-hover:scale-110"
-            }`}
-          />
-          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-500" />
-          {lido && (
-            <div className="absolute inset-0 flex items-center justify-center bg-black/20">
-               <span className="bg-green-500 text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider shadow-lg">
-                 Lido ✅
-               </span>
-            </div>
-          )}
-        </div>
-      </Link>
-
-      <div className="flex-1 flex flex-col p-6 gap-4">
-        <div className="flex flex-col items-center gap-2">
-           {renderEstrelas(props.nota)}
-           <span className={`flex-1 font-serif font-bold text-center text-lg leading-tight transition-colors ${
-             lido ? "text-areia-400 line-through decoration-areia-300" : "text-areia-900 group-hover:text-marca-600"
-           }`}>
-             {props.titulo}
-           </span>
-        </div>
-        <Link 
-          href={props.link} 
-          target="_blank" 
+    <div className="group flex flex-col items-center gap-3 w-full">
+      <div className="relative">
+        <span className="absolute -top-3 -left-3 z-10 rounded-full bg-areia-900 text-marca-300 font-serif text-sm w-8 h-8 flex items-center justify-center shadow">
+          {props.ordem}
+        </span>
+        <a
+          href={props.link}
+          target="_blank"
           rel="sponsored nofollow noopener"
-          className="flex items-center justify-center gap-2 bg-marca-400 hover:bg-marca-300 text-areia-900 font-bold py-2.5 px-4 rounded-xl transition-all shadow-md active:scale-95"
+          className="block transition-transform duration-300 group-hover:-translate-y-1.5"
         >
-          <Image src="/amazon.png" alt="Amazon" width={20} height={20} />
-          <span className="text-sm">Ver Menor Preço</span>
-        </Link>
+          <Capa src={props.imagem} alt={alt} className="w-36 sm:w-40" />
+        </a>
       </div>
+      <span className="font-serif text-center leading-tight min-h-[2.5rem] text-areia-900">{props.titulo}</span>
+      <BotaoAmazon link={props.link} />
     </div>
   );
 }

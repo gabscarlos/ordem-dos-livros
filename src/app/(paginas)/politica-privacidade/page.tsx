@@ -37,11 +37,6 @@ export default function PoliticaDePrivacidade() {
             quantas pessoas visitam cada página, de qual país e por qual tipo de dispositivo. Ele
             não usa cookies e não identifica você individualmente.
           </li>
-          <li>
-            <strong>Livros marcados como lidos:</strong> quando você marca um livro como lido,
-            essa informação fica salva apenas no seu navegador (armazenamento local). Ela não é
-            enviada para nós e você pode apagá-la limpando os dados do site no navegador.
-          </li>
         </ul>
         <p>Não pedimos cadastro e não vendemos nenhuma informação pessoal.</p>
 

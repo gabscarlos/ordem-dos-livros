@@ -1,63 +1,42 @@
-import { StarIcon } from "@heroicons/react/20/solid";
-import Image from "next/image";
-import Link from "next/link";
+import CapaLivro from "@/components/home/CapaLivro";
 
-export interface LivroDestaqueProps {
+export interface LivroMaisVendidoProps {
   link: string;
   imagem: string;
-  className?: string;
   titulo: string;
   autor: string;
   posicao: string;
 }
 
-export default function LivroDestaque(props: LivroDestaqueProps) {
+export default function LivroMaisVendido(props: LivroMaisVendidoProps) {
   return (
-    <Link
+    <a
       href={props.link}
       target="_blank"
       rel="sponsored nofollow noopener"
-      className={`group relative rounded-xl overflow-hidden ${props.className}
-        flex flex-col w-full items-center gap-3
-        bg-white shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1
-        pb-6 border border-areia-100
-        `}
+      className="group relative flex flex-col items-center gap-4 w-full h-full rounded-2xl bg-white/70 border border-areia-200 px-5 pt-8 pb-6 hover:bg-white hover:shadow-estante transition-all"
     >
-      <div className="absolute top-0 left-4 z-10 bg-marca-600 rounded-b-lg shadow-md">
-        <span className="text-white text-xl font-black px-4 py-2 block">
-          {props.posicao}
-        </span>
-      </div>
+      <span className="absolute top-4 left-4 rounded-full bg-areia-900 text-marca-300 text-sm font-bold min-w-10 h-10 px-2 flex items-center justify-center shadow">
+        {props.posicao}
+      </span>
 
-      <div className="w-full h-80 relative overflow-hidden bg-areia-100">
-        <Image
-          src={props.imagem}
-          alt={`Capa do livro ${props.titulo}`}
-          fill
-          sizes="(max-width: 640px) 100vw, 320px"
-          className="object-cover group-hover:scale-105 transition-transform duration-500"
-        />
-      </div>
+      <CapaLivro
+        src={props.imagem}
+        alt={`Capa do livro ${props.titulo}`}
+        className="w-36"
+        sizes="144px"
+      />
 
-      <div className="flex flex-col items-center gap-2 px-4 w-full">
-        <span className="w-full text-base font-serif font-bold text-center text-areia-900 leading-tight line-clamp-2 min-h-[3rem]">
+      <div className="flex flex-col items-center gap-1 text-center w-full">
+        <span className="font-serif text-lg text-areia-900 leading-tight line-clamp-2 min-h-[2.75rem]">
           {props.titulo}
         </span>
-        <span className="text-sm font-medium uppercase text-areia-500 tracking-wide">
-          {props.autor}
-        </span>
-        <div className="flex gap-0.5 text-marca-400 my-1">
-          <StarIcon className="h-4 w-4" />
-          <StarIcon className="h-4 w-4" />
-          <StarIcon className="h-4 w-4" />
-          <StarIcon className="h-4 w-4" />
-          <StarIcon className="h-4 w-4" />
-        </div>
-        <button className="flex items-center justify-center gap-2 bg-marca-400 hover:bg-marca-500 text-areia-900 font-bold py-2 px-6 rounded-full transition-colors shadow-sm w-full mt-2">
-          <Image src="/amazon.png" alt="Amazon" width={20} height={20} />
-          <span>Ver na Amazon</span>
-        </button>
+        <span className="text-xs uppercase tracking-wider text-areia-500">{props.autor}</span>
       </div>
-    </Link>
+
+      <span className="mt-auto inline-flex items-center rounded-full bg-marca-400 px-5 py-2 text-sm font-semibold text-areia-900 group-hover:bg-marca-300 transition-colors">
+        Ver na Amazon
+      </span>
+    </a>
   );
 }

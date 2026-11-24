@@ -4,7 +4,6 @@ import "./globals.css";
 import { Libre_Caslon_Text, Montserrat } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
-import { LeituraProvider } from "@/contexts/LeituraContext";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -60,10 +59,8 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
-        <LeituraProvider>
-          {children}
-          <Analytics />
-        </LeituraProvider>
+        {children}
+        <Analytics />
       </body>
     </html>
   );

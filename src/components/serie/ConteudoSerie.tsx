@@ -1,17 +1,16 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import ItemLivro from "./ItemLivro";
 import Breadcrumb from "../shared/Breadcrumb";
 import SocialShare from "../shared/SocialShare";
-import { useLeitura } from "@/hooks/useLeitura";
-import { useMemo, useState } from "react";
+import { useState } from "react";
+import { url } from "@/lib/site";
 
 export interface ConteudoSerieProps {
   id: string;
   titulo: string;
-  imagem: string;
-  nome: string;
   descricao: string;
   autor: {
     id: string;
@@ -22,157 +21,111 @@ export interface ConteudoSerieProps {
 }
 
 export default function ConteudoSerie(props: ConteudoSerieProps) {
-  const { estaLido } = useLeitura();
   const [layout, setLayout] = useState<"grid" | "list">("grid");
 
-  const estatisticas = useMemo(() => {
-    const lidosCount = props.livros.filter((l) => estaLido(l.id)).length;
-    const total = props.livros.length;
-    const porcentagem = total > 0 ? Math.round((lidosCount / total) * 100) : 0;
-    return { lidosCount, total, porcentagem };
-  }, [props.livros, estaLido]);
+  // Capas que ficam em pé na estante do topo (as primeiras da ordem).
+  const capasEstante = props.livros.slice(0, 4);
 
   return (
-    <div className="flex flex-col gap-6 pb-20">
-      <Breadcrumb 
-        items={[
-          { label: "Séries", href: "/series" },
-          { label: props.titulo }
-        ]} 
-      />
+    <div className="flex flex-col gap-10 pb-12">
+      <Breadcrumb items={[{ label: "Séries", href: "/series" }, { label: props.titulo }]} />
 
-      {/* Hero Section */}
-      <section className="relative w-full h-[300px] sm:h-[450px] rounded-3xl overflow-hidden shadow-2xl border border-white/20">
-        <Image
-          src={props.imagem}
-          alt={`Capa da série ${props.titulo}`}
-          fill
-          priority
-          className="object-cover object-center scale-105"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-areia-950 via-areia-950/40 to-transparent" />
-        
-        <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-10 flex flex-col gap-2">
-          <h1 className="text-3xl sm:text-5xl font-serif font-black text-white drop-shadow-lg text-balance">
-            {props.titulo}
-          </h1>
-          <div className="flex items-center gap-3">
-             <span className="text-areia-300 text-sm sm:text-base">Série escrita por</span>
-             <a
-                href={`/autores/${props.autor.id}`}
-                className="text-marca-400 font-bold hover:text-marca-300 transition-colors text-sm sm:text-base underline"
-              >
+      {/* Estante do topo: título à esquerda e as primeiras capas em pé à direita */}
+      <section className="rounded-[2rem] bg-gradient-to-b from-areia-50 to-areia-100 border border-areia-200 shadow-estante overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-8 items-end px-6 sm:px-10 pt-8 sm:pt-10">
+          <div className="flex flex-col gap-4 self-center lg:pb-8">
+            <span className="text-xs font-semibold uppercase tracking-[0.3em] text-marca-600">
+              Ordem dos livros
+            </span>
+            <h1 className="font-serif text-4xl sm:text-5xl leading-[1.05] text-areia-900 text-balance">
+              {props.titulo}
+            </h1>
+            <p className="text-areia-600">
+              Série de{" "}
+              <Link href={`/autores/${props.autor.id}`} className="font-semibold text-marca-700 hover:text-marca-900 underline underline-offset-4">
                 {props.autor.nome}
-              </a>
+              </Link>{" "}
+              · {props.livros.length} {props.livros.length === 1 ? "livro" : "livros"}
+            </p>
+            <div className="pt-1">
+              <SocialShare
+                url={url(`/series/${props.id}`)}
+                title={`Confira a ordem correta dos livros da série ${props.titulo} no Ordem Livro!`}
+              />
+            </div>
+          </div>
+
+          <div className="flex items-end justify-center gap-2.5 sm:gap-3">
+            {capasEstante.map((livro, i) => (
+              <div
+                key={livro.id}
+                className={`relative aspect-[2/3] flex-none overflow-hidden rounded-l-[3px] rounded-r-md shadow-livro ${
+                  ["w-28 sm:w-36", "w-20 sm:w-28", "w-16 sm:w-24", "hidden sm:block sm:w-20"][i]
+                }`}
+              >
+                <Image
+                  src={livro.imagem}
+                  alt={`Capa de ${livro.titulo}`}
+                  fill
+                  priority={i === 0}
+                  sizes="(max-width: 640px) 112px, 144px"
+                  className="object-cover"
+                />
+                <span aria-hidden="true" className="absolute inset-y-0 left-0 w-2.5 bg-gradient-to-r from-black/25 via-white/10 to-transparent" />
+              </div>
+            ))}
           </div>
         </div>
+
+        <div
+          aria-hidden="true"
+          className="mx-4 sm:mx-6 mb-6 h-3 rounded-full bg-gradient-to-b from-areia-100 to-areia-300 shadow-[0_10px_16px_-8px_rgba(44,24,16,0.45)]"
+        />
       </section>
 
-      {/* Ações Sociais */}
-      <div className="flex flex-col sm:flex-row justify-between items-center bg-white p-4 sm:p-6 rounded-3xl shadow-sm border border-areia-100 gap-6">
-         <SocialShare 
-            url={`https://ordemlivro.vercel.app/series/${props.id}`} 
-            title={`Confira a ordem correta dos livros da série ${props.titulo} no site Ordem dos Livros!`} 
-         />
-         
-         <div className="flex items-center bg-areia-100 p-1.5 rounded-2xl gap-1">
-            <button
-              onClick={() => setLayout("grid")}
-              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-                layout === "grid" 
-                  ? "bg-white text-marca-600 shadow-sm" 
-                  : "text-areia-500 hover:text-areia-900"
-              }`}
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
-              </svg>
-              GRADE
-            </button>
-            <button
-              onClick={() => setLayout("list")}
-              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-                layout === "list" 
-                  ? "bg-white text-marca-600 shadow-sm" 
-                  : "text-areia-500 hover:text-areia-900"
-              }`}
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-              LISTA
-            </button>
-         </div>
-      </div>
+      {/* Sobre a série */}
+      <section className="max-w-3xl">
+        <h2 className="font-serif text-2xl sm:text-3xl text-areia-900 mb-3">Sobre a série</h2>
+        <p className="text-areia-700 leading-relaxed">{props.descricao}</p>
+      </section>
 
-      {/* Progress Bar - Gamificação */}
-      <div className="bg-white p-6 rounded-3xl shadow-sm border border-areia-100 flex flex-col gap-4">
-        <div className="flex justify-between items-center text-sm font-bold text-areia-900">
-           <span className="flex items-center gap-2">
-             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-marca-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-             </svg>
-             Seu progresso na série
-           </span>
-           <span className="text-marca-600 bg-marca-50 px-3 py-1 rounded-full uppercase tracking-tighter">
-             {estatisticas.lidosCount} de {estatisticas.total} livros
-           </span>
-        </div>
-        <div className="w-full bg-areia-100 h-3 rounded-full overflow-hidden">
-           <div 
-             className="bg-gradient-to-r from-marca-500 to-marca-700 h-full transition-all duration-1000 ease-out shadow-[0_0_10px_rgba(79,70,229,0.5)]"
-             style={{ width: `${estatisticas.porcentagem}%` }}
-           />
-        </div>
-        <p className="text-xs text-areia-500 font-medium">
-          Marque os livros que você já leu para acompanhar seu progresso nesta jornada incrível!
-        </p>
-      </div>
-
-      {/* Descrição e Curadoria */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start mt-4">
-        <div className="lg:col-span-2 bg-white p-8 sm:p-10 rounded-3xl shadow-sm border border-areia-100">
-          <h2 className="text-xl font-serif font-bold text-areia-900 mb-4 flex items-center gap-2">
-            <span className="w-1.5 h-6 bg-marca-600 rounded-full" />
-            Sobre a obra
-          </h2>
-          <p className="text-lg text-areia-700 leading-relaxed text-justify italic">
-            "{props.descricao}"
-          </p>
+      {/* Livros em ordem */}
+      <section className="flex flex-col gap-8">
+        <div className="flex flex-wrap items-end justify-between gap-4 border-b border-areia-200 pb-4">
+          <div>
+            <h2 className="font-serif text-2xl sm:text-3xl text-areia-900">Livros da série em ordem</h2>
+            <p className="text-sm text-areia-500 mt-1">
+              Do primeiro ao último, na ordem recomendada de leitura.
+            </p>
+          </div>
+          <div className="flex items-center rounded-full bg-areia-200/70 p-1 text-xs font-semibold" role="group" aria-label="Modo de exibição">
+            {(["grid", "list"] as const).map((modo) => (
+              <button
+                key={modo}
+                type="button"
+                onClick={() => setLayout(modo)}
+                aria-pressed={layout === modo}
+                className={`px-4 py-1.5 rounded-full transition-colors ${
+                  layout === modo ? "bg-white text-areia-900 shadow-sm" : "text-areia-600 hover:text-areia-900"
+                }`}
+              >
+                {modo === "grid" ? "Grade" : "Lista"}
+              </button>
+            ))}
+          </div>
         </div>
 
-        <aside className="bg-marca-50 p-8 rounded-3xl border border-marca-100 flex flex-col gap-4">
-          <h3 className="text-marca-900 font-bold flex items-center gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-              <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
-            </svg>
-            Dica do Editor
-          </h3>
-          <p className="text-sm text-marca-800 leading-snug">
-            Esta é uma das séries mais populares do gênero. Recomendamos começar por <strong>{props.livros[0].titulo}</strong> para entender a base do universo criado por {props.autor.nome}.
-          </p>
-        </aside>
-      </div>
-
-      {/* Listagem de Livros */}
-      <section className="flex flex-col gap-10 mt-10">
-        <div className="flex flex-col sm:flex-row sm:items-center gap-4 border-b border-areia-200 pb-4">
-           <h2 className="text-3xl font-serif font-black text-areia-900">Livros da Série em Ordem</h2>
-           <span className="bg-areia-100 text-areia-600 px-3 py-1 rounded-full text-sm font-medium">
-             {props.livros.length} livros encontrados
-           </span>
-        </div>
-        
-        <div className={`grid gap-10 justify-items-center ${
-            layout === "grid" 
-              ? "grid-cols-1 md:grid-cols-2 lg:grid-cols-3" 
-              : "grid-cols-1 w-full"
-          }`}
+        <div
+          className={
+            layout === "grid"
+              ? "grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-4 gap-y-10 pt-3"
+              : "flex flex-col gap-3"
+          }
         >
-          {props.livros.map((livro) => (
+          {props.livros.map((livro, i) => (
             <ItemLivro
               key={livro.id}
-              id={livro.id}
+              ordem={i + 1}
               link={livro.link}
               titulo={livro.titulo}
               imagem={livro.imagem}
