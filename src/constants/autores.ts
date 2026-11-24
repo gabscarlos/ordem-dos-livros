@@ -334,7 +334,7 @@ Flávia Lins e Silva vive no Rio de Janeiro e continua a escrever e criar histó
 {
   id: "dustin-brady",
   nome: "Dustin Brady",
-  imagem: "https://m.media-amazon.com/images/I/813qC-wJ-VL._SL1500_.jpg",
+  imagem: "https://m.media-amazon.com/images/I/813qC-wJ-VL._SY385_.jpg",
   descricao: "Autor americano, literatura infantojuvenil, aventura, humor.",
   biografia: `
 # Dustin Brady
@@ -775,7 +775,7 @@ Além de *A Seleção*, Kiera Cass escreveu *A Sereia*, um romance de fantasia, 
     id: "sarah-j-maas",
     nome: "Sarah J. Maas",
     imagem:
-      "https://m.media-amazon.com/images/I/81aQ-osTBXL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81aQ-osTBXL._SY385_.jpg",
     descricao: "Escritora norte-americana, fantasia e romantasia.",
     biografia: `
 # Sarah J. Maas
@@ -992,7 +992,7 @@ Seus livros tratam de temas como relacionamentos abusivos, luto e segundas chanc
     id: "rachel-renee-russell",
     nome: "Rachel Renée Russell",
     imagem:
-      "https://m.media-amazon.com/images/I/91AIb723ZaL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91AIb723ZaL._SY385_.jpg",
     descricao: "Escritora norte-americana, literatura infantojuvenil.",
     biografia: `
 # Rachel Renée Russell
@@ -1078,7 +1078,7 @@ Pedro Bandeira também escreveu *A Marca de uma Lágrima*, *O Fantástico Misté
     id: "thalita-reboucas",
     nome: "Thalita Rebouças",
     imagem:
-      "https://m.media-amazon.com/images/I/61rvb-wNN9L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61rvb-wNN9L._SY385_.jpg",
     descricao: "Escritora brasileira, literatura juvenil e humor.",
     biografia: `
 # Thalita Rebouças
@@ -1127,7 +1127,7 @@ Em *Laços* (2013), Mônica, Cebolinha, Cascão e Magali saem em busca do Floqui
     id: "carina-rissi",
     nome: "Carina Rissi",
     imagem:
-      "https://m.media-amazon.com/images/I/81HAuOpFJ8L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81HAuOpFJ8L._SY385_.jpg",
     descricao: "Escritora brasileira, romance.",
     biografia: `
 # Carina Rissi

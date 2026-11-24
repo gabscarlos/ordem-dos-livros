@@ -22,7 +22,7 @@ const series = [
         autor: autores[0],
         ano: 1997,
         ordem: 1,
-        imagem: "https://m.media-amazon.com/images/I/81pB+joKL4L._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/81pB+joKL4L._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/B01LQM96G4?tag=gabscarlos0b-20",
       },
       {
@@ -31,7 +31,7 @@ const series = [
         autor: autores[0],
         ano: 1998,
         ordem: 2,
-        imagem: "https://m.media-amazon.com/images/I/81D+5aMHzFL._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/81D+5aMHzFL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/B01LQM96K0?tag=gabscarlos0b-20",
       },
       {
@@ -40,7 +40,7 @@ const series = [
         autor: autores[0],
         ano: 1999,
         ordem: 3,
-        imagem: "https://m.media-amazon.com/images/I/81Q+2zleuwL._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/81Q+2zleuwL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/B01LQM96HI?tag=gabscarlos0b-20",
       },
       {
@@ -49,7 +49,7 @@ const series = [
         autor: autores[0],
         ano: 2000,
         ordem: 4,
-        imagem: "https://m.media-amazon.com/images/I/81IsnaNraBL._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/81IsnaNraBL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/B01LQM96FA?tag=gabscarlos0b-20",
       },
       {
@@ -58,7 +58,7 @@ const series = [
         autor: autores[0],
         ano: 2003,
         ordem: 5,
-        imagem: "https://m.media-amazon.com/images/I/81ZQUV67MGL._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/81ZQUV67MGL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/B01LQM96IC?tag=gabscarlos0b-20",
       },
       {
@@ -67,7 +67,7 @@ const series = [
         autor: autores[0],
         ano: 2005,
         ordem: 6,
-        imagem: "https://m.media-amazon.com/images/I/81SZC96OGOL._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/81SZC96OGOL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/B01LQM96LY?tag=gabscarlos0b-20",
       },
       {
@@ -76,7 +76,7 @@ const series = [
         autor: autores[0],
         ano: 2007,
         ordem: 7,
-        imagem: "https://m.media-amazon.com/images/I/81PbdwXqKkL._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/81PbdwXqKkL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/B01LQM96GE?tag=gabscarlos0b-20",
       },
       {
@@ -98,7 +98,7 @@ const series = [
     autor: autores[1],
     ano: 1954,
     imagem:
-      "https://m.media-amazon.com/images/I/81SM0D5+DwL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81SM0D5+DwL._SY385_.jpg",
     box: {
       titulo: "Box Trilogia O Senhor dos Anéis",
       imagem: "https://m.media-amazon.com/images/I/715afDdgKfL._SY385_.jpg",
@@ -111,7 +111,7 @@ const series = [
         autor: autores[1],
         ano: 1954,
         ordem: 1,
-        imagem: "https://m.media-amazon.com/images/I/81SM0D5+DwL._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/81SM0D5+DwL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/B0B3C98K98?tag=gabscarlos0b-20",
       },
       {
@@ -120,7 +120,7 @@ const series = [
         autor: autores[1],
         ano: 1954,
         ordem: 2,
-        imagem: "https://m.media-amazon.com/images/I/81N9hxO6XdL._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/81N9hxO6XdL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/6555113626?tag=gabscarlos0b-20",
       },
       {
@@ -129,7 +129,7 @@ const series = [
         autor: autores[1],
         ano: 1955,
         ordem: 3,
-        imagem: "https://m.media-amazon.com/images/I/81LUEEYfQNL._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/81LUEEYfQNL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/6555113669?tag=gabscarlos0b-20",
       },
     ],
@@ -155,7 +155,7 @@ const series = [
         autor: autores[2],
         ano: 1996,
         ordem: 1,
-        imagem: "https://m.media-amazon.com/images/I/91eHityofNL._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/91eHityofNL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/8556510787?tag=gabscarlos0b-20",
       },
       {
@@ -164,7 +164,7 @@ const series = [
         autor: autores[2],
         ano: 1998,
         ordem: 2,
-        imagem: "https://m.media-amazon.com/images/I/91N6C0jwzuL._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/91N6C0jwzuL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/8556510795?tag=gabscarlos0b-20",
       },
       {
@@ -173,7 +173,7 @@ const series = [
         autor: autores[2],
         ano: 2000,
         ordem: 3,
-        imagem: "https://m.media-amazon.com/images/I/91VVZ-v5GYL._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/91VVZ-v5GYL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/B07QXSYDSB?tag=gabscarlos0b-20",
       },
       {
@@ -182,7 +182,7 @@ const series = [
         autor: autores[2],
         ano: 2005,
         ordem: 4,
-        imagem: "https://m.media-amazon.com/images/I/814UZhEYFfL._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/814UZhEYFfL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/8556510884?tag=gabscarlos0b-20",
       },
       {
@@ -191,7 +191,7 @@ const series = [
         autor: autores[2],
         ano: 2011,
         ordem: 5,
-        imagem: "https://m.media-amazon.com/images/I/91DisjRjFxL._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/91DisjRjFxL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/8556510906?tag=gabscarlos0b-20",
       },
     ],
@@ -362,7 +362,7 @@ const series = [
         ano: 2022,
         ordem: 17,
         imagem:
-          "https://m.media-amazon.com/images/I/916K1XCNRBL._UF894,1000_QL80_.jpg",
+          "https://m.media-amazon.com/images/I/916K1XCNRBL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/855070363X?tag=gabscarlos0b-20",
       },
       {
@@ -1188,7 +1188,7 @@ const series = [
     autor: autores[11],
     ano: 2008,
     imagem:
-      "https://m.media-amazon.com/images/I/618fXbK+OkL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/618fXbK+OkL._SY385_.jpg",
     box: {
       titulo: "Box Crepúsculo (Edição de 20 anos)",
       imagem: "https://m.media-amazon.com/images/I/61KHcw-7mxL._SY385_.jpg",
@@ -1321,7 +1321,7 @@ const series = [
       "As Crônicas de Nárnia, de C.S. Lewis, é uma série de fantasia que transporta leitores para o mágico mundo de Nárnia, onde animais falam, a magia é real e o bem luta contra o mal. Ao longo de sete livros, acompanhamos crianças de nosso mundo que, ao atravessarem portais inesperados, se tornam heróis em aventuras épicas ao lado de Aslam, o poderoso leão que guia Nárnia. Com narrativas ricas em imaginação e simbolismo, a série explora temas como coragem, amizade, sacrifício e a eterna luta pela justiça, conquistando gerações de leitores em todo o mundo.",
     autor: autores[13],
     ano: 1950,
-    imagem: "https://m.media-amazon.com/images/I/81NkAyQ62LL._SL1500_.jpg",
+    imagem: "https://m.media-amazon.com/images/I/81NkAyQ62LL._SY385_.jpg",
     box: {
       titulo: "As Crônicas de Nárnia (volume único)",
       imagem: "https://m.media-amazon.com/images/I/71yJLhQekBL._SY385_.jpg",
@@ -1362,7 +1362,7 @@ const series = [
         autor: autores[13],
         ano: 1952,
         ordem: 4,
-        imagem: "https://m.media-amazon.com/images/I/81cnx9o5LoL._SL1500_.jpg",
+        imagem: "https://m.media-amazon.com/images/I/81cnx9o5LoL._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/6555114991?tag=gabscarlos0b-20",
       },
       {
@@ -1416,7 +1416,7 @@ const series = [
         ano: 2005,
         ordem: 1,
         imagem:
-          "https://m.media-amazon.com/images/I/81t6a6Cje2L._UF894,1000_QL80_.jpg",
+          "https://m.media-amazon.com/images/I/81t6a6Cje2L._SY385_.jpg",
         link: "https://www.amazon.com.br/dp/6555606533?tag=gabscarlos0b-20",
       },
       {
@@ -1466,7 +1466,7 @@ const series = [
     autor: autores[15],
     ano: 1999,
     imagem:
-      "https://m.media-amazon.com/images/I/91Q5llF8hoL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91Q5llF8hoL._SY385_.jpg",
     box: {
       titulo: "Box Desventuras em Série (13 livros)",
       imagem: "https://m.media-amazon.com/images/I/71ft1IGgLlL._SY385_.jpg",
@@ -1787,7 +1787,7 @@ const series = [
     autor: autores[18],
     ano: 2008,
     imagem:
-      "https://m.media-amazon.com/images/I/81VTJrd781L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81VTJrd781L._SY385_.jpg",
     box: {
       titulo: "Box Fazendo Meu Filme",
       imagem: "https://m.media-amazon.com/images/I/71LY55PZGkL._SY385_.jpg",
@@ -1840,7 +1840,7 @@ const series = [
     autor: autores[19],
     ano: 2012,
     imagem:
-      "https://m.media-amazon.com/images/I/81ql6xkkliL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81ql6xkkliL._SY385_.jpg",
     box: {
       titulo: "Box A Seleção",
       imagem: "https://m.media-amazon.com/images/I/714ghDCVVZL._SY385_.jpg",
@@ -1902,7 +1902,7 @@ const series = [
     autor: autores[20],
     ano: 2015,
     imagem:
-      "https://m.media-amazon.com/images/I/81aQ-osTBXL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81aQ-osTBXL._SY385_.jpg",
     box: {
       titulo: "Box Corte de Espinhos e Rosas",
       imagem: "https://m.media-amazon.com/images/I/91DWlozMOML._SY385_.jpg",
@@ -1980,7 +1980,7 @@ const series = [
     autor: autores[20],
     ano: 2012,
     imagem:
-      "https://m.media-amazon.com/images/I/814rMSPlZbL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/814rMSPlZbL._SY385_.jpg",
     box: {
       titulo: "Box Trono de Vidro",
       imagem: "https://m.media-amazon.com/images/I/81k8w1bmXLL._SY385_.jpg",
@@ -2069,7 +2069,7 @@ const series = [
     autor: autores[21],
     ano: 2023,
     imagem:
-      "https://m.media-amazon.com/images/I/71pSq7HXJ0L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71pSq7HXJ0L._SY385_.jpg",
     box: {
       titulo: "Box Quarta Asa (O Empyriano)",
       imagem: "https://m.media-amazon.com/images/I/71TBd5jPsKL._SY385_.jpg",
@@ -2113,7 +2113,7 @@ const series = [
     autor: autores[22],
     ano: 2011,
     imagem:
-      "https://m.media-amazon.com/images/I/91-7xex0eTL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91-7xex0eTL._SY385_.jpg",
     box: {
       titulo: "Box Divergente",
       imagem: "https://m.media-amazon.com/images/I/7132+LfA41L._SY385_.jpg",
@@ -2166,7 +2166,7 @@ const series = [
     autor: autores[23],
     ano: 2007,
     imagem:
-      "https://m.media-amazon.com/images/I/91MWcXJPigL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91MWcXJPigL._SY385_.jpg",
     box: {
       titulo: "Box Os Instrumentos Mortais",
       imagem: "https://m.media-amazon.com/images/I/81sAo9G+oxL._SY385_.jpg",
@@ -2237,7 +2237,7 @@ const series = [
     autor: autores[24],
     ano: 2015,
     imagem:
-      "https://m.media-amazon.com/images/I/718rKQisF7L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/718rKQisF7L._SY385_.jpg",
     livros: [
       {
         id: "a-rainha-vermelha-1",
@@ -2294,7 +2294,7 @@ const series = [
     autor: autores[25],
     ano: 2000,
     imagem:
-      "https://m.media-amazon.com/images/I/91LzeKCuAGL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91LzeKCuAGL._SY385_.jpg",
     box: {
       titulo: "Box Os Bridgertons",
       imagem: "https://m.media-amazon.com/images/I/71gQurWxEjL._SY385_.jpg",
@@ -2392,7 +2392,7 @@ const series = [
     autor: autores[14],
     ano: 2010,
     imagem:
-      "https://m.media-amazon.com/images/I/613qEqF6DNL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/613qEqF6DNL._SY385_.jpg",
     box: {
       titulo: "Box Os Heróis do Olimpo",
       imagem: "https://m.media-amazon.com/images/I/81bOe4CsYOL._SY385_.jpg",
@@ -2454,7 +2454,7 @@ const series = [
     autor: autores[14],
     ano: 2016,
     imagem:
-      "https://m.media-amazon.com/images/I/61AVbHlKENL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61AVbHlKENL._SY385_.jpg",
     box: {
       titulo: "Box As Provações de Apolo",
       imagem: "https://m.media-amazon.com/images/I/81jLi+fpg2L._SY385_.jpg",
@@ -2516,7 +2516,7 @@ const series = [
     autor: autores[20],
     ano: 2020,
     imagem:
-      "https://m.media-amazon.com/images/I/91IlTc+684L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91IlTc+684L._SY385_.jpg",
     box: {
       titulo: "Box Cidade da Lua Crescente",
       imagem: "https://m.media-amazon.com/images/I/91NCtT7l7gL._SY385_.jpg",
@@ -2560,7 +2560,7 @@ const series = [
     autor: autores[18],
     ano: 2011,
     imagem:
-      "https://m.media-amazon.com/images/I/81LY6nLXdmL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81LY6nLXdmL._SY385_.jpg",
     box: {
       titulo: "Kit Minha Vida Fora de Série (5 volumes)",
       imagem: "https://m.media-amazon.com/images/I/711HBi7WvhL._SY385_.jpg",
@@ -2617,7 +2617,7 @@ const series = [
     autor: autores[26],
     ano: 2018,
     imagem:
-      "https://m.media-amazon.com/images/I/81FH6q0EqYS._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81FH6q0EqYS._SY385_.jpg",
     box: {
       titulo: "Box O Povo do Ar",
       imagem: "https://m.media-amazon.com/images/I/8133Z94It8S._SY385_.jpg",
@@ -2670,7 +2670,7 @@ const series = [
     autor: autores[27],
     ano: 2019,
     imagem:
-      "https://m.media-amazon.com/images/I/8129HX+5JGL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/8129HX+5JGL._SY385_.jpg",
     box: {
       titulo: "Kit Heartstopper (volumes 1 a 6)",
       imagem: "https://m.media-amazon.com/images/I/81wr1ghg9LL._SY385_.jpg",
@@ -2735,7 +2735,7 @@ const series = [
     autor: autores[28],
     ano: 2012,
     imagem:
-      "https://m.media-amazon.com/images/I/81WKPIFKThL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81WKPIFKThL._SY385_.jpg",
     box: {
       titulo: "Coleção Trilogia Sombra e Ossos",
       imagem: "https://m.media-amazon.com/images/I/51kD22nK+mL._SY385_.jpg",
@@ -2779,7 +2779,7 @@ const series = [
     autor: autores[29],
     ano: 2002,
     imagem:
-      "https://m.media-amazon.com/images/I/91kAqT1E7sL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91kAqT1E7sL._SY385_.jpg",
     box: {
       titulo: "Box Ciclo da Herança",
       imagem: "https://m.media-amazon.com/images/I/61-tiYcBIwL._SY385_.jpg",
@@ -2841,7 +2841,7 @@ const series = [
     autor: autores[30],
     ano: 1993,
     imagem:
-      "https://m.media-amazon.com/images/I/81tPk-uLv7L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81tPk-uLv7L._SY385_.jpg",
     box: {
       titulo: "The Witcher - Box (capa dura)",
       imagem: "https://m.media-amazon.com/images/I/519hTm+PduL._SY385_.jpg",
@@ -2930,7 +2930,7 @@ const series = [
     autor: autores[31],
     ano: 2016,
     imagem:
-      "https://m.media-amazon.com/images/I/91r5G8RxqfL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91r5G8RxqfL._SY385_.jpg",
     box: {
       titulo: "Kit É Assim que Acaba + É Assim que Começa",
       imagem: "https://m.media-amazon.com/images/I/61eh7p0l4NL._SY385_.jpg",
@@ -2965,7 +2965,7 @@ const series = [
     autor: autores[32],
     ano: 2009,
     imagem:
-      "https://m.media-amazon.com/images/I/91AIb723ZaL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91AIb723ZaL._SY385_.jpg",
     box: {
       titulo: "Box Diário de uma Garota Nada Popular (Vol. 1 a 5)",
       imagem: "https://m.media-amazon.com/images/I/91EkR17j2SL._SY385_.jpg",
@@ -3110,7 +3110,7 @@ const series = [
     autor: autores[33],
     ano: 1908,
     imagem:
-      "https://m.media-amazon.com/images/I/71HIiVIqw5L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71HIiVIqw5L._SY385_.jpg",
     box: {
       titulo: "Coleção Anne de Green Gables (8 livros)",
       imagem: "https://m.media-amazon.com/images/I/71sTkbq6KoL._SY385_.jpg",
@@ -3199,7 +3199,7 @@ const series = [
     autor: autores[34],
     ano: 1887,
     imagem:
-      "https://m.media-amazon.com/images/I/81tmn7qB-bL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81tmn7qB-bL._SY385_.jpg",
     box: {
       titulo: "Box Sherlock Holmes – Obra completa",
       imagem: "https://m.media-amazon.com/images/I/71kaG9KFfhL._SY385_.jpg",
@@ -3297,7 +3297,7 @@ const series = [
     autor: autores[35],
     ano: 2011,
     imagem:
-      "https://m.media-amazon.com/images/I/71mQG9L-iCL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71mQG9L-iCL._SY385_.jpg",
     box: {
       titulo: "Kit Estilhaça-me: a série completa",
       imagem: "https://m.media-amazon.com/images/I/71pkHO6LPsL._SY385_.jpg",
@@ -3368,7 +3368,7 @@ const series = [
     autor: autores[14],
     ano: 2010,
     imagem:
-      "https://m.media-amazon.com/images/I/61rxMph1PfL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61rxMph1PfL._SY385_.jpg",
     box: {
       titulo: "Kit As Crônicas dos Kane (3 volumes)",
       imagem: "https://m.media-amazon.com/images/I/61h3OvtJPtL._SY385_.jpg",
@@ -3412,7 +3412,7 @@ const series = [
     autor: autores[14],
     ano: 2015,
     imagem:
-      "https://m.media-amazon.com/images/I/71tJyEeubRL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71tJyEeubRL._SY385_.jpg",
     box: {
       titulo: "Kit Magnus Chase (3 volumes)",
       imagem: "https://m.media-amazon.com/images/I/71-YEju4bUL._SY385_.jpg",
@@ -3456,7 +3456,7 @@ const series = [
     autor: autores[23],
     ano: 2010,
     imagem:
-      "https://m.media-amazon.com/images/I/81v3kQBVmQL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81v3kQBVmQL._SY385_.jpg",
     box: {
       titulo: "Box As Peças Infernais",
       imagem: "https://m.media-amazon.com/images/I/814tzs4N-dL._SY385_.jpg",
@@ -3500,7 +3500,7 @@ const series = [
     autor: autores[36],
     ano: 1984,
     imagem:
-      "https://m.media-amazon.com/images/I/91nzO719GpL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91nzO719GpL._SY385_.jpg",
     box: {
       titulo: "Coleção Os Karas (completa)",
       imagem: "https://m.media-amazon.com/images/I/71gaakYa50L._SY385_.jpg",
@@ -3571,7 +3571,7 @@ const series = [
     autor: autores[37],
     ano: 2004,
     imagem:
-      "https://m.media-amazon.com/images/I/61rvb-wNN9L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61rvb-wNN9L._SY385_.jpg",
     livros: [
       {
         id: "fala-serio-1",
@@ -3639,7 +3639,7 @@ const series = [
     autor: autores[38],
     ano: 1931,
     imagem:
-      "https://m.media-amazon.com/images/I/71EmXOgh2xL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71EmXOgh2xL._SY385_.jpg",
     box: {
       titulo: "Box As Melhores Aventuras do Sítio do Picapau Amarelo",
       imagem: "https://m.media-amazon.com/images/I/81svPI6XQKL._SY385_.jpg",
@@ -3760,7 +3760,7 @@ const series = [
     autor: autores[39],
     ano: 2013,
     imagem:
-      "https://m.media-amazon.com/images/I/71neyypo38L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71neyypo38L._SY385_.jpg",
     livros: [
       {
         id: "turma-da-monica-lacos-1",
@@ -3807,7 +3807,7 @@ const series = [
     autor: autores[40],
     ano: 2013,
     imagem:
-      "https://m.media-amazon.com/images/I/81HAuOpFJ8L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81HAuOpFJ8L._SY385_.jpg",
     box: {
       titulo: "Box Perdida (edição especial)",
       imagem: "https://m.media-amazon.com/images/I/91FmgpPacOL._SY385_.jpg",
@@ -3872,7 +3872,7 @@ const series = [
     autor: autores[18],
     ano: 2015,
     imagem:
-      "https://m.media-amazon.com/images/I/91ZMCZiRAxL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91ZMCZiRAxL._SY385_.jpg",
     livros: [
       {
         id: "princesas-modernas-1",
@@ -3908,7 +3908,7 @@ const series = [
     autor: autores[41],
     ano: 2010,
     imagem:
-      "https://m.media-amazon.com/images/I/81IOICDo00L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81IOICDo00L._SY385_.jpg",
     box: {
       titulo: "Kit Filhos do Éden + A Batalha do Apocalipse",
       imagem: "https://m.media-amazon.com/images/I/81fxwgGNdNL._SY385_.jpg",
@@ -3961,7 +3961,7 @@ const series = [
     autor: autores[42],
     ano: 2009,
     imagem:
-      "https://m.media-amazon.com/images/I/91zZprWKZKL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91zZprWKZKL._SY385_.jpg",
     box: {
       titulo: "Box Trilogia Dragões de Éter",
       imagem: "https://m.media-amazon.com/images/I/61IxQWSGYzL._SY385_.jpg",

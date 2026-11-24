@@ -19,14 +19,12 @@ const nextConfig: NextConfig = {
   },
 
   images: {
-    // As imagens são redimensionadas pelas próprias origens (Amazon, Pexels),
-    // não pela Vercel: isso zera as "transformações de imagem" do plano.
-    loader: "custom",
-    loaderFile: "./src/lib/imageLoader.ts",
-    // Larguras usadas no srcset. Sem telas acima de 1920px, as capas e fotos
-    // do site não precisam de versões maiores.
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
-    imageSizes: [64, 96, 128, 160, 256, 384],
+    // Otimizador de imagens da Vercel desligado: cada largura de cada imagem
+    // contava como uma "transformação" no plano, e o endpoint /_next/image
+    // continuava aceitando pedidos de robôs e páginas antigas em cache.
+    // As imagens são servidas como estão; as capas da Amazon já vêm no
+    // tamanho de 385px (._SY385_), que serve para os cartões do site.
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
