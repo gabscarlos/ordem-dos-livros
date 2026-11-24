@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ConteudoAutor from "@/components/autor/ConteudoAutor";
@@ -77,15 +78,45 @@ export default async function Autor({ params }: AutorPageProps) {
       />
       <ConteudoAutor {...autor} />
 
-      {seriesDoAutor.length > 0 && (
-        <div className="flex flex-col items-end gap-3 mt-10">
-          {seriesDoAutor.map((serie) => (
-            <Link
-              key={serie.id}
-              href={`/series/${serie.id}`}
-              className="inline-flex items-center gap-2 bg-indigo-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-indigo-700 transition-colors shadow-md hover:shadow-lg"
-            >
-              <span>Ordem dos livros de {serie.titulo}</span>
+      {seriesDoAutor.map((serie) => (
+        <section
+          key={serie.id}
+          className="bg-white p-6 sm:p-10 rounded-xl shadow-sm border border-zinc-100 mt-10 flex flex-col gap-6"
+        >
+          <h2 className="text-2xl font-serif font-bold text-zinc-900">
+            Livros de {serie.titulo} em ordem
+          </h2>
+          <ol className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+            {serie.livros.map((livro, i) => (
+              <li key={livro.id} className="flex flex-col gap-2">
+                <a
+                  href={livro.link}
+                  target="_blank"
+                  rel="sponsored nofollow noopener"
+                  className="group flex flex-col gap-2"
+                >
+                  <div className="relative aspect-[2/3] w-full overflow-hidden rounded-lg shadow-md">
+                    <Image
+                      src={livro.imagem}
+                      alt={`Capa de ${livro.titulo}`}
+                      fill
+                      sizes="(max-width: 640px) 50vw, 180px"
+                      className="object-cover group-hover:scale-105 transition-transform"
+                    />
+                  </div>
+                  <span className="text-sm text-zinc-500 font-bold">{i + 1}.</span>
+                  <span className="font-serif font-bold text-zinc-900 leading-tight group-hover:text-indigo-600">
+                    {livro.titulo}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ol>
+          <Link
+            href={`/series/${serie.id}`}
+            className="self-end inline-flex items-center gap-2 bg-indigo-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-indigo-700 transition-colors shadow-md hover:shadow-lg"
+          >
+              <span>Ver a série completa</span>
               <svg
                 className="w-5 h-5"
                 fill="none"
@@ -99,10 +130,9 @@ export default async function Autor({ params }: AutorPageProps) {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg>
-            </Link>
-          ))}
-        </div>
-      )}
+          </Link>
+        </section>
+      ))}
     </div>
   );
 }

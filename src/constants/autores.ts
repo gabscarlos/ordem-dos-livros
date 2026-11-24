@@ -881,6 +881,94 @@ Sua série mais famosa é **"Os Bridgertons"**, publicada a partir de 2000. Cada
 Em 2020, a série virou *Bridgerton*, produção da Netflix que se tornou uma das séries mais assistidas da plataforma e trouxe uma nova geração de leitores para os livros.
 `,
   },
+  {
+    id: "holly-black",
+    nome: "Holly Black",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Holly_Black_at_LAcon_V_%28Worldcon_2026%29.jpg/330px-Holly_Black_at_LAcon_V_%28Worldcon_2026%29.jpg",
+    descricao: "Escritora norte-americana, fantasia juvenil.",
+    biografia: `
+# Holly Black
+
+**Holly Black** é uma escritora norte-americana de fantasia, conhecida por histórias sombrias envolvendo o mundo das fadas.
+
+## Principais Obras
+- **As Crônicas de Spiderwick**: série infantil escrita com o ilustrador Tony DiTerlizzi, que virou filme em 2008.
+- **O Povo do Ar**: trilogia iniciada com *O Príncipe Cruel* (2018), que acompanha Jude, uma garota humana criada na corte das fadas.
+
+Com *O Povo do Ar*, Holly Black se tornou um dos nomes mais populares da fantasia juvenil nas redes sociais.
+`,
+  },
+  {
+    id: "alice-oseman",
+    nome: "Alice Oseman",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/AliceOseman-byPhilipRomano.jpg/330px-AliceOseman-byPhilipRomano.jpg",
+    descricao: "Escritora e ilustradora britânica, romance juvenil e HQ.",
+    biografia: `
+# Alice Oseman
+
+**Alice Oseman** é uma escritora e ilustradora britânica. Publicou seu primeiro romance, *Solitaire*, ainda adolescente.
+
+## Heartstopper
+Sua obra mais famosa é **Heartstopper**, uma história em quadrinhos sobre Charlie e Nick, dois garotos que se conhecem na escola e se apaixonam. A história começou a ser publicada na internet e depois ganhou edições impressas, que se tornaram best-sellers no mundo todo.
+
+Em 2022, *Heartstopper* virou uma série da Netflix, com roteiro da própria autora.
+`,
+  },
+  {
+    id: "leigh-bardugo",
+    nome: "Leigh Bardugo",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Leigh_Bardugo%2C_National_Book_Festival_2025.jpg/330px-Leigh_Bardugo%2C_National_Book_Festival_2025.jpg",
+    descricao: "Escritora norte-americana, fantasia.",
+    biografia: `
+# Leigh Bardugo
+
+**Leigh Bardugo** é uma escritora norte-americana de fantasia, nascida em Jerusalém e criada em Los Angeles. Ela é a criadora do **Grishaverso**, um universo de fantasia inspirado na Rússia imperial.
+
+## O Grishaverso
+- **Trilogia Sombra e Ossos** (2012–2014): a história de Alina Starkov, uma órfã que descobre ter um poder raro.
+- **Duologia Six of Crows**: um grupo de criminosos tenta realizar um roubo impossível.
+- **Duologia Rei de Cicatrizes**: continua a história de personagens da trilogia original.
+
+Os livros foram adaptados na série *Sombra e Ossos*, da Netflix (2021–2023). Bardugo também escreveu *A Nona Casa*, para o público adulto.
+`,
+  },
+  {
+    id: "christopher-paolini",
+    nome: "Christopher Paolini",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Christopher_Paolini_CP.jpg/330px-Christopher_Paolini_CP.jpg",
+    descricao: "Escritor norte-americano, fantasia.",
+    biografia: `
+# Christopher Paolini
+
+**Christopher Paolini** é um escritor norte-americano de fantasia, nascido em 1983. Começou a escrever **Eragon** aos 15 anos, e o livro foi publicado primeiro pela própria família antes de virar um sucesso mundial.
+
+## O Ciclo da Herança
+A série acompanha Eragon, um jovem fazendeiro que encontra um ovo de dragão e se torna um Cavaleiro de Dragão. Os quatro livros originais foram publicados entre 2002 e 2011. Em 2023, Paolini voltou a esse mundo com *Murtagh*.
+
+*Eragon* virou filme em 2006. Paolini também escreveu a ficção científica *Dormir em um Mar de Estrelas*.
+`,
+  },
+  {
+    id: "andrzej-sapkowski",
+    nome: "Andrzej Sapkowski",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Andrzej_Sapkowski_-_Lucca_Comics_and_Games_2015_2.JPG/330px-Andrzej_Sapkowski_-_Lucca_Comics_and_Games_2015_2.JPG",
+    descricao: "Escritor polonês, fantasia.",
+    biografia: `
+# Andrzej Sapkowski
+
+**Andrzej Sapkowski** é um escritor polonês de fantasia, nascido em 1948. É o criador de **The Witcher**, a saga do bruxo Geralt de Rívia, um caçador de monstros profissional.
+
+## The Witcher
+A história começou em contos publicados em revistas nos anos 1980 e 1990, reunidos depois em *O Último Desejo* e *A Espada do Destino*. Em seguida vieram os cinco romances da saga principal e, em 2013, *Tempo de Tempestade*.
+
+O universo de The Witcher ficou mundialmente famoso com a série de jogos da CD Projekt Red e com a série da Netflix, que estreou em 2019.
+`,
+  },
 ];
 
 export default autores;

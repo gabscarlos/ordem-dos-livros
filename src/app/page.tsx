@@ -7,6 +7,25 @@ import SerieDestaque from "@/components/principal/SerieDestaque";
 import LivrosDestaque from "@/components/principal/LivrosDestaque";
 import Titulo from "@/components/shared/Titulo";
 
+// Regera a página uma vez por dia para alternar os livros em destaque.
+export const revalidate = 86400;
+
+// Escolhe 4 séries diferentes a cada dia, sempre mostrando o primeiro livro.
+function livrosDoDia() {
+  const dia = Math.floor(Date.now() / 86_400_000);
+  const n = series.length;
+  const passo = 7; // espalha a escolha pela lista; repetidos são ignorados
+  const escolhidas = new Set<number>();
+  for (let i = 0; escolhidas.size < Math.min(4, n); i++) {
+    escolhidas.add((dia * 4 + i * passo) % n);
+  }
+  return [...escolhidas].map((idx) => {
+    const s = series[idx];
+    const l = s.livros[0];
+    return { serieId: s.id, titulo: l.titulo, imagem: l.imagem, autor: s.autor.nome };
+  });
+}
+
 export const metadata: Metadata = {
   title: { absolute: "Ordem Livro - Séries de Livros em Ordem de Leitura" },
   description: "Explore uma coleção incrível de séries de livros em ordem cronológica e de leitura. Encontre seu próximo livro favorito com autores renomados.",
@@ -56,10 +75,15 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Pagina>
-        <LivrosDestaque series={series} />
+        <Titulo
+          principal="Séries de livros em ordem de leitura"
+          secundario="Descubra por qual livro começar e a ordem certa de cada série"
+        />
+        <LivrosDestaque livros={livrosDoDia()} />
 
         <div className="flex flex-col gap-8 mt-12">
           <Titulo
+            nivel={2}
             principal="Encontre Mais Categorias"
             secundario="Explore nosso catálogo por temas e interesses"
           />
@@ -162,6 +186,7 @@ export default function Home() {
 
         <div className="flex flex-col gap-8 mt-12 mb-12">
           <Titulo
+            nivel={2}
             principal="Séries Infanto-juvenis"
             secundario="Aventuras incríveis para jovens leitores"
           />

@@ -111,7 +111,7 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     generos: ["distopia", "juvenil", "aventura"],
     idade: "a partir de 12 anos",
     adaptacao:
-      "Sim. A trilogia original virou 4 filmes (2012–2015), com Jennifer Lawrence, e A Cantiga dos Pássaros e das Serpentes ganhou filme em 2023.",
+      "Sim. A trilogia original virou 4 filmes (2012–2015), com Jennifer Lawrence, e A Cantiga dos Pássaros e das Serpentes ganhou filme em 2023. Amanhecer na Colheita também foi adaptado para o cinema.",
   },
   "o-mochileiro-das-galaxias": {
     generos: ["ficcao-cientifica", "humor"],
@@ -167,6 +167,49 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     idade: "a partir de 16 anos",
     adaptacao:
       "Sim. Os livros inspiraram Bridgerton, série da Netflix produzida por Shonda Rhimes que estreou em 2020.",
+  },
+  "os-herois-do-olimpo": {
+    generos: ["fantasia", "juvenil", "aventura"],
+    idade: "a partir de 10 anos",
+  },
+  "as-provacoes-de-apolo": {
+    generos: ["fantasia", "juvenil", "aventura", "humor"],
+    idade: "a partir de 10 anos",
+  },
+  "cidade-da-lua-crescente": {
+    generos: ["romantasia", "fantasia", "romance"],
+    idade: "para adultos (a partir de 18 anos, tem cenas de sexo)",
+  },
+  "minha-vida-fora-de-serie": {
+    generos: ["romance", "juvenil", "autores-brasileiros"],
+    idade: "a partir de 12 anos",
+  },
+  "o-povo-do-ar": {
+    generos: ["romantasia", "fantasia", "juvenil"],
+    idade: "a partir de 14 anos",
+  },
+  heartstopper: {
+    generos: ["romance", "juvenil"],
+    idade: "a partir de 13 anos",
+    adaptacao:
+      "Sim. Heartstopper virou uma série da Netflix em 2022, com roteiro da própria Alice Oseman, e o último volume inspirou um filme da plataforma.",
+  },
+  "sombra-e-ossos": {
+    generos: ["fantasia", "juvenil", "romance"],
+    idade: "a partir de 13 anos",
+    adaptacao:
+      "Sim. A trilogia foi adaptada na série Sombra e Ossos, da Netflix (2021–2023), que também trouxe personagens de Six of Crows.",
+  },
+  "ciclo-da-heranca": {
+    generos: ["fantasia", "aventura", "juvenil"],
+    idade: "a partir de 12 anos",
+    adaptacao: "Sim. Eragon, o primeiro livro, virou filme em 2006.",
+  },
+  "the-witcher": {
+    generos: ["fantasia", "aventura"],
+    idade: "para adultos (a partir de 18 anos)",
+    adaptacao:
+      "Sim. A saga inspirou a série The Witcher, da Netflix, que estreou em 2019, além da famosa série de jogos da CD Projekt Red.",
   },
 };
 

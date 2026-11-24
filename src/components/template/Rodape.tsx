@@ -40,9 +40,12 @@ export default function Rodape() {
         </Menu>
 
         {/* Coluna para Outras Categorias */}
-        <Menu titulo="Outras Categorias" className="flex flex-col items-start">
-          <MenuItem texto="Últimas Notícias" href="/blog" />
-          <MenuItem texto="Séries Populares" href="/series" />
+        <Menu titulo="Gêneros" className="flex flex-col items-start">
+          <MenuItem texto="Fantasia" href="/generos/fantasia" />
+          <MenuItem texto="Romantasia" href="/generos/romantasia" />
+          <MenuItem texto="Infantil" href="/generos/infantil" />
+          <MenuItem texto="Juvenil" href="/generos/juvenil" />
+          <MenuItem texto="Autores brasileiros" href="/generos/autores-brasileiros" />
           <MenuItem
             texto="Política de Privacidade"
             href="/politica-privacidade"

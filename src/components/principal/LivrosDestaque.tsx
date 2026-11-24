@@ -1,61 +1,31 @@
-"use client";
-
-import { useState, useEffect } from "react";
 import LivroDestaque from "./LivroDestaque";
-import seriesData from "@/constants/series";
 
-interface Autor {
-  id: string;
-  nome: string;
-}
-
-interface Livro {
-  id: string;
+export interface LivroEmDestaque {
+  serieId: string;
   titulo: string;
   imagem: string;
-  autor: Autor;
-  link: string;
+  autor: string;
 }
 
-interface Serie {
-  id: string;
-  livros: Livro[];
+export interface LivrosDestaqueProps {
+  livros: LivroEmDestaque[];
 }
 
-interface TopLivrosProps {
-  series: Serie[];
-}
-
-export default function TopLivros({ series = seriesData }: TopLivrosProps) {
-  const [topLivros, setTopLivros] = useState<
-    { livro: Livro; serieId: string }[]
-  >([]);
-
-  useEffect(() => {
-    // Embaralha e seleciona os 4 primeiros livros
-    const todosLivros = series.flatMap((serie) =>
-      serie.livros.map((livro) => ({ livro, serieId: serie.id }))
-    );
-    const embaralhados = [...todosLivros]
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 4);
-    setTopLivros(embaralhados);
-  }, [series]);
-
+// Renderizado no servidor: os livros já vêm no HTML (bom para o Google e
+// sem "pulo" de layout). A escolha dos livros é feita em app/page.tsx.
+export default function LivrosDestaque({ livros }: LivrosDestaqueProps) {
   return (
-    <div>
-      <div className="flex flex-wrap justify-center md:justify-between gap-4 mb-14">
-        {topLivros.map(({ livro, serieId }) => (
-          <div key={livro.id} className="flex justify-start gap-2">
-            <LivroDestaque
-              imagem={livro.imagem}
-              titulo={livro.titulo}
-              autor={livro.autor.nome}
-              link={`series/${serieId}`}
-            />
-          </div>
-        ))}
-      </div>
+    <div className="flex flex-wrap justify-center md:justify-between gap-4 mb-14">
+      {livros.map((livro) => (
+        <div key={livro.serieId} className="flex justify-start gap-2">
+          <LivroDestaque
+            imagem={livro.imagem}
+            titulo={livro.titulo}
+            autor={livro.autor}
+            link={`/series/${livro.serieId}`}
+          />
+        </div>
+      ))}
     </div>
   );
 }
