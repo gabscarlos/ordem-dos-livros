@@ -3,7 +3,7 @@ const listasTematicas = [
     id: "fantasia-10-livros",
     data: "02-01-2025",
     titulo: "10 Livros de Fantasia que Você Precisa Ler",
-    imagem: "https://img.freepik.com/free-photo/fantasy-endless-hole-landscape_23-2151639697.jpg?semt=ais_hybrid",
+    imagem: "https://img.magnific.com/free-photo/fantasy-endless-hole-landscape_23-2151639697.jpg?semt=ais_hybrid",
     descricao: "Uma seleção de obras imperdíveis para fãs do gênero fantástico.",
     conteudo: `
   # 10 Livros de Fantasia que Você Precisa Ler
@@ -58,7 +58,7 @@ const listasTematicas = [
     id: "suspense-10-livros",
     data: "02-01-2025",
     titulo: "10 Livros de Suspense que Você Precisa Ler",
-    imagem: "https://img.freepik.com/free-photo/woman-with-book-looking-away_23-2147799095.jpg",
+    imagem: "https://img.magnific.com/free-photo/woman-with-book-looking-away_23-2147799095.jpg",
     descricao: "Descubra 10 histórias cheias de mistério, tensão e reviravoltas surpreendentes.",
     conteudo: `
   # 10 Livros de Suspense que Você Precisa Ler

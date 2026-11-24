@@ -3,7 +3,7 @@ const autores = [
     id: "j-k-rowling",
     nome: "J.K. Rowling",
     imagem:
-      "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/04/GettyImages-950041970-e1712065084538.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/J._K._Rowling_2010.jpg/330px-J._K._Rowling_2010.jpg",
     descricao: "Escritora britânica, literatura juvenil, fantasia, filóloga.",
     biografia: `
 # J.K. Rowling
@@ -85,7 +85,7 @@ O impacto de J.R.R. Tolkien na literatura é imenso, e sua criação da Terra M�
     id: "george-r-r-martin",
     nome: "George R.R. Martin",
     imagem:
-      "https://musicaecinema.com/wp-content/uploads/2024/11/george-rr-martin-spin-off-arya-stark-1024x576.webp",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/George_R._R._Martin_%2854743316729%29.jpg/330px-George_R._R._Martin_%2854743316729%29.jpg",
     descricao: "Escritor norte-americano, fantasia épica, roteirista e produtor.",
     biografia: `
 # George R.R. Martin
@@ -334,7 +334,7 @@ Flávia Lins e Silva vive no Rio de Janeiro e continua a escrever e criar histó
 {
   id: "dustin-brady",
   nome: "Dustin Brady",
-  imagem: "https://npr.brightspotcdn.com/legacy/uploads/2022/4/25/dustin%20brady%20thumbnail.jpg",
+  imagem: "https://m.media-amazon.com/images/I/813qC-wJ-VL._SL1500_.jpg",
   descricao: "Autor americano, literatura infantojuvenil, aventura, humor.",
   biografia: `
 # Dustin Brady
@@ -440,7 +440,7 @@ Barbara Cantini vive com sua família na Toscana, Itália, e continua a criar hi
 {
   id: "stephenie-meyer",
   nome: "Stephenie Meyer",
-  imagem: "https://www.intrinseca.com.br/blog/wp-content/uploads/2016/11/meyer-stephenie.jpg",
+  imagem: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Stephenie_Meyer_by_Gage_Skidmore.jpg/330px-Stephenie_Meyer_by_Gage_Skidmore.jpg",
   descricao: "Escritora norte-americana, romance sobrenatural, vampiros.",
   biografia: `
 # Stephenie Meyer
@@ -650,7 +650,7 @@ Handler vive em São Francisco com sua esposa e filho. Seu estilo literário, ma
 {
   id: "suzanne-collins",
   nome: "Suzanne Collins",
-  imagem: "https://rollingstone.com.br/media/uploads/2024/06/jogos-vorazes-ganhara-novo-livro-em-2025-anuncia-suzanne-collins-foto-jon-kopaloffgetty-images-for-lionsgate.jpg",
+  imagem: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Suzanne_Collins_David_Shankbone_2010.jpg/330px-Suzanne_Collins_David_Shankbone_2010.jpg",
   descricao: "Escritora americana, distopia, fantasia.",
   biografia: `
 # Suzanne Collins

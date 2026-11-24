@@ -4,7 +4,7 @@ const curiosidadesLiterarias = [
     data: "02-01-2025",
     titulo: "Curiosidades sobre Sagas Famosas",
     imagem:
-      "https://img.freepik.com/fotos-gratis/reserve-na-biblioteca-com-livro-aberto_1150-5920.jpg",
+      "https://img.magnific.com/fotos-gratis/reserve-na-biblioteca-com-livro-aberto_1150-5920.jpg",
     descricao:
       "Descubra segredos e histórias por trás das maiores sagas literárias.",
     conteudo: `
@@ -26,7 +26,7 @@ Esses detalhes tornam cada obra ainda mais fascinante!
     data: "06-01-2025",
     titulo: "Dom Quixote: O Livro Mais Vendido da História",
     imagem:
-      "https://img.freepik.com/premium-photo/stack-vintage-books-with-worn-covers-gold-lettering-tied-together-with-twine_1310094-12434.jpg",
+      "https://img.magnific.com/premium-photo/stack-vintage-books-with-worn-covers-gold-lettering-tied-together-with-twine_1310094-12434.jpg",
     descricao:
       "Conheça mais sobre a obra literária que marcou gerações e é líder de vendas em todos os tempos.",
     conteudo: `
@@ -50,7 +50,7 @@ Descubra ou redescubra *Dom Quixote*, uma das maiores joias da literatura mundia
     data: "06-01-2025",
     titulo: "A Bíblia: O Livro Mais Lido e Vendido do Mundo",
     imagem:
-      "https://img.freepik.com/free-photo/open-book-beautiful-setting_23-2151812231.jpg",
+      "https://img.magnific.com/free-photo/open-book-beautiful-setting_23-2151812231.jpg",
     descricao:
       "Saiba mais sobre a obra mais influente e amplamente difundida da história.",
     conteudo: `
@@ -74,7 +74,7 @@ Quer seja lida como um texto religioso, filosófico ou literário, a Bíblia con
     data: "06-01-2025",
     titulo: "Agatha Christie: A Autora Mais Traduzida do Mundo",
     imagem:
-      "https://img.freepik.com/premium-photo/woman-smoking-cigarette-front-building-with-lamp-wall-her_905510-30903.jpg?semt=ais_hybrid",
+      "https://img.magnific.com/premium-photo/woman-smoking-cigarette-front-building-with-lamp-wall-her_905510-30903.jpg?semt=ais_hybrid",
     descricao:
       "Descubra o legado da rainha do mistério, cujas obras conquistaram leitores em todos os cantos do mundo.",
     conteudo: `

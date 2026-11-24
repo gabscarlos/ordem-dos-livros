@@ -10,6 +10,11 @@ const series = [
     ano: 1997,
     imagem:
       "https://ingresso-a.akamaihd.net/b2b/production/uploads/article/image/2549/7ababc2015043445b750ebc853a5f706.jpg",
+    box: {
+      titulo: "Box Harry Potter (Edição Pottermore)",
+      imagem: "https://m.media-amazon.com/images/I/71FhKbSNSgL._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/6555323957?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "harry-potter-e-a-pedra-filosofal",
@@ -80,8 +85,8 @@ const series = [
         autor: autores[0],
         ano: 2016,
         ordem: 8,
-        imagem: "https://rocco.com.br/app/uploads/2024/04/9786555322682.jpg",
-        link: "https://www.amazon.com.br/dp/8532530435?tag=gabscarlos0b-20",
+        imagem: "https://m.media-amazon.com/images/I/91m1WPwTusL._SY385_.jpg",
+        link: "https://www.amazon.com.br/dp/6555322683?tag=gabscarlos0b-20",
       },
     ],
   },
@@ -93,7 +98,12 @@ const series = [
     autor: autores[1],
     ano: 1954,
     imagem:
-      "https://cinepop.com.br/wp-content/uploads/2021/12/o-senhor-dos-aneis.jpg",
+      "https://m.media-amazon.com/images/I/81SM0D5+DwL._SL1500_.jpg",
+    box: {
+      titulo: "Box Trilogia O Senhor dos Anéis",
+      imagem: "https://m.media-amazon.com/images/I/715afDdgKfL._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/8595086354?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "a-sociedade-do-anel",
@@ -133,6 +143,11 @@ const series = [
     ano: 1996,
     imagem:
       "https://img.odcdn.com.br/wp-content/uploads/2024/07/Design-sem-nome-16-1-scaled.jpg",
+    box: {
+      titulo: "Box As Crônicas de Gelo e Fogo (5 volumes)",
+      imagem: "https://m.media-amazon.com/images/I/61Bdsd91xAL._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/8544100120?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "a-guerra-dos-tronos",
@@ -190,6 +205,11 @@ const series = [
     ano: 2007,
     imagem:
       "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2021/11/13/1443507557-diary-of-a-wimpy-kid.jpg",
+    box: {
+      titulo: "Box Diário de um Banana (10 volumes)",
+      imagem: "https://m.media-amazon.com/images/I/61aH2LEi3bL._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/B06Y44T6FX?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "diario-de-um-banana-1",
@@ -375,6 +395,11 @@ const series = [
     ano: 1992,
     imagem:
       "https://i0.wp.com/tapipocando.com.br/wp-content/uploads/2024/05/Maze-Runner.jpg?fit=1920%2C1080&ssl=1",
+    box: {
+      titulo: "Box Maze Runner (5 volumes)",
+      imagem: "https://m.media-amazon.com/images/I/81heiW1VSvL._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/B00K834SDY?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "maze-runner-1",
@@ -447,9 +472,14 @@ const series = [
     titulo: "Duna",
     descricao:
       "Duna, de Frank Herbert, é uma saga épica de ficção científica que se passa em um futuro distante, em um universo dominado por intrigas políticas, conflitos religiosos e disputas por poder. A história central segue Paul Atreides, herdeiro de uma nobre casa, enquanto ele enfrenta desafios em Arrakis, um planeta desértico vital para o império por ser a única fonte da especiaria melange, a substância mais valiosa do universo. Repleto de personagens complexos e temas profundos como ecologia, messianismo e o impacto do poder, Duna é considerado um marco da literatura, inspirando gerações de leitores e cineastas.",
-    autor: autores[4],
+    autor: autores[5],
     ano: 1965,
     imagem: "https://sm.ign.com/ign_br/movie/d/dune/dune_1947.jpg",
+    box: {
+      titulo: "Box Duna: Primeira Trilogia",
+      imagem: "https://m.media-amazon.com/images/I/91sjnBZTDKL._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/6586064414?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "duna-1",
@@ -657,6 +687,11 @@ const series = [
     ano: 2010,
     imagem:
       "https://www.monoanimation.com.br/wp-content/uploads/2019/04/teste03.-Pilar_grecia_Abertura-e-EP-01_V%C3%B4o-Livre.jpg",
+    box: {
+      titulo: "Coleção Diário de Pilar (7 volumes)",
+      imagem: "https://m.media-amazon.com/images/I/71ET3RDIyZL._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/0002040875?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "diario-de-pilar-1",
@@ -742,6 +777,11 @@ const series = [
     ano: 2021,
     imagem:
       "https://i0.wp.com/geekpopnews.com.br/wp-content/uploads/2021/09/Socorro-cai-dentro-do-videogame-CAPA.jpg?fit=1200%2C675&ssl=1",
+    box: {
+      titulo: "Box Socorro, Caí Dentro do Videogame",
+      imagem: "https://m.media-amazon.com/images/I/71ieul6Qy3L._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/6559573621?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "socorro-cai-dentro-do-videogame-1",
@@ -808,6 +848,11 @@ const series = [
     ano: 2017,
     imagem:
       "https://poltronanerd.com.br/wp-content/uploads/2017/10/captainunderpants-1280-1496339994174_1280w.jpg",
+    box: {
+      titulo: "Coleção Capitão Cueca (Vol. 1 a 6)",
+      imagem: "https://m.media-amazon.com/images/I/81X1HsVdxDL._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/8900007726?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "as-aventuras-do-capitao-cueca-1",
@@ -933,6 +978,11 @@ const series = [
     ano: 2017,
     imagem:
       "https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2024/09/17/unnamed-r1csu98vvn09.jpg",
+    box: {
+      titulo: "Coleção Completa O Homem-Cão (Vol. 1 a 14)",
+      imagem: "https://m.media-amazon.com/images/I/91quyMy1RpL._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/8900016822?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "o-homem-cao-1",
@@ -1044,6 +1094,11 @@ const series = [
     ano: 2019,
     imagem:
       "https://deliriumnerd.com/wp-content/uploads/2019/05/89247EB1-3324-468C-AE82-F923AE77D485.jpeg",
+    box: {
+      titulo: "Kit Mortina (3 livros)",
+      imagem: "https://m.media-amazon.com/images/I/71cNKu6GblL._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/B0DRMGTTWP?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "mortina-1",
@@ -1100,7 +1155,12 @@ const series = [
     autor: autores[11],
     ano: 2008,
     imagem:
-      "https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2022/11/Cena-do-filme-Crepusculo-1200x675-1.webp",
+      "https://m.media-amazon.com/images/I/618fXbK+OkL._SL1500_.jpg",
+    box: {
+      titulo: "Box Crepúsculo (Edição de 20 anos)",
+      imagem: "https://m.media-amazon.com/images/I/61KHcw-7mxL._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/8551012096?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "crepusculo-1",
@@ -1150,6 +1210,11 @@ const series = [
     ano: 1951,
     imagem:
       "https://www.planocritico.com/wp-content/uploads/2016/12/isaac-asimov-fundacao-e-imperio.jpg",
+    box: {
+      titulo: "Box Trilogia da Fundação",
+      imagem: "https://m.media-amazon.com/images/I/71IcE8OX+8L._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/8576574861?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "fundacao-1",
@@ -1232,7 +1297,12 @@ const series = [
       "As Crônicas de Nárnia, de C.S. Lewis, é uma série de fantasia que transporta leitores para o mágico mundo de Nárnia, onde animais falam, a magia é real e o bem luta contra o mal. Ao longo de sete livros, acompanhamos crianças de nosso mundo que, ao atravessarem portais inesperados, se tornam heróis em aventuras épicas ao lado de Aslam, o poderoso leão que guia Nárnia. Com narrativas ricas em imaginação e simbolismo, a série explora temas como coragem, amizade, sacrifício e a eterna luta pela justiça, conquistando gerações de leitores em todo o mundo.",
     autor: autores[13],
     ano: 1950,
-    imagem: "https://tm.ibxk.com.br/2023/01/16/16115614643126.jpg",
+    imagem: "https://m.media-amazon.com/images/I/81NkAyQ62LL._SL1500_.jpg",
+    box: {
+      titulo: "As Crônicas de Nárnia (volume único)",
+      imagem: "https://m.media-amazon.com/images/I/71yJLhQekBL._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/857827069X?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "as-cronicas-de-narnia-1",
@@ -1318,6 +1388,11 @@ const series = [
     ano: 2005,
     imagem:
       "https://t.ctcdn.com.br/QtLGd1k3yy2kdAyVXSDoauYnc0Q=/1200x675/smart/i832531.jpeg",
+    box: {
+      titulo: "Box Percy Jackson e os Olimpianos",
+      imagem: "https://m.media-amazon.com/images/I/61NTMkF4d+L._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/8551008889?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "percy-jackson-1",
@@ -1385,7 +1460,12 @@ const series = [
     autor: autores[15],
     ano: 1999,
     imagem:
-      "https://cinepop.com.br/wp-content/uploads/2024/03/desventuras-em-serie-6.jpg",
+      "https://m.media-amazon.com/images/I/91Q5llF8hoL._SL1500_.jpg",
+    box: {
+      titulo: "Box Desventuras em Série (13 livros)",
+      imagem: "https://m.media-amazon.com/images/I/71ft1IGgLlL._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/8535919724?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "desventuras-em-serie-1",
@@ -1515,6 +1595,11 @@ const series = [
     ano: 2012,
     imagem:
       "https://img.odcdn.com.br/cdn-cgi/image/width=1280,height=720,fit=cover/wp-content/uploads/2023/09/Jogos-Vorazes.jpeg",
+    box: {
+      titulo: "Box Trilogia Jogos Vorazes",
+      imagem: "https://m.media-amazon.com/images/I/51treZsNj0L._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/6555321423?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "jogos-vorazes-1",
@@ -1573,6 +1658,11 @@ const series = [
     ano: 1979,
     imagem:
       "https://voicers.com.br/wp-content/uploads/2018/05/O-Guia-do-Mochileiro-das-Gal%C3%A1xias-1.jpg",
+    box: {
+      titulo: "O Guia Definitivo do Mochileiro das Galáxias (volume único)",
+      imagem: "https://m.media-amazon.com/images/I/81zQDb6GMVL._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/8530601491?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "o-mochileiro-das-galaxias-1",
@@ -1630,6 +1720,11 @@ const series = [
     ano: 1950,
     imagem:
       "https://miro.medium.com/v2/resize:fit:1200/1*ynxCgSa2MP8y5p2R3DNr6Q.png",
+    box: {
+      titulo: "Box Série dos Robôs",
+      imagem: "https://m.media-amazon.com/images/I/815M35jxq-L._SY385_.jpg",
+      link: "https://www.amazon.com.br/dp/8576575019?tag=gabscarlos0b-20",
+    },
     livros: [
       {
         id: "robos-1",

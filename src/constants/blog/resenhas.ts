@@ -75,7 +75,7 @@ Em 2001, o livro foi adaptado para o cinema com grande sucesso, dirigido por Chr
         id: "o-senhor-dos-aneis",
         data: "03-01-2025",
         titulo: "O Senhor dos Anéis: Uma Jornada Épica pela Terra Média",
-        imagem: "https://cinepop.com.br/wp-content/uploads/2021/12/o-senhor-dos-aneis.jpg",
+        imagem: "https://m.media-amazon.com/images/I/81SM0D5+DwL._SL1500_.jpg",
         descricao: "Fantasia épica, aventura, amizade.",
         conteudo: `
 # O Senhor dos Anéis: A Sociedade do Anel
@@ -111,7 +111,7 @@ Em 2001, o livro foi adaptado para o cinema por Peter Jackson, marcando o iníci
     id: "desventuras-em-serie",
     data: "03-01-2025",
     titulo: "Desventuras em Série: Um Relato Trágico e Engenhoso",
-    imagem: "https://cinepop.com.br/wp-content/uploads/2024/03/desventuras-em-serie-6.jpg",
+    imagem: "https://m.media-amazon.com/images/I/91Q5llF8hoL._SL1500_.jpg",
     descricao: "Humor sombrio, tragédia, mistério.",
     conteudo: `
 # Desventuras em Série: Mau Começo

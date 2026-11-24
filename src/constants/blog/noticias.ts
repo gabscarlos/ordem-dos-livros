@@ -4,7 +4,7 @@ const noticias = [
     data: "03-01-2025",
     titulo: "10 Livros de ficção mais vendidos no Brasil em 2024",
     imagem:
-      "https://img.freepik.com/free-photo/fairytale-scene-coming-out-book_23-2151778499.jpg?semt=ais_hybrid",
+      "https://img.magnific.com/free-photo/fairytale-scene-coming-out-book_23-2151778499.jpg?semt=ais_hybrid",
     descricao:
       "Veja quais foram os livros de ficção mais vendidos no Brasil em 2024.",
     conteudo: `
@@ -120,7 +120,7 @@ Em seguida, vem o best-seller do autor britânico Matt Haig, **“A biblioteca d
     titulo:
       "Profissionais da Educação Indicam 10 Livros Clássicos para Conhecer",
     imagem:
-      "https://img.freepik.com/free-photo/smiling-showing-thumbs-up-young-female-teacher-holding-book-sitting-desk-with-school-tools-classroom_141793-137459.jpg?semt=ais_hybrid",
+      "https://img.magnific.com/free-photo/smiling-showing-thumbs-up-young-female-teacher-holding-book-sitting-desk-with-school-tools-classroom_141793-137459.jpg?semt=ais_hybrid",
     descricao:
       "Uma seleção de obras essenciais para enriquecer sua leitura e ampliar horizontes.",
     conteudo: `
@@ -179,7 +179,7 @@ Estes clássicos são mais do que histórias: são reflexões profundas sobre a 
     data: "06-01-2025",
     titulo: "USP Libera Mais de 1.100 Livros Grátis! Saiba Como Baixar",
     imagem:
-      "https://img.freepik.com/fotos-gratis/e-book-online-learning-education-knowledge-graphic_53876-120401.jpg",
+      "https://img.magnific.com/fotos-gratis/e-book-online-learning-education-knowledge-graphic_53876-120401.jpg",
     descricao:
       "Saiba como acessar gratuitamente mais de mil obras acadêmicas no Portal de Livros Abertos da USP.",
     conteudo: `
@@ -228,7 +228,7 @@ Explorar esse portal é um ótimo caminho para um ano mais produtivo e enriquece
   data: "02-01-2025",
   titulo: "10 Livros Curtos para Devorar no Fim de Semana",
   imagem:
-    "https://img.freepik.com/free-photo/top-view-bookmark-tea-cup-arrangement_23-2149894373.jpg",
+    "https://img.magnific.com/free-photo/top-view-bookmark-tea-cup-arrangement_23-2149894373.jpg",
   descricao:
     "Uma seleção de leituras rápidas e envolventes para um fim de semana proveitoso.",
   conteudo: `
