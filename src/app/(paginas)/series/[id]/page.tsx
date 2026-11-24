@@ -118,7 +118,6 @@ export default async function Serie({ params }: SeriePageProps) {
         image: livro.imagem,
         author: { "@type": "Person", name: serie.autor.nome },
         ...(livro.ano ? { datePublished: String(livro.ano) } : {}),
-        ...(livro.link ? { offers: { "@type": "Offer", url: livro.link } } : {}),
       })),
     },
     {

@@ -70,6 +70,13 @@ const generos: Genero[] = [
       "Jornadas, missões e muita ação. Veja as séries de aventura e a ordem certa de leitura.",
   },
   {
+    id: "misterio",
+    nome: "Mistério",
+    titulo: "Séries de livros de mistério e detetives",
+    descricao:
+      "Detetives, enigmas e crimes para desvendar. Veja as séries de mistério e a ordem certa de leitura de cada uma.",
+  },
+  {
     id: "autores-brasileiros",
     nome: "Autores brasileiros",
     titulo: "Séries de livros de autores brasileiros",

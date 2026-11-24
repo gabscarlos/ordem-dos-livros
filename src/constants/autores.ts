@@ -969,6 +969,93 @@ A história começou em contos publicados em revistas nos anos 1980 e 1990, reun
 O universo de The Witcher ficou mundialmente famoso com a série de jogos da CD Projekt Red e com a série da Netflix, que estreou em 2019.
 `,
   },
+  {
+    id: "colleen-hoover",
+    nome: "Colleen Hoover",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Colleen_Hoover.jpg/330px-Colleen_Hoover.jpg",
+    descricao: "Escritora norte-americana, romance contemporâneo.",
+    biografia: `
+# Colleen Hoover
+
+**Colleen Hoover** é uma escritora norte-americana de romances contemporâneos e suspense. Começou publicando seus livros de forma independente e se tornou uma das autoras mais vendidas do mundo, impulsionada pelo BookTok.
+
+## Principais Obras
+- **É Assim que Acaba** (2016): a história de Lily Bloom, que se tornou o livro mais famoso da autora e ganhou filme em 2024.
+- **É Assim que Começa** (2022): continuação de *É Assim que Acaba*.
+- **Verity**: suspense psicológico que também se tornou um fenômeno de vendas.
+
+Seus livros tratam de temas como relacionamentos abusivos, luto e segundas chances.
+`,
+  },
+  {
+    id: "rachel-renee-russell",
+    nome: "Rachel Renée Russell",
+    imagem:
+      "https://m.media-amazon.com/images/I/91AIb723ZaL._SL1500_.jpg",
+    descricao: "Escritora norte-americana, literatura infantojuvenil.",
+    biografia: `
+# Rachel Renée Russell
+
+**Rachel Renée Russell** é uma escritora norte-americana, criadora da série **"Diário de uma Garota Nada Popular"** (*Dork Diaries*). Antes de se dedicar aos livros, trabalhou como advogada.
+
+## Diário de uma Garota Nada Popular
+A série, lançada em 2009, é escrita como o diário ilustrado de Nikki Maxwell, uma garota que entra em uma escola particular cheia de colegas populares. Com muito humor e desenhos, os livros tratam de amizade, primeiros amores e da vontade de se encaixar.
+
+A série foi traduzida para dezenas de idiomas e é uma das coleções infantojuvenis mais lidas no Brasil.
+`,
+  },
+  {
+    id: "l-m-montgomery",
+    nome: "L. M. Montgomery",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/LMM_signed_photo.jpg/330px-LMM_signed_photo.jpg",
+    descricao: "Escritora canadense, clássico juvenil.",
+    biografia: `
+# L. M. Montgomery
+
+**Lucy Maud Montgomery** foi uma escritora canadense, nascida em 1874 na Ilha do Príncipe Eduardo, onde se passa sua obra mais famosa. Morreu em 1942.
+
+## Anne de Green Gables
+Publicado em 1908, *Anne de Green Gables* conta a história de Anne Shirley, uma órfã ruiva e cheia de imaginação adotada por engano por dois irmãos que queriam um menino. O livro virou um clássico mundial e ganhou várias continuações, que acompanham Anne até a vida adulta e a história dos seus filhos.
+
+A obra inspirou várias adaptações, entre elas a série *Anne with an E*, da Netflix (2017–2019).
+`,
+  },
+  {
+    id: "arthur-conan-doyle",
+    nome: "Arthur Conan Doyle",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Arthur_Conan_Doyle_by_Walter_Benington%2C_1914.png/330px-Arthur_Conan_Doyle_by_Walter_Benington%2C_1914.png",
+    descricao: "Escritor britânico, romance policial.",
+    biografia: `
+# Arthur Conan Doyle
+
+**Sir Arthur Conan Doyle** foi um escritor e médico escocês, nascido em Edimburgo em 1859 e falecido em 1930. É o criador de **Sherlock Holmes**, o detetive mais famoso da literatura.
+
+## Sherlock Holmes
+Holmes apareceu pela primeira vez em *Um Estudo em Vermelho* (1887), ao lado do Dr. Watson, que narra a maioria das histórias. Conan Doyle escreveu quatro romances e 56 contos com o detetive, reunidos em cinco coletâneas.
+
+As histórias de Sherlock Holmes ganharam incontáveis adaptações, como a série *Sherlock*, da BBC, e os filmes com Robert Downey Jr.
+`,
+  },
+  {
+    id: "tahereh-mafi",
+    nome: "Tahereh Mafi",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Tahereh_Mafi_at_National_Book_Festival_2025.jpg/330px-Tahereh_Mafi_at_National_Book_Festival_2025.jpg",
+    descricao: "Escritora norte-americana, distopia e romance juvenil.",
+    biografia: `
+# Tahereh Mafi
+
+**Tahereh Mafi** é uma escritora norte-americana de origem iraniana. Ficou conhecida pela série distópica **"Estilhaça-me"** (*Shatter Me*), iniciada em 2011.
+
+## Estilhaça-me
+A série acompanha Juliette, uma jovem cujo toque é letal, presa por um regime autoritário que quer usá-la como arma. Com uma narrativa muito particular, cheia de frases riscadas que revelam os pensamentos da personagem, a série ganhou uma legião de fãs e voltou a fazer sucesso no BookTok.
+
+Mafi também escreveu *Um Mar Infinito de Tristeza* e a série *Furthermore*.
+`,
+  },
 ];
 
 export default autores;

@@ -48,7 +48,7 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
       "Sim. A série Outlander, do canal Starz, estreou em 2014 e adapta os livros temporada a temporada.",
   },
   "os-detetives-do-predio-azul": {
-    generos: ["infantil", "aventura", "autores-brasileiros"],
+    generos: ["infantil", "misterio", "aventura", "autores-brasileiros"],
     idade: "a partir de 6 anos",
     adaptacao:
       "Os livros são inspirados na série de TV Detetives do Prédio Azul (D.P.A.), do canal Gloob, que também ganhou filmes para o cinema.",
@@ -102,7 +102,7 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
       "Sim. Os dois primeiros livros viraram filmes (2010 e 2013), e a série Percy Jackson e os Olimpianos, do Disney+, estreou em 2023.",
   },
   "desventuras-em-serie": {
-    generos: ["infantil", "humor", "aventura"],
+    generos: ["infantil", "humor", "misterio", "aventura"],
     idade: "a partir de 9 anos",
     adaptacao:
       "Sim. Os primeiros livros viraram filme em 2004, com Jim Carrey, e a série completa foi adaptada pela Netflix (2017–2019).",
@@ -210,6 +210,44 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     idade: "para adultos (a partir de 18 anos)",
     adaptacao:
       "Sim. A saga inspirou a série The Witcher, da Netflix, que estreou em 2019, além da famosa série de jogos da CD Projekt Red.",
+  },
+  "e-assim-que-acaba": {
+    generos: ["romance"],
+    idade: "a partir de 16 anos (trata de violência doméstica)",
+    adaptacao:
+      "Sim. É Assim que Acaba virou filme em 2024, com Blake Lively no papel de Lily Bloom.",
+  },
+  "diario-de-uma-garota-nada-popular": {
+    generos: ["infantil", "humor"],
+    idade: "a partir de 9 anos",
+  },
+  "anne-de-green-gables": {
+    generos: ["juvenil", "infantil"],
+    idade: "a partir de 10 anos",
+    adaptacao:
+      "Sim. A adaptação mais recente é a série Anne with an E, da Netflix (2017–2019). A história também ganhou filmes e séries ao longo do século XX.",
+  },
+  "sherlock-holmes": {
+    generos: ["misterio", "aventura"],
+    idade: "a partir de 12 anos",
+    adaptacao:
+      "Sim, centenas. Entre as mais conhecidas estão a série Sherlock, da BBC (2010–2017), com Benedict Cumberbatch, e os filmes com Robert Downey Jr. (2009 e 2011).",
+  },
+  "estilhaca-me": {
+    generos: ["distopia", "romance", "juvenil"],
+    idade: "a partir de 14 anos",
+  },
+  "as-cronicas-dos-kane": {
+    generos: ["fantasia", "juvenil", "aventura"],
+    idade: "a partir de 10 anos",
+  },
+  "magnus-chase": {
+    generos: ["fantasia", "juvenil", "aventura", "humor"],
+    idade: "a partir de 10 anos",
+  },
+  "as-pecas-infernais": {
+    generos: ["fantasia", "juvenil", "romance"],
+    idade: "a partir de 13 anos",
   },
 };
 
