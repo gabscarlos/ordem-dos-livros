@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ConteudoBlog from "@/components/blog/ConteudoBlog";
+import ItemSerie from "@/components/serie/ItemSerie";
+import series from "@/constants/series";
 import noticias from "@/constants/blog/noticias";
 import resenhas from "@/constants/blog/resenhas";
 import listasTematicas from "@/constants/blog/listas-tematicas";
@@ -93,6 +95,16 @@ export default async function Conteudo({ params }: ConteudoPageProps) {
     },
   ];
 
+  // Séries do site citadas no post, para levar o leitor à ordem dos livros.
+  // A busca diferencia maiúsculas ("A Seleção" e não "a seleção de livros"),
+  // e títulos que também são palavras comuns ficam de fora.
+  const TITULOS_AMBIGUOS = new Set(["a-selecao", "robos", "perdida", "fala-serio"]);
+  const textoDoPost = `${conteudoEspecifico.titulo}\n${conteudoEspecifico.conteudo}`;
+  const seriesDoPost = series
+    .filter((s) => !TITULOS_AMBIGUOS.has(s.id))
+    .filter((s) => textoDoPost.includes(s.titulo.replace(/ \(.*\)$/, "")))
+    .slice(0, 8);
+
   return (
     <div>
       <script
@@ -102,6 +114,20 @@ export default async function Conteudo({ params }: ConteudoPageProps) {
 
       {/* Conteúdo */}
       <ConteudoBlog {...conteudoEspecifico} />
+
+      {seriesDoPost.length > 0 && (
+        <section className="mt-12 flex flex-col gap-6">
+          <h2 className="font-serif text-2xl sm:text-3xl text-areia-900">
+            Veja a ordem dos livros
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {seriesDoPost.map((serie) => (
+              <ItemSerie key={serie.id} {...serie} />
+            ))}
+          </div>
+        </section>
+      )}
+
       <div className="flex justify-end mt-12 pb-8">
         <Link
           href={`/blog`}

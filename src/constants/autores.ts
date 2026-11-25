@@ -1172,6 +1172,92 @@ Spohr também escreveu a série *Santo Guerreiro*, ambientada na Roma antiga.
 A série se passa em Nova Ether, um mundo onde personagens de contos de fadas, como Chapeuzinho Vermelho e João e Maria, vivem uma história épica de magia, guerra e destino. O primeiro livro, *Caçadores de Bruxas*, foi lançado em 2009.
 `,
   },
+  {
+    id: "brandon-sanderson",
+    nome: "Brandon Sanderson",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Brandon_Sanderson_-_Lucca_Comics_%26_Games_2016.jpg/330px-Brandon_Sanderson_-_Lucca_Comics_%26_Games_2016.jpg",
+    descricao: "Escritor norte-americano, fantasia épica.",
+    biografia: `
+# Brandon Sanderson
+
+**Brandon Sanderson** é um escritor norte-americano de fantasia, nascido em 1975, em Nebraska. É conhecido pelos sistemas de magia detalhados e por escrever muito rápido: publicou dezenas de livros em menos de vinte anos.
+
+## O Cosmere
+A maior parte de seus livros se passa no **Cosmere**, um universo compartilhado com vários mundos. As séries mais famosas são **Mistborn** (*Nascidos da Bruma*) e **Os Relatos da Guerra das Tempestades**. Cada série pode ser lida sozinha, mas há ligações entre elas.
+
+Sanderson também ficou conhecido por concluir a saga *A Roda do Tempo*, depois da morte de Robert Jordan.
+`,
+  },
+  {
+    id: "stephen-king",
+    nome: "Stephen King",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg/330px-Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg",
+    descricao: "Escritor norte-americano, terror e fantasia.",
+    biografia: `
+# Stephen King
+
+**Stephen King** é um escritor norte-americano, nascido em 1947, no Maine. É um dos autores mais vendidos do mundo, conhecido como o "mestre do terror".
+
+## Obras
+Entre seus livros mais famosos estão *Carrie*, *O Iluminado*, *It: A Coisa* e *À Espera de um Milagre*, quase todos adaptados para o cinema.
+
+## A Torre Negra
+A série **A Torre Negra**, escrita ao longo de mais de 30 anos, mistura fantasia, faroeste e terror. Ela é considerada o centro da obra de King, porque personagens e lugares de muitos outros livros dele aparecem ou são citados na saga.
+`,
+  },
+  {
+    id: "richelle-mead",
+    nome: "Richelle Mead",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/RichelleMead.jpg/330px-RichelleMead.jpg",
+    descricao: "Escritora norte-americana, fantasia juvenil.",
+    biografia: `
+# Richelle Mead
+
+**Richelle Mead** é uma escritora norte-americana de fantasia. Ficou conhecida com a série **Academia de Vampiros** (*Vampire Academy*), lançada em 2007.
+
+## Academia de Vampiros
+A série acompanha Rose Hathaway, uma dampira treinada para proteger Lissa, uma princesa Moroi, em uma escola escondida para vampiros. O sucesso deu origem à série derivada *Bloodlines*.
+
+A história virou filme em 2014 e, em 2022, uma série de TV.
+`,
+  },
+  {
+    id: "l-j-smith",
+    nome: "L. J. Smith",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/L.J._Smith.jpg/330px-L.J._Smith.jpg",
+    descricao: "Escritora norte-americana, fantasia juvenil.",
+    biografia: `
+# L. J. Smith
+
+**Lisa Jane Smith** é uma escritora norte-americana de fantasia e terror juvenil. Publicou **Diários do Vampiro** (*The Vampire Diaries*) no começo dos anos 1990.
+
+## Diários do Vampiro
+A série conta a história de Elena Gilbert e dos irmãos vampiros Stefan e Damon Salvatore. Os livros inspiraram a série de TV *The Vampire Diaries* (2009–2017), que transformou a obra em um fenômeno mundial.
+
+L. J. Smith também escreveu as séries *Círculo Secreto* e *Mundo das Sombras*.
+`,
+  },
+  {
+    id: "eoin-colfer",
+    nome: "Eoin Colfer",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Eoin_Colfer_at_BookExpo_%2805180%29.jpg/330px-Eoin_Colfer_at_BookExpo_%2805180%29.jpg",
+    descricao: "Escritor irlandês, literatura infantojuvenil.",
+    biografia: `
+# Eoin Colfer
+
+**Eoin Colfer** é um escritor irlandês, nascido em 1965. Antes de se tornar escritor, foi professor do ensino fundamental.
+
+## Artemis Fowl
+Sua série mais famosa, **Artemis Fowl**, começou em 2001. Ela acompanha um gênio do crime de 12 anos que descobre a existência das fadas e tenta roubar o ouro delas. A série tem oito livros e virou filme da Disney em 2020.
+
+Colfer também escreveu *E Mais Uma Coisa...*, sexto livro de *O Guia do Mochileiro das Galáxias*, autorizado pela família de Douglas Adams.
+`,
+  },
 ];
 
 export default autores;

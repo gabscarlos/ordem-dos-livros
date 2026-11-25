@@ -335,6 +335,56 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     generos: ["fantasia", "aventura", "autores-brasileiros"],
     idade: "a partir de 12 anos",
   },
+  mistborn: {
+    generos: ["fantasia", "aventura"],
+    idade: "a partir de 14 anos",
+    notaOrdem:
+      "Leia primeiro a trilogia original (O Império Final, O Poço da Ascensão e O Herói das Eras). Os quatro livros seguintes formam a segunda era, com outros protagonistas, e se passam cerca de 300 anos depois; eles funcionam melhor depois da primeira trilogia, porque fazem referência a ela.",
+  },
+  "a-torre-negra": {
+    generos: ["fantasia", "aventura"],
+    idade: "para adultos (a partir de 18 anos)",
+    adaptacao:
+      "Sim. A série inspirou o filme A Torre Negra (2017), com Idris Elba e Matthew McConaughey, que mistura acontecimentos de vários livros.",
+    notaOrdem:
+      "O Vento pela Fechadura foi lançado em 2012, depois do fim da série, mas é o volume 4.5: a história se passa entre Mago e Vidro e Lobos de Calla. A lista acima segue essa posição; quem preferir pode deixá-lo para o fim sem perder nada da trama principal.",
+  },
+  "six-of-crows": {
+    generos: ["fantasia", "aventura", "juvenil"],
+    idade: "a partir de 14 anos",
+    adaptacao:
+      "Os personagens de Six of Crows aparecem na série Sombra e Ossos, da Netflix (2021–2023).",
+    notaOrdem:
+      "Six of Crows pode ser lida sem conhecer a trilogia Sombra e Ossos, mas se passa depois dela e tem algumas referências. Para aproveitar tudo, leia Sombra e Ossos antes.",
+  },
+  "os-artificios-das-trevas": {
+    generos: ["fantasia", "juvenil", "romance"],
+    idade: "a partir de 14 anos",
+    notaOrdem:
+      "Leia depois de Os Instrumentos Mortais: a série se passa cinco anos depois e revela o final dela. Também vale ler As Peças Infernais antes, porque vários personagens e segredos dessa trilogia voltam aqui.",
+  },
+  "academia-de-vampiros": {
+    generos: ["fantasia", "juvenil", "romance"],
+    idade: "a partir de 14 anos",
+    adaptacao:
+      "Sim. O primeiro livro virou filme em 2014, e a série ganhou uma adaptação para a TV em 2022.",
+    notaOrdem:
+      "Leia na ordem acima. Na nova edição brasileira, o segundo livro foi rebatizado: o antigo Aura Negra agora se chama Sangue e Gelo. Os livros 3 a 6 ainda estão à venda na edição anterior, com os títulos de sempre.",
+  },
+  "diarios-do-vampiro": {
+    generos: ["fantasia", "romance", "juvenil"],
+    idade: "a partir de 13 anos",
+    adaptacao:
+      "Sim. Os livros inspiraram a série The Vampire Diaries (2009–2017), que muda bastante a história original.",
+    notaOrdem:
+      "Os quatro livros acima formam a história original. A trama continua nas trilogias O Retorno e Caçadores, escritas anos depois, que podem ser lidas em seguida.",
+  },
+  "artemis-fowl": {
+    generos: ["fantasia", "aventura", "juvenil", "humor"],
+    idade: "a partir de 10 anos",
+    adaptacao:
+      "Sim. O primeiro livro virou filme da Disney em 2020.",
+  },
 };
 
 export default detalhesSeries;
