@@ -6,6 +6,7 @@ import Busca from "./Busca";
 const links = [
   { href: "/series", texto: "Séries" },
   { href: "/autores", texto: "Autores" },
+  { href: "/guias", texto: "Guias" },
   { href: "/mais-vendidos", texto: "Mais vendidos" },
   { href: "/blog", texto: "Blog" },
 ];

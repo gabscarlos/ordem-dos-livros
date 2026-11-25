@@ -17,7 +17,7 @@ export interface ConteudoSerieProps {
     nome: string;
     imagem: string;
   };
-  livros: { id: string; titulo: string; imagem: string; link: string }[];
+  livros: { id: string; titulo: string; imagem: string; link: string; pagina?: string }[];
 }
 
 export default function ConteudoSerie(props: ConteudoSerieProps) {
@@ -51,6 +51,7 @@ export default function ConteudoSerie(props: ConteudoSerieProps) {
               <SocialShare
                 url={url(`/series/${props.id}`)}
                 title={`Confira a ordem correta dos livros da série ${props.titulo} no Ordem Livro!`}
+                pin={url(`/pins/${props.id}`)}
               />
             </div>
           </div>
@@ -127,6 +128,7 @@ export default function ConteudoSerie(props: ConteudoSerieProps) {
               key={livro.id}
               ordem={i + 1}
               link={livro.link}
+              pagina={livro.pagina}
               titulo={livro.titulo}
               imagem={livro.imagem}
               layout={layout}

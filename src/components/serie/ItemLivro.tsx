@@ -1,8 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export interface ItemLivroProps {
   link: string;
   titulo: string;
+  /** Página do livro no site, quando a série já tem páginas por livro. */
+  pagina?: string;
   imagem: string;
   /** Posição do livro na ordem de leitura (1, 2, 3...). */
   ordem: number;
@@ -15,6 +18,15 @@ function Capa({ src, alt, className }: { src: string; alt: string; className: st
       <Image src={src} alt={alt} fill sizes="(max-width: 640px) 45vw, 200px" className="object-cover" />
       <span aria-hidden="true" className="absolute inset-y-0 left-0 w-2.5 bg-gradient-to-r from-black/25 via-white/10 to-transparent" />
     </div>
+  );
+}
+
+function Titulo({ pagina, className, children }: { pagina?: string; className: string; children: React.ReactNode }) {
+  if (!pagina) return <span className={className}>{children}</span>;
+  return (
+    <Link href={pagina} className={`${className} underline decoration-areia-300 underline-offset-4 hover:text-marca-700 hover:decoration-marca-400`}>
+      {children}
+    </Link>
   );
 }
 
@@ -42,7 +54,9 @@ export default function ItemLivro(props: ItemLivroProps) {
           <Capa src={props.imagem} alt={alt} className="w-14 sm:w-16" />
         </a>
         <div className="flex-1 min-w-0 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
-          <span className="flex-1 min-w-0 font-serif text-lg leading-tight text-areia-900">{props.titulo}</span>
+          <Titulo pagina={props.pagina} className="flex-1 min-w-0 font-serif text-lg leading-tight text-areia-900">
+            {props.titulo}
+          </Titulo>
           <div>
             <BotaoAmazon link={props.link} />
           </div>
@@ -66,7 +80,9 @@ export default function ItemLivro(props: ItemLivroProps) {
           <Capa src={props.imagem} alt={alt} className="w-36 sm:w-40" />
         </a>
       </div>
-      <span className="font-serif text-center leading-tight min-h-[2.5rem] text-areia-900">{props.titulo}</span>
+      <Titulo pagina={props.pagina} className="font-serif text-center leading-tight min-h-[2.5rem] text-areia-900">
+        {props.titulo}
+      </Titulo>
       <BotaoAmazon link={props.link} />
     </div>
   );

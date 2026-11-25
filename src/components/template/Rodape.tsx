@@ -7,6 +7,7 @@ const colunas = [
     links: [
       { texto: "Séries", href: "/series" },
       { texto: "Autores", href: "/autores" },
+      { texto: "Guias", href: "/guias" },
       { texto: "Mais vendidos", href: "/mais-vendidos" },
       { texto: "Blog", href: "/blog" },
     ],

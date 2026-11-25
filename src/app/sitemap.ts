@@ -8,9 +8,11 @@ import curiosidadesLiterarias from "@/constants/blog/curiosidades-literarias";
 import generos from "@/constants/generos";
 import detalhesSeries from "@/constants/detalhes-series";
 import { url } from "@/lib/site";
+import { livrosComPagina, urlDoLivro } from "@/lib/livros";
+import guias from "@/constants/guias";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const estaticas = ["/", "/series", "/autores", "/blog", "/mais-vendidos"].map(
+  const estaticas = ["/", "/series", "/autores", "/guias", "/blog", "/mais-vendidos"].map(
     (path) => ({
       url: url(path),
       changeFrequency: "weekly" as const,
@@ -49,9 +51,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     }));
 
+  const paginasLivros = livrosComPagina().map((l) => ({
+    url: url(urlDoLivro(l.serie.id, l.livro.titulo)),
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
+  const paginasGuias = guias.map((g) => ({
+    url: url(`/guias/${g.id}`),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
   return [
     ...estaticas,
     ...paginasSeries,
+    ...paginasGuias,
+    ...paginasLivros,
     ...paginasGeneros,
     ...paginasAutores,
     ...paginasBlog,

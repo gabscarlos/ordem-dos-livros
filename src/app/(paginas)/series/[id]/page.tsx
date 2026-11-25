@@ -7,6 +7,7 @@ import series from "@/constants/series";
 import detalhesSeries from "@/constants/detalhes-series";
 import generos from "@/constants/generos";
 import { url } from "@/lib/site";
+import { temPaginaDeLivro, urlDoLivro } from "@/lib/livros";
 
 export interface SeriePageProps {
   params: Promise<{ id: string }>;
@@ -161,6 +162,7 @@ export default async function Serie({ params }: SeriePageProps) {
           titulo: l.titulo,
           imagem: l.imagem,
           link: l.link,
+          pagina: temPaginaDeLivro(serie.id) ? urlDoLivro(serie.id, l.titulo) : undefined,
         }))}
       />
 
@@ -207,7 +209,13 @@ export default async function Serie({ params }: SeriePageProps) {
         <ol className="list-decimal pl-6 flex flex-col gap-1 text-areia-800">
           {livrosOrdenados.map((livro) => (
             <li key={livro.id}>
-              <strong>{livro.titulo}</strong>
+              {temPaginaDeLivro(serie.id) ? (
+                <Link href={urlDoLivro(serie.id, livro.titulo)} className="font-semibold text-marca-700 hover:underline">
+                  {livro.titulo}
+                </Link>
+              ) : (
+                <strong>{livro.titulo}</strong>
+              )}
               {livro.ano ? ` (${livro.ano})` : ""}
             </li>
           ))}

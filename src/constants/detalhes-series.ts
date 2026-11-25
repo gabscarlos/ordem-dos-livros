@@ -259,7 +259,7 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     generos: ["misterio", "aventura"],
     idade: "a partir de 12 anos",
     adaptacao:
-      "Sim, centenas. Entre as mais conhecidas estão a série Sherlock, da BBC (2010–2017), com Benedict Cumberbatch, e os filmes com Robert Downey Jr. (2009 e 2011).",
+      "Sim. Há centenas de adaptações; entre as mais conhecidas estão a série Sherlock, da BBC (2010–2017), com Benedict Cumberbatch, e os filmes com Robert Downey Jr. (2009 e 2011).",
     notaOrdem:
       "A maioria das histórias pode ser lida em qualquer ordem, mas vale seguir a de publicação. Comece por Um Estudo em Vermelho, em que Holmes e Watson se conhecem, e leia As Memórias de Sherlock Holmes antes de A Volta de Sherlock Holmes, que continua um acontecimento importante do livro anterior.",
   },

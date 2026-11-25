@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import guias from "@/constants/guias";
 import generos from "@/constants/generos";
 import detalhesSeries from "@/constants/detalhes-series";
 import Pagina from "@/components/template/Pagina";
@@ -188,6 +189,26 @@ export default function Home() {
                   >
                     {g.nome}
                     <span className="font-sans text-xs text-marca-700">{g.total}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          <nav aria-label="Guias">
+            <TituloSecao
+              titulo="Guias para escolher a próxima série"
+              link={{ href: "/guias", texto: "Ver todos" }}
+            />
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {guias.map((g) => (
+                <li key={g.id}>
+                  <Link
+                    href={`/guias/${g.id}`}
+                    className="flex h-full flex-col gap-1 rounded-2xl border border-areia-200 bg-white/70 p-5 hover:border-marca-400 hover:bg-white transition-colors"
+                  >
+                    <span className="font-serif text-lg leading-tight text-areia-900">{g.nome}</span>
+                    <span className="text-xs text-areia-500 line-clamp-2">{g.descricao}</span>
                   </Link>
                 </li>
               ))}
