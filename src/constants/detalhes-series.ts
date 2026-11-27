@@ -385,6 +385,42 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     adaptacao:
       "Sim. O primeiro livro virou filme da Disney em 2020.",
   },
+  "as-aventuras-de-mike": {
+    generos: ["infantil", "humor", "aventura", "autores-brasileiros"],
+    idade: "a partir de 6 anos",
+    notaOrdem:
+      "Os livros seguem a ordem da numeração. Cada um conta uma história completa, mas a vida da família de Mike vai mudando de um livro para o outro, então vale ler em ordem.",
+  },
+  confissoes: {
+    generos: ["juvenil", "humor", "romance", "autores-brasileiros"],
+    idade: "a partir de 12 anos",
+    adaptacao:
+      "Sim. Confissões de uma Garota Excluída, Mal-Amada e (Um Pouco) Dramática virou filme da Netflix em 2021.",
+    notaOrdem:
+      "Cada livro tem um narrador diferente e conta uma história completa, então eles podem ser lidos em qualquer ordem. A lista acima segue a numeração da coleção.",
+  },
+  "rangers-ordem-dos-arqueiros": {
+    generos: ["fantasia", "aventura", "juvenil"],
+    idade: "a partir de 11 anos",
+    notaOrdem:
+      "Leia na ordem de publicação. Resgate de Erak (livro 7) foi escrito depois, mas a história se passa entre os livros 4 e 5; ele funciona bem nas duas posições. Histórias Perdidas (livro 11) reúne contos e é melhor depois do livro 10.",
+  },
+  "a-escola-do-bem-e-do-mal": {
+    generos: ["fantasia", "juvenil"],
+    idade: "a partir de 11 anos",
+    adaptacao:
+      "Sim. O primeiro livro virou filme da Netflix em 2022.",
+    notaOrdem:
+      "Os livros 1 a 3 contam a primeira fase da história, e os livros 4 a 6 continuam anos depois. A Origem da Escola do Bem e do Mal é um prelúdio lançado depois da série; recomendamos ler por último, porque ele faz mais sentido para quem já conhece os personagens.",
+  },
+  "fronteiras-do-universo": {
+    generos: ["fantasia", "aventura", "juvenil"],
+    idade: "a partir de 12 anos",
+    adaptacao:
+      "Sim. A Bússola de Ouro virou filme em 2007, e a trilogia completa foi adaptada na série His Dark Materials (2019–2022).",
+    notaOrdem:
+      "Leia a trilogia na ordem. A história continua na trilogia O Livro das Sombras, de Philip Pullman, que se passa antes e depois de Fronteiras do Universo e pode ser lida em seguida.",
+  },
 };
 
 export default detalhesSeries;

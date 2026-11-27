@@ -35,6 +35,10 @@ export async function GET(_req: Request, { params }: { params: Promise<{ id: str
   const cabem = total > MAX_LINHAS ? MAX_LINHAS - 1 : total;
   const livros = serie.livros.slice(0, cabem);
   const restantes = total - cabem;
+  // Séries curtas ganham capas e textos maiores para ocupar o painel.
+  const grande = livros.length <= 4;
+  const enorme = livros.length <= 2;
+  const capa = enorme ? { w: 200, h: 300 } : grande ? { w: 120, h: 180 } : { w: 72, h: 108 };
   const tamanhoTitulo = serie.titulo.length > 30 ? 58 : serie.titulo.length > 20 ? 70 : 84;
 
   return new ImageResponse(
@@ -65,7 +69,8 @@ export async function GET(_req: Request, { params }: { params: Promise<{ id: str
           style={{
             display: "flex",
             flexDirection: "column",
-            gap: 14,
+            gap: grande ? 34 : 14,
+            justifyContent: grande ? "center" : "flex-start",
             marginTop: 40,
             padding: 24,
             background: cores.painel,
@@ -96,11 +101,11 @@ export async function GET(_req: Request, { params }: { params: Promise<{ id: str
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={livro.imagem}
-                width={72}
-                height={108}
+                width={capa.w}
+                height={capa.h}
                 style={{ objectFit: "cover", borderRadius: 6, boxShadow: "4px 6px 12px rgba(44,24,16,0.35)", flexShrink: 0 }}
               />
-              <div style={{ display: "flex", fontSize: livro.titulo.length > 48 ? 28 : 32, fontWeight: 600, lineHeight: 1.15, flexShrink: 1 }}>
+              <div style={{ display: "flex", fontSize: enorme ? 46 : grande ? (livro.titulo.length > 48 ? 34 : 40) : livro.titulo.length > 48 ? 28 : 32, fontWeight: 600, lineHeight: 1.15, flexShrink: 1 }}>
                 {livro.titulo}
               </div>
             </div>

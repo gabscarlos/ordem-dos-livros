@@ -1258,6 +1258,70 @@ Sua série mais famosa, **Artemis Fowl**, começou em 2001. Ela acompanha um gê
 Colfer também escreveu *E Mais Uma Coisa...*, sexto livro de *O Guia do Mochileiro das Galáxias*, autorizado pela família de Douglas Adams.
 `,
   },
+  {
+    id: "gabriel-dearo-e-manu-digilio",
+    nome: "Gabriel Dearo e Manu Digilio",
+    imagem:
+      "https://m.media-amazon.com/images/I/81ytOgBQC2L._SY385_.jpg",
+    descricao: "Criadores brasileiros, literatura infantil.",
+    biografia: `
+# Gabriel Dearo e Manu Digilio
+
+**Gabriel Dearo** e **Manu Digilio** são os criadores de **As Aventuras de Mike**, um desenho animado brasileiro que fez muito sucesso entre as crianças no YouTube.
+
+## Os livros
+O sucesso do desenho levou Mike e sua turma para os livros. A série conta, com muito humor, as confusões de Mike e de sua família em situações do dia a dia, como a chegada de um irmãozinho, uma mudança de casa e uma viagem de férias.
+
+Os livros são uma boa porta de entrada para crianças que estão começando a ler sozinhas.
+`,
+  },
+  {
+    id: "john-flanagan",
+    nome: "John Flanagan",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/John-flanagan-1338192602.jpg/330px-John-flanagan-1338192602.jpg",
+    descricao: "Escritor australiano, fantasia juvenil.",
+    biografia: `
+# John Flanagan
+
+**John Flanagan** é um escritor australiano, nascido em 1944. Trabalhou como redator publicitário e roteirista de TV antes de se dedicar aos livros.
+
+## Rangers: Ordem dos Arqueiros
+Flanagan começou a escrever as histórias de **Rangers** (*Ranger's Apprentice*) para incentivar o filho a ler. A série acompanha Will, um órfão que se torna aprendiz dos Arqueiros, uma ordem de espiões e patrulheiros do reino de Araluen. Os livros venderam milhões de exemplares e deram origem à série derivada *Irmandade Guerreira*.
+`,
+  },
+  {
+    id: "soman-chainani",
+    nome: "Soman Chainani",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Soman_Chainani_2018.jpg/330px-Soman_Chainani_2018.jpg",
+    descricao: "Escritor norte-americano, fantasia juvenil.",
+    biografia: `
+# Soman Chainani
+
+**Soman Chainani** é um escritor e roteirista norte-americano. Antes de escrever livros, estudou cinema e dirigiu curtas-metragens.
+
+## A Escola do Bem e do Mal
+Sua série **A Escola do Bem e do Mal** (*The School for Good and Evil*), lançada em 2013, brinca com os contos de fadas: uma escola treina os futuros heróis e vilões das histórias. A série virou filme da Netflix em 2022.
+`,
+  },
+  {
+    id: "philip-pullman",
+    nome: "Philip Pullman",
+    imagem:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Philip_Pullman_2005-04-16.png/330px-Philip_Pullman_2005-04-16.png",
+    descricao: "Escritor britânico, fantasia.",
+    biografia: `
+# Philip Pullman
+
+**Philip Pullman** é um escritor britânico, nascido em 1946, em Norwich. Foi professor antes de se dedicar à literatura.
+
+## Fronteiras do Universo
+Sua obra mais famosa é a trilogia **Fronteiras do Universo** (*His Dark Materials*), iniciada com *A Bússola de Ouro* (1995). A história acompanha Lyra Belacqua, uma menina de um mundo parecido com o nosso, em que a alma de cada pessoa vive fora do corpo, na forma de um animal chamado dæmon. *A Luneta Âmbar*, o último livro, ganhou o prêmio Whitbread de livro do ano.
+
+Pullman voltou ao mesmo universo com a trilogia *O Livro das Sombras*.
+`,
+  },
 ];
 
 export default autores;
