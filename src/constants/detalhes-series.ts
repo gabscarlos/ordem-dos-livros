@@ -13,7 +13,7 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     generos: ["fantasia", "juvenil", "aventura"],
     idade: "a partir de 9 anos",
     adaptacao:
-      "Sim. A série virou 8 filmes da Warner Bros., lançados entre 2001 e 2011, com Daniel Radcliffe, Emma Watson e Rupert Grint. A HBO também anunciou uma série de TV baseada nos livros.",
+      "Sim. A série virou 8 filmes da Warner Bros., lançados entre 2001 e 2011, com Daniel Radcliffe, Emma Watson e Rupert Grint. A HBO está produzindo uma nova série de TV baseada nos livros, com estreia prevista para 2027.",
     notaOrdem:
       "Leia os sete livros principais na ordem. Harry Potter e a Criança Amaldiçoada é o roteiro de uma peça de teatro que se passa 19 anos depois do último livro, então deve ser lido por último. Os roteiros de Animais Fantásticos se passam décadas antes de Harry nascer e podem ser lidos a qualquer momento.",
   },
@@ -52,7 +52,7 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     adaptacao:
       "Sim. Os três primeiros livros viraram uma trilogia de filmes, lançada entre 2014 e 2018.",
     notaOrdem:
-      "Leia primeiro a trilogia, na ordem de publicação: Correr ou Morrer, Prova de Fogo e A Cura Mortal. Ordem de Extermínio é um prequel que se passa 13 anos antes e funciona melhor depois da trilogia, porque revela segredos dela. Arquivos e Crank Palace são livros complementares para quem já leu a série.",
+      "Leia primeiro a trilogia, na ordem de publicação: Correr ou Morrer, Prova de Fogo e A Cura Mortal. Os prequels Ordem de Extermínio (13 anos antes) e O Código da Febre (que mostra como o labirinto foi criado) funcionam melhor depois da trilogia, porque revelam segredos dela. Arquivos e Crank Palace são livros complementares para quem já leu a série.",
     extra: {
       titulo: "Do que trata cada livro (sem spoilers)",
       itens: [
@@ -60,6 +60,7 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
         { titulo: "Prova de Fogo", texto: "Fora do labirinto, os sobreviventes enfrentam uma nova prova em um mundo devastado." },
         { titulo: "A Cura Mortal", texto: "O fim da trilogia: Thomas descobre a verdade sobre o que aconteceu com ele e com o mundo." },
         { titulo: "Ordem de Extermínio", texto: "Um prequel que se passa 13 anos antes, quando o mundo começa a desmoronar." },
+        { titulo: "O Código da Febre", texto: "Outro prequel: mostra o passado de Thomas e como o labirinto foi criado, até a véspera de Correr ou Morrer." },
         { titulo: "Arquivos", texto: "Livro complementar, com documentos e informações extras sobre o universo da série." },
         { titulo: "Crank Palace", texto: "Uma novela curta que acompanha um personagem da trilogia. Leia só depois de A Cura Mortal." },
       ],
@@ -69,7 +70,7 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     generos: ["ficcao-cientifica", "aventura"],
     idade: "a partir de 14 anos",
     adaptacao:
-      "Sim. Os filmes de Denis Villeneuve (Duna, de 2021, e Duna: Parte Dois, de 2024) adaptam o primeiro livro. Também existe um filme de David Lynch, de 1984, e a série Duna: A Profecia, da HBO.",
+      "Sim. Os filmes de Denis Villeneuve (Duna, de 2021, e Duna: Parte Dois, de 2024) adaptam o primeiro livro. Também existe um filme de David Lynch, de 1984, e a série Duna: A Profecia, da HBO. Duna: Parte Três, baseado em Messias de Duna, tem estreia prevista para dezembro de 2026.",
     notaOrdem:
       "Os seis livros acima foram escritos por Frank Herbert e devem ser lidos na ordem. Os prelúdios e continuações escritos depois por Brian Herbert e Kevin J. Anderson são opcionais e devem ficar para depois dos livros originais.",
   },
@@ -89,7 +90,7 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     generos: ["infantil", "aventura", "autores-brasileiros"],
     idade: "a partir de 7 anos",
     adaptacao:
-      "Sim. Diário de Pilar na Amazônia ganhou uma adaptação para o cinema.",
+      "Sim. Diário de Pilar na Amazônia virou um filme live-action, produzido pela Conspiração com a Disney, que estreou nos cinemas em janeiro de 2026.",
     extra: {
       titulo: "Para onde Pilar viaja em cada livro",
       itens: [
@@ -118,7 +119,7 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
       titulo: "Sobre As Aventuras do Capitão Cueca",
       itens: [
         { titulo: "Do que trata", texto: "Jorge e Haroldo são dois amigos que adoram criar quadrinhos. Sem querer, eles hipnotizam o diretor da escola, o rabugento Sr. Krupp, que vira o Capitão Cueca: um super-herói de cueca e capa que acredita ter superpoderes." },
-        { titulo: "Quantos livros tem a série original", texto: "Em inglês, a série tem 12 livros, publicados entre 1997 e 2015. A lista desta página mostra os livros com edição brasileira disponível na Amazon." },
+        { titulo: "Quantos livros tem a série original", texto: "Em inglês, a série tem 12 livros, publicados entre 1997 e 2015. Os anos da lista são das edições brasileiras atuais, que começaram a sair em 2017." },
         { titulo: "Precisa ler na ordem?", texto: "Cada livro tem uma aventura completa, mas vários vilões e piadas voltam nos livros seguintes. Ler na ordem deixa a história mais divertida." },
         { titulo: "Outras séries do mesmo autor", texto: "Dav Pilkey também criou O Homem-Cão, a série de quadrinhos que, na história, é desenhada por Jorge e Haroldo." },
       ],
@@ -158,7 +159,7 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     generos: ["fantasia", "infantil", "aventura"],
     idade: "a partir de 8 anos",
     adaptacao:
-      "Sim. Três livros viraram filmes entre 2005 e 2010: O Leão, a Feiticeira e o Guarda-Roupa, Príncipe Caspian e A Viagem do Peregrino da Alvorada.",
+      "Sim. Três livros viraram filmes entre 2005 e 2010: O Leão, a Feiticeira e o Guarda-Roupa, Príncipe Caspian e A Viagem do Peregrino da Alvorada. Greta Gerwig dirige para a Netflix um novo filme baseado em O Sobrinho do Mago, com estreia nos cinemas prevista para fevereiro de 2027.",
     notaOrdem:
       "Existem duas ordens. A lista acima segue a ordem cronológica da história, que é a numeração das edições atuais. Os livros foram publicados em outra ordem, começando por O Leão, a Feiticeira e o Guarda-Roupa (1950); O Sobrinho do Mago, que conta a origem de Nárnia, só saiu em 1955. Muitos leitores preferem a ordem de publicação na primeira leitura, porque O Sobrinho do Mago revela segredos que O Leão, a Feiticeira e o Guarda-Roupa apresenta como surpresa. As duas ordens funcionam.",
   },
@@ -168,7 +169,7 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     adaptacao:
       "Sim. Os dois primeiros livros viraram filmes (2010 e 2013), e a série Percy Jackson e os Olimpianos, do Disney+, estreou em 2023.",
     notaOrdem:
-      "Comece por esta série e siga com Os Heróis do Olimpo e depois As Provações de Apolo, que continuam a mesma história com os mesmos personagens. As Crônicas dos Kane e Magnus Chase se passam no mesmo universo, mas têm outros protagonistas e podem ser lidas a qualquer momento.",
+      "Comece por esta série e siga com Os Heróis do Olimpo e depois As Provações de Apolo, que continuam a mesma história com os mesmos personagens. O Cálice dos Deuses e A Fúria da Deusa Tríplice, lançados em 2023 e 2024, mostram o último ano de Percy no colégio e se passam depois de Os Heróis do Olimpo, então vale lê-los depois dessa série. As Crônicas dos Kane e Magnus Chase se passam no mesmo universo, mas têm outros protagonistas e podem ser lidas a qualquer momento.",
   },
   "desventuras-em-serie": {
     generos: ["infantil", "humor", "misterio", "aventura"],
@@ -280,7 +281,7 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
   "ciclo-da-heranca": {
     generos: ["fantasia", "aventura", "juvenil"],
     idade: "a partir de 12 anos",
-    adaptacao: "Sim. Eragon, o primeiro livro, virou filme em 2006.",
+    adaptacao: "Sim. Eragon, o primeiro livro, virou filme em 2006, e uma série baseada na saga está em desenvolvimento no Disney+.",
   },
   "the-witcher": {
     generos: ["fantasia", "aventura"],
@@ -288,7 +289,7 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     adaptacao:
       "Sim. A saga inspirou a série The Witcher, da Netflix, que estreou em 2019, além da famosa série de jogos da CD Projekt Red.",
     notaOrdem:
-      "Comece pelos dois livros de contos, O Último Desejo e A Espada do Destino: eles apresentam Geralt, Yennefer e Ciri, e a saga principal parte do princípio de que você já os conhece. Tempo de Tempestade foi escrito depois da saga, mas se passa entre os contos de O Último Desejo; a maioria dos leitores o deixa para o fim.",
+      "Comece pelos dois livros de contos, O Último Desejo e A Espada do Destino: eles apresentam Geralt, Yennefer e Ciri, e a saga principal parte do princípio de que você já os conhece. Tempo de Tempestade foi escrito depois da saga, mas se passa entre os contos de O Último Desejo; a maioria dos leitores o deixa para o fim. Encruzilhada dos Corvos, de 2024, conta a juventude de Geralt, antes de todos os outros livros, e também funciona melhor depois da saga.",
   },
   "e-assim-que-acaba": {
     generos: ["romance"],
