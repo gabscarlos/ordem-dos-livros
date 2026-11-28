@@ -9,6 +9,8 @@ export interface ItemLivroProps {
   imagem: string;
   /** Posição do livro na ordem de leitura (1, 2, 3...). */
   ordem: number;
+  /** Ano de lançamento da edição brasileira. */
+  ano?: number;
   layout?: "grid" | "list";
 }
 
@@ -54,9 +56,12 @@ export default function ItemLivro(props: ItemLivroProps) {
           <Capa src={props.imagem} alt={alt} className="w-14 sm:w-16" />
         </a>
         <div className="flex-1 min-w-0 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
-          <Titulo pagina={props.pagina} className="flex-1 min-w-0 font-serif text-lg leading-tight text-areia-900">
-            {props.titulo}
-          </Titulo>
+          <div className="flex-1 min-w-0 flex flex-col gap-0.5">
+            <Titulo pagina={props.pagina} className="font-serif text-lg leading-tight text-areia-900">
+              {props.titulo}
+            </Titulo>
+            {props.ano && <span className="text-xs text-areia-500">Lançado em {props.ano}</span>}
+          </div>
           <div>
             <BotaoAmazon link={props.link} />
           </div>
@@ -80,9 +85,12 @@ export default function ItemLivro(props: ItemLivroProps) {
           <Capa src={props.imagem} alt={alt} className="w-36 sm:w-40" />
         </a>
       </div>
-      <Titulo pagina={props.pagina} className="font-serif text-center leading-tight min-h-[2.5rem] text-areia-900">
-        {props.titulo}
-      </Titulo>
+      <div className="flex flex-col items-center gap-1 min-h-[2.5rem]">
+        <Titulo pagina={props.pagina} className="font-serif text-center leading-tight text-areia-900">
+          {props.titulo}
+        </Titulo>
+        {props.ano && <span className="text-xs text-areia-500">{props.ano}</span>}
+      </div>
       <BotaoAmazon link={props.link} />
     </div>
   );

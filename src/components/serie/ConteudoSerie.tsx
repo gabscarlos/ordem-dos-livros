@@ -17,7 +17,7 @@ export interface ConteudoSerieProps {
     nome: string;
     imagem: string;
   };
-  livros: { id: string; titulo: string; imagem: string; link: string; pagina?: string }[];
+  livros: { id: string; titulo: string; imagem: string; link: string; pagina?: string; ano?: number }[];
 }
 
 export default function ConteudoSerie(props: ConteudoSerieProps) {
@@ -131,6 +131,7 @@ export default function ConteudoSerie(props: ConteudoSerieProps) {
               pagina={livro.pagina}
               titulo={livro.titulo}
               imagem={livro.imagem}
+              ano={livro.ano}
               layout={layout}
             />
           ))}

@@ -33,7 +33,7 @@ export async function GET(_req: Request, { params }: { params: Promise<{ id: str
   const total = serie.livros.length;
   // Séries longas: mostra os primeiros livros e uma linha "+ N livros".
   const cabem = total > MAX_LINHAS ? MAX_LINHAS - 1 : total;
-  const livros = serie.livros.slice(0, cabem);
+  const livros = [...serie.livros].sort((a, b) => (a.ordem ?? 0) - (b.ordem ?? 0)).slice(0, cabem);
   const restantes = total - cabem;
   // Séries curtas ganham capas e textos maiores para ocupar o painel.
   const grande = livros.length <= 4;
@@ -105,8 +105,15 @@ export async function GET(_req: Request, { params }: { params: Promise<{ id: str
                 height={capa.h}
                 style={{ objectFit: "cover", borderRadius: 6, boxShadow: "4px 6px 12px rgba(44,24,16,0.35)", flexShrink: 0 }}
               />
-              <div style={{ display: "flex", fontSize: enorme ? 46 : grande ? (livro.titulo.length > 48 ? 34 : 40) : livro.titulo.length > 48 ? 28 : 32, fontWeight: 600, lineHeight: 1.15, flexShrink: 1 }}>
-                {livro.titulo}
+              <div style={{ display: "flex", flexDirection: "column", flexShrink: 1 }}>
+                <div style={{ display: "flex", fontSize: enorme ? 46 : grande ? (livro.titulo.length > 48 ? 34 : 40) : livro.titulo.length > 48 ? 28 : 32, fontWeight: 600, lineHeight: 1.15 }}>
+                  {livro.titulo}
+                </div>
+                {livro.ano ? (
+                  <div style={{ display: "flex", fontSize: enorme ? 30 : grande ? 26 : 22, color: cores.tintaSuave, marginTop: 4 }}>
+                    {livro.ano}
+                  </div>
+                ) : null}
               </div>
             </div>
           ))}

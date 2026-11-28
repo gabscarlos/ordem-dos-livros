@@ -174,11 +174,12 @@ export default async function Serie({ params }: SeriePageProps) {
           nome: serie.autor.nome,
           imagem: serie.autor.imagem,
         }}
-        livros={serie.livros.map((l) => ({
+        livros={livrosOrdenados.map((l) => ({
           id: l.id,
           titulo: l.titulo,
           imagem: l.imagem,
           link: l.link,
+          ano: l.ano,
           pagina: temPaginaDeLivro(serie.id) ? urlDoLivro(serie.id, l.titulo) : undefined,
         }))}
       />
