@@ -36,6 +36,15 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     idade: "a partir de 8 anos",
     adaptacao:
       "Sim. A série ganhou filmes live-action a partir de 2010 e, mais recentemente, filmes de animação no Disney+.",
+    extra: {
+      titulo: "Sobre Diário de um Banana",
+      itens: [
+        { titulo: "Do que trata", texto: "Greg Heffley conta no seu diário, com textos e desenhos, as confusões da escola, da família e da amizade com o melhor amigo, Rowley. Ele insiste que aquilo não é um diário, é um caderno de memórias." },
+        { titulo: "Precisa ler na ordem?", texto: "Cada livro pode ser lido sozinho, mas os personagens crescem e algumas situações voltam. Começando pelo primeiro, a leitura faz mais sentido." },
+        { titulo: "Um livro novo por ano", texto: "Jeff Kinney lança um volume novo quase todo ano desde 2007. Por isso a série já passa de 20 livros e continua crescendo." },
+        { titulo: "Para quem é", texto: "O formato de diário ilustrado, com pouco texto por página e muito humor, é ótimo para crianças que estão começando a ler livros maiores." },
+      ],
+    },
   },
   "maze-runner": {
     generos: ["distopia", "juvenil", "ficcao-cientifica", "aventura"],
@@ -105,6 +114,15 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     idade: "a partir de 7 anos",
     adaptacao:
       "Sim. A série virou um filme de animação da DreamWorks em 2017 e, depois, uma série animada na Netflix.",
+    extra: {
+      titulo: "Sobre As Aventuras do Capitão Cueca",
+      itens: [
+        { titulo: "Do que trata", texto: "Jorge e Haroldo são dois amigos que adoram criar quadrinhos. Sem querer, eles hipnotizam o diretor da escola, o rabugento Sr. Krupp, que vira o Capitão Cueca: um super-herói de cueca e capa que acredita ter superpoderes." },
+        { titulo: "Quantos livros tem a série original", texto: "Em inglês, a série tem 12 livros, publicados entre 1997 e 2015. A lista desta página mostra os livros com edição brasileira disponível na Amazon." },
+        { titulo: "Precisa ler na ordem?", texto: "Cada livro tem uma aventura completa, mas vários vilões e piadas voltam nos livros seguintes. Ler na ordem deixa a história mais divertida." },
+        { titulo: "Outras séries do mesmo autor", texto: "Dav Pilkey também criou O Homem-Cão, a série de quadrinhos que, na história, é desenhada por Jorge e Haroldo." },
+      ],
+    },
   },
   "o-homem-cao": {
     generos: ["infantil", "humor"],
@@ -281,6 +299,15 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
   "diario-de-uma-garota-nada-popular": {
     generos: ["infantil", "humor"],
     idade: "a partir de 9 anos",
+    extra: {
+      titulo: "Sobre Diário de uma Garota Nada Popular",
+      itens: [
+        { titulo: "Do que trata", texto: "Nikki Maxwell começa a estudar em uma escola particular cheia de alunos populares e registra tudo no diário, com textos e desenhos: a vergonha, as amizades e as confusões do dia a dia." },
+        { titulo: "Personagens principais", texto: "Chloe e Zoey são as melhores amigas de Nikki, Brandon é o garoto de quem ela gosta e MacKenzie é a rival que vive tentando atrapalhar a vida dela." },
+        { titulo: "Precisa ler na ordem?", texto: "Sim, é melhor. Os livros acompanham a vida de Nikki na escola e as amizades e os conflitos continuam de um volume para o outro." },
+        { titulo: "Para quem gosta de Diário de um Banana", texto: "O formato é parecido: um diário ilustrado, divertido e fácil de ler. Muitos leitores passam de uma série para a outra." },
+      ],
+    },
   },
   "anne-de-green-gables": {
     generos: ["juvenil", "infantil"],
