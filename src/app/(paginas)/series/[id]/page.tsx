@@ -31,9 +31,26 @@ export async function generateMetadata({
   if (!serie) return { title: "Série não encontrada" };
 
   const total = serie.livros.length;
-  const titulo = `${serie.titulo}: ordem dos livros (${total} livros)`;
+  const emOrdem = [...serie.livros].sort((a, b) => (a.ordem ?? 0) - (b.ordem ?? 0));
+  const primeiro = emOrdem[0];
+  // O mais recente é o de maior ano; sem anos, fica o último da ordem.
+  const recente = emOrdem.reduce((m, l) => ((l.ano ?? 0) >= (m.ano ?? 0) ? l : m), emOrdem[emOrdem.length - 1]);
+  const comAno = (l: { titulo: string; ano?: number }) => (l.ano ? `${l.titulo} (${l.ano})` : l.titulo);
+  const titulo =
+    total === 1
+      ? `${serie.titulo}: o livro e onde comprar`
+      : `${serie.titulo}: ordem dos ${total} livros e por qual começar`;
   const descricao = resumo(
-    `Ordem de leitura da série ${serie.titulo}, de ${serie.autor.nome}: lista completa dos ${total} livros em ordem, começando por "${serie.livros[0].titulo}".`
+    total === 1
+      ? `${serie.titulo}, de ${serie.autor.nome}: sobre o livro, para qual idade é e onde comprar.`
+      : recente.id === primeiro.id
+        ? `Veja os ${total} livros de ${serie.titulo}, de ${serie.autor.nome}, na ordem certa de leitura, começando por ${comAno(primeiro)}.`
+        : [
+            `Veja os ${total} livros de ${serie.titulo}, de ${serie.autor.nome}, na ordem certa: do primeiro, ${comAno(primeiro)}, ao mais recente, ${comAno(recente)}.`,
+            `Os ${total} livros de ${serie.titulo} na ordem certa: do primeiro, ${comAno(primeiro)}, ao mais recente, ${comAno(recente)}.`,
+            `Os ${total} livros de ${serie.titulo} na ordem certa, de ${comAno(primeiro)} a ${comAno(recente)}.`,
+          ].find((d) => d.length <= 160) ??
+          `Os ${total} livros de ${serie.titulo}, de ${serie.autor.nome}, na ordem certa de leitura, do primeiro ao mais recente.`
   );
   const canonical = url(`/series/${serie.id}`);
 
@@ -195,6 +212,20 @@ export default async function Serie({ params }: SeriePageProps) {
               <span>Ver box na Amazon</span>
             </a>
           </div>
+        </section>
+      )}
+
+      {detalhes?.extra && (
+        <section className="mb-10 flex flex-col gap-5">
+          <h2 className="font-serif text-2xl sm:text-3xl text-areia-900">{detalhes.extra.titulo}</h2>
+          <dl className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {detalhes.extra.itens.map((item) => (
+              <div key={item.titulo} className="rounded-2xl border border-areia-200 bg-white/70 p-5">
+                <dt className="font-serif text-lg font-bold text-areia-900">{item.titulo}</dt>
+                <dd className="mt-1.5 text-areia-700 leading-relaxed">{item.texto}</dd>
+              </div>
+            ))}
+          </dl>
         </section>
       )}
 

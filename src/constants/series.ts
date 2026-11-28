@@ -691,7 +691,7 @@ const series = [
     id: "diario-de-pilar",
     titulo: "Diário de Pilar",
     descricao:
-      "Diário de Pilar, de Flávia Lins e Silva, é uma série de livros infantojuvenis que mistura aventura, cultura e fantasia. A protagonista, Pilar, é uma menina curiosa e cheia de imaginação que, junto com seu inseparável amigo Breno e o gato Samba, viaja para lugares incríveis usando uma rede mágica. Cada aventura a leva a um destino diferente, como Grécia, Egito e Japão, onde ela descobre mitos, tradições e histórias fascinantes. Com uma narrativa leve e educativa, Diário de Pilar encanta leitores ao unir diversão com aprendizado sobre o mundo e suas culturas.",
+      "Diário de Pilar, de Flávia Lins e Silva, é uma série de livros infantojuvenis que mistura aventura, cultura e fantasia. A protagonista, Pilar, é uma menina curiosa e cheia de imaginação que, junto com seu inseparável amigo Breno e o gato Samba, viaja para lugares incríveis usando uma rede mágica. Cada aventura a leva a um destino diferente, como Grécia, Egito, China e México, onde ela descobre mitos, tradições e histórias fascinantes. Com uma narrativa leve e educativa, Diário de Pilar encanta leitores ao unir diversão com aprendizado sobre o mundo e suas culturas.",
     autor: autores[7],
     ano: 2010,
     imagem:

@@ -4,6 +4,8 @@ export interface DetalhesSerie {
   adaptacao?: string;
   /** Explica a ordem quando há mais de uma opção (cronológica x publicação). */
   notaOrdem?: string;
+  /** Seção extra de conteúdo próprio da série (ex.: do que trata cada livro). */
+  extra?: { titulo: string; itens: { titulo: string; texto: string }[] };
 }
 
 const detalhesSeries: Record<string, DetalhesSerie> = {
@@ -42,6 +44,17 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
       "Sim. Os três primeiros livros viraram uma trilogia de filmes, lançada entre 2014 e 2018.",
     notaOrdem:
       "Leia primeiro a trilogia, na ordem de publicação: Correr ou Morrer, Prova de Fogo e A Cura Mortal. Ordem de Extermínio é um prequel que se passa 13 anos antes e funciona melhor depois da trilogia, porque revela segredos dela. Arquivos e Crank Palace são livros complementares para quem já leu a série.",
+    extra: {
+      titulo: "Do que trata cada livro (sem spoilers)",
+      itens: [
+        { titulo: "Correr ou Morrer", texto: "Thomas acorda sem memória em uma clareira cercada por um labirinto gigante, ao lado de outros garotos, e precisa descobrir como sair." },
+        { titulo: "Prova de Fogo", texto: "Fora do labirinto, os sobreviventes enfrentam uma nova prova em um mundo devastado." },
+        { titulo: "A Cura Mortal", texto: "O fim da trilogia: Thomas descobre a verdade sobre o que aconteceu com ele e com o mundo." },
+        { titulo: "Ordem de Extermínio", texto: "Um prequel que se passa 13 anos antes, quando o mundo começa a desmoronar." },
+        { titulo: "Arquivos", texto: "Livro complementar, com documentos e informações extras sobre o universo da série." },
+        { titulo: "Crank Palace", texto: "Uma novela curta que acompanha um personagem da trilogia. Leia só depois de A Cura Mortal." },
+      ],
+    },
   },
   duna: {
     generos: ["ficcao-cientifica", "aventura"],
@@ -68,6 +81,20 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     idade: "a partir de 7 anos",
     adaptacao:
       "Sim. Diário de Pilar na Amazônia ganhou uma adaptação para o cinema.",
+    extra: {
+      titulo: "Para onde Pilar viaja em cada livro",
+      itens: [
+        { titulo: "Diário de Pilar na Grécia", texto: "Pilar e Breno conhecem os deuses, heróis e monstros da mitologia grega." },
+        { titulo: "Diário de Pilar na Amazônia", texto: "A viagem é pela maior floresta tropical do mundo, com seus rios, povos e lendas." },
+        { titulo: "Diário de Pilar no Egito", texto: "Pirâmides, faraós e múmias na terra dos antigos egípcios." },
+        { titulo: "Diário de Pilar na China", texto: "A Grande Muralha e as tradições de uma das culturas mais antigas do mundo." },
+        { titulo: "Diário de Pilar na Índia", texto: "Cores, festas e histórias de um país cheio de tradições." },
+        { titulo: "Diário de Pilar na África", texto: "A natureza e a diversidade de culturas do continente africano." },
+        { titulo: "Diário de Pilar em Machu Picchu", texto: "A cidade perdida dos incas, no alto das montanhas do Peru." },
+        { titulo: "Diário de Pilar na Amazônia: Urgente", texto: "Pilar volta à Amazônia, agora para ajudar a defender a floresta." },
+        { titulo: "Diário de Pilar no México", texto: "As cores, as festas e as tradições do México, no livro mais recente da série." },
+      ],
+    },
   },
   "socorro-cai-dentro-do-videogame": {
     generos: ["infantil", "aventura", "humor"],
@@ -83,6 +110,14 @@ const detalhesSeries: Record<string, DetalhesSerie> = {
     generos: ["infantil", "humor"],
     idade: "a partir de 7 anos",
     adaptacao: "Sim. O Homem-Cão ganhou um filme de animação da DreamWorks em 2025.",
+    extra: {
+      titulo: "Sobre O Homem-Cão",
+      itens: [
+        { titulo: "Quem é o Homem-Cão", texto: "Depois de um acidente, um policial e seu cachorro viram um só herói, com o corpo do policial e a cabeça do cão. Ele é ótimo farejando pistas e péssimo em seguir regras." },
+        { titulo: "Quem criou", texto: "A série é de Dav Pilkey, o mesmo autor de Capitão Cueca. Na história, os quadrinhos são desenhados por Jorge e Haroldo, os dois amigos de Capitão Cueca." },
+        { titulo: "Para quem é", texto: "É uma história em quadrinhos com muito humor e pouco texto por página, ideal para crianças que estão começando a ler sozinhas." },
+      ],
+    },
   },
   mortina: {
     generos: ["infantil", "humor"],
